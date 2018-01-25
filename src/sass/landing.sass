@@ -85,25 +85,48 @@
 // @import "node_modules/bootswatch/dist/united/bootswatch";
 // @import "node_modules/bootswatch/dist/yeti/bootswatch";
 
-
 // page-level layout
+$banner-font-color: #ffffff;
+h1 
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: bold;
+.submit-button
+  padding: 0.7rem 5rem;
+  border-radius: 1.5rem;
+  background-color: #ff842b;
+  border: none;
+  color: white;
 
-.App {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-
-  & > .pageContent {
-    flex: 1;
-    overflow: auto;
-    padding-top: 10px;
-  }
-}
-
-.navbar-nav {
-  flex-direction: row!important;
-
-  & > * {
-    padding-left: 10px; 
-  }
-}
+  :focus
+    outline: none;
+.banner-wrapper
+  background-image: url(/files/images/background.png);
+  background-position: center;
+  background-size: cover;
+  color: $banner-font-color;
+  position: relative;
+  .navbar
+    justify-content: space-between;
+    .navbar-brand
+      img
+        width: 120px;
+    .navbar-nav
+      flex-direction: row;
+    .nav-item
+      padding: 0 0.7rem;
+      .nav-link
+        color: white;
+      &:last-child
+        border: 1px solid white;
+        border-radius: 4px;        
+  .banner-view
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 230px;
+    max-width: 580px;
+    p
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.6px;
+      margin-bottom: 35px;
