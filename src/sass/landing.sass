@@ -86,11 +86,31 @@
 // @import "node_modules/bootswatch/dist/yeti/bootswatch";
 
 // page-level layout
+@font-face
+  font-family: GTWalsheim;
+  src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Medium.ttf);
+
+@font-face
+  font-family: Avenir;
+  src: url(/files/fonts/Avenir/AvenirLTStd-Book.otf);
+
+
+
 $banner-font-color: #ffffff;
 h1 
   font-size: 64px;
   line-height: 75px;
   font-weight: bold;
+.section-text
+  font-size: 40px;
+  font-family: GTWalsheim;
+  line-height: 47px;
+  color: rgba(0,0,0,.9);
+.subtitle
+  font-family: Avenir;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
 .submit-button
   padding: 0.7rem 5rem;
   border-radius: 1.5rem;
@@ -130,3 +150,5 @@ h1
       line-height: 25px;
       letter-spacing: 0.6px;
       margin-bottom: 35px;
+
+@import "./containers/codView";
