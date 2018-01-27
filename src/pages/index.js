@@ -2,10 +2,10 @@ import React from 'react'
 import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
 import Link, { withPrefix} from 'gatsby-link'
 import graphql from 'graphql'
-import SliderCODWrapper from '../containers/SliderCODView'
+import SliderCODWrapper from '../containers/SliderCOD'
 import FeaturesWrapper from '../containers/Features'
 import NewsWrapper from '../containers/News'
-
+import BenefitsWrapper from '../containers/Benefits'
 
 const IndexPage = ({ data }) => (
   <div>
@@ -45,6 +45,7 @@ const IndexPage = ({ data }) => (
     </div>
     <SliderCODWrapper />
     <FeaturesWrapper />
+    <BenefitsWrapper /> 
     <NewsWrapper />
   </div>
 )

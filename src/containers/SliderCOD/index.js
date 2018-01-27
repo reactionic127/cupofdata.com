@@ -3,7 +3,7 @@ import { Container } from 'reactstrap'
 import Helmet from 'react-helmet'
 import { withPrefix} from 'gatsby-link'
 
-export default class SliderCODView extends React.Component {
+export default class SliderCODWrapper extends React.Component {
 	componentDidMount() {
 	  
 	}

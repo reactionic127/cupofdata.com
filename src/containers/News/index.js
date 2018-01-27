@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap'
 import { withPrefix} from 'gatsby-link'
 
 const NewsView = () => (
-	<div id="news-container">
+	<div id="news-wrapper">
 		<h2 className="text-center section-text">In the news</h2>
 		<Container className="pt-5 text-center">
 			<Row>

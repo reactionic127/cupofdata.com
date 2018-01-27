@@ -3,7 +3,7 @@ import { Row, Col } from 'reactstrap'
 import { withPrefix} from 'gatsby-link'
 
 const FeaturesView = () => (
-	<div id="features-container">
+	<div id="features-wrapper">
 		<h2 className="text-center section-text">Features</h2>
 		<Row>
 			<Col xs="6">
