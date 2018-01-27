@@ -3,8 +3,8 @@ import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 're
 import Link, { withPrefix} from 'gatsby-link'
 import graphql from 'graphql'
 import SliderCODView from '../containers/SliderCODView'
+import FeaturesView from '../containers/Features'
 
-import '../sass/landing.sass';
 
 const IndexPage = ({ data }) => (
   <div>
@@ -43,6 +43,7 @@ const IndexPage = ({ data }) => (
       </Container>
     </div>
     <SliderCODView />
+    <FeaturesView />
   </div>
 )
 
