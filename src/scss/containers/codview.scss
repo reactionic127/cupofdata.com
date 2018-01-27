@@ -1,0 +1,32 @@
+.cod-service {
+	padding-top: 110px;
+	padding-bottom: 180px;
+	.img-view {
+		height: 180px;
+		position: relative;
+		img {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	.service-content {
+		p.sub-content {
+	    font-size: 16px;
+	    font-family: Avenir;
+	    line-height: 26px;
+	    color: #000000;
+	    font-weight: 500;
+	    max-width: 170px;
+	    margin: auto;
+	  }
+	}
+}
+	// p.content
+	// 	width: 170px;
+ //    font-size: 16px
+ //    font-family: avenir
+ //    line-height: 26px
+ //    color: #ffffff
+ //    font-weight: 500

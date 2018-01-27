@@ -6,6 +6,7 @@ import SliderCODWrapper from '../containers/SliderCOD'
 import FeaturesWrapper from '../containers/Features'
 import NewsWrapper from '../containers/News'
 import BenefitsWrapper from '../containers/Benefits'
+import FeedbackWrapper from '../containers/Feedback'
 
 const IndexPage = ({ data }) => (
   <div>
@@ -47,6 +48,7 @@ const IndexPage = ({ data }) => (
     <FeaturesWrapper />
     <BenefitsWrapper /> 
     <NewsWrapper />
+    <FeedbackWrapper />
   </div>
 )
 

@@ -1,0 +1,40 @@
+#avatar-card {
+	background-image: url(/files/images/img-quote.png);
+	background-repeat: no-repeat;
+	background-position-x: 0;
+	background-position-y: 0;
+	background-size: 60px;
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 30px;
+	height: 100%;
+	.card-wrapper {
+		width: 100%;
+		padding: 40px 30px;
+		-webkit-box-shadow: 3px 4px 26px -2px rgba(153,153,153,1);
+		-moz-box-shadow: 3px 4px 26px -2px rgba(153,153,153,1);
+		box-shadow: 3px 4px 26px -2px rgba(153,153,153,1);
+		height: 100%;
+		.photo-view {
+			img {
+    		border: 2px solid #35a73e;
+    		border-radius: 90px;
+    	}
+		}
+    .position-title {
+    	font-size: 16px;
+    	line-height: 31px;
+    	letter-spacing: 1%;
+    	color: rgba(0,0,0,0.7);
+    	font-family: Avenir;
+    }
+    .quote {
+    	font-family: Avenir;
+    	font-size: 16px;
+    	line-height: 27px;
+    	text-align: left;
+    	letter-spacing: 1%;
+    	color: #000000;
+    }
+  }
+}
