@@ -2,8 +2,9 @@ import React from 'react'
 import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
 import Link, { withPrefix} from 'gatsby-link'
 import graphql from 'graphql'
-import SliderCODView from '../containers/SliderCODView'
-import FeaturesView from '../containers/Features'
+import SliderCODWrapper from '../containers/SliderCODView'
+import FeaturesWrapper from '../containers/Features'
+import NewsWrapper from '../containers/News'
 
 
 const IndexPage = ({ data }) => (
@@ -42,8 +43,9 @@ const IndexPage = ({ data }) => (
         </div>
       </Container>
     </div>
-    <SliderCODView />
-    <FeaturesView />
+    <SliderCODWrapper />
+    <FeaturesWrapper />
+    <NewsWrapper />
   </div>
 )
 
