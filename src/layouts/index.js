@@ -6,6 +6,7 @@ import graphql from 'graphql'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import ContactSection from '../containers/Contact'
 // code syntax-highlighting theme
 // feel free to change it to another one
 import 'prismjs/themes/prism-twilight.css'
@@ -22,6 +23,7 @@ const TemplateWrapper = ({ children, data }) => {
   return (
     <div className='App'>      
       <div className='pageContent'>{children()}</div>
+      <ContactSection />
     </div>
   )
 }

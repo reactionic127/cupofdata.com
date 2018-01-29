@@ -1,0 +1,26 @@
+#contact-section {
+	padding-top: 85px;
+	background-color: #2C333B;
+	color: #ffffff;
+	.sub-content {
+		color: #ffffff;
+		margin-top: 33px;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			a {
+				font-family: Avenir;
+				color: #ffffff;
+				text-decoration: none;
+				line-height: 2rem;
+			}
+		}
+	}
+	.social-bar {
+		i {
+			opacity: 0.5;
+		}
+	}
+}
