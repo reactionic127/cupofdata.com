@@ -16,6 +16,7 @@
     "gatsby-remark-prismjs": "^1.2.9",
     "gatsby-source-filesystem": "^1.5.5",
     "gatsby-transformer-remark": "^1.7.17",
+    "react-draggable": "^3.0.5",
     "reactstrap": "^5.0.0-alpha.3"
   },
   "keywords": [

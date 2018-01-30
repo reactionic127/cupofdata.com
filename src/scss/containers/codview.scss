@@ -1,0 +1,78 @@
+.cod-service {
+	padding-top: 110px;
+	padding-bottom: 180px;
+	.img-view {
+		height: 180px;
+		position: relative;
+		img {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	.service-content {
+		p.sub-content {
+	    font-size: 16px;
+	    font-family: Avenir;
+	    line-height: 26px;
+	    color: #000000;
+	    font-weight: 500;
+	    max-width: 170px;
+	    margin: auto;
+	  }
+	}
+	.after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    overflow: hidden;
+    .item-1 {
+	    position: absolute;
+	    width: 20vw;
+	    left: 0;
+	    top: 0;
+		}
+		.item-2 {
+	    position: absolute;
+	    width: 20vw;
+	    left: 20vw;
+	    top: 0;
+		}
+	}
+	.before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    .item-1 {
+	    position: absolute;
+	    width: 20vw;
+	    right: 20vw;
+	    top: 0;
+		}
+		.item-2 {
+	    position: absolute;
+	    width: 20vw;
+	    right: 0;
+	    top: 0;
+	  }
+	}
+	.spinner {
+		background: url('/files/images/img-spinner.png');
+		height: 100%;
+		width: 20px;
+		background-size: 100% 100%;
+	}
+}
+	// p.content
+	// 	width: 170px;
+ //    font-size: 16px
+ //    font-family: avenir
+ //    line-height: 26px
+ //    color: #ffffff
+ //    font-weight: 500

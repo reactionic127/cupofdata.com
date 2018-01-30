@@ -1,0 +1,28 @@
+<svg width="62" height="73" viewBox="0 0 62 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icons8-stacked_organizational_chart_highlighted_first_node</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2713 -1819)">
+<g id="icons8-stacked_organizational_chart_highlighted_first_node">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(2714 1820.83)" fill="#3D54FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(2748.74 1874.92)" fill="#3D54FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(2726.63 1855.83)" fill="#3D54FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(2726.63 1836.74)" fill="#3D54FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(2748.74 1847.83)" fill="#FF842B"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 0 -1C -0.552285 -1 -1 -0.552285 -1 2.22045e-16L 0 0ZM 25.2632 0L 26.2632 0C 26.2632 -0.552285 25.8154 -1 25.2632 -1L 25.2632 0ZM 25.2632 15.9091L 25.2632 16.9091C 25.8154 16.9091 26.2632 16.4614 26.2632 15.9091L 25.2632 15.9091ZM 0 15.9091L -1 15.9091C -1 16.4614 -0.552285 16.9091 2.22045e-16 16.9091L 0 15.9091ZM 0 1L 25.2632 1L 25.2632 -1L 0 -1L 0 1ZM 24.2632 0L 24.2632 15.9091L 26.2632 15.9091L 26.2632 0L 24.2632 0ZM 25.2632 14.9091L 0 14.9091L 0 16.9091L 25.2632 16.9091L 25.2632 14.9091ZM 1 15.9091L 1 0L -1 0L -1 15.9091L 1 15.9091Z"/>
+<path id="path1_stroke" d="M 22.1053 1C 22.6575 1 23.1053 0.552285 23.1053 0C 23.1053 -0.552285 22.6575 -1 22.1053 -1L 22.1053 1ZM 0 -1C -0.552285 -1 -1 -0.552285 -1 0C -1 0.552285 -0.552285 1 0 1L 0 -1ZM 22.1053 -1L 0 -1L 0 1L 22.1053 1L 22.1053 -1Z"/>
+<path id="path2_stroke" d="M 1 0C 1 -0.552285 0.552285 -1 0 -1C -0.552285 -1 -1 -0.552285 -1 0L 1 0ZM 0 46.1364L -1 46.1364C -1 46.6886 -0.552285 47.1364 2.22045e-16 47.1364L 0 46.1364ZM 22.1053 47.1364C 22.6575 47.1364 23.1053 46.6886 23.1053 46.1364C 23.1053 45.5841 22.6575 45.1364 22.1053 45.1364L 22.1053 47.1364ZM -1 0L -1 46.1364L 1 46.1364L 1 0L -1 0ZM 0 47.1364L 22.1053 47.1364L 22.1053 45.1364L 0 45.1364L 0 47.1364Z"/>
+</defs>
+</svg>

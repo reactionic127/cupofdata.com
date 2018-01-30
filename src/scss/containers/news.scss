@@ -1,0 +1,24 @@
+#news-wrapper {
+	background: rgba(73, 92, 242, 0.98);
+	padding: 50px 0;
+	.section-text {
+		color: #ffffff;
+	}
+	.subtitle{
+		color: #ffffff;
+		letter-spacing: 1.2px;
+	}
+	.sub-content {
+		color: #ffffff;
+		line-height: 26px;
+		font-family: Avenir;
+		letter-spacing: 1.2px;
+	}
+	.btn-readmore {
+		color: #ffffff;
+		border-color: #ffffff;
+		font-family: Avenir;
+		padding: 0.5rem 3rem;
+		margin-top: 70px;
+	}
+}
