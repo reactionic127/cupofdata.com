@@ -7,6 +7,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import ContactSection from '../containers/Contact'
+import Footer from '../containers/Footer'
 // code syntax-highlighting theme
 // feel free to change it to another one
 import 'prismjs/themes/prism-twilight.css'
@@ -24,6 +25,7 @@ const TemplateWrapper = ({ children, data }) => {
     <div className='App'>      
       <div className='pageContent'>{children()}</div>
       <ContactSection />
+      <Footer />
     </div>
   )
 }
