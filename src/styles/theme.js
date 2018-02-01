@@ -2,7 +2,9 @@ import { rgba } from 'polished'
 const color = {
 	white: '#ffffff',
 	orange: '#ff842b',
-	black_90: rgba(0,0,0, 0.9)
+	black_90: rgba(0,0,0, 0.9),
+	gunmetal: '#2C333B',
+	oxfordBlue: '#283038'
 }
 const theme = {
 	color: color,
@@ -12,6 +14,18 @@ const theme = {
 	sliderCOD: {
 		color: {
 			sectionTitle: color.black_90
+		}
+	},
+	contact: {
+		color: {
+			background: color.gunmetal,
+			text: color.white
+		}
+	},
+	footer: {
+		color: {
+			background: color.oxfordBlue,
+			text: rgba( color.white, 0.5)
 		}
 	}
 }

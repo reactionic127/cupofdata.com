@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Button } from 'reactstrap'
+import { Container } from '../../components/Global'
+import Button from '../../components/Button'
 import { withPrefix} from 'gatsby-link'
 
 const AutomatedMarketingSection = () => (

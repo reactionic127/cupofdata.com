@@ -7,7 +7,8 @@ const Button = styled.button`
   border: none;
   color: white;
   font-family: CircularStd;
-
+  font-size: 18px;
+  
   &:focus {
     outline: none;
   }

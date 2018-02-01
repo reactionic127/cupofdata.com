@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Button } from 'reactstrap'
+import { Container, Row, Col } from '../../components/Global'
+import Button from '../../components/Button'
 import { withPrefix} from 'gatsby-link'
 
 const NewsView = () => (
@@ -23,7 +24,7 @@ const NewsView = () => (
 					<p className="sub-content text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</p>
 				</Col>
 			</Row>
-			<Button outline color="primary" className="btn-readmore">Read more</Button>
+			<Button className="btn-readmore">Read more</Button>
 		</Container>
 	</div>
 )

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import { Container, Row, Col } from 'reactstrap'
+import { Container, Row, Col } from '../../components/Global'
 import Helmet from 'react-helmet'
 import { withPrefix} from 'gatsby-link'
 import Draggable from 'react-draggable'
@@ -19,6 +19,22 @@ const Img = styled.img`
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
+`
+const AfterView = styled.div`
+	position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: ${props => props.width};
+  overflow: hidden;
+`
+const BeforeView = styled.div`
+	position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: ${props => props.width};
+  overflow: hidden;
 `
 export default class SliderCODWrapper extends React.Component {
 	constructor(props) {
@@ -61,7 +77,7 @@ export default class SliderCODWrapper extends React.Component {
         			</div>
         		</Col>
         		<Col sm="6" className="text-center">
-							<div className="after" style={{width: this.state.deltaPosition.x}}>
+							<AfterView width={this.state.deltaPosition.x}>
 								<div className="item-1 text-center">
 			        		<ImgView>
 			        			<Img src={withPrefix('/files/images/img-expand.svg')} width="130"/>
@@ -79,8 +95,8 @@ export default class SliderCODWrapper extends React.Component {
 			        			<h4 className="subtitle">Integrate and engage</h4>
 			        		</div>
 		        		</div>
-							</div>
-							<div className="before"  style={{width: 540 - this.state.deltaPosition.x}}>
+							</AfterView>
+							<BeforeView className="before"  style={{width: 540 - this.state.deltaPosition.x}}>
 								<div className="item-1 text-center">
 			        		<ImgView>
 			        			<Img src={withPrefix('/files/images/img-before-expand.svg')} width="130"/>
@@ -98,7 +114,7 @@ export default class SliderCODWrapper extends React.Component {
 			        			<h4 className="subtitle">Engage with limited tools</h4>
 			        		</div>
 		        		</div>
-							</div>
+							</BeforeView>
 							<Draggable
 				        axis="x"
 				        handle=".spinner"

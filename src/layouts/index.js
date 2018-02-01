@@ -1,6 +1,6 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
-import { Container } from 'reactstrap'
+import { Container } from '../components/Global'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
 import Link from 'gatsby-link'
@@ -13,9 +13,9 @@ import Footer from '../containers/Footer'
 // code syntax-highlighting theme
 // feel free to change it to another one
 import 'prismjs/themes/prism-twilight.css'
+import '../../static/files/css/fontawesome-all.min.css'
 
 // main site style
-import 'bootstrap/dist/css/bootstrap.css'
 import global from '../styles/global'
 import theme from '../styles/theme'
 

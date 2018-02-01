@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'reactstrap'
+import { Container } from '../../components/Global'
 import styled from 'styled-components';
 import NavContainer from '../../components/Navbar'
 import Button from '../../components/Button'
@@ -31,7 +31,7 @@ const BannerSection = (props) => (
 	<Wrapper>
 		<Container>
 			<NavContainer {...props}/>
-			<BannerView className="pa-5">
+			<BannerView>
 				<Title>Sip of your future</Title>
 				<Content>Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</Content>
 				<Button>Rigister Now</Button>

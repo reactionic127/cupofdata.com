@@ -15,6 +15,8 @@ injectGlobal`
 	}
 	body {
 		font-family: 'CircularStd';
+		padding: 0;
+		margin: 0;
 	}
 	.App {
 		display: flex;

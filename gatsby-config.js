@@ -24,12 +24,6 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        precision: 8
-      }
-    },
     'gatsby-plugin-styled-components'
   ]
 }
