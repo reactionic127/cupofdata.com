@@ -16,10 +16,18 @@ const theme = {
 			sectionTitle: color.black_90
 		}
 	},
+	automarketing: {
+		color: {
+			sectionTitle: color.white,
+			content: color.white,
+			btnBackground: color.white,
+			buttonText: color.orange
+		}
+	},
 	contact: {
 		color: {
 			background: color.gunmetal,
-			text: color.white
+			text: color.white,
 		}
 	},
 	footer: {

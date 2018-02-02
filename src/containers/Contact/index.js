@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 	color: ${({theme}) => theme.contact.color.text};
 `
 const ContactTitle = styled(Title)`
-	color: #ffffff;
+	color: ${({theme}) => theme.contact.color.text};
 	margin-top: 33px;
 `
 const ContactContent = styled(SubTitle)`
