@@ -8,13 +8,15 @@ const Wrapper = styled.div`
 	padding-top: 81px;
 	padding-bottom: 145px;
 `
-
+const FeedbackSectionTitle = styled(SectionTitle)`
+	margin-bottom: 40px
+`
 const FeedbackSection = () => (
 	<Wrapper>
-		<SectionTitle className="text-center">Few words from our clients</SectionTitle>
+		<FeedbackSectionTitle>Few words from our clients</FeedbackSectionTitle>
 		<Container>
 			<Row>
-				<Col xs="4" className="text-center">
+				<Col xs="4">
 					<AvatarCard
 						avatarUrl={withPrefix('/files/images/avatar-Damien.png')}
 						name="Damien Martin"

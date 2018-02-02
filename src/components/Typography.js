@@ -6,6 +6,7 @@ export const SectionTitle = styled.h2`
   line-height: 47px;
   text-align: center;
   color: rgba(0,0,0,.9);
+  margin: 0;
 `
 export const Title = styled.h4`
 	font-family: Avenir;

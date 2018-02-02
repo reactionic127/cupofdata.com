@@ -11,6 +11,7 @@ const Warpper = styled.div`
 `
 const NewsSectionTitle = styled(SectionTitle)`
 	color: #ffffff;
+	margin-bottom: 40px;
 `
 const NewsTitle = styled(Title)`
 	text-align: left;
@@ -34,8 +35,8 @@ const BtnReadMore = styled.button`
 `
 const NewsView = () => (
 	<Warpper>
-		<NewsSectionTitle className="text-center">In the news</NewsSectionTitle>
-		<Container className="pt-5 text-center">
+		<NewsSectionTitle>In the news</NewsSectionTitle>
+		<Container>
 			<Row>
 				<Col sm="4">
 					<img src={withPrefix('/files/images/img-news1.png')} width="100%" />
