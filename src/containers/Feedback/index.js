@@ -1,11 +1,17 @@
-import React from 'react';
+import React from 'react'
+import styled from 'styled-components'
+import { SectionTitle } from '../../components/Typography'
 import { Container, Row, Col } from '../../components/Global'
-import { withPrefix} from 'gatsby-link'
+import { withPrefix } from 'gatsby-link'
 import AvatarCard from '../../components/AvatarCard'
+const Wrapper = styled.div`
+	padding-top: 81px;
+	padding-bottom: 145px;
+`
 
 const FeedbackSection = () => (
-	<div id="feedback-wrapper">
-		<h2 className="text-center section-text">Few words from our clients</h2>
+	<Wrapper>
+		<SectionTitle className="text-center">Few words from our clients</SectionTitle>
 		<Container>
 			<Row>
 				<Col xs="4" className="text-center">
@@ -34,7 +40,6 @@ const FeedbackSection = () => (
 				</Col>
 			</Row>
 		</Container>
-		
-	</div>
+	</Wrapper>
 )
 export default FeedbackSection

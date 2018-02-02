@@ -57,7 +57,7 @@ export const Row =  styled.div`
 `
 export const Col = styled.div`
 	position: relative;
-  width: ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
+  ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
