@@ -1,31 +1,60 @@
 import React from 'react'
+import styled from 'styled-components'
+import { SectionTitle, Title, SubTitle  } from '../../components/Typography'
 import { Container, Row, Col } from '../../components/Global'
 import Button from '../../components/Button'
 import { withPrefix} from 'gatsby-link'
-
+const Warpper = styled.div`
+	background: rgba(73, 92, 242, 0.98);
+	padding: 50px 0;
+	text-align: center;
+`
+const NewsSectionTitle = styled(SectionTitle)`
+	color: #ffffff;
+`
+const NewsTitle = styled(Title)`
+	text-align: left;
+	color: #ffffff;
+	letter-spacing: 1.2px;
+`
+const NewsContent = styled(SubTitle)`
+	text-align: left;
+	color: #ffffff;
+	line-height: 26px;
+	font-family: Avenir;
+	letter-spacing: 1.2px;
+`
+const BtnReadMore = styled.button`
+	color: #ffffff;
+	border-color: #ffffff;
+	font-family: Avenir;
+	padding: 0.5rem 3rem;
+	background: transparent;
+	margin-top: 70px;
+`
 const NewsView = () => (
-	<div id="news-wrapper">
-		<h2 className="text-center section-text">In the news</h2>
+	<Warpper>
+		<NewsSectionTitle className="text-center">In the news</NewsSectionTitle>
 		<Container className="pt-5 text-center">
 			<Row>
 				<Col sm="4">
 					<img src={withPrefix('/files/images/img-news1.png')} width="100%" />
-					<h4 className="subtitle text-left">Vlit esse cillum dolore eu fugiat nulla paratur</h4>
-					<p className="sub-content text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</p>
+					<NewsTitle className="text-left">Vlit esse cillum dolore eu fugiat nulla paratur</NewsTitle>
+					<NewsContent className="text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
 				</Col>
 				<Col sm="4">
 					<img src={withPrefix('/files/images/img-news2.png')} width="100%" />
-					<h4 className="subtitle text-left">Vlit esse cillum dolore eu fugiat nulla paratur</h4>
-					<p className="sub-content text-left">Irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</p>
+					<NewsTitle className="text-left">Vlit esse cillum dolore eu fugiat nulla paratur</NewsTitle>
+					<NewsContent className="text-left">Irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
 				</Col>
 				<Col sm="4">
 					<img src={withPrefix('/files/images/img-news3.png')} width="100%" />
-					<h4 className="subtitle text-left">Vlit esse cillum dolore eu fugiat nulla paratur</h4>
-					<p className="sub-content text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</p>
+					<NewsTitle className="text-left">Vlit esse cillum dolore eu fugiat nulla paratur</NewsTitle>
+					<NewsContent className="text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
 				</Col>
 			</Row>
-			<Button className="btn-readmore">Read more</Button>
+			<BtnReadMore>Read more</BtnReadMore>
 		</Container>
-	</div>
+	</Warpper>
 )
 export default NewsView

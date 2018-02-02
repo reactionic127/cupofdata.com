@@ -18,7 +18,6 @@ import '../../static/files/css/fontawesome-all.min.css'
 // main site style
 import global from '../styles/global'
 import theme from '../styles/theme'
-import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 
 const TemplateWrapper = ({ children, data }) => {
   let user

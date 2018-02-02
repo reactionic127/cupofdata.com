@@ -11,6 +11,7 @@ const Card = styled.div`
 	padding-top: 30px;
 	padding-left: 30px;
 	height: 100%;
+	box-sizing: border-box;
 `
 const CardWrapper = styled.div`
 	width: 100%;
@@ -20,6 +21,8 @@ const CardWrapper = styled.div`
 	box-shadow: 3px 4px 26px -2px rgba(153,153,153,1);
 	height: 100%;
 	background-color: #ffffff;
+	box-sizing: border-box;
+	text-align: center;
 `
 const Photo = styled.img`
 	border: 2px solid #35a73e;
@@ -31,6 +34,7 @@ const PositionName = styled.h4`
 	letter-spacing: 1%;
 	color: rgba(0,0,0,0.7);
 	font-family: Avenir;
+	margin: 0;
 `
 const Quote = styled.p`
 	font-family: Avenir;
@@ -39,6 +43,7 @@ const Quote = styled.p`
 	text-align: left;
 	letter-spacing: 1%;
 	color: #000000;
+	margin: 0;
 `
 const AvatarCard = (props) => (
 	<Card>

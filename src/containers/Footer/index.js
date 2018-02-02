@@ -18,10 +18,10 @@ const Footer = () => (
 				<Col sm="8">
 					<Text>Copyright © 2015-2017 cupofdata.com, Made with love in Atlanta.</Text>
 				</Col>
-				<Col>
+				<Col sm="2">
 					<Text>Privacy Policy</Text>
 				</Col>
-				<Col>
+				<Col sm="2">
 					<Text>Terms of service</Text>
 				</Col>
 			</Row>

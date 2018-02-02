@@ -24,6 +24,7 @@ const MainContainer = styled(Container)`
 	z-index: 1;
 `
 const Title = styled(SectionTitle)`
+	text-align: left;
 	color: ${props => props.theme.automarketing.color.sectionTitle};
 `
 const Content = styled(SubTitle)`
