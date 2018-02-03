@@ -6,8 +6,7 @@ import Button from '../../components/Button'
 
 const Wrapper = styled.div`
 	background-image: url(/files/images/background.svg);
-  background-position: center;
-  background-size: cover;
+  background-size: calc(100% + 1px);
   color: ${props => props.theme.color.white};
   position: relative;
   background-position: right bottom;

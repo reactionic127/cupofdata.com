@@ -8,8 +8,8 @@ const Wrapper = styled.div`
 	padding-top: 81px;
 	padding-bottom: 145px;
 `
-const FeedbackSectionTitle = styled(SectionTitle)`
-	margin-bottom: 40px
+const FeedbackSectionTitle = SectionTitle.extend`
+	margin-bottom: 70px
 `
 const FeedbackSection = () => (
 	<Wrapper>
