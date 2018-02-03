@@ -5,13 +5,13 @@ import Link, { withPrefix } from 'gatsby-link'
 const Navbar = styled.div`
 	display: flex;
 	justify-content: space-between;
+  padding: 1rem 3rem;
 `
 const NavItem = styled.li`
-	padding: 0.5rem 1.25rem;
 	color: ${props => props.theme.navbar.textColor};
-	:last-child {
+	:last-child a {
     border: 1px solid ${props => props.theme.navbar.textColor};
-    border-radius: 4px;
+    border-radius: 2px;
   }
 `
 const NavWrapper =  styled.ul`
@@ -22,6 +22,7 @@ const NavWrapper =  styled.ul`
   flex-wrap: wrap;
 `
 const NavLink = styled(Link)`
+  padding: 0.5rem 1.75rem;
   color: ${props => props.theme.navbar.textColor};
   text-decoration: none;
 `

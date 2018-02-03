@@ -4,14 +4,15 @@ injectGlobal`
 	@font-face {
 	  font-family: GTWalsheim;
 	  src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Medium.ttf);
+
 	}
 	@font-face {
 	  font-family: Avenir;
-	  src: url(/files/fonts/Avenir/AvenirLTStd-Roman.otf);
+	  src: url(/files/fonts/Avenir/AvenirLTStd-Light.otf);
 	}
 	@font-face {
 	  font-family: CircularStd;
-	  src: url(/files/fonts/CircularStd/CircularStd-medium.otf);
+	  src: url(/files/fonts/CircularStd/CircularStd-book.otf);
 	}
 	body {
 		font-family: 'CircularStd';
