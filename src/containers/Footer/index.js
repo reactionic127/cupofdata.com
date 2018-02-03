@@ -1,21 +1,31 @@
 import React from 'react'
-import { Container, Row, Col } from  'reactstrap'
+import styled from 'styled-components'
+import { Container, Row, Col } from  '../../components/Global'
+
+const Wrapper = styled.div`
+	background-color: ${({theme}) => theme.footer.color.background};
+`
+const Text = styled.h4`
+	color: ${({theme}) => theme.footer.color.text};
+	font-size: 14px;
+	padding: 0;
+`
 
 const Footer = () => (
-	<div id="footer">
+	<Wrapper>
 		<Container>
 			<Row>
 				<Col sm="8">
-					<h4 className="footer-text">Copyright © 2015-2017 cupofdata.com, Made with love in Atlanta.</h4>
+					<Text>Copyright © 2015-2017 cupofdata.com, Made with love in Atlanta.</Text>
 				</Col>
 				<Col sm="2">
-					<h4 className="footer-text">Privacy Policy</h4>
+					<Text>Privacy Policy</Text>
 				</Col>
 				<Col sm="2">
-					<h4 className="footer-text">Terms of service</h4>
+					<Text>Terms of service</Text>
 				</Col>
 			</Row>
 		</Container>
-	</div>
+	</Wrapper>
 )
 export default Footer;
