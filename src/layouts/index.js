@@ -28,8 +28,6 @@ const TemplateWrapper = ({ children, data }) => {
     <ThemeProvider theme={theme}>
       <div className='App'>
         <div className='pageContent'>{children()}</div>
-        <ContactSection />
-        <Footer />
       </div>
     </ThemeProvider>
   )

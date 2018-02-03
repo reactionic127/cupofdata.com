@@ -8,7 +8,7 @@ injectGlobal`
 	}
 	@font-face {
 	  font-family: Avenir;
-	  src: url(/files/fonts/Avenir/AvenirLTStd-Light.otf);
+	  src: url(/files/fonts/Avenir/AvenirLTStd-Book.otf);
 	}
 	@font-face {
 	  font-family: CircularStd;

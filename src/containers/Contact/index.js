@@ -40,7 +40,7 @@ const ContactSection = () => (
 		<Container>
 			<Row>
 				<Col sm="5">
-					<img src={withPrefix('/files/images/img-logo.svg')} width="120" />
+					<img src={withPrefix('/files/images/img-logo.png')} width="120" />
 					<ContactContent>Guided data science consists of services used by business analysts and data scientists to enhance their productivity while exploring data, building machine and deep learning models, and creating rich visualizations to tell their data stories.</ContactContent>
 				</Col>
 				<Col sm="3">

@@ -30,7 +30,7 @@ const NavLink = styled(Link)`
 const NavContainer = (props) => (
 	<Navbar>
 		<Link to="/" className="navbar-brand">
-      <img className="logo" src={withPrefix('/files/images/img-logo.svg')} width="120" />
+      <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
     </Link>
     <NavWrapper>
       <NavItem>
