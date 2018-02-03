@@ -9,7 +9,7 @@ const Warpper = styled.div`
 	padding: 50px 0;
 	text-align: center;
 `
-const NewsSectionTitle = styled(SectionTitle)`
+const NewsSectionTitle = SectionTitle.extend`
 	color: #ffffff;
 	margin-bottom: 40px;
 `
@@ -18,7 +18,7 @@ const NewsTitle = styled(Title)`
 	color: #ffffff;
 	letter-spacing: 1.2px;
 `
-const NewsContent = styled(SubTitle)`
+const NewsContent = SubTitle.extend`
 	text-align: left;
 	color: #ffffff;
 	line-height: 26px;
@@ -32,6 +32,8 @@ const BtnReadMore = styled.button`
 	padding: 0.5rem 3rem;
 	background: transparent;
 	margin-top: 70px;
+	font-size: 16px;
+	line-height: 26px;
 `
 const NewsView = () => (
 	<Warpper>

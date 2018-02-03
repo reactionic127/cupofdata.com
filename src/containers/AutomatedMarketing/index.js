@@ -23,11 +23,11 @@ const MainContainer = styled(Container)`
 	position: relative;
 	z-index: 1;
 `
-const Title = styled(SectionTitle)`
+const Title = SectionTitle.extend`
 	text-align: left;
 	color: ${props => props.theme.automarketing.color.sectionTitle};
 `
-const Content = styled(SubTitle)`
+const Content = SubTitle.extend`
 	color: ${props => props.theme.automarketing.color.content};
 `
 const RegButton = styled(Button)`

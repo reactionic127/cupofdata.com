@@ -5,7 +5,7 @@ import { Container, Row, Col } from '../../components/Global'
 import { withPrefix } from 'gatsby-link'
 
 const Wrapper = styled.div`
-	padding-top: 90px;
+	padding-top: 200px;
 	padding-bottom: 115px;
 	text-align: center;
 `

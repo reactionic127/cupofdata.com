@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 function getWidthString (span) {
 	if(!span) return;
@@ -7,23 +7,31 @@ function getWidthString (span) {
 	return `width: ${width}%;`
 }
 export const Container = styled.div`
-	width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  @media screen and (min-width: 576px) {
-  	max-width: 540px
-  }
-  @media screen and (min-width: 768px) {
-  	max-width: 720px
-  }
-  @media screen and (min-width: 992px) {
-  	max-width: 960px
-  }
-  @media screen and (min-width: 1200px) {
-  	max-width: 1140px
-  }
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    ${props => props.fluid && css`
+      max-width: none !important;
+      width: auto;
+    `}
+    @media screen and (min-width: 576px) {
+    	max-width: 540px
+    }
+    @media screen and (min-width: 768px) {
+    	max-width: 720px
+    }
+    @media screen and (min-width: 992px) {
+    	max-width: 960px
+    }
+    @media screen and (min-width: 1200px) {
+    	max-width: 1140px
+    }
+    @media screen and (min-width: 1400px) {
+      max-width: 1340px
+    }
+
 `
 export const Card = styled.div`
   position: relative;

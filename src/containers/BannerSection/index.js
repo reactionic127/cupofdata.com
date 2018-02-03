@@ -39,8 +39,7 @@ const BottomText = styled(Title)`
 `
 const BackImg = styled.img`
   position: absolute;
-  bottom: -1px;
-  right: 0;
+  bottom: -1px;  right: 0;
   width: 140px;
 `
 

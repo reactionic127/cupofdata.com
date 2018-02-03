@@ -34,24 +34,27 @@ const PositionName = styled.h4`
 	letter-spacing: 1%;
 	color: rgba(0,0,0,0.7);
 	font-family: Avenir;
-	margin: 0;
+	margin: 0 0 2rem;
 `
 const Quote = styled.p`
 	font-family: Avenir;
 	font-size: 16px;
 	line-height: 27px;
 	text-align: left;
-	letter-spacing: 1%;
+	letter-spacing: 1.2px;
 	color: #000000;
 	margin: 0;
+`
+const CardTitle = Title.extend`
+	font-size: 16px;
+	line-height: 35px;
+	margin-top: 2rem
 `
 const AvatarCard = (props) => (
 	<Card>
 		<CardWrapper>
-			<div className="mb-3">
-				<Photo src={props.avatarUrl} />
-			</div>
-			<Title>{props.name}</Title>
+			<Photo src={props.avatarUrl} />
+			<CardTitle>{props.name}</CardTitle>
 			<PositionName>{props.position}</PositionName>
 			<Quote>{props.quote}</Quote>
 		</CardWrapper>
