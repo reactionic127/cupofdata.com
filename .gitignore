@@ -32,10 +32,29 @@ bower_components
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
-jspm_packages/
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+examples/biz-website/public/
+examples/blog/public/
+*.un~
+dist
+bin/published.js
 
+# Build Path of Test Fixtures
+test/**/public
+.gatsby-context.js
+.DS_Store
+public/
+node_modules/
+.cache/
+.netlify
+
+# IDE specific
+.idea/
+.vscode/
+
+.serverless/
 # Typescript v1 declaration files
 typings/
 
@@ -58,7 +77,6 @@ typings/
 .env
 
 .cache
-public/
 
 package-lock.json
 yarn.lock
