@@ -1,8 +1,20 @@
 import React from 'react';
 import styled from 'styled-components'
 import { Container, Row, Col } from '../../components/Global'
-import Link, { withPrefix } from 'gatsby-link'
+import Link, { withPrefix, navigateTo } from 'gatsby-link'
 import { Title, SubTitle } from '../../components/Typography'
+import {
+	FacebookShareButton,
+	LinkedinShareButton,
+	TwitterShareButton,
+} from 'react-share'
+import {
+	LINKEDIN_URL,
+	FACEBOOK_URL,
+	TWITTER_URL,
+	GITHUB_URL,
+	SOCIAL_TITLE
+} from '../../config/constants'
 const Wrapper = styled.div`
 	padding-top: 85px;
 	padding-bottom: 130px;
@@ -35,6 +47,7 @@ const Icon = styled.i`
 	opacity: 0.5;
 	margin-right: 2rem;
 `
+
 const ContactSection = () => (
 	<Wrapper>
 		<Container>
@@ -57,10 +70,37 @@ const ContactSection = () => (
 					<ContactTitle>CONTACT US</ContactTitle>
 					<ContactContent>Cup of Data<br/>3423 Piedmont Rd NE<br/>Atlanta, GA 30305</ContactContent>
 					<div>
-						<Icon className="fab fa-facebook-square fa-2x" />
-						<Icon className="fab fa-twitter fa-2x" />
-						<Icon className="fab fa-linkedin fa-2x" />
-						<Icon className="fab fa-github fa-2x" />
+						<FacebookShareButton
+							url={FACEBOOK_URL}
+							quote={SOCIAL_TITLE}
+							className="social-button"
+							windowWidth={750}
+            	windowHeight={600}
+						>
+							<Icon className="fab fa-facebook-square fa-2x" />
+						</FacebookShareButton>
+						<TwitterShareButton
+							url={TWITTER_URL}
+							title={SOCIAL_TITLE}
+							className="social-button"
+							windowWidth={600}
+            	windowHeight={600}
+						>
+							<Icon className="fab fa-twitter fa-2x" />
+						</TwitterShareButton>
+						<LinkedinShareButton
+							url={LINKEDIN_URL}
+							title={SOCIAL_TITLE}
+							className="social-button"
+							windowWidth={600}
+            	windowHeight={600}
+						>
+							<Icon className="fab fa-linkedin fa-2x" />
+						</LinkedinShareButton>
+						<Icon
+							onClick={() => { window.location = GITHUB_URL }}
+							className="fab fa-github fa-2x social-button"
+						/>
 					</div>
 				</Col>
 			</Row>
