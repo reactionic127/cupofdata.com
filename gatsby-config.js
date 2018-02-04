@@ -28,12 +28,12 @@ module.exports = {
             // your segment write key for your production environment
             // when process.env.NODE_ENV === 'production'
             // required; non-empty string
-            prodKey: `.env.${process.env.SEGMENT_PROD_WRITE_KEY}`,
+            prodKey: `.env.${process.SEGMENT_PROD_WRITE_KEY}`,
 
             // if you have a development env for your segment account, paste that key here
             // when process.env.NODE_ENV === 'development'
             // optional; non-empty string
-            devKey: `.env.${process.env.SEGMENT_DEV_WRITE_KEY}`,
+            devKey: `.env.${process.SEGMENT_DEV_WRITE_KEY}`,
 
             // whether you want to include analytics.page()
             // optional; boolean that defaults to true
