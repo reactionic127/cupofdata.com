@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from  '../../components/Global'
+import Link from 'gatsby-link'
 
 const Wrapper = styled.div`
 	background-color: ${({theme}) => theme.footer.color.background};
@@ -10,7 +11,9 @@ const Text = styled.h4`
 	font-size: 14px;
 	padding: 0;
 `
-
+const CustomLink = styled(Link)`
+	text-decoration: none;
+`
 const Footer = () => (
 	<Wrapper>
 		<Container>
@@ -19,10 +22,10 @@ const Footer = () => (
 					<Text>Copyright © 2018 Cup of Data - Made with love in Atlanta.</Text>
 				</Col>
 				<Col sm="2">
-					<Text>Privacy Policy</Text>
+					<CustomLink to="/privacy"><Text>Privacy Policy</Text></CustomLink>
 				</Col>
 				<Col sm="2">
-					<Text>Terms of Use</Text>
+					<CustomLink to="/terms"><Text>Terms of Use</Text></CustomLink>
 				</Col>
 			</Row>
 		</Container>
