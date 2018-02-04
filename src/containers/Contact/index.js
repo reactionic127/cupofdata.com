@@ -12,7 +12,6 @@ import {
 	LINKEDIN_URL,
 	FACEBOOK_URL,
 	TWITTER_URL,
-	GITHUB_URL,
 	SOCIAL_TITLE
 } from '../../config/constants'
 const Wrapper = styled.div`
@@ -97,10 +96,6 @@ const ContactSection = () => (
 						>
 							<Icon className="fab fa-linkedin fa-2x" />
 						</LinkedinShareButton>
-						<Icon
-							onClick={() => { window.location = GITHUB_URL }}
-							className="fab fa-github fa-2x social-button"
-						/>
 					</div>
 				</Col>
 			</Row>
