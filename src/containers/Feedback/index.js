@@ -13,7 +13,7 @@ const FeedbackSectionTitle = SectionTitle.extend`
 `
 const FeedbackSection = () => (
 	<Wrapper>
-		<FeedbackSectionTitle>Few words from our clients</FeedbackSectionTitle>
+		<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
 		<Container>
 			<Row>
 				<Col xs="4">

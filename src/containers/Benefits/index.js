@@ -31,33 +31,33 @@ const BenefitsSection = () => (
 					<ImgView>
 						<Img src={withPrefix('files/images/img-sales.svg')} />
 					</ImgView>
-					<Title>Improve Salse alignment</Title>
-					<SubTitle>Identify and send Sales Qualified Lead(SQLs) directly to CRMs</SubTitle>
+					<Title>Improve Marketing and Sales Alignment</Title>
+					<SubTitle>Improve collaboration between marketing and sales with transparent metrics</SubTitle>
 				</Col>
 				<Col xs="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-existing.svg')} />
 					</ImgView>
-					<Title>Integrate with existing stack</Title>
-					<SubTitle>Track progress and update closed sales leads to improve AI model</SubTitle>
+					<Title>Create Unique Experiences with Context</Title>
+					<SubTitle>Use leading questions and social references to improve trust and engagement</SubTitle>
 				</Col>
 				<Col xs="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-shorten-sales.svg')} />
 					</ImgView>
 					<Title>Shorten sales cycles</Title>
-					<SubTitle>Quickly identify inbound marketing channels to improve lead quality</SubTitle>
+					<SubTitle>Quickly identify and optimize inbound and outbound channels to improve conversion velocity</SubTitle>
 				</Col>
 				<Col xs="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-clear-path.svg')} />
 					</ImgView>
 					<Title>Clearer path to ROI</Title>
-					<SubTitle>Obtain ROI indicators to focus on best performing campaigns</SubTitle>
+					<SubTitle>Obtain clear ROI metrics to focus on best performing campaigns and provide smarter routing rules</SubTitle>
 				</Col>
 			</Row>
 		</Container>
-		
+
 	</Wrapper>
 )
 export default BenefitsSection
