@@ -44,8 +44,8 @@ const AutomatedMarketingSection = (props) => (
 	<Wrapper>
 		<Overlay />
 		<MainContainer>
-			<Title {...props}>Automate marketing</Title>
-			<Content>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</Content>
+			<Title {...props}>Let us help you get started. On Us!</Title>
+			<Content>Talk is cheap. Let us prove our worth. Register for some free leads today, no strings attached!</Content>
 			<RegButton className="py-0 px-5 border-0">Register Now</RegButton>
 		</MainContainer>
 	</Wrapper>

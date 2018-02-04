@@ -50,10 +50,10 @@ const BannerSection = (props) => (
 			<Main>
 				<Col sm="6">
 					<img src="/files/images/img-left.svg" width="80%" />
-					<BottomText>It takes forever to get a good idea</BottomText>
+					<BottomText>It takes an eternity to do prospecting...</BottomText>
 				</Col>
 				<Col sm="6">
-					<Title>It's easy with copofdata</Title>
+					<Title>With Cup of Data, you get better B2B leads, faster!</Title>
 					<img src="/files/images/img-right.svg" width="100%"/>
 				</Col>
 			</Main>
@@ -64,4 +64,4 @@ const BannerSection = (props) => (
 		</BannerContainer>
 	</Wrapper>
 )
-export default BannerSection	
+export default BannerSection

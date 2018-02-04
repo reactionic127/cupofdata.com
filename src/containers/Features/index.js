@@ -30,10 +30,10 @@ const FeaturesView = () => (
 					<img src={withPrefix('/files/images/img-desktop.png')} />
 				</Col>
 				<Col xs="6">
-					<FeatureContent><i className="fa fa-angle-right"/> Curate and verify contact list with on-demand Human intelligence</FeatureContent>
-					<FeatureContent><i className="fa fa-angle-right"/> Add contact quality scores with machine learning</FeatureContent>
-					<FeatureContent><i className="fa fa-angle-right"/> Trigger targeted actions using your existing Martech stack</FeatureContent>
-					<FeatureContent><i className="fa fa-angle-right"/> Measure and test</FeatureContent>
+					<FeatureContent><i className="fa fa-angle-right"/> Quickly identify relevant accounts and contacts</FeatureContent>
+					<FeatureContent><i className="fa fa-angle-right"/> Improve prospect quality scores with machine learning</FeatureContent>
+					<FeatureContent><i className="fa fa-angle-right"/> Obtain insights on how to engage contacts with context</FeatureContent>
+					<FeatureContent><i className="fa fa-angle-right"/> Trigger targeted engagements using your existing Martech stack</FeatureContent>
 					<Button>Learn More</Button>
 				</Col>
 			</Row>

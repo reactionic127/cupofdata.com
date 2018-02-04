@@ -16,13 +16,13 @@ const Footer = () => (
 		<Container>
 			<Row>
 				<Col sm="8">
-					<Text>Copyright © 2015-2017 cupofdata.com, Made with love in Atlanta.</Text>
+					<Text>Copyright © 2018 Cup of Data - Made with love in Atlanta.</Text>
 				</Col>
 				<Col sm="2">
 					<Text>Privacy Policy</Text>
 				</Col>
 				<Col sm="2">
-					<Text>Terms of service</Text>
+					<Text>Terms of Use</Text>
 				</Col>
 			</Row>
 		</Container>
