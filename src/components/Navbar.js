@@ -43,13 +43,13 @@ const NavContainer = (props) => (
         <NavLink to='/company'>Company</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='/docs'>Docs</NavLink>
+        <NavLink to='/resouces'>Resources</NavLink>
       </NavItem>
       <NavItem>
         <NavLink to='/blog'>Blog</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='/login'>Get Started</NavLink>
+        <NavLink to='/login'>Login</NavLink>
       </NavItem>
     </NavWrapper>
 	</Navbar>
