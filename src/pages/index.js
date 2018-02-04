@@ -6,8 +6,6 @@ import NewsWrapper from '../containers/News'
 import BenefitsWrapper from '../containers/Benefits'
 import FeedbackWrapper from '../containers/Feedback'
 import AutomatedMarketingWrapper from '../containers/AutomatedMarketing'
-import ContactSection from '../containers/Contact'
-import Footer from '../containers/Footer'
 import NavContainer from '../components/Navbar'
 
 const IndexPage = (props) => (
@@ -18,8 +16,6 @@ const IndexPage = (props) => (
     <NewsWrapper />
     <FeedbackWrapper />
     <AutomatedMarketingWrapper />
-    <ContactSection />
-    <Footer />
   </div>
 )
 
