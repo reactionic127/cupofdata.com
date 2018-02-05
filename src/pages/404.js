@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container } from '../components/Global'
-import { withPrefix, navigateTo } from 'gatsby-link'
+import Link, { withPrefix } from 'gatsby-link'
 import Button from '../components/Button'
 const Wrapper = styled.div`
 	height: 100vh;
@@ -38,16 +38,15 @@ const Detail = styled.p`
 `
 const BackButton = Button.extend`
 	margin-top: 3rem;
-	box-shadow: 2px 4px rgba(0,0,0,0.1)
+	box-shadow: 2px 4px rgba(0,0,0,0.1);
 `
-
 const NotFoundPage = () => (
 	<Wrapper>
 		<LogoImg src={withPrefix('/files/images/img-logo.png')} />
 		<Img404 src={withPrefix('/files/images/img-404.svg')} />
 		<Topic>Page not found</Topic>
 		<Detail>Sorry, but the page you were looking for could not be found. You can return to our front page, or drop us a line if you can't find what you're looking for.</Detail>
-		<BackButton onClick={() => navigateTo('/')}>Go back to home page</BackButton>
+		<Link to='/'><BackButton>Go back to home page</BackButton></Link>
 	</Wrapper>
 )
 
