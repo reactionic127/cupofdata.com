@@ -6,7 +6,6 @@ import NewsWrapper from '../containers/News'
 import BenefitsWrapper from '../containers/Benefits'
 import FeedbackWrapper from '../containers/Feedback'
 import AutomatedMarketingWrapper from '../containers/AutomatedMarketing'
-import NavContainer from '../components/Navbar'
 
 const IndexPage = (props) => (
   <div>
