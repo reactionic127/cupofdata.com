@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 	align-items: center;
 `
 const LogoImg = styled.img`
-	margin-top: 5rem;
+	margin-top: 80px	;
 	width: 170px;
 `
 const Img404 = styled.img`
