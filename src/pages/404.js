@@ -13,11 +13,11 @@ const Wrapper = styled.div`
 	align-items: center;
 `
 const LogoImg = styled.img`
-	padding-top: 5rem;
+	margin-top: 5rem;
 	width: 170px;
 `
 const Img404 = styled.img`
-  padding-top: 100px;
+  margin-top: 100px;
   width: 430px;
 `
 const Topic = styled.h1`
