@@ -1,8 +1,8 @@
 ---
 contentType: blog
-path: /claude
-title: Claude Shannon and Information Theory
-date: 2017-10-14T12:00:02.000Z
+path: /why-stellar-could-be-the-next-big-ico-platform
+title: Why Stellar could be the next big ICO platform
+date: 2018-02-05T05:00:02-08:00
 summary: >-
   Traditional databases use client-server network architecture. Here, a user
   (known as a client) can modify data, which is stored on a centralized server.
