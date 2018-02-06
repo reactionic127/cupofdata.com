@@ -1,29 +1,18 @@
 ---
 contentType: blog
-path: /madeinadmin
-title: Admin Test
-date: 2017-11-08T06:15:05.907Z
-attachments:
-  - filename: /files/hynocat.jpg
-related:
-  - post: /einstein
-  - post: /claude
-  - post: /intro-to-graphql
+path: /why-will-decentralized-social-networks-thrive-in-the-future
+title: Why will decentralized social networks thrive in the future?
+date: 2018-02-06T22:16:05-08:00
+summary: >-
+  Traditional databases use client-server network architecture. Here, a user
+  (known as a client) can modify data, which is stored on a centralized server.
+  Control of the database remains with a designated authority, which
+  authenticates a client’s credentials before providing access to the database.
+  Since this authority is responsible for administration of the database, if the
+  security of the authority is compromised, the data can be altered, or even
+  deleted.
+author: Greg Werner
 ---
-This was made in the admin, complete with an image
+## Traditional Databases
 
-![computer guy](/files/tumblr_nilmmbd4qq1ssby0io1_540.gif)
-
-```js
-// Here is a code example
-
-export const codeWorks => true
-
-export const es6Ok => 'Heck yeah!'
-
-export class PrismWorks{
-  constructor(){
-    console.log('Yes, siree!')
-  }
-}
-```
+Traditional databases use client-server network architecture. Here, a user (known as a client) can modify data, which is stored on a centralized server. Control of the database remains with a designated authority, which authenticates a client’s credentials before providing access to the database. Since this authority is responsible for administration of the database, if the security of the authority is compromised, the data can be altered, or even deleted.
