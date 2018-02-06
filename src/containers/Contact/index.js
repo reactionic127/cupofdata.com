@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import Link, { withPrefix, navigateTo } from 'gatsby-link'
 import { Title, SubTitle } from '../../components/Typography'
 import {

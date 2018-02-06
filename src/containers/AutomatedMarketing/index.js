@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../../components/Global'
+import { Container } from '../../components/Layout'
 import Button from '../../components/Button'
 import { SectionTitle, SubTitle } from '../../components/Typography'
 import { withPrefix} from 'gatsby-link'

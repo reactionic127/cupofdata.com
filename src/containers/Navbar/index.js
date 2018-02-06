@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container } from '../../components/Global'
+import { Container } from '../../components/Layout'
 import Link, { withPrefix } from 'gatsby-link'
 
 const Navbar = styled.div`

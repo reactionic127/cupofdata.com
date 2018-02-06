@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Container } from '../components/Global'
+import { Container } from '../components/Layout'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
 import Link, { withPrefix } from 'gatsby-link'

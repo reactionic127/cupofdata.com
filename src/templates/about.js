@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from '../components/Global'
+import { Container, Row, Col } from '../components/Layout'
 import { PageTitle, Title } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'

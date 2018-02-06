@@ -1,6 +1,13 @@
 import React, { Fragment } from 'react'
+import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
+import { Container } from '../components/Layout'
+
+const MainSection = styled.div`
+	padding-top: 94px;
+  height: fit-content;
+`
 
 const BlogMaster = ({data}) => {
 	const { allMarkdownRemark: post } = data
@@ -9,25 +16,12 @@ const BlogMaster = ({data}) => {
 	return (
 		<Fragment>
 	    <Helmet title={`Blogs | ${data.site.siteMetadata.title}`} />
-{/*	    <MainSection>
+
+	    <MainSection>
 	      <Container>
-	        <Topic>{post.frontmatter.title}</Topic>
-	        <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+	        
 	      </Container>
 	    </MainSection>
-	    {post.frontmatter.members && <MemberSection>
-	      <MemberTitle>OUR TEAM</MemberTitle>
-	      <Row>
-	        {post.frontmatter.members.map((member, i) => (
-	          <Card sm="4" key={i} >
-	            <Photo src={member.photo} width="225"></Photo>
-	            <Fullname>{member.fullname}</Fullname>
-	            <Position>{member.position}</Position>
-	          </Card>
-	        ))}
-	      </Row>
-	    </MemberSection>
-	    }*/}
 	  </Fragment>
 	 )
 }

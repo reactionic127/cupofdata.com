@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import styled from 'styled-components';
 import Button from '../../components/Button'
 import Link, { withPrefix } from 'gatsby-link'
