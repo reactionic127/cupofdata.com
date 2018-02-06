@@ -5,7 +5,6 @@ title: Sip on your feature
 members:
   - photo: /files/images/greg.png
     position: CEO
-    undefined: Greg Werner
   - photo: /files/images/john.png
     position: Program Manager
   - photo: /files/images/josh.png
