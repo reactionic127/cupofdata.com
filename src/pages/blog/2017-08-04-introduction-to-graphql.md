@@ -1,8 +1,8 @@
 ---
 contentType: blog
 path: /why-will-decentralized-social-networks-thrive-in-the-future1
-title: Introduction to GraphQL
-date: 2017-08-08T17:12:33.962Z
+title: Why will decentralized social networks thrive in the future?
+date: 2018-02-04T00:00:00-08:00
 summary: >-
   Traditional databases use client-server network architecture. Here, a user
   (known as a client) can modify data, which is stored on a centralized server.
