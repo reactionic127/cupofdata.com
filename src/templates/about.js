@@ -64,11 +64,6 @@ export const aboutPageQuery = graphql`
       frontmatter {
         path
         title
-        members {
-          photo
-          fullname
-          position
-        }
       }
     }
     site {
