@@ -24,7 +24,8 @@ const ContactTitle = styled(Title)`
 	color: ${({theme}) => theme.contact.color.text};
 	margin-top: 33px;
 `
-const ContactContent = styled(SubTitle)`
+const ContactContent = SubTitle.extend`
+	margin-top: 2rem;
 	line-height: 28px;
   font-family: Avenir;
   font-size: 16px;
@@ -46,7 +47,9 @@ const Icon = styled.i`
 	opacity: 0.5;
 	margin-right: 2rem;
 `
-
+const ShareIcon = styled.div`
+	margin-top: 2rem;
+`
 const ContactSection = () => (
 	<Wrapper>
 		<Container>
@@ -68,7 +71,7 @@ const ContactSection = () => (
 				<Col sm="4">
 					<ContactTitle>CONTACT US</ContactTitle>
 					<ContactContent>Cup of Data<br/>3423 Piedmont Rd NE<br/>Atlanta, GA 30305</ContactContent>
-					<div>
+					<ShareIcon>
 						<FacebookShareButton
 							url={FACEBOOK_URL}
 							quote={SOCIAL_TITLE}
@@ -96,7 +99,7 @@ const ContactSection = () => (
 						>
 							<Icon className="fab fa-linkedin fa-2x" />
 						</LinkedinShareButton>
-					</div>
+					</ShareIcon>
 				</Col>
 			</Row>
 		</Container>

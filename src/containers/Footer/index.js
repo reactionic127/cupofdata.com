@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 const Text = styled.h4`
 	color: ${({theme}) => theme.footer.color.text};
 	font-size: 14px;
-	padding: 0;
+	padding: 1.5rem 0 1.5rem 0;
 `
 const CustomLink = styled(Link)`
 	text-decoration: none;
