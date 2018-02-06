@@ -45,6 +45,7 @@ const Content = Title.extend`
 `
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
+  console.log('-- markdownRemark --\n'. post)
   return (
     <MainSection>
       <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
@@ -63,6 +64,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         path
         title
+        members {
+          photo
+          fullname
+          position
+        }
       }
     }
     site {
