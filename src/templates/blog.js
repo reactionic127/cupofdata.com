@@ -79,12 +79,6 @@ export const pageQuery = graphql`
         path
         date(formatString: "MMMM DD, YYYY")
         title
-        attachments {
-          filename
-        }
-        related {
-          post
-        }
       }
     }
 
