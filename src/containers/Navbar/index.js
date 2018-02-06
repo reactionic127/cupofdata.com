@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Container } from '../../components/Global'
 import Link, { withPrefix } from 'gatsby-link'
 
 const Navbar = styled.div`
@@ -30,32 +31,39 @@ const NavLink = styled(Link)`
   color: ${props => props.theme.navbar.textColor};
   text-decoration: none;
 `
+const NavSection = Container.extend`
+  display: flex;
+  justify-content: space-around;
+`
 
 const NavContainer = (props) => (
   <Navbar>
-    <Link to="/" className="navbar-brand">
-      <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
-    </Link>
-    <NavWrapper>
-      <NavItem>
-        <NavLink to='/features'>Features</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/pricing'>Pricing</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/about'>Company</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/resouces'>Resources</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/blog'>Blog</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/login'>Login</NavLink>
-      </NavItem>
-    </NavWrapper>
+    <NavSection>
+      <Link to="/" className="navbar-brand">
+        <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
+      </Link>
+      <NavWrapper>
+        <NavItem>
+          <NavLink to='/features'>Features</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='/pricing'>Pricing</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='/about'>Company</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='/resouces'>Resources</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='/blog'>Blog</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='/login'>Login</NavLink>
+        </NavItem>
+      </NavWrapper>
+    </NavSection>
   </Navbar>
+  
 )
 export default NavContainer
