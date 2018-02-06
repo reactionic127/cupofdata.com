@@ -2,7 +2,7 @@
 contentType: blog
 path: /why-will-decentralized-social-networks-thrive-in-the-future
 title: Why will decentralized social networks thrive in the future?
-date: 2018-02-07T00:00:00-08:00
+date: 2018-02-07T08:00:00.000Z
 summary: >-
   Traditional databases use client-server network architecture. Here, a user
   (known as a client) can modify data, which is stored on a centralized server.
@@ -12,6 +12,7 @@ summary: >-
   security of the authority is compromised, the data can be altered, or even
   deleted.
 author: Greg Werner
+postimage: /files/blog/img2.jpeg
 ---
 ## Traditional Databases
 
