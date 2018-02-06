@@ -11,6 +11,7 @@ const Navbar = styled.div`
   z-index: 1;
   left: 0;
   right: 0;
+  border-bottom: ${props => props.theme.navbar.borderBottom}
 `
 const NavItem = styled.li`
   color: ${props => props.theme.navbar.textColor};
@@ -35,35 +36,42 @@ const NavSection = Container.extend`
   display: flex;
   justify-content: space-around;
 `
-
-const NavContainer = (props) => (
-  <Navbar>
-    <NavSection>
-      <Link to="/" className="navbar-brand">
-        <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
-      </Link>
-      <NavWrapper>
-        <NavItem>
-          <NavLink to='/features'>Features</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to='/pricing'>Pricing</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to='/about'>Company</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to='/resouces'>Resources</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to='/blog'>Blog</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to='/login'>Login</NavLink>
-        </NavItem>
-      </NavWrapper>
-    </NavSection>
-  </Navbar>
-  
-)
+const LogoImg = styled.div`
+  width: 120px;
+  background: url(${props => props.theme.navbar.logoImg});
+  height: 58px;
+  background-size: cover;
+`
+const NavContainer = (props) => {
+  console.log('-- props --\n', props)
+  return (
+    <Navbar>
+      <NavSection>
+        <Link to="/">
+          <LogoImg />
+        </Link>
+        <NavWrapper>
+          <NavItem>
+            <NavLink to='/features'>Features</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/pricing'>Pricing</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/about'>Company</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/resouces'>Resources</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/blog'>Blog</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/login'>Login</NavLink>
+          </NavItem>
+        </NavWrapper>
+      </NavSection>
+    </Navbar>
+  )
+}
 export default NavContainer

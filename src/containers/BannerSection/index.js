@@ -7,7 +7,7 @@ import Link, { withPrefix } from 'gatsby-link'
 const Wrapper = styled.div`
 	background-image: url(/files/images/background.svg);
   background-size: calc(100% + 1px);
-  color: ${props => props.theme.color.white};
+  color: ${props => props.theme.banner.color.text};
   position: relative;
   background-position: right bottom;
   padding-top: 94px;

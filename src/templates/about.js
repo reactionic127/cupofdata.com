@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Global'
 import { PageTitle, Title } from '../components/Typography'
@@ -78,8 +78,8 @@ export default function Template ({ data }) {
   const { markdownRemark: post } = data
   console.log('-- markdownRemark --\n', post)
   return (
-    <div>
-      <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
+    <Fragment>
+      <Helmet title={`About Us | ${data.site.siteMetadata.title}`} />
       <MainSection>
         <Container>
           <Topic>{post.frontmatter.title}</Topic>
@@ -99,17 +99,15 @@ export default function Template ({ data }) {
         </Row>
       </MemberSection>
       }
-    </div>
+    </Fragment>
   )
 }
 
 export const aboutPageQuery = graphql`
   query AboutPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
       frontmatter {
         path
-        title
         members {
           photo
           fullname
