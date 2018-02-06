@@ -1,7 +1,7 @@
 ---
 contentType: blog
-path: /einstein
-title: Einstein Discovers Relativity
+path: /announcing-insights-network-contribution-and-tiers1
+title: Announcing Insights Network Contribution and Tiers
 date: 2017-10-18T17:12:33.962Z
 summary: >-
   Traditional databases use client-server network architecture. Here, a user
