@@ -2,7 +2,7 @@
 contentType: blog
 path: /announcing-insights-network-contribution-and-tiers1
 title: Announcing Insights Network Contribution and Tiers
-date: 2017-10-18T17:12:33.962Z
+date: 2018-02-05T00:00:00-08:00
 summary: >-
   Traditional databases use client-server network architecture. Here, a user
   (known as a client) can modify data, which is stored on a centralized server.
