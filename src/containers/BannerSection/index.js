@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   color: ${props => props.theme.color.white};
   position: relative;
   background-position: right bottom;
+  padding-top: 94px;
 `
 const BannerView = styled.div`
 	position: relative;
@@ -42,64 +43,10 @@ const BackImg = styled.img`
   width: 140px;
 `
 
-const Navbar = styled.div`
-	display: flex;
-	justify-content: space-between;
-  padding: 1rem 3rem;
-`
-const NavItem = styled.li`
-	color: ${props => props.theme.navbar.textColor};
-	:last-child a {
-    border: 1px solid ${props => props.theme.navbar.textColor};
-    border-radius: 2px;
-  }
-`
-const NavWrapper =  styled.ul`
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-	align-items: center;
-  flex-wrap: wrap;
-`
-const NavLink = styled(Link)`
-  padding: 0.5rem 1.75rem;
-  color: ${props => props.theme.navbar.textColor};
-  text-decoration: none;
-`
-
-const NavContainer = (props) => (
-	<Navbar>
-		<Link to="/" className="navbar-brand">
-      <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
-    </Link>
-    <NavWrapper>
-      <NavItem>
-        <NavLink to='/features'>Features</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/pricing'>Pricing</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/about'>Company</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/resouces'>Resources</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/blog'>Blog</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/login'>Login</NavLink>
-      </NavItem>
-    </NavWrapper>
-	</Navbar>
-)
-
 const BannerSection = (props) => (
 	<Wrapper>
 		<BackImg src="/files/images/img-backborder.svg" />
 		<BannerContainer>
-			<NavContainer/>
 			<Main>
 				<Col sm="6">
 					<img src="/files/images/img-left.svg" width="80%" />

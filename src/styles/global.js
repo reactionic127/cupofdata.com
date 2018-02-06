@@ -14,7 +14,7 @@ injectGlobal`
 	  font-family: CircularStd;
 	  src: url(/files/fonts/CircularStd/CircularStd-book.otf);
 	}
-	body {
+	body, p, h1, h2, h3, h4, h5, h6 {
 		font-family: 'CircularStd';
 		padding: 0;
 		margin: 0;

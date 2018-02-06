@@ -9,7 +9,7 @@ function getWidthString (span) {
 export const Container = styled.div`
     width: 100%;
     padding-right: 15px;
-    padding-left: 40px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     ${props => props.fluid && css`
@@ -28,10 +28,6 @@ export const Container = styled.div`
     @media screen and (min-width: 1200px) {
     	max-width: 1140px
     }
-    @media screen and (min-width: 1400px) {
-      max-width: 1340px
-    }
-
 `
 export const Card = styled.div`
   position: relative;
