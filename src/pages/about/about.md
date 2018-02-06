@@ -8,7 +8,7 @@ members:
     position: Chief of Product
   - photo: /files/images/john.png
     fullname: John Griebel
-    position: Principal Engineer
+    position: Engineer
   - photo: /files/images/josh.png
     fullname: Josh Starrett
     position: Engineer
@@ -22,6 +22,4 @@ members:
     fullname: Ray Gesualdo
     position: Engineer
 ---
-Cup of Data is led by a team of marketers and engineers with over 20+ years experience with machine learning, deep learning, and marketing automation stacks.
-
-And yes, we're hiring! Drop us a line at hello@cupofdata.com if you are interested in joining us.
+Cup of Data is led by a team of marketers and engineers with over 20+ years experience with machine learning, deep learning, and marketing automation solutions.
