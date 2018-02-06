@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /intro-to-graphql
+path: /why-will-decentralized-social-networks-thrive-in-the-future1
 title: Introduction to GraphQL
 date: 2017-08-08T17:12:33.962Z
 summary: >-
