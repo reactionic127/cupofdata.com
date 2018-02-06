@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "/static/files/"
-public_folder: "/files/"
+media_folder: "/static/files/images"
+public_folder: "/files/images"
 
 collections:
   - name: "blog"
@@ -30,3 +30,10 @@ collections:
       - {label: "Path", name: "path", widget: "hidden", default: "/about"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: Members
+        name: members
+        widget: list
+        fields:
+          - {label: Photo, name: photo, widget: file }
+          - {label: Fullname, name: fullname, widget: string}
+          - {label: Position, name: position, widget: string}

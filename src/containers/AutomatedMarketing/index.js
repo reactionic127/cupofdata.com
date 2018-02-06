@@ -26,9 +26,11 @@ const MainContainer = styled(Container)`
 const Title = SectionTitle.extend`
 	text-align: left;
 	color: ${props => props.theme.automarketing.color.sectionTitle};
+	margin: 1rem 0;
 `
 const Content = SubTitle.extend`
 	color: ${props => props.theme.automarketing.color.content};
+	margin: 2rem 0;
 `
 const RegButton = styled(Button)`
 	border-radius: 25px;

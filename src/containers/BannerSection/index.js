@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from '../../components/Global'
 import styled from 'styled-components';
-import NavContainer from '../../components/Navbar'
 import Button from '../../components/Button'
+import Link, { withPrefix } from 'gatsby-link'
 
 const Wrapper = styled.div`
 	background-image: url(/files/images/background.svg);
@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   color: ${props => props.theme.color.white};
   position: relative;
   background-position: right bottom;
+  padding-top: 94px;
 `
 const BannerView = styled.div`
 	position: relative;
@@ -46,7 +47,6 @@ const BannerSection = (props) => (
 	<Wrapper>
 		<BackImg src="/files/images/img-backborder.svg" />
 		<BannerContainer>
-			<NavContainer {...props}/>
 			<Main>
 				<Col sm="6">
 					<img src="/files/images/img-left.svg" width="80%" />

@@ -8,6 +8,7 @@ import { ThemeProvider } from 'styled-components'
 
 import ContactSection from '../containers/Contact'
 import Footer from '../containers/Footer'
+import NavContainer from '../containers/Navbar'
 
 // code syntax-highlighting theme
 // feel free to change it to another one
@@ -29,6 +30,9 @@ const TemplateWrapper = ({ children, data, match, location }) => {
   return (
     <ThemeProvider theme={theme}>
       <div className='App'>
+        <Container>
+          <NavContainer />
+        </Container>
         <div className='pageContent'>{children()}</div>
         {
           !undefinedStatus &&

@@ -3,22 +3,26 @@ import styled from 'styled-components'
 import Link, { withPrefix } from 'gatsby-link'
 
 const Navbar = styled.div`
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   padding: 1rem 3rem;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
 `
 const NavItem = styled.li`
-	color: ${props => props.theme.navbar.textColor};
-	:last-child a {
+  color: ${props => props.theme.navbar.textColor};
+  :last-child a {
     border: 1px solid ${props => props.theme.navbar.textColor};
     border-radius: 2px;
   }
 `
 const NavWrapper =  styled.ul`
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
   flex-wrap: wrap;
 `
 const NavLink = styled(Link)`
@@ -28,8 +32,8 @@ const NavLink = styled(Link)`
 `
 
 const NavContainer = (props) => (
-	<Navbar>
-		<Link to="/" className="navbar-brand">
+  <Navbar>
+    <Link to="/" className="navbar-brand">
       <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
     </Link>
     <NavWrapper>
@@ -40,7 +44,7 @@ const NavContainer = (props) => (
         <NavLink to='/pricing'>Pricing</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='/company'>Company</NavLink>
+        <NavLink to='/about'>Company</NavLink>
       </NavItem>
       <NavItem>
         <NavLink to='/resouces'>Resources</NavLink>
@@ -52,6 +56,6 @@ const NavContainer = (props) => (
         <NavLink to='/login'>Login</NavLink>
       </NavItem>
     </NavWrapper>
-	</Navbar>
+  </Navbar>
 )
 export default NavContainer

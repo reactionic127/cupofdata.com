@@ -61,7 +61,7 @@ const ContactSection = () => (
 						<Li><ContactLink to="/">Home</ContactLink></Li>
 						<Li><ContactLink to="/resources">Resources</ContactLink></Li>
 						<Li><ContactLink to="/pricing">Pricing</ContactLink></Li>
-						<Li><ContactLink to="/company">Company</ContactLink></Li>
+						<Li><ContactLink to="/about">Company</ContactLink></Li>
 						<Li><ContactLink to="/blogs">Blogs</ContactLink></Li>
 					</Ul>
 				</Col>

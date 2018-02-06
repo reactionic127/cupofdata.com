@@ -1,5 +1,11 @@
 import styled from 'styled-components'
 
+export const PageTitle = styled.h1`
+  font-size: 48px;
+  line-height: 56px;
+  font-family: GTWalsheim;
+  color: #ffffff;
+`
 export const SectionTitle = styled.h2`
 	font-size: 40px;
   font-family: GTWalsheim;
