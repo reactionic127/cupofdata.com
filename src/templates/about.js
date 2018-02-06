@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container } from '../components/Global'
 import { PageTitle, Title } from '../components/Typography'
+import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
@@ -43,17 +44,36 @@ const Content = Title.extend`
   margin-top: 2rem;
   margin-bottom: 235px;
 `
+const MemberSection = Container.extend`
+  margin-top: -175px;
+`
+
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
   console.log('-- markdownRemark --\n', post)
   return (
-    <MainSection>
+    <div>
       <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
-      <Container>
-        <Topic>{post.frontmatter.title}</Topic>
-        <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+      <MainSection>
+        <Container>
+          <Topic>{post.frontmatter.title}</Topic>
+          <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+        </Container>
+      </MainSection>
+      {post.frontmatter.members && <Container>
+        <h3>OUR TEAM</h3>
+        <CardGroup>
+          {post.frontmatter.members.map((member, i) => (
+            <div key={i}>
+              <img src={member.photo}></img>
+              <h3>{member.fullname}</h3>
+              <h4>{member.position}</h4>
+            </div>
+          ))}
+        </CardGroup>
       </Container>
-    </MainSection>
+      }
+    </div>
   )
 }
 
@@ -64,6 +84,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         path
         title
+        members {
+          photo
+          fullname
+          position
+        }
       }
     }
     site {
