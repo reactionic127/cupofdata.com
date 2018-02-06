@@ -1,11 +1,18 @@
 ---
 contentType: blog
-path: /claude
-title: Claude Shannon and Information Theory
-date: 2017-10-14T12:00:02.000Z
+path: /why-stellar-could-be-the-next-big-ico-platform
+title: Why Stellar could be the next big ICO platform
+date: 2018-02-05T05:00:02-08:00
+summary: >-
+  Traditional databases use client-server network architecture. Here, a user
+  (known as a client) can modify data, which is stored on a centralized server.
+  Control of the database remains with a designated authority, which
+  authenticates a client’s credentials before providing access to the database.
+  Since this authority is responsible for administration of the database, if the
+  security of the authority is compromised, the data can be altered, or even
+  deleted.
+author: Greg Werner
 ---
-Information theory studies the quantification, storage, and communication of information. It was originally proposed by Claude E. Shannon in 1948 to find fundamental limits on signal processing and communication operations such as data compression, in a landmark paper entitled "A Mathematical Theory of Communication". Applications of fundamental topics of information theory include lossless data compression (e.g. ZIP files), lossy data compression (e.g. MP3s and JPEGs), and channel coding (e.g. for digital subscriber line (DSL)). Its impact has been crucial to the success of the Voyager missions to deep space, the invention of the compact disc, the feasibility of mobile phones, the development of the Internet, the study of linguistics and of human perception, the understanding of black holes, and numerous other fields.
+## Traditional Databases
 
-
-
-![shannon](/files/shannon.png)
+Traditional databases use client-server network architecture. Here, a user (known as a client) can modify data, which is stored on a centralized server. Control of the database remains with a designated authority, which authenticates a client’s credentials before providing access to the database. Since this authority is responsible for administration of the database, if the security of the authority is compromised, the data can be altered, or even deleted.
