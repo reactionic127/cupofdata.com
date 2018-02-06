@@ -58,6 +58,7 @@ export const Row =  styled.div`
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
+  flex-wrap: wrap;
 `
 export const Col = styled.div`
 	position: relative;
@@ -65,6 +66,7 @@ export const Col = styled.div`
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  box-sizing: border-box;
   @media only screen and (min-width: 768px) {
   	${({ sm }) => sm && getWidthString(sm)}
   }

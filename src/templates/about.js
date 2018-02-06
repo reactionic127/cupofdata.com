@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container } from '../components/Global'
+import { Container, Row, Col } from '../components/Global'
 import { PageTitle, Title } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
@@ -46,8 +46,34 @@ const Content = Title.extend`
 `
 const MemberSection = Container.extend`
   margin-top: -175px;
+  padding-bottom: 30px;
 `
-
+const MemberTitle = styled.div`
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 28px;
+  margin-bottom: 40px;
+`
+const Card = Col.extend`
+  text-align: center;
+  margin-bottom: 50px;
+`
+const Fullname = styled.h3`
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+`
+const Photo = styled.img`
+  border: 2px #35a73e solid;
+  border-radius: 3px;
+  font-family: Avenir;
+`
+const Position = styled.h4`
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Avenir;
+  margin-top: 10px;
+`
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
   console.log('-- markdownRemark --\n', post)
@@ -60,18 +86,18 @@ export default function Template ({ data }) {
           <Content dangerouslySetInnerHTML={{ __html: post.html }} />
         </Container>
       </MainSection>
-      {post.frontmatter.members && <Container>
-        <h3>OUR TEAM</h3>
-        <CardGroup>
+      {post.frontmatter.members && <MemberSection>
+        <MemberTitle>OUR TEAM</MemberTitle>
+        <Row>
           {post.frontmatter.members.map((member, i) => (
-            <div key={i}>
-              <img src={member.photo}></img>
-              <h3>{member.fullname}</h3>
-              <h4>{member.position}</h4>
-            </div>
+            <Card sm="4" key={i} >
+              <Photo src={member.photo} width="225"></Photo>
+              <Fullname>{member.fullname}</Fullname>
+              <Position>{member.position}</Position>
+            </Card>
           ))}
-        </CardGroup>
-      </Container>
+        </Row>
+      </MemberSection>
       }
     </div>
   )
