@@ -12,6 +12,7 @@ summary: >-
   security of the authority is compromised, the data can be altered, or even
   deleted.
 author: Greg Werner
+postimage: /files/blog/img1.jpeg
 ---
 ## Traditional Databases
 
