@@ -8,13 +8,13 @@ members:
     undefined: Greg Werner
   - photo: /files/images/john.png
     position: Program Manager
-    undefined: John Gabriebel
+    undefined: John Griebel
   - photo: /files/images/josh.png
     position: Automation Engineer
     undefined: Josh Starrett
   - photo: /files/images/mike.png
     position: DevOps Engineer
-    undefined: Michel Roach
+    undefined: Micheal Roach
   - photo: /files/images/nathaniel.png
     position: Software Engineer
     undefined: Nathaniel Compton
