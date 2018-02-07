@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { SectionTitle } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import Button from '../../components/Button'
 import { withPrefix} from 'gatsby-link'
 const Wrapper = styled.div`

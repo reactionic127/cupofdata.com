@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from  '../../components/Global'
+import { Container, Row, Col } from  '../../components/Layout'
 import Link from 'gatsby-link'
 
 const Wrapper = styled.div`

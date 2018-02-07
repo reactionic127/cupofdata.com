@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, CardTitle, CardGroup, CardBody } from '../components/Global'
+import { Container, Card, CardTitle, CardGroup, CardBody } from '../components/Layout'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import { basename } from 'path'
@@ -79,12 +79,6 @@ export const pageQuery = graphql`
         path
         date(formatString: "MMMM DD, YYYY")
         title
-        attachments {
-          filename
-        }
-        related {
-          post
-        }
       }
     }
 

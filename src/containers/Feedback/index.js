@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { SectionTitle } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 import AvatarCard from '../../components/AvatarCard'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { SectionTitle, Title, SubTitle  } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import Button from '../../components/Button'
 import { withPrefix} from 'gatsby-link'
 
@@ -29,16 +29,8 @@ const NewsContent = SubTitle.extend`
 	font-family: Avenir;
 	letter-spacing: 1.2px;
 `
-
-const BtnReadMore = styled.button`
-	color: #ffffff;
-	border-color: #ffffff;
-	font-family: Avenir;
-	padding: 0.5rem 3rem;
-	background: transparent;
+const BtnReadMore = Button.extend`
 	margin-top: 70px;
-	font-size: 16px;
-	line-height: 26px;
 `
 
 const NewsView = () => (
@@ -62,7 +54,7 @@ const NewsView = () => (
 					<NewsContent className="text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
 				</Col>
 			</Row>
-			<BtnReadMore>Read more</BtnReadMore>
+			<BtnReadMore outline>Read more</BtnReadMore>
 		</Container>
 	</Warpper>
 )

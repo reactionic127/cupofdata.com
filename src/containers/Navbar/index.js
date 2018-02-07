@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container } from '../../components/Global'
+import { Container } from '../../components/Layout'
 import Link, { withPrefix } from 'gatsby-link'
 
 const Navbar = styled.div`
@@ -11,6 +11,7 @@ const Navbar = styled.div`
   z-index: 1;
   left: 0;
   right: 0;
+  border-bottom: ${props => props.theme.navbar.borderBottom}
 `
 
 const NavItem = styled.li`
@@ -39,12 +40,17 @@ const NavSection = Container.extend`
   display: flex;
   justify-content: space-around;
 `
-
+const LogoImg = styled.div`
+  width: 120px;
+  background: url(${props => props.theme.navbar.logoImg});
+  height: 58px;
+  background-size: cover;
+`
 const NavContainer = (props) => (
   <Navbar>
     <NavSection>
-      <Link to="/" className="navbar-brand">
-        <img className="logo" src={withPrefix('/files/images/img-logo.png')} width="120" />
+      <Link to="/">
+        <LogoImg />
       </Link>
       <NavWrapper>
         <NavItem>
@@ -60,5 +66,4 @@ const NavContainer = (props) => (
     </NavSection>
   </Navbar>
 )
-
 export default NavContainer
