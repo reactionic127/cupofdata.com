@@ -9,12 +9,14 @@ const Wrapper = styled.div`
 	padding-bottom: 115px;
 	text-align: center;
 `
+
 const ImgView = styled.div`
 	width: 100%;
 	height: 170px;
 	position: relative;
 	margin-bottom: 16px;
 `
+
 const Img = styled.img`
 	position: absolute;
 	bottom: 0;
@@ -60,4 +62,5 @@ const BenefitsSection = () => (
 
 	</Wrapper>
 )
+
 export default BenefitsSection

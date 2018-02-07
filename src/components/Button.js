@@ -8,7 +8,7 @@ const Button = styled.button`
   color: ${props => props.theme.button.color.text};
   font-family: CircularStd;
   font-size: 18px;
-  
+
   &:focus {
     outline: none;
   }
@@ -19,4 +19,5 @@ const Button = styled.button`
     border-radius: 0;
   `}
 `
+
 export default Button;

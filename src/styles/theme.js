@@ -1,4 +1,5 @@
 import { rgba } from 'polished'
+
 const color = {
 	white: '#ffffff',
 	orange: '#ff842b',
@@ -99,4 +100,5 @@ const theme = {
 		}
 	}
 }
+
 export default theme;

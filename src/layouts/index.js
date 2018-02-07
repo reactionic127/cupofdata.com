@@ -5,7 +5,6 @@ import graphql from 'graphql'
 import Link, { withPrefix } from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
-
 import ContactSection from '../containers/Contact'
 import Footer from '../containers/Footer'
 import NavContainer from '../containers/Navbar'

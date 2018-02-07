@@ -6,6 +6,7 @@ function getWidthString (span) {
 	let width = span / 12 * 100;
 	return `width: ${width}%;`
 }
+
 export const Container = styled.div`
     width: 100%;
     padding-right: 15px;
@@ -29,6 +30,7 @@ export const Container = styled.div`
     	max-width: 1140px
     }
 `
+
 export const Card = styled.div`
   position: relative;
   display: flex;
@@ -40,13 +42,16 @@ export const Card = styled.div`
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0;
 `
+
 export const CardBody = styled.div`
   flex: 1 1 auto;
   padding: 1.25rem;
 `
+
 export const CardTitle = styled.div`
 	margin-bottom: .75rem;
 `
+
 export const CardGroup = styled.div`
   display: flex;
   flex-direction: column;
@@ -54,12 +59,14 @@ export const CardGroup = styled.div`
   	flex-flow: row wrap;
   }
 `
+
 export const Row =  styled.div`
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
   flex-wrap: wrap;
 `
+
 export const Col = styled.div`
 	position: relative;
   ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};

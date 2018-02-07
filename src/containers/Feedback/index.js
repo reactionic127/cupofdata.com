@@ -4,13 +4,16 @@ import { SectionTitle } from '../../components/Typography'
 import { Container, Row, Col } from '../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 import AvatarCard from '../../components/AvatarCard'
+
 const Wrapper = styled.div`
 	padding-top: 81px;
 	padding-bottom: 145px;
 `
+
 const FeedbackSectionTitle = SectionTitle.extend`
 	margin-bottom: 70px
 `
+
 const FeedbackSection = () => (
 	<Wrapper>
 		<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
@@ -44,4 +47,5 @@ const FeedbackSection = () => (
 		</Container>
 	</Wrapper>
 )
+
 export default FeedbackSection

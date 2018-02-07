@@ -9,9 +9,11 @@ const Wrapper = styled.div`
 	padding-top: 50px;
 	height: 620px;
 `
+
 const Title = SectionTitle.extend`
 	margin-bottom: 94px;
 `
+
 const FeatureContent = styled.p`
 	font-size: 16px;
 	line-height: 26px;
@@ -21,6 +23,7 @@ const FeatureContent = styled.p`
 	padding-left: 30px;
 	text-indent: -7px;
 `
+
 const FeaturesView = () => (
 	<Wrapper>
 		<Title>Features</Title>
@@ -40,4 +43,5 @@ const FeaturesView = () => (
 		</Container>
 	</Wrapper>
 )
+
 export default FeaturesView

@@ -6,14 +6,17 @@ import Link from 'gatsby-link'
 const Wrapper = styled.div`
 	background-color: ${({theme}) => theme.footer.color.background};
 `
+
 const Text = styled.h4`
 	color: ${({theme}) => theme.footer.color.text};
 	font-size: 14px;
 	padding: 1.5rem 0 1.5rem 0;
 `
+
 const CustomLink = styled(Link)`
 	text-decoration: none;
 `
+
 const Footer = () => (
 	<Wrapper>
 		<Container>
@@ -31,4 +34,5 @@ const Footer = () => (
 		</Container>
 	</Wrapper>
 )
+
 export default Footer;
