@@ -3,23 +3,23 @@ contentType: about
 path: /about
 title: Our Team
 members:
-  - photo: /files/images/greg.png
-    fullname: Greg Werner
+  - fullname: Greg Werner
+    photo: /files/images/greg.png
     position: Product Manager
-  - photo: /files/images/john.png
-    fullname: John Griebel
+  - fullname: John Griebel
+    photo: /files/images/john.png
     position: Principal Engineer
-  - photo: /files/images/josh.png
-    fullname: Josh Starrett
+  - fullname: Josh Starrett
+    photo: /files/images/josh.png
     position: Engineer
-  - photo: /files/images/mike.png
-    fullname: Micheal Roach
+  - fullname: Micheal Roach
+    photo: /files/images/mike.png
     position: Engineer
-  - photo: /files/images/nathaniel.png
-    fullname: Nathaniel Compton
+  - fullname: Nathaniel Compton
+    photo: /files/images/nathaniel.png
     position: Engineer
-  - photo: /files/images/ray.png
-    fullname: Ray Gesualdo
+  - fullname: Ray Gesualdo
+    photo: /files/images/ray.png
     position: Engineer
 ---
 Cup of Data is led by a team of marketers and engineers with over 20+ years experience with machine learning, deep learning, and marketing automation solutions.
