@@ -14,42 +14,51 @@ import {
 	TWITTER_URL,
 	SOCIAL_TITLE
 } from '../../config/constants'
+
 const Wrapper = styled.div`
 	padding-top: 85px;
 	padding-bottom: 130px;
 	background-color: ${props => props.theme.contact.color.background};
 	color: ${({theme}) => theme.contact.color.text};
 `
+
 const ContactTitle = styled(Title)`
 	color: ${({theme}) => theme.contact.color.text};
 	margin-top: 33px;
 `
+
 const ContactContent = SubTitle.extend`
 	margin-top: 2rem;
 	line-height: 28px;
   font-family: Avenir;
   font-size: 16px;
 `
+
 const ContactLink = styled(Link)`
 	font-family: Avenir;
 	color: ${({theme}) => theme.contact.color.text};
 	text-decoration: none;
 	line-height: 2rem;
 `
+
 const Ul = styled.ul`
 	list-style: none;
 	padding: 0;
 `
+
 const Li = styled.li`
 	margin-top: 1rem;
 `
+
 const Icon = styled.i`
 	opacity: 0.5;
 	margin-right: 2rem;
 `
+
 const ShareIcon = styled.div`
 	margin-top: 2rem;
 `
+
 const ContactSection = () => (
 	<Wrapper>
 		<Container>
@@ -62,10 +71,8 @@ const ContactSection = () => (
 					<ContactTitle>SITEMAP</ContactTitle>
 					<Ul>
 						<Li><ContactLink to="/">Home</ContactLink></Li>
-						<Li><ContactLink to="/resources">Resources</ContactLink></Li>
-						<Li><ContactLink to="/pricing">Pricing</ContactLink></Li>
 						<Li><ContactLink to="/about">Company</ContactLink></Li>
-						<Li><ContactLink to="/blogs">Blogs</ContactLink></Li>
+						<Li><ContactLink to="/blog">Blogs</ContactLink></Li>
 					</Ul>
 				</Col>
 				<Col sm="4">
@@ -105,4 +112,5 @@ const ContactSection = () => (
 		</Container>
 	</Wrapper>
 )
+
 export default ContactSection
