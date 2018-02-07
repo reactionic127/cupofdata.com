@@ -8,9 +8,10 @@ const Button = styled.button`
   color: white;
   font-family: CircularStd;
   font-size: 18px;
-  
+
   &:focus {
     outline: none;
   }
 `
+
 export default Button;

@@ -1,4 +1,5 @@
 import { rgba } from 'polished'
+
 const color = {
 	white: '#ffffff',
 	orange: '#ff842b',
@@ -6,6 +7,7 @@ const color = {
 	gunmetal: '#2C333B',
 	oxfordBlue: '#283038'
 }
+
 const theme = {
 	color: color,
 	navbar: {
@@ -37,4 +39,5 @@ const theme = {
 		}
 	}
 }
+
 export default theme;
