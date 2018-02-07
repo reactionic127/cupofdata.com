@@ -19,7 +19,7 @@ const Footer = () => (
 		<Container>
 			<Row>
 				<Col sm="8">
-					<Text>Copyright © 2018 Cup of Data - Made with love in Atlanta.</Text>
+					<Text>Copyright © 2018 3Blades LLC - Made with love in Atlanta.</Text>
 				</Col>
 				<Col sm="2">
 					<CustomLink to="/privacy"><Text>Privacy Policy</Text></CustomLink>

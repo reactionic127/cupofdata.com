@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Cup of Data',
-    author: 'Goolzzi',
-    authorLink: 'https://github.com/konsumer',
+    author: 'Cup of Data Team',
+    authorLink: 'https://github.com/cupofdata',
     disqus: 'gatsby-cup-of-data-blog'// put your disqus ID here
   },
   plugins: [
