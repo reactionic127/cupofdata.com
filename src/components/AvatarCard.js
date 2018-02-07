@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import { Title } from './Typography'
+
 const Card = styled.div`
 	background-image: url(/files/images/img-quote.png);
 	background-repeat: no-repeat;
@@ -13,6 +14,7 @@ const Card = styled.div`
 	height: 100%;
 	box-sizing: border-box;
 `
+
 const CardWrapper = styled.div`
 	width: 100%;
 	padding: 40px 30px;
@@ -24,10 +26,12 @@ const CardWrapper = styled.div`
 	box-sizing: border-box;
 	text-align: center;
 `
+
 const Photo = styled.img`
 	border: 2px solid #35a73e;
   border-radius: 90px;
 `
+
 const PositionName = styled.h4`
 	font-size: 16px;
 	line-height: 31px;
@@ -36,6 +40,7 @@ const PositionName = styled.h4`
 	font-family: Avenir;
 	margin: 0 0 2rem;
 `
+
 const Quote = styled.p`
 	font-family: Avenir;
 	font-size: 16px;
@@ -45,11 +50,13 @@ const Quote = styled.p`
 	color: #000000;
 	margin: 0;
 `
+
 const CardTitle = Title.extend`
 	font-size: 16px;
 	line-height: 35px;
 	margin-top: 2rem
 `
+
 const AvatarCard = (props) => (
 	<Card>
 		<CardWrapper>
@@ -60,4 +67,5 @@ const AvatarCard = (props) => (
 		</CardWrapper>
 	</Card>
 )
+
 export default AvatarCard

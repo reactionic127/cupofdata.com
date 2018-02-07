@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from '../components/Global'
+import { Container } from '../components/Layout'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 

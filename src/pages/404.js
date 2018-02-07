@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container } from '../components/Global'
+import { Container } from '../components/Layout'
 import Link, { withPrefix } from 'gatsby-link'
 import Button from '../components/Button'
+
 const Wrapper = styled.div`
 	height: 100vh;
   background: url(/files/images/bk-404.svg);
@@ -12,14 +13,17 @@ const Wrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 `
+
 const LogoImg = styled.img`
 	margin-top: 80px	;
 	width: 170px;
 `
+
 const Img404 = styled.img`
   margin-top: 100px;
   width: 430px;
 `
+
 const Topic = styled.h1`
 	font-size: 30px;
 	line-height: 41px;
@@ -27,6 +31,7 @@ const Topic = styled.h1`
 	padding-top: 50px;
 	font-family: Avenir;
 `
+
 const Detail = styled.p`
 	color: #ffffff;
 	font-size: 18px;
@@ -36,10 +41,12 @@ const Detail = styled.p`
 	text-align: center;
 	margin: 0;
 `
+
 const BackButton = Button.extend`
 	margin-top: 3rem;
 	box-shadow: 2px 4px rgba(0,0,0,0.1);
 `
+
 const NotFoundPage = () => (
 	<Wrapper>
 		<LogoImg src={withPrefix('/files/images/img-logo.png')} />

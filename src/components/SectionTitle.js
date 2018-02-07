@@ -6,4 +6,5 @@ const SectionTitle = styled.h2`
   line-height: 47px;
   color: ${props => props.theme.sliderCOD.color.sectionTitle};
 `
+
 export default SectionTitle;
