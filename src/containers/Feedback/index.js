@@ -21,26 +21,16 @@ const FeedbackSection = () => (
 			<Row>
 				<Col xs="4">
 					<AvatarCard
-						avatarUrl={withPrefix('/files/images/avatar-Damien.png')}
-						name="Damien Martin"
-						position="CEO Airspecies"
-						quote="cupfdata is the leading-edge messenger marketing tool to creat both viral and organic growth for your brand"
+						name="Robert Joseph"
+						position="Data Scientist, Stanley Black and Decker"
+						quote="The easy to use, robust API made it simple to integrate 3Blades quickly and safely with internal applications."
 					/>
 				</Col>
 				<Col xs="4" className="text-center">
 					<AvatarCard
-						avatarUrl={withPrefix('/files/images/avatar-Theresa.png')}
-						name="Theresa Mill"
-						position="Co-founder Tiara"
-						quote="It helps to create an empowering journey of connection with your fans and followers"
-					/>
-				</Col>
-				<Col xs="4" className="text-center">
-					<AvatarCard
-						avatarUrl={withPrefix('/files/images/avatar-Diane.png')}
-						name="Diane Nyugen"
-						position="Writer The little pony"
-						quote="This game-changing communication tool helped my brand to attract thousands of new leads within just a few days"
+						name="Anna Anisin"
+						position="Founder, Formulated.by"
+						quote="We obtained higher quality B2B leads, faster, and were able to integrate with the Martech tools we know and love."
 					/>
 				</Col>
 			</Row>
