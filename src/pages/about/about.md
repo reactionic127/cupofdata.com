@@ -5,10 +5,10 @@ title: Our Team
 members:
   - photo: /files/images/greg.png
     fullname: Greg Werner
-    position: Chief of Product
+    position: Product Manager
   - photo: /files/images/john.png
     fullname: John Griebel
-    position: Engineer
+    position: Principal Engineer
   - photo: /files/images/josh.png
     fullname: Josh Starrett
     position: Engineer
