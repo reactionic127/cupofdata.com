@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from '../components/Global'
+import { Container, Row, Col } from '../components/Layout'
 import { PageTitle, Title } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
@@ -26,7 +26,7 @@ const MainSection = styled.div`
   ::after {
     content: '';
     z-index: -1;
-    background: linear-gradient(to right, #495CF2, rgba(36, 56, 214, 0.9)); 
+    background: linear-gradient(to right, #495CF2, rgba(36, 56, 214, 0.9));
     position: absolute;
     top: 0;
     left: 0;
@@ -34,52 +34,61 @@ const MainSection = styled.div`
     bottom: 0;
   }
 `
+
 const Topic = PageTitle.extend`
   margin-top: 5rem;
   text-align: left;
 `
+
 const Content = Title.extend`
   color: #ffffff;
   max-width: 680px;
   margin-top: 2rem;
   margin-bottom: 235px;
 `
+
 const MemberSection = Container.extend`
   margin-top: -175px;
   padding-bottom: 30px;
 `
+
 const MemberTitle = styled.div`
   font-size: 24px;
   color: #ffffff;
   line-height: 28px;
   margin-bottom: 40px;
 `
+
 const Card = Col.extend`
   text-align: center;
   margin-bottom: 50px;
 `
+
 const Fullname = styled.h3`
   font-size: 18px;
   line-height: 25px;
   margin-top: 15px;
 `
+
 const Photo = styled.img`
   border: 2px #35a73e solid;
   border-radius: 3px;
   font-family: Avenir;
 `
+
 const Position = styled.h4`
   font-size: 16px;
   line-height: 22px;
   font-family: Avenir;
   margin-top: 10px;
 `
+
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
   console.log('-- markdownRemark --\n', post)
   return (
-    <div>
-      <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
+    <Fragment>
+      <Helmet title={`About Us | ${data.site.siteMetadata.title}`} />
       <MainSection>
         <Container>
           <Topic>{post.frontmatter.title}</Topic>
@@ -99,7 +108,7 @@ export default function Template ({ data }) {
         </Row>
       </MemberSection>
       }
-    </div>
+    </Fragment>
   )
 }
 
@@ -108,8 +117,8 @@ export const aboutPageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        path
         title
+        path
         members {
           photo
           fullname

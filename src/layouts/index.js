@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react'
-import { Container } from '../components/Global'
+import { Container } from '../components/Layout'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
 import Link, { withPrefix } from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
-
 import ContactSection from '../containers/Contact'
 import Footer from '../containers/Footer'
 import NavContainer from '../containers/Navbar'
@@ -17,13 +16,18 @@ import '../../static/files/css/fontawesome-all.min.css'
 
 // main site style
 import global from '../styles/global'
-import theme from '../styles/theme'
+import mainTheme from '../styles/theme'
 
 const TemplateWrapper = ({ children, data, match, location }) => {
   const undefinedReg = /404*\w/
   const undefinedStatus = undefinedReg.test(location.pathname);
-
-  let user
+  
+  let user, theme
+  if ( location.pathname === '/blog' ){
+    theme = mainTheme.secondary
+  } else {
+    theme = mainTheme.primary
+  }
   if (typeof window !== 'undefined') {
     user = window.netlifyIdentity && window.netlifyIdentity.currentUser()
   }

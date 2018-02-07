@@ -1,13 +1,20 @@
 ---
 contentType: blog
-path: /einstein
-title: Einstein Discovers Relativity
-date: 2017-10-18T17:12:33.962Z
-attachments:
-  - filename: /files/images/cod_image
-related:
-  - post: /claude
+path: /announcing-insights-network-contribution-and-tiers1
+title: Announcing Insights Network Contribution and Tiers
+date: 2018-02-05T08:00:00.000Z
+summary: >-
+  Traditional databases use client-server network architecture. Here, a user
+  (known as a client) can modify data, which is stored on a centralized server.
+  Control of the database remains with a designated authority, which
+  authenticates a client’s credentials before providing access to the database.
+  Since this authority is responsible for administration of the database, if the
+  security of the authority is compromised, the data can be altered, or even
+  deleted.
+author: Greg Werner
+postimage: /files/blog/img3.jpeg
 ---
-In 1945, **Albert Einstein** determined that the laws of physics are the same for all non-accelerating observers, and that the speed of light in a vacuum was independent of the motion of all observers. This was the theory of special **relativity**
+## Traditional Databases
 
-![einstein](/files/einstein.jpg)
+Traditional databases use client-server network architecture. Here, a user (known as a client) can modify data, which is stored on a centralized server. Control of the database remains with a designated authority, which authenticates a client’s credentials before providing access to the database. Since this authority is responsible for administration of the database, if the security of the authority is compromised, the data can be altered, or even deleted.
+
