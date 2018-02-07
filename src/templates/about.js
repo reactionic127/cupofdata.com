@@ -106,7 +106,9 @@ export default function Template ({ data }) {
 export const aboutPageQuery = graphql`
   query AboutPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
       frontmatter {
+        title
         path
         members {
           photo
