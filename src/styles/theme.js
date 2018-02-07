@@ -13,7 +13,7 @@ const theme = {
 	primary: {
 		navbar: {
 			textColor: color.white,
-			logoImg: '/files/images/img-logo.svg',
+			logoImg: '/files/images/img-logo.png',
 			borderBottom: 'none'
 		},
 		banner: {
