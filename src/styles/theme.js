@@ -45,6 +45,13 @@ const theme = {
 				background: color.oxfordBlue,
 				text: rgba( color.white, 0.5)
 			}
+		},
+		button: {
+			color: {
+				text: color.white,
+				background: color.orange,
+				outline: color.white
+			}
 		}
 	},
 	secondary: {
@@ -81,6 +88,13 @@ const theme = {
 			color: {
 				background: color.oxfordBlue,
 				text: rgba( color.white, 0.5)
+			}
+		},
+		button: {
+			color: {
+				text: color.white,
+				background: color.orange,
+				outline: color.black
 			}
 		}
 	}
