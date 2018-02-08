@@ -13,9 +13,11 @@ const Wrapper = styled.div`
 const FeedbackSectionTitle = SectionTitle.extend`
 	margin-bottom: 70px
 `
+
 const TestimonialsRow = Row.extend`
 	justify-content: center;
 `
+
 const FeedbackSection = () => (
 	<Wrapper>
 		<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>

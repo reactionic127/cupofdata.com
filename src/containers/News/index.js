@@ -29,31 +29,27 @@ const NewsContent = SubTitle.extend`
 	font-family: Avenir;
 	letter-spacing: 1.2px;
 `
+
 const BtnReadMore = Button.extend`
 	margin-top: 70px;
+`
+
+const NewsRow = Row.extend`
+	justify-content: center;
 `
 
 const NewsView = () => (
 	<Warpper>
 		<NewsSectionTitle>In the news</NewsSectionTitle>
 		<Container>
-			<Row>
+			<NewsRow>
 				<Col sm="4">
-					<img src={withPrefix('/files/images/img-news1.png')} width="100%" />
-					<NewsTitle className="text-left">Vlit esse cillum dolore eu fugiat nulla paratur</NewsTitle>
-					<NewsContent className="text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
+					<img src={withPrefix('/files/blog/launch.jpg')} width="100%" />
+					<NewsTitle className="text-left">Cup of Data Launches at Data Science Salon in Miami</NewsTitle>
+					<NewsContent className="text-left">Cup of Data, a marketing science solution for account based marketing, launches at Data Science Salon in Miami
+</NewsContent>
 				</Col>
-				<Col sm="4">
-					<img src={withPrefix('/files/images/img-news2.png')} width="100%" />
-					<NewsTitle className="text-left">Vlit esse cillum dolore eu fugiat nulla paratur</NewsTitle>
-					<NewsContent className="text-left">Irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
-				</Col>
-				<Col sm="4">
-					<img src={withPrefix('/files/images/img-news3.png')} width="100%" />
-					<NewsTitle className="text-left">Vlit esse cillum dolore eu fugiat nulla paratur</NewsTitle>
-					<NewsContent className="text-left">Duis aute irure dolor in reprehenderit in voluptate velid esse cillum dolore eu fugiat nulla pariatur</NewsContent>
-				</Col>
-			</Row>
+			</NewsRow>
 			<BtnReadMore outline>Read more</BtnReadMore>
 		</Container>
 	</Warpper>

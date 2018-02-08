@@ -40,12 +40,14 @@ const NavSection = Container.extend`
   display: flex;
   justify-content: space-around;
 `
+
 const LogoImg = styled.div`
   width: 120px;
   background: url(${props => props.theme.navbar.logoImg});
   height: 58px;
   background-size: cover;
 `
+
 const NavContainer = (props) => (
   <Navbar>
     <NavSection>
@@ -60,10 +62,11 @@ const NavContainer = (props) => (
           <NavLink to='/blog'>Blog</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/login'>Get Started</NavLink>
+          <NavLink to='/'>Get Started</NavLink>
         </NavItem>
       </NavWrapper>
     </NavSection>
   </Navbar>
 )
+
 export default NavContainer
