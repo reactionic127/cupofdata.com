@@ -1,47 +1,47 @@
 import React from 'react'
 import styled from 'styled-components'
 import { SectionTitle } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 import AvatarCard from '../../components/AvatarCard'
+
 const Wrapper = styled.div`
 	padding-top: 81px;
 	padding-bottom: 145px;
 `
+
 const FeedbackSectionTitle = SectionTitle.extend`
 	margin-bottom: 70px
 `
+
+const TestimonialsRow = Row.extend`
+	justify-content: center;
+`
+
 const FeedbackSection = () => (
 	<Wrapper>
 		<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
 		<Container>
-			<Row>
-				<Col xs="4">
+			<TestimonialsRow>
+				<Col xs="12" sm="4">
 					<AvatarCard
-						avatarUrl={withPrefix('/files/images/avatar-Damien.png')}
-						name="Damien Martin"
-						position="CEO Airspecies"
-						quote="cupfdata is the leading-edge messenger marketing tool to creat both viral and organic growth for your brand"
+						avatarUrl="/files/images/avatar-robert.png"
+						name="Robert Joseph"
+						position="Data Scientist, Stanley Black and Decker"
+						quote="The easy to use, robust API made it simple to integrate 3Blades quickly and safely with internal applications."
 					/>
 				</Col>
-				<Col xs="4" className="text-center">
+				<Col xs="12" sm="4" className="text-center">
 					<AvatarCard
-						avatarUrl={withPrefix('/files/images/avatar-Theresa.png')}
-						name="Theresa Mill"
-						position="Co-founder Tiara"
-						quote="It helps to create an empowering journey of connection with your fans and followers"
+						avatarUrl="/files/images/avatar-anna.png"
+						name="Anna Anisin"
+						position="Founder, Formulated.by"
+						quote="We obtained higher quality B2B leads, faster, and were able to integrate with the Martech tools we know and love."
 					/>
 				</Col>
-				<Col xs="4" className="text-center">
-					<AvatarCard
-						avatarUrl={withPrefix('/files/images/avatar-Diane.png')}
-						name="Diane Nyugen"
-						position="Writer The little pony"
-						quote="This game-changing communication tool helped my brand to attract thousands of new leads within just a few days"
-					/>
-				</Col>
-			</Row>
+			</TestimonialsRow>
 		</Container>
 	</Wrapper>
 )
+
 export default FeedbackSection

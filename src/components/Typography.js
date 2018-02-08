@@ -6,6 +6,7 @@ export const PageTitle = styled.h1`
   font-family: GTWalsheim;
   color: #ffffff;
 `
+
 export const SectionTitle = styled.h2`
 	font-size: 40px;
   font-family: GTWalsheim;
@@ -14,6 +15,7 @@ export const SectionTitle = styled.h2`
   color: rgba(0,0,0,.9);
   margin: 0;
 `
+
 export const Title = styled.h4`
 	font-family: Avenir;
   font-size: 18px;
@@ -21,8 +23,15 @@ export const Title = styled.h4`
   font-weight: 600;
   margin: 0;
 `
+
 export const SubTitle = styled.h5`
 	line-height: 26px;
   font-family: Avenir;
   font-size: 16px;
+`
+export const Comments = styled.h6`
+  font-family: AvenirLight;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: Italic;
 `

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Container } from '../../components/Global'
+import { Container } from '../../components/Layout'
 import Button from '../../components/Button'
 import { SectionTitle, SubTitle } from '../../components/Typography'
-import { withPrefix} from 'gatsby-link'
+import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   position: relative;
   padding: 70px 0;
 `
+
 const Overlay = styled.div`
 	position: absolute;
 	top: 0;
@@ -19,19 +20,23 @@ const Overlay = styled.div`
 	bottom: 0;
 	background-color: rgba(252,132,43,0.97);
 `
+
 const MainContainer = styled(Container)`
 	position: relative;
 	z-index: 1;
 `
+
 const Title = SectionTitle.extend`
 	text-align: left;
 	color: ${props => props.theme.automarketing.color.sectionTitle};
 	margin: 1rem 0;
 `
+
 const Content = SubTitle.extend`
 	color: ${props => props.theme.automarketing.color.content};
 	margin: 2rem 0;
 `
+
 const RegButton = styled(Button)`
 	border-radius: 25px;
 	background: ${props => props.theme.automarketing.color.btnBackground};
@@ -48,8 +53,9 @@ const AutomatedMarketingSection = (props) => (
 		<MainContainer>
 			<Title {...props}>Let us help you get started. On Us!</Title>
 			<Content>Talk is cheap. Let us prove our worth. Register for some free leads today, no strings attached!</Content>
-			<RegButton className="py-0 px-5 border-0">Register Now</RegButton>
+			<Link to="/onboard"><RegButton className="py-0 px-5 border-0">Register Now</RegButton></Link>
 		</MainContainer>
 	</Wrapper>
 )
+
 export default AutomatedMarketingSection

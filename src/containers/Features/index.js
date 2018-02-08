@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { SectionTitle } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Global'
+import { Container, Row, Col } from '../../components/Layout'
 import Button from '../../components/Button'
 import { withPrefix} from 'gatsby-link'
 const Wrapper = styled.div`
@@ -9,9 +9,11 @@ const Wrapper = styled.div`
 	padding-top: 50px;
 	height: 620px;
 `
+
 const Title = SectionTitle.extend`
 	margin-bottom: 94px;
 `
+
 const FeatureContent = styled.p`
 	font-size: 16px;
 	line-height: 26px;
@@ -21,15 +23,16 @@ const FeatureContent = styled.p`
 	padding-left: 30px;
 	text-indent: -7px;
 `
+
 const FeaturesView = () => (
 	<Wrapper>
 		<Title>Features</Title>
 		<Container>
 			<Row>
-				<Col xs="6">
-					<img src={withPrefix('/files/images/img-desktop.png')} />
+				<Col xs="12" sm="6">
+					<img src={withPrefix('/files/images/img-desktop.png')} width="100%" />
 				</Col>
-				<Col xs="6">
+				<Col xs="12" sm="6">
 					<FeatureContent><i className="fa fa-angle-right"/> Quickly identify relevant accounts and contacts</FeatureContent>
 					<FeatureContent><i className="fa fa-angle-right"/> Improve prospect quality scores with machine learning</FeatureContent>
 					<FeatureContent><i className="fa fa-angle-right"/> Obtain insights on how to engage contacts with context</FeatureContent>
@@ -40,4 +43,5 @@ const FeaturesView = () => (
 		</Container>
 	</Wrapper>
 )
+
 export default FeaturesView
