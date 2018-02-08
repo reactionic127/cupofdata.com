@@ -3,7 +3,7 @@ module.exports = {
     title: 'Cup of Data',
     author: 'Cup of Data Team',
     authorLink: 'https://github.com/cupofdata',
-    disqus: 'gatsby-cup-of-data-blog'// put your disqus ID here
+    disqus: 'cup-of-data-blog'// put your disqus ID here
   },
   plugins: [
     {

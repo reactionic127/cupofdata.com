@@ -29,3 +29,9 @@ export const SubTitle = styled.h5`
   font-family: Avenir;
   font-size: 16px;
 `
+export const Comments = styled.h6`
+  font-family: AvenirLight;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: Italic;
+`

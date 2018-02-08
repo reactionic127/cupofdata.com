@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
+import { navigateTo } from 'gatsby-link'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import { Container, Row, Col } from '../components/Layout'
@@ -15,6 +16,10 @@ const Card = styled.div`
 	max-width: 780px;
 	margin: 1rem auto;
 	height: 280px;
+	transition: transform 0.2s;
+	:hover {
+		transform: scale(1.02);
+	}
 `
 const BlogContainer = Container.extend`
 	height: 100%;
@@ -63,7 +68,7 @@ const BlogMaster = ({data}) => {
 	    <MainSection>
 	      { blog && <Container>
 	      	{ blog.map(({ node: post }, i) => (
-	      		<Card key={i}>
+	      		<Card key={i} onClick={() => navigateTo(post.frontmatter.path)}>
 	      			<BlogContainer>
 	      				<BlogRow>
 	      					<Col md="7">

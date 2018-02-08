@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
 import { Container, Card, CardTitle, CardGroup, CardBody } from '../components/Layout'
+import { PageTitle, Comments } from '../components/Typography'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import { basename } from 'path'
@@ -11,11 +13,63 @@ const findNode = (path, data) => data.allMarkdownRemark.edges
   .filter(r => r.path === path)
   .pop()
 
+
+const MainSection = styled.div`
+  display: block;
+  position: relative;
+  padding-top: 94px;
+  height: 600px;
+  color: #ffffff;
+  border: 2px solid #35a73e;
+  ::before {
+    content: '';
+    opacity: 0.4;
+    z-index: -1;
+    background: url(${props => props.background});
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+  }
+  ::after {
+    content: '';
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+`
+const HeaderSection = styled.div`
+  position: absolute;
+  width: 50%;
+  max-width: 665px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+`
+const BlogContainer = Container.extend`
+  padding: 3rem 0;
+  padding-top: calc(3rem + 94px);
+  h2 {
+    margin: 0.7rem 0;
+  }
+  p {
+    margin: 1rem 0;
+  }
+`
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
+  console.log('-- data -- ', data)
   const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []
   return (
-    <div>
+    <Fragment>
       <Helmet title={`Blog | ${post.frontmatter.title}`}>
         {data.site.siteMetadata.disqus && (
           <script id='dsq-count-scr' src='//gatsby-starter-blog.disqus.com/count.js' async />
@@ -29,21 +83,15 @@ export default function Template ({ data }) {
           })();`}</script>
         )}
       </Helmet>
-      <Container>
-        <h1 className='display-3'>{post.frontmatter.title}</h1>
-      </Container>
+{/*      <MainSection background={post.frontmatter.postimage}>
+        <HeaderSection>
+          <PageTitle>{post.frontmatter.title}</PageTitle>
+          <Comments>By {post.frontmatter.author}</Comments>
+          <Comments>on {post.frontmatter.date}</Comments>
+        </HeaderSection>
+      </MainSection>*/}
 
-      <Container dangerouslySetInnerHTML={{ __html: post.html }} />
-
-      {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
-        {post.frontmatter.attachments.map((attachment, i) => (
-          <Card key={i}>
-            <CardBody>
-              <CardTitle><a href={attachment.filename}>{basename(attachment.filename)}</a></CardTitle>
-            </CardBody>
-          </Card>
-        ))}
-      </CardGroup></Container>)}
+      <BlogContainer dangerouslySetInnerHTML={{ __html: post.html }} />
 
       {post.frontmatter.related && (<Container><h4>Related</h4><CardGroup>
         {related.map((r, i) => (
@@ -61,7 +109,7 @@ export default function Template ({ data }) {
         <hr />
         <div id='disqus_thread' />
       </Container>)}
-    </div>
+    </Fragment>
   )
 }
 
@@ -79,15 +127,20 @@ export const pageQuery = graphql`
         path
         date(formatString: "MMMM DD, YYYY")
         title
+        author
+        postimage
       }
     }
 
-    allMarkdownRemark{
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }){
       edges{
         node{
           frontmatter{
+            contentType
             title
             path
+            postimage
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

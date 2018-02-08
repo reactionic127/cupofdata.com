@@ -30,6 +30,7 @@ const CardWrapper = styled.div`
 const Photo = styled.img`
 	border: 2px solid #35a73e;
   border-radius: 90px;
+  width: 82px;
 `
 
 const PositionName = styled.h4`
