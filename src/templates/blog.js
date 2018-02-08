@@ -56,6 +56,13 @@ const HeaderSection = styled.div`
 `
 const BlogContainer = Container.extend`
   padding: 3rem 0;
+  padding-top: calc(3rem + 94px);
+  h2 {
+    margin: 0.7rem 0;
+  }
+  p {
+    margin: 1rem 0;
+  }
 `
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
@@ -76,13 +83,13 @@ export default function Template ({ data }) {
           })();`}</script>
         )}
       </Helmet>
-      <MainSection background={post.frontmatter.postimage}>
+{/*      <MainSection background={post.frontmatter.postimage}>
         <HeaderSection>
           <PageTitle>{post.frontmatter.title}</PageTitle>
           <Comments>By {post.frontmatter.author}</Comments>
           <Comments>on {post.frontmatter.date}</Comments>
         </HeaderSection>
-      </MainSection>
+      </MainSection>*/}
 
       <BlogContainer dangerouslySetInnerHTML={{ __html: post.html }} />
 

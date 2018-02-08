@@ -19,11 +19,17 @@ import global from '../styles/global'
 import mainTheme from '../styles/theme'
 
 const TemplateWrapper = ({ children, data, match, location }) => {
+  const { allMarkdownRemark: post } = data
+  const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
+  const blogDetail = blog.find(({ node: post}) => {
+    console.log(location.pathname);
+    return post.frontmatter.path == location.pathname
+  })
   const undefinedReg = /404*\w/
   const undefinedStatus = undefinedReg.test(location.pathname);
-  
+  console.log(blogDetail);
   let user, theme
-  if ( location.pathname === '/blog' ){
+  if ( location.pathname === '/blog' || blogDetail ){
     theme = mainTheme.secondary
   } else {
     theme = mainTheme.primary
@@ -59,6 +65,19 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }){
+      edges{
+        node{
+          frontmatter{
+            contentType
+            title
+            path
+            postimage
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
       }
     }
   }
