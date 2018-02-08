@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '../../components/Layout'
 import Button from '../../components/Button'
 import { SectionTitle, SubTitle } from '../../components/Typography'
-import { withPrefix} from 'gatsby-link'
+import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -53,7 +53,7 @@ const AutomatedMarketingSection = (props) => (
 		<MainContainer>
 			<Title {...props}>Let us help you get started. On Us!</Title>
 			<Content>Talk is cheap. Let us prove our worth. Register for some free leads today, no strings attached!</Content>
-			<RegButton className="py-0 px-5 border-0">Register Now</RegButton>
+			<Link to="/onboard"><RegButton className="py-0 px-5 border-0">Register Now</RegButton></Link>
 		</MainContainer>
 	</Wrapper>
 )
