@@ -2,14 +2,14 @@
 contentType: blog
 path: /ai-and-abm
 title: A.I. and Account Based Marketing (ABM)
-date: 2018-01-25T23:29:33-05:00
+date: 2018-01-26T04:29:33.000Z
 summary: >-
   B2C companies have enough structured data to train sophisticated machine
   learning models. B2B companies have the opportunity to leverage new UX
   paradigms to collect data to then train sophisticated models to help their
   businesses.
 author: Greg Werner
-postimage: /files/blog/res1.png
+postimage: /files/blog/flip-my-funnel.jpg
 ---
 I keep getting floored with how generous this community is! So many people have been so gracious with their time and it's very humbling. This week, we'd like to point out some more insights from the amazing Marketers and Sales Leaders we have engaged with.
 
