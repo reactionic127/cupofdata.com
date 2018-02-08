@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children, data, match, location }) => {
     return post.frontmatter.path == location.pathname
   })
   const undefinedReg = /404*\w/
-  const undefinedStatus = undefinedReg.test(location.pathname);
+  const undefinedStatus = undefinedReg.test(location.pathname) || location.pathname === '/onboard';
   let user, theme
   if ( location.pathname === '/blog' || blogDetail ){
     theme = mainTheme.secondary
@@ -38,9 +38,11 @@ const TemplateWrapper = ({ children, data, match, location }) => {
   return (
     <ThemeProvider theme={theme}>
       <div className='App'>
-        <Container>
-          <NavContainer />
-        </Container>
+        {
+          !undefinedStatus && <Container>
+            <NavContainer />
+          </Container>
+        }
         <div className='pageContent'>{children()}</div>
         {
           !undefinedStatus &&

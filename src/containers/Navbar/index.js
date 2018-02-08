@@ -62,7 +62,7 @@ const NavContainer = (props) => (
           <NavLink to='/blog'>Blog</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/'>Get Started</NavLink>
+          <NavLink to='/onboard'>Get Started</NavLink>
         </NavItem>
       </NavWrapper>
     </NavSection>
