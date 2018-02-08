@@ -22,12 +22,10 @@ const TemplateWrapper = ({ children, data, match, location }) => {
   const { allMarkdownRemark: post } = data
   const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
   const blogDetail = blog.find(({ node: post}) => {
-    console.log(location.pathname);
     return post.frontmatter.path == location.pathname
   })
   const undefinedReg = /404*\w/
   const undefinedStatus = undefinedReg.test(location.pathname);
-  console.log(blogDetail);
   let user, theme
   if ( location.pathname === '/blog' || blogDetail ){
     theme = mainTheme.secondary
