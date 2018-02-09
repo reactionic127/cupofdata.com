@@ -8,6 +8,9 @@ const Wrapper = styled.div`
 	padding-top: 200px;
 	padding-bottom: 115px;
 	text-align: center;
+	@media screen and (max-width: 576px) {
+		padding-top: 100px;
+	}
 `
 
 const ImgView = styled.div`
@@ -15,6 +18,10 @@ const ImgView = styled.div`
 	height: 170px;
 	position: relative;
 	margin-bottom: 16px;
+
+	@media screen and (max-width: 576px) {
+		height: 110px;
+	}
 `
 
 const Img = styled.img`
@@ -23,40 +30,46 @@ const Img = styled.img`
 	left: 50%;
 	transform: translateX(-50%);
 `
+const BannerCol = Col.extend`
+	@media screen and (max-width: 576px) {
+		width: 80%;
+		margin: 0 auto;
+	}
+`
 
 const BenefitsSection = () => (
 	<Wrapper>
 		<SectionTitle>Benefits</SectionTitle>
 		<Container>
 			<Row>
-				<Col xs="12" sm="6" md="3">
+				<BannerCol xs="12" sm="6" md="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-sales.svg')} />
 					</ImgView>
 					<Title>Improve Marketing and Sales Alignment</Title>
 					<SubTitle>Improve collaboration between marketing and sales with transparent metrics</SubTitle>
-				</Col>
-				<Col xs="12" sm="6" md="3">
+				</BannerCol>
+				<BannerCol xs="12" sm="6" md="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-existing.svg')} />
 					</ImgView>
 					<Title>Create Unique Experiences with Context</Title>
 					<SubTitle>Use leading questions and social references to improve trust and engagement</SubTitle>
-				</Col>
-				<Col xs="12" sm="6" md="3">
+				</BannerCol>
+				<BannerCol xs="12" sm="6" md="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-shorten-sales.svg')} />
 					</ImgView>
 					<Title>Shorten sales cycles</Title>
 					<SubTitle>Quickly identify and optimize inbound and outbound channels to improve conversion velocity</SubTitle>
-				</Col>
-				<Col xs="12" sm="6" md="3">
+				</BannerCol>
+				<BannerCol xs="12" sm="6" md="3">
 					<ImgView>
 						<Img src={withPrefix('files/images/img-clear-path.svg')} />
 					</ImgView>
 					<Title>Clearer path to ROI</Title>
 					<SubTitle>Obtain clear ROI metrics to focus on best performing campaigns and provide smarter routing rules</SubTitle>
-				</Col>
+				</BannerCol>
 			</Row>
 		</Container>
 

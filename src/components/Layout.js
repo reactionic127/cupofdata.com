@@ -70,11 +70,11 @@ export const Row =  styled.div`
 
 export const Col = styled.div`
 	position: relative;
-  ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
   box-sizing: border-box;
+  ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
   @media only screen and (min-width: 768px) {
   	${({ sm }) => sm && getWidthString(sm)}
   }

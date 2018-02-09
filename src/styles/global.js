@@ -38,4 +38,24 @@ injectGlobal`
 	.social-button:focus {
 		outline: none;
 	}
+
+
+	/**** Style for slick ******/
+	.slick-slider {
+		height: 100vh;
+		display: none;
+		@media screen and (max-width: 576px){
+			display: block;
+		}
+	}
+	.slick-dots {
+		bottom: 25px;
+	}
+	.slick-dots li button::before {
+		color: rgba(255,255,255,0.25);
+	}
+	.slick-dots li.slick-active button::before {
+		color: rgb(225,225,255);
+	}
+	
 `

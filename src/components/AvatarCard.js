@@ -9,10 +9,14 @@ const Card = styled.div`
 	background-position-y: 0;
 	background-size: 60px;
 	width: 100%;
-	padding-top: 30px;
-	padding-left: 30px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 	height: 100%;
 	box-sizing: border-box;
+	@media screen and (max-width: 576px) {
+		margin-top: 3rem;
+	}
 `
 
 const CardWrapper = styled.div`

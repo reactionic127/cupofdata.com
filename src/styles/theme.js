@@ -15,7 +15,8 @@ const theme = {
 		navbar: {
 			textColor: color.white,
 			logoImg: '/files/images/img-logo.png',
-			borderBottom: 'none'
+			borderBottom: 'none',
+			background: 'transparent'
 		},
 		banner: {
 			color: {
@@ -59,7 +60,8 @@ const theme = {
 		navbar: {
 			textColor: color.black,
 			logoImg: '/files/images/img-logo-dark.svg',
-			borderBottom: `1px solid ${rgba( color.black, 0.1)}`
+			borderBottom: `1px solid ${rgba( color.black, 0.1)}`,
+			background: color.white	
 		},
 		banner: {
 			color: {

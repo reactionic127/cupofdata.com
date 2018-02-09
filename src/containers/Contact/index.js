@@ -20,6 +20,9 @@ const Wrapper = styled.div`
 	padding-bottom: 130px;
 	background-color: ${props => props.theme.contact.color.background};
 	color: ${({theme}) => theme.contact.color.text};
+	@media screen and (max-width: 576px) {
+		padding: 3rem 0;
+	}
 `
 
 const ContactTitle = styled(Title)`
@@ -57,25 +60,35 @@ const Icon = styled.i`
 
 const ShareIcon = styled.div`
 	margin-top: 2rem;
+	line-height: 3rem;
 `
-
+const SpCol = Col.extend`
+	@media screen and (max-width: 576px) {
+		padding: 0 2rem;
+	}
+`
+const MainCol = SpCol.extend`
+	@media screen and (max-width: 576px) {
+		text-align: center;
+	}
+`
 const ContactSection = () => (
 	<Wrapper>
 		<Container>
 			<Row>
-				<Col sm="5">
+				<MainCol xs="12" sm="5">
 					<img src={withPrefix('/files/images/img-logo.png')} width="120" />
 					<ContactContent>Cup of Data’s mission is turbocharge growth at B2B SaaS companies using A.I.. By alleviating businesses from the manual, repetitive tasks associated with obtaining marketing qualified leads, marketers and sales professionals can focus on creating unique experiences with their customers and partners.</ContactContent>
-				</Col>
-				<Col sm="3">
+				</MainCol>
+				<SpCol xs="4" sm="3">
 					<ContactTitle>SITEMAP</ContactTitle>
 					<Ul>
 						<Li><ContactLink to="/">Home</ContactLink></Li>
 						<Li><ContactLink to="/about">Company</ContactLink></Li>
 						<Li><ContactLink to="/blog">Blogs</ContactLink></Li>
 					</Ul>
-				</Col>
-				<Col sm="4">
+				</SpCol>
+				<SpCol xs="8" sm="4">
 					<ContactTitle>CONTACT US</ContactTitle>
 					<ContactContent>Cup of Data<br/>3423 Piedmont Rd NE<br/>Atlanta, GA 30305</ContactContent>
 					<ShareIcon>
@@ -107,7 +120,7 @@ const ContactSection = () => (
 							<Icon className="fab fa-linkedin fa-2x" />
 						</LinkedinShareButton>
 					</ShareIcon>
-				</Col>
+				</SpCol>
 			</Row>
 		</Container>
 	</Wrapper>
