@@ -84,7 +84,7 @@ const ToggleSpan = styled.span`
   border-radius: 1px;
   height: 2px;
   width: 30px;
-  background: #ffffff;
+  background: ${props => props.theme.navbar.textColor};
   position: absolute;
   display: block;
   content: '';
@@ -93,7 +93,7 @@ const ToggleSpan = styled.span`
     border-radius: 1px;
     height: 2px;
     width: 30px;
-    background: #ffffff;
+    background: ${props => props.theme.navbar.textColor};
     position: absolute;
     display: block;
     content: '';
@@ -104,7 +104,7 @@ const ToggleSpan = styled.span`
     border-radius: 1px;
     height: 2px;
     width: 30px;
-    background: #ffffff;
+    background: ${props => props.theme.navbar.textColor};
     position: absolute;
     display: block;
     content: '';

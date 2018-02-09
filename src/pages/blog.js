@@ -15,7 +15,6 @@ const Card = styled.div`
 	border: 1px solid rgba(0,0,0, 0.1);
 	max-width: 780px;
 	margin: 1rem auto;
-	height: 280px;
 	transition: transform 0.2s;
 	:hover {
 		transform: scale(1.02);
@@ -36,6 +35,7 @@ const Topic = styled.h2`
 	font-size: 24px;
 	line-height: 31px;
 	font-family: GTWalsheim;
+	margin-top: 30px;
 `
 const TimeStamp = styled.h5`
 	font-family: Avenir;
@@ -71,12 +71,12 @@ const BlogMaster = ({data}) => {
 	      		<Card key={i} onClick={() => navigateTo(post.frontmatter.path)}>
 	      			<BlogContainer>
 	      				<BlogRow>
-	      					<Col md="7">
+	      					<Col xs="12" sm="7">
 	      						<Topic>{post.frontmatter.title}</Topic>
 	      						<TimeStamp>{post.frontmatter.author} on {post.frontmatter.date}</TimeStamp>
 	      						<Summary>{post.frontmatter.summary}</Summary>
 	      					</Col>
-	      					<Col md="5">
+	      					<Col xs="12" sm="5">
 	      						<BlogImage src={post.frontmatter.postimage} width="100%"/>
 	      					</Col>
 	      				</BlogRow>
