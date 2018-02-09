@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 const Text = styled.h4`
 	color: ${({theme}) => theme.footer.color.text};
 	font-size: 14px;
-	padding: 1.5rem 0;
+	padding: 0;
 	@media screen and (max-width: 576px) {
 		text-align: center;
 		padding: 0.75rem 0;

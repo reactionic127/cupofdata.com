@@ -38,6 +38,9 @@ const MainSection = styled.div`
 const Topic = PageTitle.extend`
   margin-top: 5rem;
   text-align: left;
+  @media screen and (max-width: 576px) {
+    margin-top: 3rem;
+  }
 `
 
 const Content = Title.extend`
