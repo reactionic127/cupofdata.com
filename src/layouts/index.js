@@ -28,6 +28,28 @@ export default class TemplateWrapper extends React.Component {
       undefinedStatus: false
     }
   }
+  componentDidMount() {
+    const { children, data, match, location } = this.props;
+    const { allMarkdownRemark: post } = data
+    const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
+    const blogDetail = blog.find(({ node: post}) => {
+      return post.frontmatter.path == location.pathname
+    })
+    const undefinedReg = /404*\w/
+    const undefinedStatus = undefinedReg.test(location.pathname) || location.pathname === '/onboard';
+    
+    if ( location.pathname === '/blog' || blogDetail ){
+      this.setState({
+        undefinedStatus,
+        theme: mainTheme.secondary
+      })
+    } else {
+      this.setState({
+        undefinedStatus,
+        theme: mainTheme.primary
+      })
+    }
+  }
   componentWillReceiveProps(props) {
     const { children, data, match, location } = props;
     const { allMarkdownRemark: post } = data
