@@ -41,20 +41,20 @@ injectGlobal`
 
 
 	/**** Style for slick ******/
-	.slick-slider {
+	.slick-initialized.slick-slider {
 		height: 100vh;
 		display: none;
 		@media screen and (max-width: 576px){
 			display: block;
 		}
 	}
-	.slick-dots {
+	.slick-initialized .slick-dots {
 		bottom: 25px;
 	}
-	.slick-dots li button::before {
+	.slick-initialized .slick-dots li button::before {
 		color: rgba(255,255,255,0.25);
 	}
-	.slick-dots li.slick-active button::before {
+	.slick-initialized .slick-dots li.slick-active button::before {
 		color: rgb(225,225,255);
 	}
 	
