@@ -59,6 +59,7 @@ const NavLink = styled.a`
   color: ${props => props.theme.navbar.textColor};
   transition: color 0.5s;
   text-decoration: none;
+  cursor: pointer;
 `
 
 const NavSection = Container.extend`
