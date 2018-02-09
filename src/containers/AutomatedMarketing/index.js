@@ -10,6 +10,9 @@ const Wrapper = styled.div`
   background-size: 100%;
   position: relative;
   padding: 70px 0;
+  @media screen and (max-width: 576px) {
+		padding: 40px 30px;
+	}
 `
 
 const Overlay = styled.div`
@@ -30,11 +33,18 @@ const Title = SectionTitle.extend`
 	text-align: left;
 	color: ${props => props.theme.automarketing.color.sectionTitle};
 	margin: 1rem 0;
+	@media screen and (max-width: 576px) {
+		font-size: 24px;
+	}
 `
 
 const Content = SubTitle.extend`
 	color: ${props => props.theme.automarketing.color.content};
 	margin: 2rem 0;
+	@media screen and (max-width: 576px) {
+		font-size: 16px;
+		margin: 1rem 0;
+	}
 `
 
 const RegButton = styled(Button)`

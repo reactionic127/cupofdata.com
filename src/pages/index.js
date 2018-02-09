@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import graphql from 'graphql'
+import styled from 'styled-components'
 import BannerSection from '../containers/BannerSection'
 import FeaturesWrapper from '../containers/Features'
 import NewsWrapper from '../containers/News'
@@ -8,14 +9,14 @@ import FeedbackWrapper from '../containers/Feedback'
 import AutomatedMarketingWrapper from '../containers/AutomatedMarketing'
 
 const IndexPage = (props) => (
-  <div>
+  <Fragment>
     <BannerSection />
     <FeaturesWrapper />
     <BenefitsWrapper />
     <NewsWrapper />
     <FeedbackWrapper />
     <AutomatedMarketingWrapper />
-  </div>
+  </Fragment>
 )
 
 export default IndexPage

@@ -5,12 +5,17 @@ import Link from 'gatsby-link'
 
 const Wrapper = styled.div`
 	background-color: ${({theme}) => theme.footer.color.background};
+	padding: 1rem;	
 `
 
 const Text = styled.h4`
 	color: ${({theme}) => theme.footer.color.text};
 	font-size: 14px;
-	padding: 1.5rem 0 1.5rem 0;
+	padding: 0;
+	@media screen and (max-width: 576px) {
+		text-align: center;
+		padding: 0.75rem 0;
+	}
 `
 
 const CustomLink = styled(Link)`
@@ -21,13 +26,13 @@ const Footer = () => (
 	<Wrapper>
 		<Container>
 			<Row>
-				<Col sm="8">
+				<Col xs="12" sm="8">
 					<Text>Copyright © 2018 3Blades LLC - Made with love in Atlanta.</Text>
 				</Col>
-				<Col sm="2">
+				<Col xs="12" sm="2">
 					<CustomLink to="/privacy"><Text>Privacy Policy</Text></CustomLink>
 				</Col>
-				<Col sm="2">
+				<Col xs="12" sm="2">
 					<CustomLink to="/terms"><Text>Terms of Use</Text></CustomLink>
 				</Col>
 			</Row>

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import Button from '../components/Button'
+import { Title } from '../components/Typography'
 import Link from 'gatsby-link'
 
 const Iframe = styled.iframe`
@@ -11,17 +12,17 @@ const Iframe = styled.iframe`
 	bottom: 0;
 	border: none;
 `
-const BackButton = Button.extend`
+const GotoHome = Title.extend`
 	position: absolute;
-	left: 50%;
-	bottom: 32px;
+	left: 85%;
+	top: 20px;
+	color: #ffffff;
 	transform: translateX(-50%);
-	box-shadow: 2px 4px rgba(0,0,0,0.1);
 `
 const Onboarding = () => (
 	<Fragment>
 		<Iframe width="100%" height="100%" frameborder="0" src="https://landbot.io/u/H-25231-G88YW0YD97JZI1KT/index.html"></Iframe>
-		<Link to='/'><BackButton>Go back to home page</BackButton></Link>
+		<Link to='/'><GotoHome>Home</GotoHome></Link>
 	</Fragment>
 )
 export default Onboarding
