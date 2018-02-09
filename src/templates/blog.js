@@ -55,7 +55,7 @@ const HeaderSection = styled.div`
   text-align: center;
 `
 const BlogContainer = Container.extend`
-  padding: 3rem 0;
+  padding: 3rem 1.5rem;
   padding-top: calc(3rem + 94px);
   h2 {
     margin: 0.7rem 0;
