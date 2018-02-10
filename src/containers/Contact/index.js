@@ -77,7 +77,7 @@ const ContactSection = () => (
 		<Container>
 			<Row>
 				<MainCol xs="12" sm="5">
-					<img src={withPrefix('/files/images/img-logo.png')} width="120" />
+					<img src={withPrefix('/files/images/img-logo.svg')} width="120" />
 					<ContactContent>Cup of Data’s mission is turbocharge growth at B2B SaaS companies using A.I.. By alleviating businesses from the manual, repetitive tasks associated with obtaining marketing qualified leads, marketers and sales professionals can focus on creating unique experiences with their customers and partners.</ContactContent>
 				</MainCol>
 				<SpCol xs="4" sm="3">

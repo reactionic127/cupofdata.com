@@ -49,7 +49,7 @@ const BackButton = Button.extend`
 
 const NotFoundPage = () => (
 	<Wrapper>
-		<LogoImg src={withPrefix('/files/images/img-logo.png')} />
+		<LogoImg src={withPrefix('/files/images/img-logo.svg')} />
 		<Img404 src={withPrefix('/files/images/img-404.svg')} />
 		<Topic>Page not found</Topic>
 		<Detail>Sorry, but the page you were looking for could not be found. You can return to our front page, or drop us a line if you can't find what you're looking for.</Detail>

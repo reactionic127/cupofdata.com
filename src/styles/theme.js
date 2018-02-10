@@ -14,7 +14,7 @@ const theme = {
 	primary: {
 		navbar: {
 			textColor: color.white,
-			logoImg: '/files/images/img-logo.png',
+			logoImg: '/files/images/img-logo.svg',
 			borderBottom: 'none',
 			background: 'transparent'
 		},
