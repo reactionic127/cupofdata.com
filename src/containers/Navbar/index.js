@@ -15,7 +15,7 @@ const Navbar = styled.div`
   transition: all 0.5s;
   transition-delay: 0.5s;
   @media only screen and (max-width: 576px) {
-      padding: 1rem 0;
+      padding: 1rem 15px;
       background: ${props => props.theme.navbar.background}
   }
 `
@@ -26,6 +26,10 @@ const NavItem = styled.li`
     border: 1px solid ${props => props.theme.navbar.textColor};
     border-radius: 2px;
   }
+  @media only screen and (max-width: 576px) {
+    padding: 1rem 0;
+  }
+
 `
 
 const NavWrapper =  styled.ul`
@@ -49,7 +53,7 @@ const NavWrapper =  styled.ul`
       margin: 0;
       background-color: #ffffff;
       ${props => props.active && css`
-        height: calc(100vh - 64px);
+        height: 200px;
       `}
     }
 `
