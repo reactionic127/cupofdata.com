@@ -1,4 +1,5 @@
 import React from 'react'
+import favicon from './favicon.png';
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -32,6 +33,7 @@ module.exports = class HTML extends React.Component {
           <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
           <script src='/admin/netlify_redirect.js' />
           {this.props.headComponents}
+          <link rel="shortcut icon" href={favicon} />
           {css}
         </head>
         <body {...this.props.bodyAttributes}>
