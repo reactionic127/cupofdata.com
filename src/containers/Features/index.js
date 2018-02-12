@@ -45,7 +45,7 @@ const FeaturesView = () => (
 		<Container>
 			<FeatureRow>
 				<Col xs="12" sm="6">
-					<img src={withPrefix('/files/images/img-desktop.png')} width="100%" />
+					<img src={withPrefix('/files/images/img-desktop.svg')} width="100%" />
 				</Col>
 				<Col xs="12" sm="6">
 					<FeatureContent><i className="fa fa-angle-right"/> Quickly identify relevant accounts and contacts</FeatureContent>
