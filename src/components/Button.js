@@ -6,7 +6,8 @@ const Button = styled.button`
   background-color: ${props => props.theme.button.color.background};
   border: none;
   color: ${props => props.theme.button.color.text};
-  font-family: CircularStd;
+  font-family: Avenir;
+  font-weight: 600;
   font-size: 18px;
 
   &:focus {
