@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
-import { PageTitle, Title } from '../components/Typography'
+import { H1, H4, Title } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -35,9 +35,10 @@ const MainSection = styled.div`
   }
 `
 
-const Topic = PageTitle.extend`
+const Topic = H1.extend`
   margin-top: 5rem;
   text-align: left;
+  color: #ffffff;
   @media screen and (max-width: 576px) {
     margin-top: 3rem;
   }
@@ -48,6 +49,12 @@ const Content = Title.extend`
   max-width: 680px;
   margin-top: 2rem;
   margin-bottom: 235px;
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Avenir;
+    font-weight: 400;
+  }
 `
 
 const MemberSection = Container.extend`
@@ -55,10 +62,9 @@ const MemberSection = Container.extend`
   padding-bottom: 30px;
 `
 
-const MemberTitle = styled.div`
-  font-size: 24px;
+const MemberTitle = H4.extend`
   color: #ffffff;
-  line-height: 28px;
+  font-family: GTWalsheim;
   margin-bottom: 40px;
 `
 
