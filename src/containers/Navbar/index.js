@@ -22,9 +22,12 @@ const Navbar = styled.div`
 
 const NavItem = styled.li`
   color: ${props => props.theme.navbar.textColor};
-  :last-child a {
-    border: 1px solid ${props => props.theme.navbar.textColor};
-    border-radius: 2px;
+  :last-child {
+    margin-left: 1.75rem;
+    a {
+      border: 1px solid ${props => props.theme.navbar.textColor};
+      border-radius: 2px;
+    }
   }
   @media only screen and (max-width: 576px) {
     padding: 1rem 0;
