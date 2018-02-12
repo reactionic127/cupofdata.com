@@ -26,7 +26,7 @@ const NewsTitle = H5.extend`
 const NewsContent = H6.extend`
 	text-align: left;
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: 400;
 `
 
 const BtnReadMore = Button.extend`

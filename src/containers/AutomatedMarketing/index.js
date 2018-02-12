@@ -45,8 +45,6 @@ const Content = H5.extend`
 	font-weight: 500;
 	margin-top: 10px;
 	@media screen and (max-width: 576px) {
-		font-size: 16px;
-		line-height: 26px;
 		margin-bottom: 1rem;
 	}
 `

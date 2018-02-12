@@ -13,6 +13,11 @@ const Button = styled.button`
   &:focus {
     outline: none;
   }
+  @media screen and (max-width: 576px) {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 1rem 3rem;
+  }
   ${props => props.outline && css`
     color: ${props => props.theme.button.color.outline};
     border: 1px solid ${props => props.theme.button.color.outline};

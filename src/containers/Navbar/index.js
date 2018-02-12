@@ -32,6 +32,9 @@ const NavItem = styled.li`
   @media only screen and (max-width: 576px) {
     padding: 1rem 0;
     color: #000;
+    :last-child {
+      margin-left: 0rem;
+    }
   }
 
 `
