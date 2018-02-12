@@ -43,7 +43,7 @@ const UL = styled.ul`
 	list-style: none;
 `
 const LI = styled.li`
-	display: inline-flex;
+	display: inline-flex !important;
 	::before {	
 		content: "\\F105";
 		line-height: 25px;
