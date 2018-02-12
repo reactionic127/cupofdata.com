@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import { SectionTitle, Title, SubTitle } from '../../components/Typography'
+import { H5, H6, SectionTitle } from '../../components/Typography'
 import { Container, Row, Col } from '../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 
@@ -35,6 +35,12 @@ const BannerCol = Col.extend`
 		width: 80%;
 		margin: 0 auto;
 	}
+`
+const Title = H5.extend`
+	font-weight: 600;
+`
+const SubTitle = H6.extend`
+	font-weight: 500;
 `
 
 const BenefitsSection = () => (

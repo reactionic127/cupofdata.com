@@ -20,7 +20,9 @@ export const H4 = styled.h4`
 `
 export const H5 = styled.h5`
   font-size: 18px;
+  line-height: 30px;
   margin: 0;
+  font-family: Avenir;
 `
 export const H6 = styled.h6`
   font-size: 16px;
