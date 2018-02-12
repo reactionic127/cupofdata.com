@@ -27,30 +27,35 @@ export default class TemplateWrapper extends React.Component {
       theme: mainTheme.primary,
       undefinedStatus: false,
       dropdown: false,
-      secondary: false
+      secondary: false,
     }
   }
   updateDimensions() {
     const { location } = this.props
-    if (window.innerWidth > 576) {
-      if (this.state.secondary) {
-        this.setState({
-          theme: mainTheme.secondary,
-          dropdown: false,
-        })
-      } else {
-        this.setState({
-          theme: mainTheme.primary,
-          dropdown: false,
-        })
-      }
-    } 
+    if (typeof screen !== `undefined`) {
+      if (screen.width > 576) {
+        if (this.state.secondary) {
+          this.setState({
+            theme: mainTheme.secondary,
+            dropdown: false,
+          })
+        } else {
+          this.setState({
+            theme: mainTheme.primary,
+            dropdown: false,
+          })
+        }
+      } 
+    }
   }
   componentWillMount() {
     this.updateDimensions();
   }
   componentDidMount() {
-    window.addEventListener("resize", this.updateDimensions.bind(this));
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", this.updateDimensions.bind(this));
+    }
+    
     const { children, data, match, location } = this.props;
     const { allMarkdownRemark: post } = data
     const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
@@ -101,7 +106,9 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   componentWillUnmount() {
-    window.removeEventListener("resize", this.updateDimensions.bind(this));
+    if (typeof window !== 'undefined') {
+      window.removeEventListener("resize", this.updateDimensions.bind(this));
+    }
   }
 
   render () {
