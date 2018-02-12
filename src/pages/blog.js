@@ -28,9 +28,6 @@ const BlogRow = Row.extend`
 	height: 100%;
 	align-items: center;
 `
-const BlogImage= styled.img`
-	border: 2px #35a73e solid;
-`
 const Topic = styled.h2`
 	font-size: 24px;
 	line-height: 31px;
@@ -77,7 +74,7 @@ const BlogMaster = ({data}) => {
 	      						<Summary>{post.frontmatter.summary}</Summary>
 	      					</Col>
 	      					<Col xs="12" sm="5">
-	      						<BlogImage src={post.frontmatter.postimage} width="100%"/>
+	      						<img src={post.frontmatter.postimage} width="100%"/>
 	      					</Col>
 	      				</BlogRow>
 	      			</BlogContainer>
