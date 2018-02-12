@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
-import { PageTitle, Title } from '../components/Typography'
+import { H1, Title } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -35,7 +35,7 @@ const MainSection = styled.div`
   }
 `
 
-const Topic = PageTitle.extend`
+const Topic = H1.extend`
   margin-top: 5rem;
   text-align: left;
   @media screen and (max-width: 576px) {

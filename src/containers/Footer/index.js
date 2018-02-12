@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from  '../../components/Layout'
+import { P } from  '../../components/Typography'
 import Link from 'gatsby-link'
 
 const Wrapper = styled.div`
@@ -8,10 +9,8 @@ const Wrapper = styled.div`
 	padding: 1rem;	
 `
 
-const Text = styled.h4`
+const Text = P.extend`
 	color: ${({theme}) => theme.footer.color.text};
-	font-size: 14px;
-	padding: 0;
 	@media screen and (max-width: 576px) {
 		text-align: center;
 		padding: 0.75rem 0;

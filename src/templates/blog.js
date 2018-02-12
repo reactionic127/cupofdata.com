@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import { Container, Card, CardTitle, CardGroup, CardBody } from '../components/Layout'
-import { PageTitle, Comments } from '../components/Typography'
+import { H1, Comments } from '../components/Typography'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import { basename } from 'path'
@@ -85,7 +85,7 @@ export default function Template ({ data }) {
       </Helmet>
 {/*      <MainSection background={post.frontmatter.postimage}>
         <HeaderSection>
-          <PageTitle>{post.frontmatter.title}</PageTitle>
+          <H1>{post.frontmatter.title}</H1>
           <Comments>By {post.frontmatter.author}</Comments>
           <Comments>on {post.frontmatter.date}</Comments>
         </HeaderSection>

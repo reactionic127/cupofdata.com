@@ -1,12 +1,39 @@
 import styled from 'styled-components'
 
-export const PageTitle = styled.h1`
+export const H1 = styled.h1`
   font-size: 48px;
   line-height: 56px;
-  font-family: GTWalsheim;
   color: #ffffff;
+  margin: 0;
 `
-
+export const H2 = styled.h2`
+  font-size: 40px;
+  margin: 0;
+`
+export const H3 = styled.h3`
+  font-size: 36px;
+  margin: 0;
+`
+export const H4 = styled.h4`
+  font-size: 24px;
+  margin: 0;
+`
+export const H5 = styled.h5`
+  font-size: 18px;
+  margin: 0;
+`
+export const H6 = styled.h6`
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  font-family: Avenir;
+`
+export const P = styled.p`
+  font-size: 14px;
+  line-height: 29px;
+  margin: 0;
+  font-family: Avenir;
+`
 export const SectionTitle = styled.h2`
 	font-size: 40px;
   font-family: GTWalsheim;

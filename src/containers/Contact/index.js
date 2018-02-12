@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import { Container, Row, Col } from '../../components/Layout'
 import Link, { withPrefix, navigateTo } from 'gatsby-link'
-import { Title, SubTitle } from '../../components/Typography'
+import { H5, H6 } from '../../components/Typography'
 import {
 	FacebookShareButton,
 	LinkedinShareButton,
@@ -25,16 +25,16 @@ const Wrapper = styled.div`
 	}
 `
 
-const ContactTitle = styled(Title)`
+const ContactTitle = H5.extend`
+	font-weight: 600;
 	color: ${({theme}) => theme.contact.color.text};
 	margin-top: 33px;
 `
 
-const ContactContent = SubTitle.extend`
+const ContactContent = H6.extend`
+	font-weight: normal;
 	margin-top: 2rem;
-	line-height: 28px;
-  font-family: Avenir;
-  font-size: 16px;
+	line-height: 33px;
 `
 
 const ContactLink = styled(Link)`
