@@ -31,9 +31,7 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   updateDimensions() {
-    console.log('-- width --\n', window);
     const { location } = this.props
-    // this.setState({width: $(window).width(), height: $(window).height()});
     if (window.innerWidth > 576) {
       if (this.state.secondary) {
         this.setState({
