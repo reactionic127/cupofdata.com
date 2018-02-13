@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
-import { H1, H4, Title } from '../components/Typography'
+import { H1, H4, H5, P, Title } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -11,41 +11,17 @@ const MainSection = styled.div`
   position: relative;
   padding-top: 94px;
   height: fit-content;
-  ::before {
-    content: '';
-    opacity: 0.4;
-    z-index: -1;
-    background: url(/files/images/bk-about.png);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  ::after {
-    content: '';
-    z-index: -1;
-    background: linear-gradient(to right, #495CF2, rgba(36, 56, 214, 0.9));
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
 `
 
 const Topic = H1.extend`
-  margin-top: 5rem;
+  margin-top: 3rem;
   text-align: left;
-  color: #ffffff;
   @media screen and (max-width: 576px) {
     margin-top: 3rem;
   }
 `
 
 const Content = Title.extend`
-  color: #ffffff;
   max-width: 680px;
   margin-top: 2rem;
   margin-bottom: 235px;
@@ -63,7 +39,6 @@ const MemberSection = Container.extend`
 `
 
 const MemberTitle = H4.extend`
-  color: #ffffff;
   font-family: GTWalsheim;
   margin-bottom: 40px;
 `
@@ -73,23 +48,25 @@ const Card = Col.extend`
   margin-bottom: 50px;
 `
 
-const Fullname = styled.h3`
-  font-size: 18px;
-  line-height: 25px;
+const Fullname = H5.extend`
   margin-top: 15px;
+  font-weight: 500;
+  white-space: nowrap;
 `
 
 const Photo = styled.img`
   border: 2px #35a73e solid;
   border-radius: 3px;
   font-family: Avenir;
+  object-position: 50% 0%;
+  object-fit: cover;
+  border-radius: 50%;
 `
 
-const Position = styled.h4`
-  font-size: 16px;
-  line-height: 22px;
+const Position = P.extend`
   font-family: Avenir;
   margin-top: 10px;
+  font-weight: 400;
 `
 
 export default function Template ({ data }) {
@@ -107,8 +84,8 @@ export default function Template ({ data }) {
         <MemberTitle>OUR TEAM</MemberTitle>
         <Row>
           {post.frontmatter.members.map((member, i) => (
-            <Card sm="4" key={i} >
-              <Photo src={member.photo} width="225"></Photo>
+            <Card xs="12" sm="4" md="2" key={i} >
+              <Photo src={member.photo} width="105" height="105"></Photo>
               <Fullname>{member.fullname}</Fullname>
               <Position>{member.position}</Position>
             </Card>

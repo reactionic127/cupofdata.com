@@ -85,6 +85,9 @@ export default class TemplateWrapper extends React.Component {
       case '/privacy':
         themeType = 'secondary'
         break;
+      case '/about':
+        themeType = 'secondary'
+        break;
       default:
         themeType = 'primary'
     }
