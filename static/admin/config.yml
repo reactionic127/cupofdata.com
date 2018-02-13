@@ -38,3 +38,15 @@ collections:
           - {label: Photo, name: photo, widget: file }
           - {label: Fullname, name: fullname, widget: string}
           - {label: Position, name: position, widget: string}
+
+  - name: "legal"
+    label: "Legal"
+    folder: "src/pages/legal"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "legal"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}

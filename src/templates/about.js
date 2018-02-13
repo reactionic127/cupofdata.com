@@ -94,7 +94,6 @@ const Position = styled.h4`
 
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
-  console.log('-- markdownRemark --\n', post)
   return (
     <div>
       <Helmet title={`About Us | ${data.site.siteMetadata.title}`} />

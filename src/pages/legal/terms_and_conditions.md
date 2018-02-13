@@ -9,6 +9,7 @@ summary: >-
   websites that Cup of Data or its subsidiaries operate and that link to these
   Terms of Use (the “Websites”).
 ---
+
 We provide the Websites to you subject to these Terms of Use (“Terms”), which may be updated by us from time to time pursuant to Section 10 herein. By accessing and using the Websites, you accept and agree to be bound by these Terms and Cup of Data’s Privacy Policy. If you do not agree to these Terms, you should not access or use the Websites. In addition, when accessing the Websites you shall be subject to any posted guidelines or rules applicable to the Websites, which may be posted and modified from time to time. All such guidelines or rules are hereby incorporated by reference into these Terms.
 
 Your access to and use of the products and services which we market for subscription on the Websites (our “Services”) are governed by our Master Subscription Agreement or such other applicable agreement between you and Cup of Data or its affiliate(s) relating to your access to and use of such Services (the “Service Agreement”). The practices and policies, including how we protect, collect, and use electronic data, text, messages, communications or other materials submitted to and stored within the Services by You (“Service Data”) are detailed in and governed by the Service Agreement.

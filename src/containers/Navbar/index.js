@@ -14,9 +14,11 @@ const Navbar = styled.div`
   border-bottom: ${props => props.theme.navbar.borderBottom};
   transition: all 0.5s;
   transition-delay: 0.5s;
+  background: ${props => props.theme.navbar.background};
+
   @media only screen and (max-width: 576px) {
       padding: 1rem 15px;
-      background: ${props => props.theme.navbar.background}
+      background: ${props => props.theme.navbar.background};
   }
 `
 
