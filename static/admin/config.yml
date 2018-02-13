@@ -47,6 +47,6 @@ collections:
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "legal"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "Title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
