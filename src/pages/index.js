@@ -10,7 +10,7 @@ import FeedbackWrapper from '../containers/Feedback'
 import AutomatedMarketingWrapper from '../containers/AutomatedMarketing'
 
 const IndexPage = ({data}) => (
-  <Fragment>
+  <div>
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
     <BannerSection />
     <FeaturesWrapper />
@@ -18,7 +18,7 @@ const IndexPage = ({data}) => (
     <NewsWrapper />
     <FeedbackWrapper />
     <AutomatedMarketingWrapper />
-  </Fragment>
+  </div>
 )
 
 export default IndexPage

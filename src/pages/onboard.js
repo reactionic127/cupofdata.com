@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Button from '../components/Button'
 import { Title } from '../components/Typography'
@@ -20,9 +20,9 @@ const GotoHome = Title.extend`
 	transform: translateX(-50%);
 `
 const Onboarding = () => (
-	<Fragment>
+	<div>
 		<Iframe width="100%" height="100%" frameborder="0" src="https://landbot.io/u/H-25231-G88YW0YD97JZI1KT/index.html"></Iframe>
 		<Link to='/'><GotoHome>Home</GotoHome></Link>
-	</Fragment>
+	</div>
 )
 export default Onboarding
