@@ -24,7 +24,7 @@ const Topic = H1.extend`
 const Content = Title.extend`
   max-width: 680px;
   margin-top: 2rem;
-  margin-bottom: 235px;
+  margin-bottom: 3.5rem;
   p {
     font-size: 18px;
     line-height: 30px;
@@ -34,8 +34,7 @@ const Content = Title.extend`
 `
 
 const MemberSection = Container.extend`
-  margin-top: -175px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 `
 
 const MemberTitle = H4.extend`
@@ -55,8 +54,6 @@ const Fullname = H5.extend`
 `
 
 const Photo = styled.img`
-  border: 2px #35a73e solid;
-  border-radius: 3px;
   font-family: Avenir;
   object-position: 50% 0%;
   object-fit: cover;
@@ -84,7 +81,7 @@ export default function Template ({ data }) {
         <MemberTitle>OUR TEAM</MemberTitle>
         <Row>
           {post.frontmatter.members.map((member, i) => (
-            <Card xs="12" sm="4" md="2" key={i} >
+            <Card xs="12" sm="6" md="2" key={i} >
               <Photo src={member.photo} width="105" height="105"></Photo>
               <Fullname>{member.fullname}</Fullname>
               <Position>{member.position}</Position>
