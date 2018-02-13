@@ -88,5 +88,15 @@ injectGlobal`
 	.slick-initialized .slick-dots li.slick-active button::before {
 		color: rgb(225,225,255);
 	}
-	
+	.cms-content h2 {
+    margin: 0.75rem 0;
+    font-family: GTWalsheim;
+	}
+	.cms-content p {
+    margin: 1rem 0;
+    font-family: Avenir;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+  }
 `
