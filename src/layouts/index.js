@@ -25,10 +25,37 @@ export default class TemplateWrapper extends React.Component {
 
     this.state = {
       theme: mainTheme.primary,
-      undefinedStatus: false
+      undefinedStatus: false,
+      dropdown: false,
+      secondary: false,
     }
   }
+  updateDimensions() {
+    const { location } = this.props
+    if (typeof screen !== `undefined`) {
+      if (screen.width > 576) {
+        if (this.state.secondary) {
+          this.setState({
+            theme: mainTheme.secondary,
+            dropdown: false,
+          })
+        } else {
+          this.setState({
+            theme: mainTheme.primary,
+            dropdown: false,
+          })
+        }
+      } 
+    }
+  }
+  componentWillMount() {
+    this.updateDimensions();
+  }
   componentDidMount() {
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", this.updateDimensions.bind(this));
+    }
+    
     const { children, data, match, location } = this.props;
     const { allMarkdownRemark: post } = data
     const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
@@ -41,12 +68,14 @@ export default class TemplateWrapper extends React.Component {
     if ( location.pathname === '/blog' || blogDetail ){
       this.setState({
         undefinedStatus,
-        theme: mainTheme.secondary
+        theme: mainTheme.secondary,
+        secondary: true
       })
     } else {
       this.setState({
         undefinedStatus,
-        theme: mainTheme.primary
+        theme: mainTheme.primary,
+        secondary: false
       })
     }
   }
@@ -63,15 +92,25 @@ export default class TemplateWrapper extends React.Component {
     if ( location.pathname === '/blog' || blogDetail ){
       this.setState({
         undefinedStatus,
-        theme: mainTheme.secondary
+        theme: mainTheme.secondary,
+        secondary: true,
+        dropdown: false
       })
     } else {
       this.setState({
         undefinedStatus,
-        theme: mainTheme.primary
+        theme: mainTheme.primary,
+        secondary: false,
+        dropdown: false
       })
     }
   }
+  componentWillUnmount() {
+    if (typeof window !== 'undefined') {
+      window.removeEventListener("resize", this.updateDimensions.bind(this));
+    }
+  }
+
   render () {
     let user
     if (typeof window !== 'undefined') {
@@ -82,7 +121,11 @@ export default class TemplateWrapper extends React.Component {
         <div className='App'>
           {
             !this.state.undefinedStatus && <Container>
-              <NavContainer onCollapse={(type) => { this.setState({ theme: mainTheme[type]}) }}/>
+              <NavContainer
+                onCollapse={(type) => { this.setState({ theme: mainTheme[type], dropdown: !this.state.dropdown }) }}
+                dropdown={this.state.dropdown}
+                secondary={this.state.secondary}
+              />
             </Container>
           }
           <div className='pageContent'>{this.props.children()}</div>

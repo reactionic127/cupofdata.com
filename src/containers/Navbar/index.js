@@ -22,12 +22,19 @@ const Navbar = styled.div`
 
 const NavItem = styled.li`
   color: ${props => props.theme.navbar.textColor};
-  :last-child a {
-    border: 1px solid ${props => props.theme.navbar.textColor};
-    border-radius: 2px;
+  :last-child {
+    margin-left: 1.75rem;
+    a {
+      border-radius: 2px;
+      border: 1px solid ${props => props.theme.navbar.textColor};
+    }
   }
   @media only screen and (max-width: 576px) {
     padding: 1rem 0;
+    color: #000;
+    :last-child {
+      margin-left: 0rem;
+    }
   }
 
 `
@@ -59,6 +66,8 @@ const NavWrapper =  styled.ul`
 `
 
 const NavLink = styled.a`
+  font-family: Avenir;
+  font-weight: 500;
   padding: 0.5rem 1.75rem;
   color: ${props => props.theme.navbar.textColor};
   transition: color 0.5s;
@@ -157,9 +166,17 @@ export default class NavContainer extends React.Component {
       if (this.state.collapsible) {
         this.props.onCollapse('secondary');
       } else {
-        this.props.onCollapse('primary');
+        if (this.props.secondary) {
+          this.props.onCollapse('secondary');
+        } else {
+          this.props.onCollapse('primary');
+        }
+        
       }
     });
+  }
+  componentWillReceiveProps(props) {
+    this.setState({ collapsible: props.dropdown })
   }
   moveTo = (path) => {
     console.log(path)

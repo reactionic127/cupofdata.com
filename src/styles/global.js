@@ -8,8 +8,39 @@ injectGlobal`
 	}
 	@font-face {
 	  font-family: Avenir;
-	  src: url(/files/fonts/Avenir/AvenirLTStd-Book.otf);
+	  src: url(/files/fonts/AvenirNext/AvenirNext-UltraLight.ttf) format('truetype');
+	  font-weight: 200;
+    font-style: normal;
 	}
+	@font-face {
+	  font-family: Avenir;
+	  src: url(/files/fonts/AvenirNext/AvenirNext-UltraLightItalic.ttf) format('truetype');
+	  font-weight: 200;
+    font-style: italic;
+	}
+	@font-face {
+	  font-family: Avenir;
+	  src: url(/files/fonts/AvenirNext/AvenirNext-Regular.ttf) format('truetype');
+	}
+	@font-face {
+	  font-family: Avenir;
+	  src: url(/files/fonts/AvenirNext/AvenirNext-Medium.ttf) format('truetype');
+	  font-weight: 500;
+    font-style: normal;
+	}
+	@font-face {
+	  font-family: Avenir;
+	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBold.ttf) format('truetype');
+	  font-weight: 600;
+    font-style: normal;
+	}
+	@font-face {
+	  font-family: Avenir;
+	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.ttf) format('truetype');
+	  font-weight: 600;
+    font-style: italic;
+	}
+
 	@font-face {
 	  font-family: AvenirLight;
 	  src: url(/files/fonts/Avenir/AvenirLTStd-Light.otf);

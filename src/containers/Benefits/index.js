@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import { SectionTitle, Title, SubTitle } from '../../components/Typography'
+import { H2, H5, H6 } from '../../components/Typography'
 import { Container, Row, Col } from '../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 	padding-bottom: 115px;
 	text-align: center;
 	@media screen and (max-width: 576px) {
-		padding-top: 100px;
+		padding-top: 80px;
 	}
 `
 
@@ -36,10 +36,16 @@ const BannerCol = Col.extend`
 		margin: 0 auto;
 	}
 `
+const Title = H5.extend`
+	font-weight: 600;
+`
+const SubTitle = H6.extend`
+	font-weight: 500;
+`
 
 const BenefitsSection = () => (
 	<Wrapper>
-		<SectionTitle>Benefits</SectionTitle>
+		<H2>Benefits</H2>
 		<Container>
 			<Row>
 				<BannerCol xs="12" sm="6" md="3">

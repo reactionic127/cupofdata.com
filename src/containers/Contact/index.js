@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import { Container, Row, Col } from '../../components/Layout'
 import Link, { withPrefix, navigateTo } from 'gatsby-link'
-import { Title, SubTitle } from '../../components/Typography'
+import { H5, H6 } from '../../components/Typography'
 import {
 	FacebookShareButton,
 	LinkedinShareButton,
@@ -25,16 +25,16 @@ const Wrapper = styled.div`
 	}
 `
 
-const ContactTitle = styled(Title)`
+const ContactTitle = H5.extend`
+	font-weight: 600;
 	color: ${({theme}) => theme.contact.color.text};
 	margin-top: 33px;
 `
 
-const ContactContent = SubTitle.extend`
+const ContactContent = H6.extend`
+	font-weight: normal;
 	margin-top: 2rem;
-	line-height: 28px;
-  font-family: Avenir;
-  font-size: 16px;
+	line-height: 33px;
 `
 
 const ContactLink = styled(Link)`
@@ -77,7 +77,7 @@ const ContactSection = () => (
 		<Container>
 			<Row>
 				<MainCol xs="12" sm="5">
-					<img src={withPrefix('/files/images/img-logo.png')} width="120" />
+					<img src={withPrefix('/files/images/img-logo.svg')} width="120" />
 					<ContactContent>Cup of Data’s mission is turbocharge growth at B2B SaaS companies using A.I.. By alleviating businesses from the manual, repetitive tasks associated with obtaining marketing qualified leads, marketers and sales professionals can focus on creating unique experiences with their customers and partners.</ContactContent>
 				</MainCol>
 				<SpCol xs="4" sm="3">

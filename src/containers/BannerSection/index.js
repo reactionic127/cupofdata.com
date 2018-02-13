@@ -60,16 +60,24 @@ const BackImg = styled.img`
 `
 const Slick1 = styled.div`
 	background: url(/files/images/bk-slick1.svg);
-	padding: 70px 20px;
-	height: calc(100vh - 140px);
+	padding: 100px 20px 70px 20px;
+	height: calc(100vh - 170px);
+	@media screen and (max-width: 320px) {
+		padding: 70px 20px;
+		height: calc(100vh - 140px);
+	}
 `
 const Slick2 = styled.div`
 	background: url(/files/images/bk-slick2.svg);
-	padding: 70px 20px;
-	height: calc(100vh - 140px);
+	padding: 100px 20px 70px 20px;
+	height: calc(100vh - 170px);
 	background-position: 100% 100%;
 	background-size: cover;
 	background-repeat: none;
+	@media screen and (max-width: 320px) {
+		padding: 70px 20px;
+		height: calc(100vh - 140px);
+	}
 `
 const Slick2Img = styled.img`
 	width: 80px;
@@ -103,14 +111,14 @@ const BannerSection = (props) => (
 			<div>
 				<Slick1>
 					<MobileTitle>Before cup of data</MobileTitle>
-					<img src="/files/images/img-slick1.png" width="100%" />
+					<img src="/files/images/img-slick1.svg" width="100%" />
 					
 				</Slick1>
 			</div>
 			<div>
 				<Slick2>
 					<MobileTitle>With Cup of Data, you get better B2B leads, faster!</MobileTitle>
-					<img src="/files/images/img-slick2.png" width="72%"/>
+					<img src="/files/images/img-slick2.svg" width="72%"/>
 				</Slick2>
 			</div>
 			
