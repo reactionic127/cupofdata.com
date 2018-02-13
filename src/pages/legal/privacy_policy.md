@@ -2,10 +2,13 @@
 contentType: legal
 path: /privacy
 title: Privacy Policy
+summary: >-
+  Protecting your private information is our priority. This Statement of Privacy
+  of 3Blades, LLC, a Georgia limited liability company (“Cup of Data”), applies
+  to the www.cupofdata.com website and governs data collection and usage. The
+  Cup of Data website is an e-commerce site. By using the Cup of Data website,
+  you consent to the data practices described in this statement.
 ---
-
-Protecting your private information is our priority. This Statement of Privacy of 3Blades, LLC, a Georgia limited liability company (“Cup of Data”), applies to the www.cupofdata.com website and governs data collection and usage. The Cup of Data website is an e-commerce site. By using the Cup of Data website, you consent to the data practices described in this statement.
-
 ## Collection of your Personal Information
 
 Cup of Data may collect personally identifiable information, such as your name. If you purchase Cup of Data’s products and services, we collect billing and credit card information. This information is used to complete the purchase transaction. Cup of Data may also collect anonymous demographic information, which is not unique to you, such as your age and gender. We may gather additional personal or non-personal information in the future. Information about your computer hardware and software may be automatically collected by Cup of Data. This information can include: your IP address, browser type, domain names, access times and referring website addresses. This information is used for the operation of the service, to maintain quality of the service, and to provide general statistics regarding use of the Cup of Data website.
@@ -78,9 +81,9 @@ Non-English translations of this Policy are provided for convenience only. In th
 
 We give you an opportunity to opt-out of receiving announcements of certain information. Users may opt-out of receiving any or all communications from Cup of Data by contacting us here:
 
-Web page: _________________
-Email: _________________
-Phone: _________________
+Web page: **_**
+Email: **_**
+Phone: **_**
 
 ## Changes to this Statement
 
