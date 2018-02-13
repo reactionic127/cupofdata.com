@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
 import { H1, H4, Title } from '../components/Typography'
@@ -96,7 +96,7 @@ export default function Template ({ data }) {
   const { markdownRemark: post } = data
   console.log('-- markdownRemark --\n', post)
   return (
-    <Fragment>
+    <div>
       <Helmet title={`About Us | ${data.site.siteMetadata.title}`} />
       <MainSection>
         <Container>
@@ -117,7 +117,7 @@ export default function Template ({ data }) {
         </Row>
       </MemberSection>
       }
-    </Fragment>
+    </div>
   )
 }
 

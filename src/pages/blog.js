@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { navigateTo } from 'gatsby-link'
 import Helmet from 'react-helmet'
@@ -60,7 +60,7 @@ const BlogMaster = ({data}) => {
 	const { allMarkdownRemark: post } = data
 	const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
 	return (
-		<Fragment>
+		<div>
 	    <Helmet title={`Blogs | ${data.site.siteMetadata.title}`} />
 	    <MainSection>
 	      { blog && <Container>
@@ -84,7 +84,7 @@ const BlogMaster = ({data}) => {
 	      	</Container>
 	      }
 	    </MainSection>
-	  </Fragment>
+	  </div>
 	 )
 }
 export default BlogMaster

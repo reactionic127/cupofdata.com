@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Container } from '../components/Layout'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
@@ -131,10 +131,10 @@ export default class TemplateWrapper extends React.Component {
           <div className='pageContent'>{this.props.children()}</div>
           {
             !this.state.undefinedStatus &&
-            <Fragment>
+            <div>
               <ContactSection />
               <Footer />
-            </Fragment>
+            </div>
           }
         </div>
       </ThemeProvider>

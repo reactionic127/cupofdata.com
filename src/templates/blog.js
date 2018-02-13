@@ -1,10 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { Container, Card, CardTitle, CardGroup, CardBody } from '../components/Layout'
 import { H1, Comments } from '../components/Typography'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
-import { basename } from 'path'
 import Link from 'gatsby-link'
 
 // find a post title by path
@@ -66,10 +65,9 @@ const BlogContainer = Container.extend`
 `
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
-  console.log('-- data -- ', data)
   const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []
   return (
-    <Fragment>
+    <div>
       <Helmet title={`Blog | ${post.frontmatter.title}`}>
         {data.site.siteMetadata.disqus && (
           <script id='dsq-count-scr' src='//gatsby-starter-blog.disqus.com/count.js' async />
@@ -109,7 +107,7 @@ export default function Template ({ data }) {
         <hr />
         <div id='disqus_thread' />
       </Container>)}
-    </Fragment>
+    </div>
   )
 }
 

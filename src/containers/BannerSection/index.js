@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { div } from 'react'
 import { Container, Row, Col } from '../../components/Layout'
 import styled from 'styled-components'
 import Slider from 'react-slick'
@@ -86,7 +86,7 @@ const Slick2Img = styled.img`
 	}
 `
 const BannerSection = (props) => (
-	<Fragment>
+	<div>
 		<LandingMode>
 			<BackImg src="/files/images/img-backborder.svg" />
 			<BannerContainer>
@@ -123,7 +123,7 @@ const BannerSection = (props) => (
 			</div>
 			
 		</Slider>
-	</Fragment>
+	</div>
 )
 
 export default BannerSection
