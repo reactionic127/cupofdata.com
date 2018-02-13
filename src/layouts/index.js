@@ -30,6 +30,23 @@ export default class TemplateWrapper extends React.Component {
       secondary: false,
     }
   }
+  componentWillMount() {
+    this.updateDimensions();
+  }
+  componentDidMount() {
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", this.updateDimensions.bind(this));
+    }
+    this.checkPath(this.props)
+  }
+  componentWillReceiveProps(props) {
+    this.checkPath(props)
+  }
+  componentWillUnmount() {
+    if (typeof window !== 'undefined') {
+      window.removeEventListener("resize", this.updateDimensions.bind(this));
+    }
+  }
   updateDimensions() {
     const { location } = this.props
     if (typeof screen !== `undefined`) {
@@ -48,38 +65,8 @@ export default class TemplateWrapper extends React.Component {
       } 
     }
   }
-  componentWillMount() {
-    this.updateDimensions();
-  }
-  componentDidMount() {
-    if (typeof window !== 'undefined') {
-      window.addEventListener("resize", this.updateDimensions.bind(this));
-    }
-    
-    const { children, data, match, location } = this.props;
-    const { allMarkdownRemark: post } = data
-    const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
-    const blogDetail = blog.find(({ node: post}) => {
-      return post.frontmatter.path == location.pathname
-    })
-    const undefinedReg = /404*\w/
-    const undefinedStatus = undefinedReg.test(location.pathname) || location.pathname === '/onboard';
-    
-    if ( location.pathname === '/blog' || blogDetail ){
-      this.setState({
-        undefinedStatus,
-        theme: mainTheme.secondary,
-        secondary: true
-      })
-    } else {
-      this.setState({
-        undefinedStatus,
-        theme: mainTheme.primary,
-        secondary: false
-      })
-    }
-  }
-  componentWillReceiveProps(props) {
+  checkPath(props) {
+    let themeType = 'primary';
     const { children, data, match, location } = props;
     const { allMarkdownRemark: post } = data
     const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
@@ -88,8 +75,21 @@ export default class TemplateWrapper extends React.Component {
     })
     const undefinedReg = /404*\w/
     const undefinedStatus = undefinedReg.test(location.pathname) || location.pathname === '/onboard';
+    switch(location.pathname) {
+      case '/blog':
+        themeType = 'secondary'
+        break;
+      case '/terms':
+        themeType = 'secondary'
+        break;
+      case '/privacy':
+        themeType = 'secondary'
+        break;
+      default:
+        themeType = 'primary'
+    }
     
-    if ( location.pathname === '/blog' || blogDetail ){
+    if ( themeType === 'secondary' || blogDetail ){
       this.setState({
         undefinedStatus,
         theme: mainTheme.secondary,
@@ -105,12 +105,6 @@ export default class TemplateWrapper extends React.Component {
       })
     }
   }
-  componentWillUnmount() {
-    if (typeof window !== 'undefined') {
-      window.removeEventListener("resize", this.updateDimensions.bind(this));
-    }
-  }
-
   render () {
     let user
     if (typeof window !== 'undefined') {
