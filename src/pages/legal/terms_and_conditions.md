@@ -2,9 +2,9 @@
 contentType: legal
 path: /terms
 title: Terms and Conditions
+summary: >-
+  Welcome to www.cupofdata.com. 3Blades, LLC, a Georgia limited liability company (“Cup of Data”; also identified by “we” or “us” or “our”) has issued these terms and conditions that apply to the use of this website and any other websites that Cup of Data or its subsidiaries operate and that link to these Terms of Use (the “Websites”).
 ---
-
-Welcome to www.cupofdata.com. 3Blades, LLC, a Georgia limited liability company (“Cup of Data”; also identified by “we” or “us” or “our”) has issued these terms and conditions that apply to the use of this website and any other websites that Cup of Data or its subsidiaries operate and that link to these Terms of Use (the “Websites”).
 
 We provide the Websites to you subject to these Terms of Use (“Terms”), which may be updated by us from time to time pursuant to Section 10 herein. By accessing and using the Websites, you accept and agree to be bound by these Terms and Cup of Data’s Privacy Policy. If you do not agree to these Terms, you should not access or use the Websites. In addition, when accessing the Websites you shall be subject to any posted guidelines or rules applicable to the Websites, which may be posted and modified from time to time. All such guidelines or rules are hereby incorporated by reference into these Terms.
 
