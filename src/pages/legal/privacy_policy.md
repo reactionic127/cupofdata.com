@@ -3,7 +3,11 @@ contentType: legal
 path: /privacy
 title: Privacy Policy
 summary: >-
-  Protecting your private information is our priority. This Statement of Privacy of 3Blades, LLC, a Georgia limited liability company (“Cup of Data”), applies to the www.cupofdata.com website and governs data collection and usage. The Cup of Data website is an e-commerce site. By using the Cup of Data website, you consent to the data practices described in this statement.
+  Protecting your private information is our priority. This Statement of Privacy
+  of 3Blades, LLC, a Georgia limited liability company (“Cup of Data”), applies
+  to the www.cupofdata.com website and governs data collection and usage. The
+  Cup of Data website is an e-commerce site. By using the Cup of Data website,
+  you consent to the data practices described in this statement.
 ---
 ## Collection of your Personal Information
 
@@ -77,9 +81,9 @@ Non-English translations of this Policy are provided for convenience only. In th
 
 We give you an opportunity to opt-out of receiving announcements of certain information. Users may opt-out of receiving any or all communications from Cup of Data by contacting us here:
 
-Web page: _________________
-Email: _________________
-Phone: _________________
+Web page: **_**
+Email: **_**
+Phone: **_**
 
 ## Changes to this Statement
 
