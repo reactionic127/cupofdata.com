@@ -21,7 +21,7 @@ const GotoHome = Title.extend`
 `
 const Onboarding = () => (
 	<div>
-		<Iframe width="100%" height="100%" frameborder="0" src="https://landbot.io/u/H-25231-G88YW0YD97JZI1KT/index.html"></Iframe>
+		<Iframe width="100%" height="100%" frameborder="0" src="https://try.cupofdata.com"></Iframe>
 		<Link to='/'><GotoHome>Home</GotoHome></Link>
 	</div>
 )
