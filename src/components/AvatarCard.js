@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { H6 } from './Typography'
 
 const Card = styled.div`
-	background-image: url(/files/images/img-quote.png);
+	background-image: url(/files/images/img-quote.svg);
 	background-repeat: no-repeat;
 	background-position-x: 0;
 	background-position-y: 0;
