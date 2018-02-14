@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from '../components/Button'
-import { Title } from '../components/Typography'
+import { H5 } from '../components/Typography'
 import Link from 'gatsby-link'
 
 const Iframe = styled.iframe`
@@ -12,7 +12,7 @@ const Iframe = styled.iframe`
 	bottom: 0;
 	border: none;
 `
-const GotoHome = Title.extend`
+const GotoHome = H5.extend`
 	position: absolute;
 	left: 85%;
 	top: 20px;

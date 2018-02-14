@@ -4,7 +4,6 @@ injectGlobal`
 	@font-face {
 	  font-family: GTWalsheim;
 	  src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Medium.ttf);
-
 	}
 	@font-face {
 	  font-family: Avenir;
@@ -94,6 +93,13 @@ injectGlobal`
 	}
 	.cms-content p {
     margin: 1rem 0;
+    font-family: Avenir;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .cms-content li {
+  	margin: 1rem 0;
     font-family: Avenir;
     font-weight: 400;
     line-height: 26px;

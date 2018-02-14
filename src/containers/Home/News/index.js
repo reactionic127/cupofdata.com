@@ -45,8 +45,9 @@ const NewsView = () => (
 				<Col xs="12" sm="6" md="4">
 					<img src={withPrefix('/files/blog/launch.jpg')} width="100%" />
 					<NewsTitle>Cup of Data Launches at Data Science Salon in Miami</NewsTitle>
-					<NewsContent className="text-left">Cup of Data, a marketing science solution for account based marketing, launches at Data Science Salon in Miami
-</NewsContent>
+					<NewsContent className="text-left">
+						Cup of Data, a marketing science solution for account based marketing, launches at Data Science Salon in Miami
+					</NewsContent>
 				</Col>
 			</NewsRow>
 			<BtnReadMore outline>Read more</BtnReadMore>

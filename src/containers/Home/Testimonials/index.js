@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { SectionTitle } from '../../../components/Typography'
+import { H2 } from '../../../components/Typography'
 import { Container, Row, Col } from '../../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 import AvatarCard from '../../../components/AvatarCard'
@@ -14,8 +14,9 @@ const Wrapper = styled.div`
 	}
 `
 
-const FeedbackSectionTitle = SectionTitle.extend`
+const FeedbackSectionTitle = H2.extend`
 	margin-bottom: 70px;
+	text-align: center;
 	@media screen and (max-width: 576px) {
 		margin-bottom: 0;
 	}
