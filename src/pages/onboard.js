@@ -21,7 +21,7 @@ const GotoHome = H5.extend`
 `
 const Onboarding = () => (
 	<div>
-		<Iframe width="100%" height="100%" frameborder="0" src="https://try.cupofdata.com"></Iframe>
+		<Iframe width="100%" height="100%" frameborder="0" src={`${process.env.GATSBY_ONBOARD_URL}`}></Iframe>
 		<Link to='/'><GotoHome>Home</GotoHome></Link>
 	</div>
 )
