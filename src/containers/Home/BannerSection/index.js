@@ -1,8 +1,8 @@
 import React, { div } from 'react'
-import { Container, Row, Col } from '../../components/Layout'
+import { Container, Row, Col } from '../../../components/Layout'
 import styled from 'styled-components'
 import Slider from 'react-slick'
-import Button from '../../components/Button'
+import Button from '../../../components/Button'
 import Link, { withPrefix } from 'gatsby-link'
 
 const LandingMode = styled.div`

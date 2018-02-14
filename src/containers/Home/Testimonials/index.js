@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { SectionTitle } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Layout'
+import { SectionTitle } from '../../../components/Typography'
+import { Container, Row, Col } from '../../../components/Layout'
 import { withPrefix } from 'gatsby-link'
-import AvatarCard from '../../components/AvatarCard'
+import AvatarCard from '../../../components/AvatarCard'
 
 const Wrapper = styled.div`
 	padding-top: 81px;
@@ -28,7 +28,7 @@ const TestimonialsRow = Row.extend`
 	}
 `
 
-const FeedbackSection = () => (
+const Testimonials = () => (
 	<Wrapper>
 		<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
 		<Container>
@@ -54,4 +54,4 @@ const FeedbackSection = () => (
 	</Wrapper>
 )
 
-export default FeedbackSection
+export default Testimonials

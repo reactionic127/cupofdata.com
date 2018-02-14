@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
-import { H2, H5, H6 } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Layout'
+import { H2, H5, H6 } from '../../../components/Typography'
+import { Container, Row, Col } from '../../../components/Layout'
 import { withPrefix } from 'gatsby-link'
 
 const Wrapper = styled.div`

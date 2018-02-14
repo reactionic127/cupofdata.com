@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container } from '../../components/Layout'
-import Button from '../../components/Button'
-import { H1, H5 } from '../../components/Typography'
+import { Container } from '../../../components/Layout'
+import Button from '../../../components/Button'
+import { H1, H5 } from '../../../components/Typography'
 import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
