@@ -12,6 +12,9 @@ const Title = H3.extend`
 	line-height: 35px;
 	font-family: GTWalsheim;
 	text-align: center;
+	@media screen and (max-width: 576px) {
+ 	  padding: 0 2rem;
+  }
 `
 const Content = Container.extend`
 	margin-top: 60px;
@@ -22,6 +25,7 @@ const Content = Container.extend`
   	-webkit-column-count: 1;
 	  -moz-column-count: 1;
 	  column-count: 1;
+	  padding: 0 2rem;
   }
 `
 const QASection = styled.div`

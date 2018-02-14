@@ -10,12 +10,15 @@ const PriceSection = styled.div`
 `
 const PriceTitle = H1.extend`
 	margin-top: 3rem;
+	@media screen and (max-width: 576px) {
+		font-size: 24px;
+	}
 `
 const NoteText = H5.extend`
 	font-weight: 400;
 `
 const PlanGroup = styled.div`
-	padding: 2rem 0;
+	padding: 2rem 0 0;
 	margin-top: 0.5rem;
 `
 const Discount = Small.extend`

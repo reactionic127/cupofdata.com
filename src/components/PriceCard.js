@@ -8,6 +8,7 @@ import Button from './Button'
 const PlanCard = styled.div`
 		border: 1px solid rgba(44, 51, 59, 0.2);
 		text-align: center;
+		margin-top: 2rem;
 	${({enterpriseMode}) => enterpriseMode && css`
 		background-color: #495CF2;
 		color: white;	
