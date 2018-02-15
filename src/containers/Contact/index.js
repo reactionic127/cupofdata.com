@@ -85,7 +85,7 @@ const ContactSection = () => (
 					<Ul>
 						<Li><ContactLink to="/">Home</ContactLink></Li>
 						<Li><ContactLink to="/about">Company</ContactLink></Li>
-						<Li><ContactLink to="/blog">Blogs</ContactLink></Li>
+						<Li><ContactLink to="/blog">Blog</ContactLink></Li>
 					</Ul>
 				</SpCol>
 				<SpCol xs="8" sm="4">
