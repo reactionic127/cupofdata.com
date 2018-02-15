@@ -181,7 +181,6 @@ export default class NavContainer extends React.Component {
     this.setState({ collapsible: props.dropdown })
   }
   moveTo = (path) => {
-    console.log(path)
     navigateTo(path)
     this.setState({
       collapsible: false

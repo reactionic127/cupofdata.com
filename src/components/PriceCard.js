@@ -1,6 +1,7 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import styled, { css } from 'styled-components'
+import { navigateTo } from 'gatsby-link'
 import { H1, H6, P } from './Typography'
 import Button from './Button'
 
@@ -77,7 +78,7 @@ const PriceCard = (props) => (
 		<PriceDetail>24/7 support</PriceDetail>
 		<PriceDetail>{props.machineNumber} virtual machines</PriceDetail>
 		<PriceDetail>{props.runtime} hrs runtime</PriceDetail>
-		<TryButton>Try it for free</TryButton>
+		<TryButton onClick={() => navigateTo(props.tryPath)}>Try it for free</TryButton>
 	</PlanCard>
 )
 export default PriceCard
