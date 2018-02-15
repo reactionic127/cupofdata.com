@@ -75,9 +75,9 @@ const PriceCard = (props) => (
 			</div>
 		}
 		<PriceDetail>{props.validatedContacts} validated contacts</PriceDetail>
-		<PriceDetail>24/7 support</PriceDetail>
+{/*		<PriceDetail>24/7 support</PriceDetail>
 		<PriceDetail>{props.machineNumber} virtual machines</PriceDetail>
-		<PriceDetail>{props.runtime} hrs runtime</PriceDetail>
+		<PriceDetail>{props.runtime} hrs runtime</PriceDetail>*/}
 		<TryButton onClick={() => navigateTo(props.tryPath)}>Try it for free</TryButton>
 	</PlanCard>
 )
