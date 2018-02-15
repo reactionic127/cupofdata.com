@@ -15,7 +15,7 @@ const IndexPage = ({data}) => (
     <BannerSection />
     <FeaturesWrapper />
     <BenefitsWrapper />
-    <NewsWrapper />
+    <NewsWrapper data={data.allMarkdownRemark.edges}/>
     <TestimonialsWrapper />
     <AutomatedMarketingWrapper />
   </div>
@@ -29,11 +29,12 @@ query IndexQuery {
       node {
         excerpt(pruneLength: 400)
         id
-        frontmatter {
+        frontmatter{
           title
           contentType
           date(formatString: "MMMM DD, YYYY")
           path
+          summary
         }
       }
     }
