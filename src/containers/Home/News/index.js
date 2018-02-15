@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { H2, H5, H6 } from '../../../components/Typography'
 import { Container, Row, Col } from '../../../components/Layout'
 import Button from '../../../components/Button'
-import { withPrefix} from 'gatsby-link'
+import { withPrefix, navigateTo } from 'gatsby-link'
 import graphql from 'graphql'
 
 const Warpper = styled.div`
