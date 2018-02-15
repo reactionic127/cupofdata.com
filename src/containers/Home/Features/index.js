@@ -64,7 +64,7 @@ const FeaturesView = () => (
 						<LI className="fa"><FeatureContent>Obtain insights on how to engage contacts with context</FeatureContent></LI>
 						<LI className="fa"><FeatureContent>Trigger targeted engagements using your existing Martech stack</FeatureContent></LI>
 					</UL>
-					<LearnMore>Learn More</LearnMore>
+					{/*<LearnMore>Learn More</LearnMore>*/}
 				</Col>
 			</FeatureRow>
 		</Container>
