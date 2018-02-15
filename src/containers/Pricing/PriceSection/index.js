@@ -46,22 +46,10 @@ export default class PlanSections extends React.Component {
 		return (
 			<PriceSection>
 				<Container>
-					<PriceTitle>Start understanding your users</PriceTitle>
-					<NoteText>Try any plan free for 14 days. No credit card required*</NoteText>
+					<PriceTitle>Turbocharge your SaaS B2B sales with machine learning.</PriceTitle>
+					<NoteText>Get 10 targeted and validated B2B leads. No credit card required*</NoteText>
 					<PlanGroup>
-							{/*<OutlineRadioButton
-								active={this.state.plan === 'monthly'}
-								onClick={() => this.setState({ plan: 'monthly'})}
-							>
-								MONTHLY
-							</OutlineRadioButton>
-							<OutlineRadioButton
-								active={this.state.plan === 'yearly'}
-								onClick={() => this.setState({ plan: 'yearly'})}
-							>
-								YEARLY
-								<Discount>20% OFF</Discount>
-							</OutlineRadioButton>*/}
+							{ }
 							<Announcment>GET 2 MONTHS FREE PAYING ANNUALLY</Announcment>
 					</PlanGroup>
 					<Row>
