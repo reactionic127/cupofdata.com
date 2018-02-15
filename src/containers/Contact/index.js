@@ -1,18 +1,12 @@
 import React from 'react';
 import styled from 'styled-components'
+import Link, { withPrefix } from 'gatsby-link'
 import { Container, Row, Col } from '../../components/Layout'
-import Link, { withPrefix, navigateTo } from 'gatsby-link'
 import { H5, H6 } from '../../components/Typography'
-import {
-	FacebookShareButton,
-	LinkedinShareButton,
-	TwitterShareButton,
-} from 'react-share'
 import {
 	LINKEDIN_URL,
 	FACEBOOK_URL,
 	TWITTER_URL,
-	SOCIAL_TITLE
 } from '../../config/constants'
 
 const Wrapper = styled.div`
@@ -72,6 +66,9 @@ const MainCol = SpCol.extend`
 		text-align: center;
 	}
 `
+const A = styled.a`
+	color: #ffffff;
+`
 const ContactSection = () => (
 	<Wrapper>
 		<Container>
@@ -92,33 +89,9 @@ const ContactSection = () => (
 					<ContactTitle>CONTACT US</ContactTitle>
 					<ContactContent>Cup of Data<br/>3423 Piedmont Rd NE<br/>Atlanta, GA 30305</ContactContent>
 					<ShareIcon>
-						<FacebookShareButton
-							url={FACEBOOK_URL}
-							quote={SOCIAL_TITLE}
-							className="social-button"
-							windowWidth={750}
-            	windowHeight={600}
-						>
-							<Icon className="fab fa-facebook-square fa-2x" />
-						</FacebookShareButton>
-						<TwitterShareButton
-							url={TWITTER_URL}
-							title={SOCIAL_TITLE}
-							className="social-button"
-							windowWidth={600}
-            	windowHeight={600}
-						>
-							<Icon className="fab fa-twitter fa-2x" />
-						</TwitterShareButton>
-						<LinkedinShareButton
-							url={LINKEDIN_URL}
-							title={SOCIAL_TITLE}
-							className="social-button"
-							windowWidth={600}
-            	windowHeight={600}
-						>
-							<Icon className="fab fa-linkedin fa-2x" />
-						</LinkedinShareButton>
+						<A href={FACEBOOK_URL}><Icon className="fab fa-facebook-square fa-2x" /></A>
+						<A href={TWITTER_URL}><Icon className="fab fa-twitter fa-2x" /></A>
+						<A href={LINKEDIN_URL}><Icon className="fab fa-linkedin fa-2x" /></A>
 					</ShareIcon>
 				</SpCol>
 			</Row>

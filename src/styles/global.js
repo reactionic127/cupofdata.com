@@ -61,14 +61,6 @@ injectGlobal`
 		flex: 1;
     overflow: auto;
 	}
-	.social-button {
-		display: inline-flex;
-		cursor: pointer;
-	}
-	.social-button:focus {
-		outline: none;
-	}
-
 
 	/**** Style for slick ******/
 	.slick-initialized.slick-slider {
