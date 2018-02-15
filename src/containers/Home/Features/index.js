@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { H2, H6 } from '../../components/Typography'
-import { Container, Row, Col } from '../../components/Layout'
-import Button from '../../components/Button'
+import { H2, H6 } from '../../../components/Typography'
+import { Container, Row, Col } from '../../../components/Layout'
+import Button from '../../../components/Button'
 import { withPrefix} from 'gatsby-link'
 const Wrapper = styled.div`
 	background: #f5f7fa;

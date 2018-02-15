@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
-import { H1, H4, H5, P, Title } from '../components/Typography'
+import { H1, H4, H5, P } from '../components/Typography'
 import { CardGroup } from '../containers/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -21,7 +21,7 @@ const Topic = H1.extend`
   }
 `
 
-const Content = Title.extend`
+const Content = H5.extend`
   max-width: 680px;
   margin-top: 2rem;
   margin-bottom: 3.5rem;

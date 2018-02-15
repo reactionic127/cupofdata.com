@@ -1,0 +1,42 @@
+<svg width="36" height="35" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-11039 92)">
+<g id="Group">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 11064.1 -66.8667)" fill="url(#paint0_linear)"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path1_fill" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 11063.6 -65.8998)" fill="url(#paint1_linear)"/>
+</g>
+<g id="Ellipse (Stroke)" filter="url(#filter0_d)">
+<use xlink:href="#path2_fill" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 11067.9 -63)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path3_stroke" transform="translate(11064 -74)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="11039" y="-92" width="33" height="35" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="6"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-18.919 -28.4362 28.4893 -358.725 2.78709 204.194)">
+<stop offset="0" stop-color="#F37110"/>
+<stop offset="1" stop-color="#F0C19E"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-46.7099 -18.1502 -336.302 -445.621 180.821 232.148)">
+<stop offset="0" stop-color="#F37110"/>
+<stop offset="1" stop-color="#F0C19E"/>
+</linearGradient>
+<path id="path0_fill" d="M 21.2667 10.6135C 21.2667 16.4752 16.506 21.227 10.6333 21.227C 4.76071 21.227 0 16.4752 0 10.6135C 0 4.75183 4.76071 0 10.6333 0C 16.506 0 21.2667 4.75183 21.2667 10.6135Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 17.0888 19.04C 16.9516 19.0449 16.8137 19.0479 16.6752 19.0479C 10.8026 19.0479 6.04186 14.2969 6.04186 8.43457C 6.04186 4.99609 7.68014 1.93945 10.2201 0C 4.53899 0.216797 2.50188e-07 4.88184 1.03447e-14 10.6055C -2.56249e-07 16.4678 4.7607 21.2188 10.6333 21.2188C 13.0611 21.2188 15.2989 20.4072 17.0888 19.04Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 14.5 24.1216C 19.8388 24.1216 24.1667 19.8018 24.1667 14.473C 24.1667 9.14417 19.8388 4.82432 14.5 4.82432C 9.16125 4.82432 4.83333 9.14417 4.83333 14.473C 4.83333 19.8018 9.16125 24.1216 14.5 24.1216ZM 14.5 28.9459C 22.5081 28.9459 29 22.4662 29 14.473C 29 6.47977 22.5081 0 14.5 0C 6.49187 0 0 6.47977 0 14.473C 0 22.4662 6.49187 28.9459 14.5 28.9459Z"/>
+<path id="path3_stroke" d="M 3 -6C 1.34315 -6 0 -4.65685 0 -3C 0 -1.34315 1.34315 0 3 0L 3 -6ZM 8 0C 9.65685 0 11 -1.34315 11 -3C 11 -4.65685 9.65685 -6 8 -6L 8 0ZM 3 0L 8 0L 8 -6L 3 -6L 3 0Z"/>
+</defs>
+</svg>

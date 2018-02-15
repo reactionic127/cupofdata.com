@@ -25,5 +25,24 @@ const Button = styled.button`
     border-radius: 0;
   `}
 `
+export const OutlineRadioButton=styled.button`
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 1rem 2rem 0.75rem;
+    margin-right: 1.5rem;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    border: 1px solid rgba(44, 51, 59, 0.2);
+    transition: all 0.5s;
+    :focus {
+      outline: none;
+    }
+  ${({active}) => active && css`
+    border-color: #495CF2;
+    color: #495CF2;
+  `}
+`
 
 export default Button;

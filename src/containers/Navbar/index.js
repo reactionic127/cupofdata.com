@@ -62,7 +62,7 @@ const NavWrapper =  styled.ul`
       margin: 0;
       background-color: #ffffff;
       ${props => props.active && css`
-        height: 200px;
+        height: 260px;
       `}
     }
 `
@@ -181,7 +181,6 @@ export default class NavContainer extends React.Component {
     this.setState({ collapsible: props.dropdown })
   }
   moveTo = (path) => {
-    console.log(path)
     navigateTo(path)
     this.setState({
       collapsible: false
@@ -196,6 +195,9 @@ export default class NavContainer extends React.Component {
           </a>
           <MobileNav onClick={this.onCollapse}><Toggle><ToggleSpan  active={this.state.collapsible}></ToggleSpan></Toggle></MobileNav>
           <NavWrapper active={this.state.collapsible}>
+            <NavItem>
+              <NavLink onClick={() => this.moveTo('/pricing')}>Pricing</NavLink>
+            </NavItem>
             <NavItem>
               <NavLink onClick={() => this.moveTo('/about')}>Company</NavLink>
             </NavItem>
