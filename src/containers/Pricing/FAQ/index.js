@@ -56,7 +56,7 @@ const FaqSection = () => (
 				<Answer>Thanks to the good people at Stripe, we accept all major credit cards. We also accept wire transfers and electronic checks.</Answer>
 			</QASection>
 			<QASection>
-				<Question>How is your service different from all other B2B lead gen service out there?</Question>
+				<Question>How is your service different from all other B2B lead gen services out there?</Question>
 				<Answer>Cup of Data uses Machine Learning and Deep Learning to identify the best leads, for you. Our A.I. calculates an Account Propensity Score (APS) which improves over time by tracking successful conversions. So it's more than just B2B lead gen, it's your own personal an automated sales coach!</Answer>
 			</QASection>
 			<QASection>
@@ -68,7 +68,7 @@ const FaqSection = () => (
 				<Answer>You bet. We designed Cup of Data from the get-go to integrate with any solution.</Answer>
 			</QASection>
 			<QASection>
-				<Question>Do you offer free trials for your service?</Question>
+				<Question>Do you offer free trials for your services?</Question>
 				<Answer>We do for a limited number of accounts and validated contacts. Cup of Data works best once our A.I. models track milestones, starting with conversions, and create challenger models to improve outcomes. If you would like a demo, you can schedule one <a href="https://www.cupofdata.com/onboard/">here</a></Answer>
 			</QASection>
 			<QASection>
