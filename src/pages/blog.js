@@ -61,7 +61,7 @@ const BlogMaster = ({data}) => {
 	const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
 	return (
 		<div>
-	    <Helmet title={`Blogs | ${data.site.siteMetadata.title}`} />
+	    <Helmet title={`Blog | ${data.site.siteMetadata.title}`} />
 	    <MainSection>
 	      { blog && <Container>
 	      	{ blog.map(({ node: post }, i) => (
