@@ -4,7 +4,7 @@ path: /cup-of-data-launch
 title: >-
   CUP OF DATA, A MARKETING SCIENCE SOLUTION FOR ACCOUNT-BASED MARKETING,
   LAUNCHES AT DATA SCIENCE SALON MIAMI 
-date: 2018-02-07T00:02:17-05:00
+date: 2018-02-07T05:02:17.000Z
 summary: >-
   Cup of Data offers simple lead identification for B2B account-based marketing
   (ABM) with its powerful predictive audience solution.
@@ -21,8 +21,8 @@ The marketing science solution integrates with marketers current CRM and Marketi
 
 “We are excited to start a pilot with Cup of Data with our clients, who are some of the most innovative B2B enterprise software vendors in the industry,” said Anna Anisin, Founder and CEO at Formulated.by, a boutique B2B marketing firm working with AWS, IBM and O’Reilly Media.
 
-For more information about Cup of Data stop by the Data Science Salon Miami or visit[www.cupofdata.com](http://www.cupofdata.com)to set up a demo today.
+For more information about Cup of Data stop by the Data Science Salon Miami or visit [www.cupofdata.com](http://www.cupofdata.com) to set up a demo today.
 
 About Cup of Data
 
-Cup of Data is a marketing science solution created to enhance quality lead generation for B2B marketers and sales leaders in high growth organizations. Cup of Data offers simple lead identification for B2B account-based marketing (ABM) with its powerful predictive audience solution. For more information visit [Cup of Data](https://cupofdata.com)and on [Medium](https://medium.com/cup-of-data).
+Cup of Data is a marketing science solution created to enhance quality lead generation for B2B marketers and sales leaders in high growth organizations. Cup of Data offers simple lead identification for B2B account-based marketing (ABM) with its powerful predictive audience solution. For more information visit [Cup of Data](https://cupofdata.com) and on [Medium](https://medium.com/cup-of-data).
