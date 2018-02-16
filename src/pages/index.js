@@ -35,6 +35,8 @@ query IndexQuery {
           date(formatString: "MMMM DD, YYYY")
           path
           summary
+          newsFlag
+          postimage
         }
       }
     }

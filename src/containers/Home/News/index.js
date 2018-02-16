@@ -22,12 +22,25 @@ const NewsTitle = H5.extend`
 	text-align: left;
 	color: #ffffff;
 	font-weight: 600;
+	text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 60px;
+  margin: 0.5rem 0;
 `
 
 const NewsContent = H6.extend`
 	text-align: left;
 	color: #ffffff;
 	font-weight: 400;
+	text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 75px;
 `
 
 const BtnReadMore = Button.extend`
@@ -40,24 +53,30 @@ const NewsRow = Row.extend`
 
 const NewsView = ({data}) => {
 	const news = data.filter((item) => {
-		console.log(item);
-		return item.node.frontmatter.contentType == 'blog'
-	})[0]
+		console.log(item.node);
+		return item.node.frontmatter.contentType == 'blog' && item.node.frontmatter.newsFlag
+	})
 	return (
 		<Warpper>
 			<NewsSectionTitle>In the news</NewsSectionTitle>
-			<Container>
+			{
+				news && <Container>
 				<NewsRow>
-					<Col xs="12" sm="6" md="4">
-						<img src={withPrefix('/files/blog/launch.jpg')} width="100%" />
-						<NewsTitle>{news.node.frontmatter.title}</NewsTitle>
-						<NewsContent className="text-left">
-							{news.node.frontmatter.summary}
-						</NewsContent>
-					</Col>
+				{
+					news.map((item, i) => (
+						<Col xs="12" sm="6" md="4" key={i}>
+							<img src={withPrefix(item.node.frontmatter.postimage)} width="100%" height="30%" />
+							<NewsTitle>{item.node.frontmatter.title}</NewsTitle>
+							<NewsContent className="text-left">
+								{item.node.frontmatter.summary}
+							</NewsContent>
+							<BtnReadMore outline onClick={() => navigateTo(item.node.frontmatter.path)}>Read more</BtnReadMore>
+						</Col>
+					))
+				}
 				</NewsRow>
-				<BtnReadMore outline onClick={() => navigateTo(news.node.frontmatter.path)}>Read more</BtnReadMore>
 			</Container>
+		}
 		</Warpper>
 	)
 }
