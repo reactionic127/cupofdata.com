@@ -57,10 +57,10 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "testimonials"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Name", name: "name", widget: "string"}
       - {label: "Position", name: "position", widget: "string"}
       - {label: "Comment", name: "comment", widget: "text"}
+      - {label: Photo, name: photo, widget: file }
 
 
