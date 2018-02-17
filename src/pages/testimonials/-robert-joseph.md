@@ -1,6 +1,6 @@
 ---
 contentType: testimonials
-path: /robert-joseph
+title: Robert Joseph
 name: Robert Joseph
 position: 'Data Scientist, Stanley Black and Decker'
 comment: >-
