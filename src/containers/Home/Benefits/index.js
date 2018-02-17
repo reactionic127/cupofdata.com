@@ -8,6 +8,9 @@ const Wrapper = styled.div`
 	padding-top: 200px;
 	padding-bottom: 115px;
 	text-align: center;
+	@media screen and (max-width: 768px) {
+		padding-top: 150px;
+	}
 	@media screen and (max-width: 576px) {
 		padding-top: 80px;
 	}
