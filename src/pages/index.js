@@ -9,17 +9,20 @@ import BenefitsWrapper from '../containers/Home/Benefits'
 import TestimonialsWrapper from '../containers/Home/Testimonials'
 import AutomatedMarketingWrapper from '../containers/Home/AutomatedMarketing'
 
-const IndexPage = ({data}) => (
-  <div>
-    <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
-    <BannerSection />
-    <FeaturesWrapper />
-    <BenefitsWrapper />
-    <NewsWrapper />
-    <TestimonialsWrapper />
-    <AutomatedMarketingWrapper />
-  </div>
-)
+const IndexPage = ({data}) => {
+  console.log(data);
+  return (
+    <div>
+      <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
+      <BannerSection />
+      <FeaturesWrapper />
+      <BenefitsWrapper />
+      <NewsWrapper />
+      <TestimonialsWrapper />
+      <AutomatedMarketingWrapper />
+    </div>
+  )
+}
 
 export default IndexPage
 export const pageQuery = graphql`
