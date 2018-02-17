@@ -37,7 +37,6 @@ const Photo = styled.img`
 `
 
 const PositionName = H6.extend`
-	line-height: 	;
 	color: rgba(0,0,0,0.7);
 	margin-bottom: 23px;
 	font-weight: 500;
