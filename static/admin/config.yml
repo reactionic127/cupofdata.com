@@ -20,7 +20,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "PostImage", name: "postimage", widget: "file"}
-
+      - {label: "NewsFlag", name: "newsFlag", widget: "boolean"}
   - name: "about"
     label: "About"
     folder: "src/pages/about"

@@ -9,7 +9,7 @@ const Button = styled.button`
   font-family: Avenir;
   font-weight: 600;
   font-size: 18px;
-
+  cursor: pointer;
   &:focus {
     outline: none;
   }

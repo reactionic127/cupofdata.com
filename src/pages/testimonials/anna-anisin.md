@@ -2,10 +2,10 @@
 contentType: testimonials
 title: Anna Anisin
 path: /anna-anisin
-name: Anna Anisin
 position: 'Founder, Formulated.by'
 comment: >-
   We obtained higher quality B2B leads, faster, and were able to integrate with
   the Martech tools we know and love.
+photo: /files/blog/avatar-anna.png
 ---
 
