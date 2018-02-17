@@ -29,30 +29,32 @@ const TestimonialsRow = Row.extend`
 	}
 `
 
-const Testimonials = () => (
-	<Wrapper>
-		<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
-		<Container>
-			<TestimonialsRow>
-				<Col xs="12" sm="6" md="4">
-					<AvatarCard
-						avatarUrl="/files/images/avatar-robert.png"
-						name="Robert Joseph"
-						position="Data Scientist, Stanley Black and Decker"
-						quote="The easy to use, robust API made it simple to integrate 3Blades quickly and safely with internal applications."
-					/>
-				</Col>
-				<Col xs="12" sm="6"  md="4" className="text-center">
-					<AvatarCard
-						avatarUrl="/files/images/avatar-anna.png"
-						name="Anna Anisin"
-						position="Founder, Formulated.by"
-						quote="We obtained higher quality B2B leads, faster, and were able to integrate with the Martech tools we know and love."
-					/>
-				</Col>
-			</TestimonialsRow>
-		</Container>
-	</Wrapper>
-)
+const Testimonials = (data) => {
+	const testimonials = data.data.filter((item) => {
+		return item.node.frontmatter.contentType === 'testimonials'
+	})
+	return (
+		<Wrapper>
+			<FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
+			{
+				testimonials && <Container>
+				<TestimonialsRow>
+				{
+					testimonials.map((item, i) => (
+						<Col xs="12" sm="6" md="4" key={i}>
+							<AvatarCard
+								avatarUrl={item.node.frontmatter.photo}
+								name={item.node.frontmatter.title}
+								position={item.node.frontmatter.position}
+								quote={item.node.frontmatter.comment}
+							/>
+						</Col>
+					))}
+				</TestimonialsRow>
+			</Container>
+		}
+		</Wrapper>
+	)
+}
 
 export default Testimonials
