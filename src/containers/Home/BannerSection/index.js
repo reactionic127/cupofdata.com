@@ -12,7 +12,7 @@ const LandingMode = styled.div`
   position: relative;
   background-position: right bottom;
   padding-top: 94px;
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 767px) {
   	display: none;
   }
 `
@@ -62,6 +62,7 @@ const Slick1 = styled.div`
 	background: url(/files/images/bk-slick1.svg);
 	padding: 100px 20px 70px 20px;
 	height: calc(100vh - 170px);
+	background-size: cover;
 	@media screen and (max-width: 320px) {
 		padding: 70px 20px;
 		height: calc(100vh - 140px);
