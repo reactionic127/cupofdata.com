@@ -7,7 +7,6 @@ import { withPrefix} from 'gatsby-link'
 const Wrapper = styled.div`
 	background: #f5f7fa;
 	padding-top: 50px;
-	height: 680px;
 `
 
 const Title = H2.extend`
@@ -16,6 +15,9 @@ const Title = H2.extend`
 	text-align: center;
 	@media screen and (max-width: 576px) {
 		margin-bottom: 18px;
+	}
+	@media screen and (max-width: 767px) {
+		margin-bottom: 40px;
 	}
 `
 
@@ -34,13 +36,20 @@ const LearnMore = Button.extend`
 	}
 `
 const FeatureRow = Row.extend`
-	@media screen and (max-width: 576px) {
+	position: relative;
+	@media screen and (max-width: 768px) {
 		flex-wrap: wrap-reverse;
 	}
 `
 const UL = styled.ul`
 	padding: 0 1rem;
 	list-style: none;
+	@media screen and (min-width: 992px) {
+		padding-bottom: 120px;
+	}
+	@media screen and (min-width: 1200px) {
+		padding-bottom: 200px;
+	}
 `
 const LI = styled.li`
 	display: inline-flex !important;
@@ -49,15 +58,38 @@ const LI = styled.li`
 		line-height: 25px;
 	}
 `
+const ImgCol = Col.extend`
+	position: absolute;
+	@media screen and (max-width: 767px) {
+		position: initial;
+		height: 500px;
+	}
+	@media screen and (max-width: 490px) {
+		height: 440px;
+	}
+	@media screen and (max-width: 490px) {
+		height: 90vw;
+	}
+
+`
+const ContentCol = Col.extend`
+	margin-left: 50%;
+	@media screen and (max-width: 767px) {
+		margin-left: 0;
+	}
+`
+const Img = styled.img`
+	
+`
 const FeaturesView = () => (
 	<Wrapper>
 		<Title>Features</Title>
 		<Container>
 			<FeatureRow>
-				<Col xs="12" sm="6">
-					<img src={withPrefix('/files/images/img-desktop.svg')} width="100%" />
-				</Col>
-				<Col xs="12" sm="6">
+				<ImgCol xs="12" sm="6">
+					<Img src={withPrefix('/files/images/img-desktop.svg')} width="100%" />
+				</ImgCol>
+				<ContentCol xs="12" sm="6">
 					<UL>
 						<LI className="fa"><FeatureContent>Quickly identify relevant accounts and contacts</FeatureContent></LI>
 						<LI className="fa"><FeatureContent>Improve prospect quality scores with machine learning</FeatureContent></LI>
@@ -65,7 +97,7 @@ const FeaturesView = () => (
 						<LI className="fa"><FeatureContent>Trigger targeted engagements using your existing Martech stack</FeatureContent></LI>
 					</UL>
 					{/*<LearnMore>Learn More</LearnMore>*/}
-				</Col>
+				</ContentCol>
 			</FeatureRow>
 		</Container>
 	</Wrapper>
