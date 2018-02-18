@@ -53,7 +53,6 @@ const NewsRow = Row.extend`
 
 const NewsView = ({data}) => {
 	const news = data.filter((item) => {
-		console.log(item.node);
 		return item.node.frontmatter.contentType == 'blog' && item.node.frontmatter.newsFlag
 	})
 	return (

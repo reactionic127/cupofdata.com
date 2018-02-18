@@ -16,7 +16,7 @@ const IndexPage = ({data}) => (
     <FeaturesWrapper />
     <BenefitsWrapper />
     <NewsWrapper data={data.allMarkdownRemark.edges}/>
-    <TestimonialsWrapper />
+    <TestimonialsWrapper data={data.allMarkdownRemark.edges} />
     <AutomatedMarketingWrapper />
   </div>
 )
@@ -37,6 +37,9 @@ query IndexQuery {
           summary
           newsFlag
           postimage
+          position
+          comment
+          photo
         }
       }
     }
