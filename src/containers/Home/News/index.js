@@ -53,7 +53,6 @@ const NewsRow = Row.extend`
 
 const NewsView = ({data}) => {
 	const news = data.filter((item) => {
-		console.log(item.node);
 		return item.node.frontmatter.contentType == 'blog' && item.node.frontmatter.newsFlag
 	})
 	return (
@@ -82,30 +81,3 @@ const NewsView = ({data}) => {
 }
 
 export default NewsView
-
-export const NewsMasterQuery = graphql`
-  query News {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          frontmatter {
-            title
-            contentType
-            date(formatString: "MMMM DD, YYYY")
-            path
-            summary
-            author
-            postimage
-          }
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
