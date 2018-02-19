@@ -66,7 +66,7 @@ injectGlobal`
 	.slick-initialized.slick-slider {
 		height: 100vh;
 		display: none;
-		@media screen and (max-width: 576px){
+		@media screen and (max-width: 767px){
 			display: block;
 		}
 	}
