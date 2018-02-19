@@ -59,4 +59,4 @@ collections:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "faq"}
       - {label: "Path", name: "path", widget: "string"}
       - {label: "Question", name: "title", widget: "string"}
-      - {label: "Answer", name: "answer", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
