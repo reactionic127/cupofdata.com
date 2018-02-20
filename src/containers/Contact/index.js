@@ -81,6 +81,7 @@ const ContactSection = () => (
 					<ContactTitle>SITEMAP</ContactTitle>
 					<Ul>
 						<Li><ContactLink to="/">Home</ContactLink></Li>
+						<Li><ContactLink to="/pricing">Pricing</ContactLink></Li>
 						<Li><ContactLink to="/about">Company</ContactLink></Li>
 						<Li><ContactLink to="/blog">Blog</ContactLink></Li>
 					</Ul>
