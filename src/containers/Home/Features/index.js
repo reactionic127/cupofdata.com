@@ -79,7 +79,15 @@ const ContentCol = Col.extend`
 	}
 `
 const Img = styled.img`
-	
+	@media screen and (max-width: 997px) {
+		width: 100%;
+	}
+	@media screen and (max-width: 767px) {
+		width: initial;
+	}
+	@media screen and (max-width: 576px) {
+		width: 100%;
+	}
 `
 const FeaturesView = () => (
 	<Wrapper>
@@ -87,7 +95,7 @@ const FeaturesView = () => (
 		<Container>
 			<FeatureRow>
 				<ImgCol xs="12" sm="6">
-					<Img src={withPrefix('/files/images/img-desktop.svg')} width="100%" />
+					<Img src={withPrefix('/files/images/img-desktop.png')}/>
 				</ImgCol>
 				<ContentCol xs="12" sm="6">
 					<UL>
