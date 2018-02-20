@@ -7,9 +7,29 @@ import { withPrefix, navigateTo } from 'gatsby-link'
 import graphql from 'graphql'
 
 const Warpper = styled.div`
-	background: rgba(73, 92, 242, 0.98);
 	padding: 50px 0;
 	text-align: center;
+	position: relative;
+	::before {
+		content: ' ';
+		background: url(/files/images/bk-news.png);
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	::after {
+		content: ' ';
+		background: rgba(73, 92, 242, 0.98);
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
 `
 
 const NewsSectionTitle = H2.extend`
