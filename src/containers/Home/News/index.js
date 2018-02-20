@@ -29,6 +29,9 @@ const NewsTitle = H5.extend`
   -webkit-box-orient: vertical;
   height: 60px;
   margin: 0.5rem 0;
+  @media screen and (max-width: 576px) {
+  	height: 50px;
+  }
 `
 
 const NewsContent = H6.extend`
