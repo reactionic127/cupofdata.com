@@ -25,7 +25,7 @@ export default class TemplateWrapper extends React.Component {
 
     this.state = {
       theme: mainTheme.primary,
-      undefinedStatus: false,
+      hideNav: false,
       dropdown: false,
       secondary: false,
     }
@@ -74,7 +74,8 @@ export default class TemplateWrapper extends React.Component {
       return post.frontmatter.path == location.pathname
     })
     const undefinedReg = /404*\w/
-    const undefinedStatus = undefinedReg.test(location.pathname) || location.pathname === '/onboard';
+    const onboardReg = /onboard*\w/
+    const hideNav = undefinedReg.test(location.pathname) || onboardReg.test(location.pathname);
     switch(location.pathname) {
       case '/blog':
         themeType = 'secondary'
@@ -97,14 +98,14 @@ export default class TemplateWrapper extends React.Component {
     
     if ( themeType === 'secondary' || blogDetail ){
       this.setState({
-        undefinedStatus,
+        hideNav,
         theme: mainTheme.secondary,
         secondary: true,
         dropdown: false
       })
     } else {
       this.setState({
-        undefinedStatus,
+        hideNav,
         theme: mainTheme.primary,
         secondary: false,
         dropdown: false
@@ -120,7 +121,7 @@ export default class TemplateWrapper extends React.Component {
       <ThemeProvider theme={this.state.theme}>
         <div className='App'>
           {
-            !this.state.undefinedStatus && <Container>
+            !this.state.hideNav && <Container>
               <NavContainer
                 onCollapse={(type) => { this.setState({ theme: mainTheme[type], dropdown: !this.state.dropdown }) }}
                 dropdown={this.state.dropdown}
@@ -130,7 +131,7 @@ export default class TemplateWrapper extends React.Component {
           }
           <div className='pageContent'>{this.props.children()}</div>
           {
-            !this.state.undefinedStatus &&
+            !this.state.hideNav &&
             <div>
               <ContactSection />
               <Footer />
