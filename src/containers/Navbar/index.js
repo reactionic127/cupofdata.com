@@ -16,7 +16,7 @@ const Navbar = styled.div`
   transition-delay: 0.5s;
   background: ${props => props.theme.navbar.background};
 
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 7950px) {
       padding: 1rem 15px;
       background: ${props => props.theme.navbar.background};
   }
@@ -46,9 +46,9 @@ const NavWrapper =  styled.ul`
     flex-direction: row;
     list-style: none;
     align-items: center;
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: 780px) {
       position: absolute;
-      top: 4rem;
+      top: 5rem;
       left: 0;
       height: 0;
       overflow: hidden;
@@ -64,6 +64,9 @@ const NavWrapper =  styled.ul`
       ${props => props.active && css`
         height: 260px;
       `}
+    }
+    @media screen and (max-width: 576px) {
+      top: 4rem;
     }
 `
 
@@ -87,7 +90,7 @@ const NavSection = Container.extend`
 const MobileNav = styled.div`
   display: none;
   background: transparent;
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 780px) {
     display: block;
     margin-right: 30px;
   }

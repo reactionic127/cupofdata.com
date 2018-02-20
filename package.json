@@ -8,7 +8,7 @@
     "gatsby-link": "^1.6.21",
     "gatsby-plugin-netlify": "^1.0.7",
     "gatsby-plugin-offline": "^1.0.10",
-    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-segment-js": "^1.1.0",
     "gatsby-plugin-styled-components": "^2.0.5",
     "gatsby-remark-copy-linked-files": "^1.5.16",
@@ -16,16 +16,13 @@
     "gatsby-source-filesystem": "^1.5.5",
     "gatsby-transformer-remark": "^1.7.17",
     "polished": "^1.9.0",
-    "react-draggable": "^3.0.5",
-    "react-share": "^2.0.0",
+    "react-helmet": "^5.2.0",
     "react-slick": "^0.18.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^3.1.4"
   },
   "keywords": [
     "gatsby",
-    "bootstrap",
-    "bootswatch",
     "netlify"
   ],
   "license": "MIT",

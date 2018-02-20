@@ -1,18 +1,12 @@
 import React from 'react';
 import styled from 'styled-components'
+import Link, { withPrefix } from 'gatsby-link'
 import { Container, Row, Col } from '../../components/Layout'
-import Link, { withPrefix, navigateTo } from 'gatsby-link'
 import { H5, H6 } from '../../components/Typography'
-import {
-	FacebookShareButton,
-	LinkedinShareButton,
-	TwitterShareButton,
-} from 'react-share'
 import {
 	LINKEDIN_URL,
 	FACEBOOK_URL,
 	TWITTER_URL,
-	SOCIAL_TITLE
 } from '../../config/constants'
 
 const Wrapper = styled.div`
@@ -72,13 +66,16 @@ const MainCol = SpCol.extend`
 		text-align: center;
 	}
 `
+const A = styled.a`
+	color: #ffffff;
+`
 const ContactSection = () => (
 	<Wrapper>
 		<Container>
 			<Row>
 				<MainCol xs="12" sm="5">
 					<img src={withPrefix('/files/images/img-logo.svg')} width="120" />
-					<ContactContent>Cup of Data’s mission is turbocharge growth at B2B SaaS companies using A.I.. By alleviating businesses from the manual, repetitive tasks associated with obtaining marketing qualified leads, marketers and sales professionals can focus on creating unique experiences with their customers and partners.</ContactContent>
+					<ContactContent>Cup of Data’s mission is turbocharge growth at B2B SaaS companies using A.I. By alleviating businesses from the manual, repetitive tasks associated with obtaining marketing qualified leads, marketers and sales professionals can focus on creating unique experiences with their customers and partners.</ContactContent>
 				</MainCol>
 				<SpCol xs="4" sm="3">
 					<ContactTitle>SITEMAP</ContactTitle>
@@ -92,33 +89,9 @@ const ContactSection = () => (
 					<ContactTitle>CONTACT US</ContactTitle>
 					<ContactContent>Cup of Data<br/>3423 Piedmont Rd NE<br/>Atlanta, GA 30305</ContactContent>
 					<ShareIcon>
-						<FacebookShareButton
-							url={FACEBOOK_URL}
-							quote={SOCIAL_TITLE}
-							className="social-button"
-							windowWidth={750}
-            	windowHeight={600}
-						>
-							<Icon className="fab fa-facebook-square fa-2x" />
-						</FacebookShareButton>
-						<TwitterShareButton
-							url={TWITTER_URL}
-							title={SOCIAL_TITLE}
-							className="social-button"
-							windowWidth={600}
-            	windowHeight={600}
-						>
-							<Icon className="fab fa-twitter fa-2x" />
-						</TwitterShareButton>
-						<LinkedinShareButton
-							url={LINKEDIN_URL}
-							title={SOCIAL_TITLE}
-							className="social-button"
-							windowWidth={600}
-            	windowHeight={600}
-						>
-							<Icon className="fab fa-linkedin fa-2x" />
-						</LinkedinShareButton>
+						<A href={FACEBOOK_URL}><Icon className="fab fa-facebook-square fa-2x" /></A>
+						<A href={TWITTER_URL}><Icon className="fab fa-twitter fa-2x" /></A>
+						<A href={LINKEDIN_URL}><Icon className="fab fa-linkedin fa-2x" /></A>
 					</ShareIcon>
 				</SpCol>
 			</Row>

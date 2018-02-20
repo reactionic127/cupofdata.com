@@ -61,20 +61,12 @@ injectGlobal`
 		flex: 1;
     overflow: auto;
 	}
-	.social-button {
-		display: inline-flex;
-		cursor: pointer;
-	}
-	.social-button:focus {
-		outline: none;
-	}
-
 
 	/**** Style for slick ******/
 	.slick-initialized.slick-slider {
 		height: 100vh;
 		display: none;
-		@media screen and (max-width: 576px){
+		@media screen and (max-width: 767px){
 			display: block;
 		}
 	}
