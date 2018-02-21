@@ -6,7 +6,7 @@ import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-	background: url(/files/images/bk-automarketing.jpeg);
+	background: url(/files/images/bk-automarketing.png);
   background-size: 100%;
   position: relative;
   padding: 70px 0;

@@ -32,6 +32,7 @@ module.exports = class HTML extends React.Component {
           />
           <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
           <script src='/admin/netlify_redirect.js' />
+          <script src="/files/js/retina.min.js"></script>
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
