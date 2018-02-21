@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 
 const ImgView = styled.div`
 	width: 100%;
-	height: 170px;
+	height: 140px;
 	position: relative;
 	margin-bottom: 16px;
 
@@ -32,6 +32,7 @@ const Img = styled.img`
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
+	width: 50px;
 `
 const BannerCol = Col.extend`
 	@media screen and (max-width: 576px) {
