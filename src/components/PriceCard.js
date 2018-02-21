@@ -65,7 +65,7 @@ const PriceCard = (props) => (
 		{
 			props.enterprise
 			? <CardHeader>
-				<img src={withPrefix('/files/images/img-enterprise.svg')} />
+				<img src={withPrefix('/files/images/img-enterprise.svg')} width="35px" />
 				<EnterpriseTitle>ENTERPRISE</EnterpriseTitle>
 			</CardHeader>
 			:<div>

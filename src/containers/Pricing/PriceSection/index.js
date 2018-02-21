@@ -49,8 +49,7 @@ export default class PlanSections extends React.Component {
 					<PriceTitle>Turbocharge your SaaS B2B sales with machine learning.</PriceTitle>
 					<NoteText>Get 10 targeted and validated B2B leads. No credit card required*</NoteText>
 					<PlanGroup>
-							{ }
-							<Announcment>GET 2 MONTHS FREE PAYING ANNUALLY</Announcment>
+						<Announcment>GET 2 MONTHS FREE PAYING ANNUALLY</Announcment>
 					</PlanGroup>
 					<Row>
 						<Col sm="4">

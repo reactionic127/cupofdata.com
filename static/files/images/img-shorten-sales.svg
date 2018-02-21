@@ -1,57 +1,26 @@
-<svg width="73" height="80" viewBox="0 0 73 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>icons8-sales_channels</title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-3004 -1812)">
-<g id="icons8-sales_channels">
-<g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(3036.95 1813.83)" fill="#3D54FF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(3005 1829.58)" fill="#3D54FF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(3036.95 1883.83)" fill="#3D54FF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path1_stroke" transform="translate(3036.95 1847.08)" fill="#FF842B"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path2_stroke" transform="translate(3026.3 1840.08)" fill="#FF842B"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(3068.9 1829.58)" fill="#3D54FF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(3005 1868.08)" fill="#3D54FF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(3068.9 1868.08)" fill="#3D54FF"/>
-</g>
-<g id="Line">
-<use xlink:href="#path3_stroke" transform="matrix(6.18382e-17 1 -1 6.06324e-17 3039.94 1820.52)" fill="#3D54FF"/>
-</g>
-<g id="Line">
-<use xlink:href="#path3_stroke" transform="matrix(6.18382e-17 1 -1 6.06324e-17 3039.94 1869.63)" fill="#3D54FF"/>
-</g>
-<g id="Line">
-<use xlink:href="#path4_stroke" transform="matrix(-0.896176 -0.443698 0.450743 -0.892654 3070.36 1868.51)" fill="#3D54FF"/>
-</g>
-<g id="Line">
-<use xlink:href="#path4_stroke" transform="matrix(-0.896176 -0.443698 0.450743 -0.892654 3021.9 1838.38)" fill="#3D54FF"/>
-</g>
-<g id="Line">
-<use xlink:href="#path4_stroke" transform="matrix(-0.896176 0.443698 0.450743 0.892654 3069.24 1836.15)" fill="#3D54FF"/>
-</g>
-<g id="Line">
-<use xlink:href="#path4_stroke" transform="matrix(-0.896176 0.443698 0.450743 0.892654 3021.9 1866.28)" fill="#3D54FF"/>
-</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 73 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(-3004 -1812)">
+<use transform="translate(3037 1813.8)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="translate(3005 1829.6)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="translate(3037 1883.8)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="translate(3037 1847.1)" fill="#FF842B" xlink:href="#e"/>
+<use transform="translate(3026.3 1840.1)" fill="#FF842B" xlink:href="#d"/>
+<use transform="translate(3068.9 1829.6)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="translate(3005 1868.1)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="translate(3068.9 1868.1)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="matrix(6.1838e-17 1 -1 6.0632e-17 3039.9 1820.5)" fill="#3D54FF" xlink:href="#c"/>
+<use transform="matrix(6.1838e-17 1 -1 6.0632e-17 3039.9 1869.6)" fill="#3D54FF" xlink:href="#c"/>
+<use transform="matrix(-.89618 -.4437 .45074 -.89265 3070.4 1868.5)" fill="#3D54FF" xlink:href="#b"/>
+<use transform="matrix(-.89618 -.4437 .45074 -.89265 3021.9 1838.4)" fill="#3D54FF" xlink:href="#b"/>
+<use transform="matrix(-.89618 .4437 .45074 .89265 3069.2 1836.2)" fill="#3D54FF" xlink:href="#b"/>
+<use transform="matrix(-.89618 .4437 .45074 .89265 3021.9 1866.3)" fill="#3D54FF" xlink:href="#b"/>
 </g>
 <defs>
-<path id="path0_stroke" d="M 6.1 3.5C 6.1 4.86739 4.97175 6 3.55 6L 3.55 8C 6.04948 8 8.1 5.99861 8.1 3.5L 6.1 3.5ZM 3.55 6C 2.12825 6 1 4.86739 1 3.5L -1 3.5C -1 5.99861 1.05052 8 3.55 8L 3.55 6ZM 1 3.5C 1 2.13261 2.12825 1 3.55 1L 3.55 -1C 1.05052 -1 -1 1.00139 -1 3.5L 1 3.5ZM 3.55 1C 4.97175 1 6.1 2.13261 6.1 3.5L 8.1 3.5C 8.1 1.00139 6.04948 -1 3.55 -1L 3.55 1Z"/>
-<path id="path1_stroke" d="M 0 -1C -0.552285 -1 -1 -0.552285 -1 0C -1 0.552285 -0.552285 1 0 1L 0 -1ZM 7.1 1C 7.65229 1 8.1 0.552285 8.1 0C 8.1 -0.552285 7.65229 -1 7.1 -1L 7.1 1ZM 0 1L 7.1 1L 7.1 -1L 0 -1L 0 1Z"/>
-<path id="path2_stroke" d="M 0 0L 0 -1C -0.552285 -1 -1 -0.552285 -1 2.22045e-16L 0 0ZM 28.4 0L 29.4 0C 29.4 -0.552285 28.9523 -1 28.4 -1L 28.4 0ZM 28.4 24.5L 28.4 25.5C 28.9523 25.5 29.4 25.0523 29.4 24.5L 28.4 24.5ZM 0 24.5L -1 24.5C -1 25.0523 -0.552285 25.5 2.22045e-16 25.5L 0 24.5ZM 0 1L 28.4 1L 28.4 -1L 0 -1L 0 1ZM 27.4 0L 27.4 24.5L 29.4 24.5L 29.4 0L 27.4 0ZM 28.4 23.5L 0 23.5L 0 25.5L 28.4 25.5L 28.4 23.5ZM 1 24.5L 1 0L -1 0L -1 24.5L 1 24.5Z"/>
-<path id="path3_stroke" d="M 0 -1.11022e-16L 14.5072 -1.11022e-16L 14.5072 -2L 0 -2L 0 -1.11022e-16Z"/>
-<path id="path4_stroke" d="M 0 0L 10.0604 0L 10.0604 -2L 0 -2L 0 0Z"/>
+<path id="a" d="m6.1 3.5c0 1.3674-1.1282 2.5-2.55 2.5v2c2.4995 0 4.55-2.0014 4.55-4.5h-2zm-2.55 2.5c-1.4218 0-2.55-1.1326-2.55-2.5h-2c0 2.4986 2.0505 4.5 4.55 4.5v-2zm-2.55-2.5c0-1.3674 1.1282-2.5 2.55-2.5v-2c-2.4995 0-4.55 2.0014-4.55 4.5h2zm2.55-2.5c1.4218 0 2.55 1.1326 2.55 2.5h2c0-2.4986-2.0505-4.5-4.55-4.5v2z"/>
+<path id="e" d="m0-1c-0.55228 0-1 0.44772-1 1s0.44772 1 1 1v-2zm7.1 2c0.55229 0 1-0.44772 1-1s-0.44771-1-1-1v2zm-7.1 0h7.1v-2h-7.1v2z"/>
+<path id="d" d="m0 0v-1c-0.55228 0-1 0.44772-1 1l1-2.2204e-16zm28.4 0h1c0-0.55228-0.4477-1-1-1v1zm0 24.5v1c0.5523 0 1-0.4477 1-1h-1zm-28.4 0h-1c0 0.5523 0.44772 1 1 1l-2.2204e-16 -1zm0-23.5h28.4v-2h-28.4v2zm27.4-1v24.5h2v-24.5h-2zm1 23.5h-28.4v2h28.4v-2zm-27.4 1v-24.5h-2v24.5h2z"/>
+<path id="c" d="m0-1.1102e-16h14.507v-2h-14.507v2z"/>
+<path id="b" d="m0 0h10.06v-2h-10.06v2z"/>
 </defs>
 </svg>
