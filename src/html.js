@@ -30,9 +30,6 @@ module.exports = class HTML extends React.Component {
             name='viewport'
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
           />
-          <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
-          <script src='/admin/netlify_redirect.js' />
-          <script src="/files/js/retina.min.js"></script>
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
@@ -46,6 +43,9 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
+        <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
+        <script src='/admin/netlify_redirect.js' />
+        <script src="/files/js/retina.min.js"></script>
       </html>
     )
   }
