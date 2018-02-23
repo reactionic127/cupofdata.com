@@ -44,11 +44,9 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <Helmet>
-          <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
-          <script src='/admin/netlify_redirect.js' />
-          <script src="/files/js/retina.min.js"></script>
-        </Helmet>
+        <script async src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
+        <script src='/admin/netlify_redirect.js' />
+        <script src="/files/js/retina.min.js"></script>
       </html>
     )
   }
