@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import favicon from './favicon.png';
 
 let stylesStr
@@ -43,9 +44,11 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
-        <script src='/admin/netlify_redirect.js' />
-        <script src="/files/js/retina.min.js"></script>
+        <Helmet>
+          <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
+          <script src='/admin/netlify_redirect.js' />
+          <script src="/files/js/retina.min.js"></script>
+        </Helmet>
       </html>
     )
   }
