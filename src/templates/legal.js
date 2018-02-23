@@ -23,7 +23,6 @@ const ContentWrapper = styled.div`
 `
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
-  console.log('-- post --', post.frontmatter)
   return (
     <div>
       <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
