@@ -20,6 +20,7 @@ export const H2 = styled.h2`
 export const H3 = styled.h3`
   font-size: 36px;
   margin: 0;
+  color: #000000;
 `
 export const H4 = styled.h4`
   font-size: 24px;

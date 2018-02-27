@@ -1,26 +1,3284 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 1280 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g transform="translate(-7112 512)">
-<mask id="a" mask-type="alpha">
-<use transform="translate(7112 -512)" fill="#495CF2" xlink:href="#b"/>
-</mask>
-<g mask="url(#a)">
-<use transform="translate(7112 -512)" fill="url(#e)" xlink:href="#b"/>
+<svg width="1219" height="622" viewBox="0 0 1219 622" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 6</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-8969 444)">
+<g id="Group 6">
+<g id="Pattern">
+<g id="Group">
+<g id="shape 22 1 1681">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(0.095 0 0 0.095 9093.61 -421.078)" fill="#FFFFFF"/>
 </g>
-<g mask="url(#a)">
-<use transform="translate(7899 -175)" fill="#3849D6" fill-opacity=".5" xlink:href="#d"/>
 </g>
-<g mask="url(#a)">
-<use transform="translate(8080 -303)" fill="#FFFFFF" fill-opacity=".05" xlink:href="#c"/>
+</g>
+<g id="Group">
+<g id="shape 22 1 1680">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="matrix(0.114 0 0 0.114 9094.21 -386.362)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1679">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="matrix(0.133 0 0 0.133 9094.77 -350.49)" fill="#B9B9B9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1678">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="matrix(0.152 0 0 0.152 9095.32 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1675">
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="matrix(0.209 0 0 0.209 9096.74 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1674">
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="matrix(0.228 0 0 0.228 9097.17 -153.845)" fill="#ACACAC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1673">
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="matrix(0.247 0 0 0.247 9097.55 -111.044)" fill="#EFEFEF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1672">
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="matrix(0.266 0 0 0.266 9097.92 -67.1053)" fill="#BFBFBF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1670">
+<g id="Vector" opacity="0.4">
+<use xlink:href="#path8_fill" transform="matrix(0.304 0 0 0.304 9098.54 24.2507)" fill="#DEDEDE"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path8_fill" transform="matrix(0.304 0 0 0.304 9199.06 154.224)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1669">
+<g id="Vector">
+<use xlink:href="#path9_fill" transform="matrix(0.323 0 0 0.323 9098.8 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1668">
+<g id="Vector">
+<use xlink:href="#path10_fill" transform="matrix(0.342 0 0 0.342 9099.05 120.224)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1667">
+<g id="Vector">
+<use xlink:href="#path11_fill" transform="matrix(0.361 0 0 0.361 9099.24 169.952)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1661">
+<g id="Vector">
+<use xlink:href="#path12_fill" transform="matrix(0.095 0 0 0.095 9139.12 -421.078)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1660">
+<g id="Vector">
+<use xlink:href="#path13_fill" transform="matrix(0.114 0 0 0.114 9140.51 -386.362)" fill="#CFCFCF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1659">
+<g id="Vector">
+<use xlink:href="#path14_fill" transform="matrix(0.133 0 0 0.133 9141.86 -350.49)" fill="#C6C6C6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1658">
+<g id="Vector">
+<use xlink:href="#path15_fill" transform="matrix(0.152 0 0 0.152 9143.2 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1655">
+<g id="Vector">
+<use xlink:href="#path16_fill" transform="matrix(0.209 0 0 0.209 9146.99 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1654">
+<g id="Vector">
+<use xlink:href="#path17_fill" transform="matrix(0.228 0 0 0.228 9148.21 -153.845)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1653">
+<g id="Vector">
+<use xlink:href="#path18_fill" transform="matrix(0.247 0 0 0.247 9149.37 -111.044)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1652">
+<g id="Vector">
+<use xlink:href="#path19_fill" transform="matrix(0.266 0 0 0.266 9150.53 -67.1053)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1651">
+<g id="Vector">
+<use xlink:href="#path20_fill" transform="matrix(0.285 0 0 0.285 9151.64 -22.0132)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1650">
+<g id="Vector">
+<use xlink:href="#path21_fill" transform="matrix(0.304 0 0 0.304 9152.74 24.2507)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1649">
+<g id="Vector">
+<use xlink:href="#path22_fill" transform="matrix(0.323 0 0 0.323 9153.78 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1648">
+<g id="Vector">
+<use xlink:href="#path23_fill" transform="matrix(0.342 0 0 0.342 9154.82 120.224)" fill="#4659EF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path23_fill" transform="matrix(0.342 0 0 0.342 9092.72 152.834)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1641">
+<g id="Vector">
+<use xlink:href="#path24_fill" transform="matrix(0.095 0 0 0.095 9184.63 -421.078)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1640">
+<g id="Vector">
+<use xlink:href="#path25_fill" transform="matrix(0.114 0 0 0.114 9186.81 -386.362)" fill="#EAEAEA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1639">
+<g id="Vector">
+<use xlink:href="#path26_fill" transform="matrix(0.133 0 0 0.133 9188.96 -350.49)" fill="#BDBDBD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1638">
+<g id="Vector">
+<use xlink:href="#path27_fill" transform="matrix(0.152 0 0 0.152 9191.07 -313.473)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1635">
+<g id="Vector">
+<use xlink:href="#path16_fill" transform="matrix(0.209 0 0 0.209 9210.26 -171.777)" fill="#D2D2D2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1633">
+<g id="Vector">
+<use xlink:href="#path28_fill" transform="matrix(0.247 0 0 0.247 9232.65 -111.304)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1632">
+<g id="Vector">
+<use xlink:href="#path29_fill" transform="matrix(0.266 0 0 0.266 9203.15 -67.1053)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1631">
+<g id="Vector">
+<use xlink:href="#path30_fill" transform="matrix(0.285 0 0 0.285 9205.04 -21.9956)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1630">
+<g id="Vector">
+<use xlink:href="#path31_fill" transform="matrix(0.304 0 0 0.304 9206.93 24.2507)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1629">
+<g id="Vector">
+<use xlink:href="#path32_fill" transform="matrix(0.323 0 0 0.323 9208.77 71.6501)" fill="#F2F2F2"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path32_fill" transform="matrix(0.323 0 0 0.323 9300.75 153.529)" fill="#F2F2F2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1627">
+<g id="Vector">
+<use xlink:href="#path33_fill" transform="matrix(0.361 0 0 0.361 9212.37 169.952)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1621">
+<g id="Vector">
+<use xlink:href="#path24_fill" transform="matrix(0.095 0 0 0.095 9230.14 -421.078)" fill="#D5D5D5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1620">
+<g id="Vector">
+<use xlink:href="#path25_fill" transform="matrix(0.114 0 0 0.114 9233.11 -386.362)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1619">
+<g id="Vector">
+<use xlink:href="#path26_fill" transform="matrix(0.133 0 0 0.133 9236.04 -350.49)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1618">
+<g id="Vector">
+<use xlink:href="#path27_fill" transform="matrix(0.152 0 0 0.152 9238.96 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1615">
+<g id="Vector">
+<use xlink:href="#path16_fill" transform="matrix(0.209 0 0 0.209 9232.65 -217.654)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1614">
+<g id="Vector">
+<use xlink:href="#path34_fill" transform="matrix(0.228 0 0 0.228 9250.28 -153.845)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1613">
+<g id="Vector">
+<use xlink:href="#path28_fill" transform="matrix(0.247 0 0 0.247 9297.95 -93.231)" fill="#D1D1D1"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1611">
+<g id="Vector">
+<use xlink:href="#path30_fill" transform="matrix(0.285 0 0 0.285 9284.89 -23.7211)" fill="#ADADAD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1610">
+<g id="Vector">
+<use xlink:href="#path31_fill" transform="matrix(0.304 0 0 0.304 9261.13 24.2507)" fill="#D1D1D1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1609">
+<g id="Vector">
+<use xlink:href="#path32_fill" transform="matrix(0.323 0 0 0.323 9263.75 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1608">
+<g id="Vector">
+<use xlink:href="#path35_fill" transform="matrix(0.342 0 0 0.342 9266.37 120.224)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1607">
+<g id="Vector">
+<use xlink:href="#path33_fill" transform="matrix(0.361 0 0 0.361 9268.93 169.952)" fill="#B8B8B8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1601">
+<g id="Vector">
+<use xlink:href="#path24_fill" transform="matrix(0.095 0 0 0.095 9275.65 -421.078)" fill="#D0D0D0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1600">
+<g id="Vector">
+<use xlink:href="#path25_fill" transform="matrix(0.114 0 0 0.114 9279.41 -386.362)" fill="#E0E0E0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1599">
+<g id="Vector">
+<use xlink:href="#path26_fill" transform="matrix(0.133 0 0 0.133 9283.13 -350.49)" fill="#CCCCCC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1598">
+<g id="Vector">
+<use xlink:href="#path27_fill" transform="matrix(0.152 0 0 0.152 9286.83 -313.473)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1595">
+<g id="Vector">
+<use xlink:href="#path36_fill" transform="matrix(0.209 0 0 0.209 9297.73 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1594">
+<g id="Vector">
+<use xlink:href="#path37_fill" transform="matrix(0.228 0 0 0.228 9301.32 -153.845)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1592">
+<g id="Vector">
+<use xlink:href="#path29_fill" transform="matrix(0.266 0 0 0.266 9308.38 -67.1053)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1591">
+<g id="Vector">
+<use xlink:href="#path30_fill" transform="matrix(0.285 0 0 0.285 9311.86 -21.9956)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1590">
+<g id="Vector">
+<use xlink:href="#path31_fill" transform="matrix(0.304 0 0 0.304 9307.27 23.5456)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1589">
+<g id="Vector">
+<use xlink:href="#path38_fill" transform="matrix(0.323 0 0 0.323 9318.73 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1587">
+<g id="Vector">
+<use xlink:href="#path39_fill" transform="matrix(0.361 0 0 0.361 9325.5 169.952)" fill="#E9E9E9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1581">
+<g id="Vector">
+<use xlink:href="#path40_fill" transform="matrix(0.095 0 0 0.095 9321.16 -421.078)" fill="#CFCFCF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1580">
+<g id="Vector">
+<use xlink:href="#path41_fill" transform="matrix(0.114 0 0 0.114 9325.71 -386.362)" fill="#EEEEEE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1579">
+<g id="Vector">
+<use xlink:href="#path42_fill" transform="matrix(0.133 0 0 0.133 9330.22 -350.49)" fill="#BFBFBF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1578">
+<g id="Vector">
+<use xlink:href="#path43_fill" transform="matrix(0.152 0 0 0.152 9334.71 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1575">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9347.98 -195.489)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1574">
+<g id="Vector">
+<use xlink:href="#path45_fill" transform="matrix(0.228 0 0 0.228 9352.36 -153.845)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1573">
+<g id="Vector">
+<use xlink:href="#path46_fill" transform="matrix(0.247 0 0 0.247 9356.68 -111.044)" fill="#EEEEEE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1572">
+<g id="Vector">
+<use xlink:href="#path47_fill" transform="matrix(0.266 0 0 0.266 9361 -67.1053)" fill="#F3F3F3"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.6">
+<g id="shape 22 1 1571">
+<g id="Vector">
+<use xlink:href="#path48_fill" transform="matrix(0.285 0 0 0.285 9365.26 -21.9956)" fill="#E0E0E0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1570">
+<g id="Vector">
+<use xlink:href="#path49_fill" transform="matrix(0.304 0 0 0.304 9369.52 24.2507)" fill="#FAFAFA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1569">
+<g id="Vector">
+<use xlink:href="#path50_fill" transform="matrix(0.323 0 0 0.323 9373.72 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1568">
+<g id="Vector">
+<use xlink:href="#path51_fill" transform="matrix(0.342 0 0 0.342 9377.92 120.224)" fill="#B0B0B0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1567">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9382.06 169.952)" fill="#C2C2C2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1561">
+<g id="Vector">
+<use xlink:href="#path40_fill" transform="matrix(0.095 0 0 0.095 9366.67 -421.078)" fill="#FAFAFA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1560">
+<g id="Vector">
+<use xlink:href="#path41_fill" transform="matrix(0.114 0 0 0.114 9372.01 -386.362)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1559">
+<g id="Vector">
+<use xlink:href="#path53_fill" transform="matrix(0.133 0 0 0.133 9377.31 -350.49)" fill="#C7C7C7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1558">
+<g id="Vector">
+<use xlink:href="#path43_fill" transform="matrix(0.152 0 0 0.152 9382.59 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1555">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9398.23 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1554">
+<g id="Vector">
+<use xlink:href="#path45_fill" transform="matrix(0.228 0 0 0.228 9403.39 -153.845)" fill="#B7B7B7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1553">
+<g id="Vector">
+<use xlink:href="#path54_fill" transform="matrix(0.247 0 0 0.247 9408.51 -111.044)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1552">
+<g id="Vector">
+<use xlink:href="#path47_fill" transform="matrix(0.266 0 0 0.266 9413.61 -67.1053)" fill="#CDCDCD"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.6">
+<g id="shape 22 1 1551">
+<g id="Vector">
+<use xlink:href="#path48_fill" transform="matrix(0.285 0 0 0.285 9418.67 -21.9956)" fill="#CECECE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1550">
+<g id="Vector">
+<use xlink:href="#path49_fill" transform="matrix(0.304 0 0 0.304 9423.72 24.2507)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1549">
+<g id="Vector">
+<use xlink:href="#path55_fill" transform="matrix(0.323 0 0 0.323 9428.71 71.6501)" fill="#F8F8F8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1548">
+<g id="Vector">
+<use xlink:href="#path51_fill" transform="matrix(0.342 0 0 0.342 9433.7 120.224)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1547">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9438.63 169.952)" fill="#FDFDFD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1541">
+<g id="Vector">
+<use xlink:href="#path40_fill" transform="matrix(0.095 0 0 0.095 9412.18 -421.078)" fill="#CACACA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1540">
+<g id="Vector">
+<use xlink:href="#path41_fill" transform="matrix(0.114 0 0 0.114 9418.31 -386.362)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1539">
+<g id="Vector">
+<use xlink:href="#path53_fill" transform="matrix(0.133 0 0 0.133 9424.4 -350.49)" fill="#B4B4B4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1538">
+<g id="Vector">
+<use xlink:href="#path43_fill" transform="matrix(0.152 0 0 0.152 9430.47 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1535">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9448.48 -195.489)" fill="#E5E5E5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1534">
+<g id="Vector">
+<use xlink:href="#path45_fill" transform="matrix(0.228 0 0 0.228 9454.43 -153.845)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.6">
+<g id="shape 22 1 1531">
+<g id="Vector">
+<use xlink:href="#path48_fill" transform="matrix(0.285 0 0 0.285 9472.07 -21.9956)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1530">
+<g id="Vector">
+<use xlink:href="#path49_fill" transform="matrix(0.304 0 0 0.304 9477.91 24.2507)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1529">
+<g id="Vector">
+<use xlink:href="#path55_fill" transform="matrix(0.323 0 0 0.323 9483.69 71.6501)" fill="#E7E7E7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1528">
+<g id="Vector">
+<use xlink:href="#path51_fill" transform="matrix(0.342 0 0 0.342 9489.47 120.224)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1527">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9495.19 169.952)" fill="#BABABA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1521">
+<g id="Vector">
+<use xlink:href="#path40_fill" transform="matrix(0.095 0 0 0.095 9457.69 -421.078)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1520">
+<g id="Vector">
+<use xlink:href="#path41_fill" transform="matrix(0.114 0 0 0.114 9464.61 -386.362)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1519">
+<g id="Vector">
+<use xlink:href="#path53_fill" transform="matrix(0.133 0 0 0.133 9471.48 -350.49)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1518">
+<g id="Vector">
+<use xlink:href="#path43_fill" transform="matrix(0.152 0 0 0.152 9478.34 -313.473)" fill="#E8E8E8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1515">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9498.72 -195.489)" fill="#F2F2F2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1514">
+<g id="Vector">
+<use xlink:href="#path45_fill" transform="matrix(0.228 0 0 0.228 9505.47 -153.845)" fill="#D6D6D6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1512">
+<g id="Vector">
+<use xlink:href="#path47_fill" transform="matrix(0.266 0 0 0.266 9518.85 -67.1053)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1511">
+<g id="Vector">
+<use xlink:href="#path48_fill" transform="matrix(0.285 0 0 0.285 9525.48 -21.9956)" fill="#C4C4C4"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 1509">
+<g id="Vector">
+<use xlink:href="#path55_fill" transform="matrix(0.323 0 0 0.323 9538.68 71.6501)" fill="#D3D3D3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1507">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9551.76 169.952)" fill="#B4B4B4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1501">
+<g id="Vector">
+<use xlink:href="#path40_fill" transform="matrix(0.095 0 0 0.095 9503.2 -421.078)" fill="#ACACAC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1500">
+<g id="Vector">
+<use xlink:href="#path41_fill" transform="matrix(0.114 0 0 0.114 9510.9 -386.362)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1499">
+<g id="Vector">
+<use xlink:href="#path53_fill" transform="matrix(0.133 0 0 0.133 9518.58 -350.49)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1498">
+<g id="Vector">
+<use xlink:href="#path43_fill" transform="matrix(0.152 0 0 0.152 9526.22 -313.473)" fill="#CECECE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1495">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9549.82 -175.948)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1494">
+<g id="Vector">
+<use xlink:href="#path45_fill" transform="matrix(0.228 0 0 0.228 9556.5 -153.845)" fill="#BDBDBD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1492">
+<g id="Vector">
+<use xlink:href="#path47_fill" transform="matrix(0.266 0 0 0.266 9571.46 -67.1053)" fill="#ADADAD"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1491">
+<g id="Vector">
+<use xlink:href="#path56_fill" transform="matrix(0.285 0 0 0.285 9578.89 -21.9956)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1490">
+<g id="Vector">
+<use xlink:href="#path49_fill" transform="matrix(0.304 0 0 0.304 9586.3 24.2507)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1489">
+<g id="Vector">
+<use xlink:href="#path55_fill" transform="matrix(0.323 0 0 0.323 9593.67 71.6501)" fill="#E4E4E4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1488">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9601.02 120.224)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1487">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9608.32 169.952)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1481">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9548.71 -421.078)" fill="#D3D3D3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1480">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9557.21 -386.362)" fill="#E8E8E8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1479">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9565.67 -350.49)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1478">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9574.1 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1475">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9602.06 -192.63)" fill="#E0E0E0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1474">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9607.54 -153.845)" fill="#E5E5E5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1470">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 9640.5 24.2507)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1469">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 9648.65 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1468">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9656.8 120.224)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1461">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9594.22 -421.078)" fill="#CBCBCB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1460">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9603.5 -386.362)" fill="#B2B2B2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1459">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9612.75 -350.49)" fill="#E9E9E9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1458">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9621.98 -313.473)" fill="#C6C6C6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1455">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9649.47 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1454">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9658.58 -153.845)" fill="#B9B9B9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1451">
+<g id="Vector">
+<use xlink:href="#path56_fill" transform="matrix(0.285 0 0 0.285 9662.7 -21.6358)" fill="#EAEAEA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1449">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 9703.63 71.6501)" fill="#F3F3F3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1448">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9712.57 120.224)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1441">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9639.72 -421.078)" fill="#BCBCBC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1440">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9649.8 -386.362)" fill="#BCBCBC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1439">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9659.84 -350.49)" fill="#F5F5F5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1438">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9669.86 -313.473)" fill="#D0D0D0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1435">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9699.71 -195.489)" fill="#C9C9C9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1434">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9709.62 -153.845)" fill="#C8C8C8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1432">
+<g id="Vector">
+<use xlink:href="#path65_fill" transform="matrix(0.266 0 0 0.266 9729.31 -67.1053)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1430">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 9718.67 10.3387)" fill="#B2B2B2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1429">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 9758.62 71.6501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1428">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9768.35 120.224)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1427">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9778.01 169.952)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1421">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9685.24 -421.078)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1420">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9696.1 -386.362)" fill="#C8C8C8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1419">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9706.93 -350.49)" fill="#EEEEEE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1418">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9717.74 -313.473)" fill="#CCCCCC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1415">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9749.96 -195.489)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1414">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9760.65 -153.845)" fill="#F0F0F0"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1411">
+<g id="Vector">
+<use xlink:href="#path56_fill" transform="matrix(0.285 0 0 0.285 9792.51 -21.9956)" fill="#D1D1D1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1410">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 9803.08 24.2507)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1409">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 9813.61 71.6501)" fill="#F5F5F5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1401">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9730.74 -421.078)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1400">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9742.4 -386.362)" fill="#D2D2D2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1399">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9754.01 -350.49)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1398">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9765.62 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1395">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9800.21 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1394">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9811.69 -153.845)" fill="#D6D6D6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1392">
+<g id="Vector">
+<use xlink:href="#path65_fill" transform="matrix(0.266 0 0 0.266 9874.45 -64.7319)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1391">
+<g id="Vector">
+<use xlink:href="#path56_fill" transform="matrix(0.285 0 0 0.285 9845.92 -21.9956)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1390">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 9857.28 24.2507)" fill="#C5C5C5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1389">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 9868.59 71.6501)" fill="#AFAFAF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1388">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9879.9 120.224)" fill="#ACACAC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1387">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 9891.15 169.952)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1381">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9776.25 -421.078)" fill="#D6D6D6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1380">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9788.7 -386.362)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1379">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9801.11 -350.49)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1378">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9813.5 -313.473)" fill="#C2C2C2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1375">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9850.46 -195.489)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1374">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9862.73 -153.845)" fill="#CDCDCD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1370">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 9911.48 24.2507)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1369">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 9923.57 71.6501)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1368">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9935.67 120.224)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1361">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9821.76 -421.078)" fill="#E0E0E0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1360">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9835 -386.362)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1359">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9848.2 -350.49)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1358">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9861.38 -313.473)" fill="#B5B5B5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1357">
+<g id="Vector">
+<use xlink:href="#path66_fill" transform="matrix(0.171 0 0 0.171 9874.51 -275.292)" fill="#F5F5F5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1355">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9900.7 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1354">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9913.76 -153.845)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1353">
+<g id="Vector">
+<use xlink:href="#path67_fill" transform="matrix(0.247 0 0 0.247 9926.78 -111.044)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1352">
+<g id="Vector">
+<use xlink:href="#path65_fill" transform="matrix(0.266 0 0 0.266 9939.78 -67.1053)" fill="#C8C8C8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1350">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 9965.67 24.2507)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1348">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 9991.45 120.224)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1347">
+<g id="Vector">
+<use xlink:href="#path52_fill" transform="matrix(0.361 0 0 0.361 10004.3 169.952)" fill="#FDFDFD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1341">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9867.27 -421.078)" fill="#FDFDFD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1340">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9881.3 -386.362)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1339">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9895.29 -350.49)" fill="#AFAFAF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1338">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9909.25 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1337">
+<g id="Vector">
+<use xlink:href="#path66_fill" transform="matrix(0.171 0 0 0.171 9923.18 -275.292)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1335">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 9958.42 -165.521)" fill="#D3D3D3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1334">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 9964.8 -153.845)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1333">
+<g id="Vector">
+<use xlink:href="#path67_fill" transform="matrix(0.247 0 0 0.247 9922.96 -109.218)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1332">
+<g id="Vector">
+<use xlink:href="#path65_fill" transform="matrix(0.266 0 0 0.266 9992.39 -67.1053)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1331">
+<g id="Vector">
+<use xlink:href="#path56_fill" transform="matrix(0.285 0 0 0.285 10006.1 -21.9956)" fill="#E9E9E9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1330">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 10019.9 24.2507)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1329">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 10033.5 71.6501)" fill="#D7D7D7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1328">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 10047.2 120.224)" fill="#E3E3E3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1321">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9912.78 -421.078)" fill="#E0E0E0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1320">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9927.6 -386.362)" fill="#D6D6D6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1319">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9942.38 -350.49)" fill="#ECECEC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1318">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 9957.13 -313.473)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1317">
+<g id="Vector">
+<use xlink:href="#path66_fill" transform="matrix(0.171 0 0 0.171 9971.84 -275.292)" fill="#F5F5F5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1315">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 10001.2 -195.489)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1314">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 10015.8 -153.845)" fill="#FDFDFD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1313">
+<g id="Vector">
+<use xlink:href="#path67_fill" transform="matrix(0.247 0 0 0.247 9999.46 -82.1094)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1313">
+<g id="Vector">
+<use xlink:href="#path67_fill" transform="matrix(0.247 0 0 0.247 10121.7 -88.3653)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 1312">
+<g id="Vector">
+<use xlink:href="#path65_fill" transform="matrix(0.266 0 0 0.266 10039.6 -58.476)" fill="#C9C9C9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1310">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 10074.1 24.2507)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1308">
+<g id="Vector">
+<use xlink:href="#path57_fill" transform="matrix(0.342 0 0 0.342 10103 120.224)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1301">
+<g id="Vector">
+<use xlink:href="#path58_fill" transform="matrix(0.095 0 0 0.095 9958.29 -421.078)" fill="#ECECEC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1300">
+<g id="Vector">
+<use xlink:href="#path59_fill" transform="matrix(0.114 0 0 0.114 9973.89 -386.362)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1299">
+<g id="Vector">
+<use xlink:href="#path60_fill" transform="matrix(0.133 0 0 0.133 9989.46 -350.49)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1298">
+<g id="Vector">
+<use xlink:href="#path61_fill" transform="matrix(0.152 0 0 0.152 10005 -313.473)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1297">
+<g id="Vector">
+<use xlink:href="#path66_fill" transform="matrix(0.171 0 0 0.171 10020.5 -275.292)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1295">
+<g id="Vector">
+<use xlink:href="#path44_fill" transform="matrix(0.209 0 0 0.209 10051.4 -195.489)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1294">
+<g id="Vector">
+<use xlink:href="#path62_fill" transform="matrix(0.228 0 0 0.228 10072.2 -205.837)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1293">
+<g id="Vector">
+<use xlink:href="#path67_fill" transform="matrix(0.247 0 0 0.247 10082.3 -111.044)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 1290">
+<g id="Vector">
+<use xlink:href="#path63_fill" transform="matrix(0.304 0 0 0.304 10128.3 24.2507)" fill="#DCDCDC"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 1289">
+<g id="Vector">
+<use xlink:href="#path64_fill" transform="matrix(0.323 0 0 0.323 10143.5 71.6501)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1281">
+<g id="Vector">
+<use xlink:href="#path68_fill" transform="matrix(0.0855 0 0 0.0855 9070.75 -438)" fill="#D4D4D4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1280">
+<g id="Vector">
+<use xlink:href="#path69_fill" transform="matrix(0.1045 0 0 0.1045 9070.96 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1279">
+<g id="Vector">
+<use xlink:href="#path70_fill" transform="matrix(0.1235 0 0 0.1235 9071.16 -368.574)" fill="#D5D5D5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1278">
+<g id="Vector">
+<use xlink:href="#path71_fill" transform="matrix(0.1425 0 0 0.1425 9071.31 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1277">
+<g id="Vector">
+<use xlink:href="#path72_fill" transform="matrix(0.1615 0 0 0.1615 9071.43 -294.532)" fill="#DADADA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1274">
+<g id="Vector">
+<use xlink:href="#path73_fill" transform="matrix(0.2185 0 0 0.2185 9071.65 -174.805)" fill="#DCDCDC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1273">
+<g id="Vector">
+<use xlink:href="#path74_fill" transform="matrix(0.2375 0 0 0.2375 9071.65 -132.596)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1272">
+<g id="Vector">
+<use xlink:href="#path75_fill" transform="matrix(0.2565 0 0 0.2565 9071.61 -89.219)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1271">
+<g id="Vector">
+<use xlink:href="#path76_fill" transform="matrix(0.2755 0 0 0.2755 9071.57 -44.7034)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1270">
+<g id="Vector">
+<use xlink:href="#path77_fill" transform="matrix(0.2945 0 0 0.2945 9071.48 0.983429)" fill="#F8F8F8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1269">
+<g id="Vector">
+<use xlink:href="#path78_fill" transform="matrix(0.3135 0 0 0.3135 9071.38 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1268">
+<g id="Vector">
+<use xlink:href="#path79_fill" transform="matrix(0.3325 0 0 0.3325 9071.22 95.8027)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1267">
+<g id="Vector">
+<use xlink:href="#path80_fill" transform="matrix(0.3515 0 0 0.3515 9071.06 144.933)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1260">
+<g id="Vector">
+<use xlink:href="#path81_fill" transform="matrix(0.0855 0 0 0.0855 9115.86 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1259">
+<g id="Vector">
+<use xlink:href="#path82_fill" transform="matrix(0.1045 0 0 0.1045 9116.86 -403.861)" fill="#D4D4D4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1258">
+<g id="Vector">
+<use xlink:href="#path83_fill" transform="matrix(0.1235 0 0 0.1235 9117.85 -368.574)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1257">
+<g id="Vector">
+<use xlink:href="#path84_fill" transform="matrix(0.1425 0 0 0.1425 9118.78 -332.126)" fill="#B9B9B9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1256">
+<g id="Vector">
+<use xlink:href="#path85_fill" transform="matrix(0.1615 0 0 0.1615 9119.71 -294.532)" fill="#C6C6C6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1253">
+<g id="Vector">
+<use xlink:href="#path86_fill" transform="matrix(0.2185 0 0 0.2185 9122.29 -174.805)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1252">
+<g id="Vector">
+<use xlink:href="#path87_fill" transform="matrix(0.2375 0 0 0.2375 9123.08 -132.596)" fill="#EAEAEA"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1251">
+<g id="Vector">
+<use xlink:href="#path88_fill" transform="matrix(0.2565 0 0 0.2565 9167.35 -75.1584)" fill="#EEEEEE"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1250">
+<g id="Vector">
+<use xlink:href="#path89_fill" transform="matrix(0.2755 0 0 0.2755 9124.58 -44.7034)" fill="#FDFDFD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1249">
+<g id="Vector">
+<use xlink:href="#path90_fill" transform="matrix(0.2945 0 0 0.2945 9125.28 0.983429)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1248">
+<g id="Vector">
+<use xlink:href="#path91_fill" transform="matrix(0.3135 0 0 0.3135 9125.97 47.8062)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1247">
+<g id="Vector">
+<use xlink:href="#path92_fill" transform="matrix(0.3325 0 0 0.3325 9126.6 95.8027)" fill="#AFAFAF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1239">
+<g id="Vector">
+<use xlink:href="#path81_fill" transform="matrix(0.0855 0 0 0.0855 9160.98 -438)" fill="#ACACAC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1238">
+<g id="Vector">
+<use xlink:href="#path93_fill" transform="matrix(0.1045 0 0 0.1045 9162.77 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1237">
+<g id="Vector">
+<use xlink:href="#path83_fill" transform="matrix(0.1235 0 0 0.1235 9164.54 -368.574)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1236">
+<g id="Vector">
+<use xlink:href="#path84_fill" transform="matrix(0.1425 0 0 0.1425 9166.27 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1235">
+<g id="Vector">
+<use xlink:href="#path94_fill" transform="matrix(0.1615 0 0 0.1615 9167.98 -294.532)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1232">
+<g id="Vector">
+<use xlink:href="#path86_fill" transform="matrix(0.2185 0 0 0.2185 9172.93 -174.805)" fill="#FAFAFA"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1230">
+<g id="Vector">
+<use xlink:href="#path88_fill" transform="matrix(0.2565 0 0 0.2565 9151.49 -29.2819)" fill="#CCCCCC"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1229">
+<g id="Vector">
+<use xlink:href="#path95_fill" transform="matrix(0.2755 0 0 0.2755 9177.6 -44.7034)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1228">
+<g id="Vector">
+<use xlink:href="#path96_fill" transform="matrix(0.2945 0 0 0.2945 9179.08 0.983429)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1227">
+<g id="Vector">
+<use xlink:href="#path91_fill" transform="matrix(0.3135 0 0 0.3135 9158.95 14.5093)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1226">
+<g id="Vector">
+<use xlink:href="#path92_fill" transform="matrix(0.3325 0 0 0.3325 9181.98 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1218">
+<g id="Vector">
+<use xlink:href="#path97_fill" transform="matrix(0.0855 0 0 0.0855 9206.09 -438)" fill="#E8E8E8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1217">
+<g id="Vector">
+<use xlink:href="#path93_fill" transform="matrix(0.1045 0 0 0.1045 9208.67 -403.861)" fill="#E1E1E1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1216">
+<g id="Vector">
+<use xlink:href="#path98_fill" transform="matrix(0.1235 0 0 0.1235 9211.23 -368.574)" fill="#CBCBCB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1215">
+<g id="Vector">
+<use xlink:href="#path99_fill" transform="matrix(0.1425 0 0 0.1425 9213.75 -332.126)" fill="#B4B4B4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1214">
+<g id="Vector">
+<use xlink:href="#path94_fill" transform="matrix(0.1615 0 0 0.1615 9216.26 -294.532)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1211">
+<g id="Vector">
+<use xlink:href="#path100_fill" transform="matrix(0.2185 0 0 0.2185 9223.58 -174.805)" fill="#F8F8F8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1210">
+<g id="Vector">
+<use xlink:href="#path101_fill" transform="matrix(0.2375 0 0 0.2375 9225.94 -132.596)" fill="#F2F2F2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1209">
+<g id="Vector">
+<use xlink:href="#path102_fill" transform="matrix(0.2565 0 0 0.2565 9239.18 -82.1094)" fill="#E4E4E4"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1208">
+<g id="Vector">
+<use xlink:href="#path95_fill" transform="matrix(0.2755 0 0 0.2755 9213.06 -34.1476)" fill="#CFCFCF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1207">
+<g id="Vector">
+<use xlink:href="#path96_fill" transform="matrix(0.2945 0 0 0.2945 9232.88 0.983429)" fill="#F7F7F7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1206">
+<g id="Vector">
+<use xlink:href="#path103_fill" transform="matrix(0.3135 0 0 0.3135 9235.15 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1205">
+<g id="Vector">
+<use xlink:href="#path104_fill" transform="matrix(0.3325 0 0 0.3325 9237.36 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1204">
+<g id="Vector">
+<use xlink:href="#path105_fill" transform="matrix(0.3515 0 0 0.3515 9239.57 144.933)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1197">
+<g id="Vector">
+<use xlink:href="#path97_fill" transform="matrix(0.0855 0 0 0.0855 9251.21 -438)" fill="#C9C9C9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1196">
+<g id="Vector">
+<use xlink:href="#path93_fill" transform="matrix(0.1045 0 0 0.1045 9254.58 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1195">
+<g id="Vector">
+<use xlink:href="#path98_fill" transform="matrix(0.1235 0 0 0.1235 9257.92 -368.574)" fill="#CCCCCC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1194">
+<g id="Vector">
+<use xlink:href="#path99_fill" transform="matrix(0.1425 0 0 0.1425 9261.24 -332.126)" fill="#FEFEFE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1193">
+<g id="Vector">
+<use xlink:href="#path94_fill" transform="matrix(0.1615 0 0 0.1615 9264.53 -294.532)" fill="#CDCDCD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1190">
+<g id="Vector">
+<use xlink:href="#path100_fill" transform="matrix(0.2185 0 0 0.2185 9289.55 -150.924)" fill="#DADADA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1189">
+<g id="Vector">
+<use xlink:href="#path101_fill" transform="matrix(0.2375 0 0 0.2375 9277.37 -132.596)" fill="#F8F8F8"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1188">
+<g id="Vector">
+<use xlink:href="#path102_fill" transform="matrix(0.2565 0 0 0.2565 9282.09 -58.476)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.3">
+<g id="shape 22 1 1187">
+<g id="Vector">
+<use xlink:href="#path95_fill" transform="matrix(0.2755 0 0 0.2755 9283.61 -44.7034)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1185">
+<g id="Vector">
+<use xlink:href="#path103_fill" transform="matrix(0.3135 0 0 0.3135 9317.54 101.397)" fill="#EEEEEE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1176">
+<g id="Vector">
+<use xlink:href="#path106_fill" transform="matrix(0.0855 0 0 0.0855 9296.32 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1175">
+<g id="Vector">
+<use xlink:href="#path107_fill" transform="matrix(0.1045 0 0 0.1045 9300.48 -403.861)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1174">
+<g id="Vector">
+<use xlink:href="#path108_fill" transform="matrix(0.1235 0 0 0.1235 9304.62 -368.574)" fill="#FEFEFE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1173">
+<g id="Vector">
+<use xlink:href="#path109_fill" transform="matrix(0.1425 0 0 0.1425 9308.72 -332.126)" fill="#D2D2D2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1172">
+<g id="Vector">
+<use xlink:href="#path110_fill" transform="matrix(0.1615 0 0 0.1615 9312.81 -294.532)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1169">
+<g id="Vector">
+<use xlink:href="#path111_fill" transform="matrix(0.2185 0 0 0.2185 9324.86 -174.805)" fill="#F7F7F7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1168">
+<g id="Vector">
+<use xlink:href="#path112_fill" transform="matrix(0.2375 0 0 0.2375 9328.81 -132.596)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1167">
+<g id="Vector">
+<use xlink:href="#path113_fill" transform="matrix(0.2565 0 0 0.2565 9332.72 -89.219)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1164">
+<g id="Vector">
+<use xlink:href="#path114_fill" transform="matrix(0.3135 0 0 0.3135 9344.33 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1163">
+<g id="Vector">
+<use xlink:href="#path115_fill" transform="matrix(0.3325 0 0 0.3325 9348.12 95.8027)" fill="#D0D0D0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1155">
+<g id="Vector">
+<use xlink:href="#path106_fill" transform="matrix(0.0855 0 0 0.0855 9341.43 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1154">
+<g id="Vector">
+<use xlink:href="#path107_fill" transform="matrix(0.1045 0 0 0.1045 9346.39 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1153">
+<g id="Vector">
+<use xlink:href="#path108_fill" transform="matrix(0.1235 0 0 0.1235 9351.31 -368.574)" fill="#B3B3B3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1152">
+<g id="Vector">
+<use xlink:href="#path109_fill" transform="matrix(0.1425 0 0 0.1425 9356.2 -332.126)" fill="#D1D1D1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1151">
+<g id="Vector">
+<use xlink:href="#path110_fill" transform="matrix(0.1615 0 0 0.1615 9361.08 -294.532)" fill="#CECECE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1148">
+<g id="Vector">
+<use xlink:href="#path111_fill" transform="matrix(0.2185 0 0 0.2185 9309.14 -177.338)" fill="#E3E3E3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1147">
+<g id="Vector">
+<use xlink:href="#path112_fill" transform="matrix(0.2375 0 0 0.2375 9380.24 -132.596)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1146">
+<g id="Vector">
+<use xlink:href="#path113_fill" transform="matrix(0.2565 0 0 0.2565 9384.95 -89.219)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1145">
+<g id="Vector">
+<use xlink:href="#path116_fill" transform="matrix(0.2755 0 0 0.2755 9389.64 -44.7034)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1143">
+<g id="Vector">
+<use xlink:href="#path114_fill" transform="matrix(0.3135 0 0 0.3135 9398.92 47.8062)" fill="#B1B1B1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1134">
+<g id="Vector">
+<use xlink:href="#path106_fill" transform="matrix(0.0855 0 0 0.0855 9386.55 -438)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1133">
+<g id="Vector">
+<use xlink:href="#path117_fill" transform="matrix(0.1045 0 0 0.1045 9392.3 -403.861)" fill="#D2D2D2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1132">
+<g id="Vector">
+<use xlink:href="#path108_fill" transform="matrix(0.1235 0 0 0.1235 9398.01 -368.574)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1131">
+<g id="Vector">
+<use xlink:href="#path109_fill" transform="matrix(0.1425 0 0 0.1425 9403.69 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1130">
+<g id="Vector">
+<use xlink:href="#path110_fill" transform="matrix(0.1615 0 0 0.1615 9409.35 -294.532)" fill="#CBCBCB"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1127">
+<g id="Vector">
+<use xlink:href="#path111_fill" transform="matrix(0.2185 0 0 0.2185 9418.29 -180.118)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1125">
+<g id="Vector">
+<use xlink:href="#path113_fill" transform="matrix(0.2565 0 0 0.2565 9437.16 -89.219)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1123">
+<g id="Vector">
+<use xlink:href="#path118_fill" transform="matrix(0.2945 0 0 0.2945 9448.11 0.983429)" fill="#D0D0D0"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1122">
+<g id="Vector">
+<use xlink:href="#path114_fill" transform="matrix(0.3135 0 0 0.3135 9453.51 47.8062)" fill="#C4C4C4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1121">
+<g id="Vector">
+<use xlink:href="#path115_fill" transform="matrix(0.3325 0 0 0.3325 9458.88 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1113">
+<g id="Vector">
+<use xlink:href="#path106_fill" transform="matrix(0.0855 0 0 0.0855 9431.66 -438)" fill="#E4E4E4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1112">
+<g id="Vector">
+<use xlink:href="#path117_fill" transform="matrix(0.1045 0 0 0.1045 9438.2 -403.861)" fill="#F1F1F1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1111">
+<g id="Vector">
+<use xlink:href="#path108_fill" transform="matrix(0.1235 0 0 0.1235 9444.7 -368.574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1110">
+<g id="Vector">
+<use xlink:href="#path109_fill" transform="matrix(0.1425 0 0 0.1425 9451.17 -332.126)" fill="#B9B9B9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1109">
+<g id="Vector">
+<use xlink:href="#path110_fill" transform="matrix(0.1615 0 0 0.1615 9457.62 -294.532)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1103">
+<g id="Vector">
+<use xlink:href="#path116_fill" transform="matrix(0.2755 0 0 0.2755 9495.66 -44.7034)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.6">
+<g id="shape 22 1 1102">
+<g id="Vector">
+<use xlink:href="#path118_fill" transform="matrix(0.2945 0 0 0.2945 9501.91 0.983429)" fill="#E3E3E3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1101">
+<g id="Vector">
+<use xlink:href="#path114_fill" transform="matrix(0.3135 0 0 0.3135 9508.1 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1100">
+<g id="Vector">
+<use xlink:href="#path115_fill" transform="matrix(0.3325 0 0 0.3325 9514.26 95.8027)" fill="#C6C6C6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1099">
+<g id="Vector">
+<use xlink:href="#path119_fill" transform="matrix(0.3515 0 0 0.3515 9520.42 144.933)" fill="#E5E5E5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1092">
+<g id="Vector">
+<use xlink:href="#path106_fill" transform="matrix(0.0855 0 0 0.0855 9476.78 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1091">
+<g id="Vector">
+<use xlink:href="#path117_fill" transform="matrix(0.1045 0 0 0.1045 9484.11 -403.861)" fill="#C1C1C1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1090">
+<g id="Vector">
+<use xlink:href="#path108_fill" transform="matrix(0.1235 0 0 0.1235 9491.4 -368.574)" fill="#E9E9E9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1089">
+<g id="Vector">
+<use xlink:href="#path109_fill" transform="matrix(0.1425 0 0 0.1425 9498.66 -332.126)" fill="#BFBFBF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1088">
+<g id="Vector">
+<use xlink:href="#path110_fill" transform="matrix(0.1615 0 0 0.1615 9505.9 -294.532)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1080">
+<g id="Vector">
+<use xlink:href="#path114_fill" transform="matrix(0.3135 0 0 0.3135 9562.69 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1079">
+<g id="Vector">
+<use xlink:href="#path115_fill" transform="matrix(0.3325 0 0 0.3325 9569.64 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1078">
+<g id="Vector">
+<use xlink:href="#path119_fill" transform="matrix(0.3515 0 0 0.3515 9576.59 144.933)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1071">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9521.89 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1070">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9530.01 -403.861)" fill="#C5C5C5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1069">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9538.09 -368.574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1068">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9546.14 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1067">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9554.17 -294.532)" fill="#F8F8F8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1064">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9578.07 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1061">
+<g id="Vector">
+<use xlink:href="#path126_fill" transform="matrix(0.2755 0 0 0.2755 9601.68 -44.7034)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1060">
+<g id="Vector">
+<use xlink:href="#path118_fill" transform="matrix(0.2945 0 0 0.2945 9609.51 0.983429)" fill="#CDCDCD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1059">
+<g id="Vector">
+<use xlink:href="#path114_fill" transform="matrix(0.3135 0 0 0.3135 9617.28 47.8062)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1058">
+<g id="Vector">
+<use xlink:href="#path115_fill" transform="matrix(0.3325 0 0 0.3325 9625.02 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1057">
+<g id="Vector">
+<use xlink:href="#path127_fill" transform="matrix(0.3515 0 0 0.3515 9632.76 144.933)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1050">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9567.01 -438)" fill="#DBDBDB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1049">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9575.92 -403.861)" fill="#AFAFAF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1048">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9584.79 -368.574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1047">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9593.62 -332.126)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1046">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9602.44 -294.532)" fill="#AFAFAF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1043">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9628.71 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1040">
+<g id="Vector">
+<use xlink:href="#path126_fill" transform="matrix(0.2755 0 0 0.2755 9654.7 -44.7034)" fill="#FEFEFE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1038">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9671.88 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1029">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9612.12 -438)" fill="#D7D7D7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1028">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9621.82 -403.861)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1027">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9631.48 -368.574)" fill="#B2B2B2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1026">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9641.11 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1025">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9650.71 -294.532)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1023">
+<g id="Vector">
+<use xlink:href="#path129_fill" transform="matrix(0.1995 0 0 0.1995 9669.83 -215.872)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1022">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9679.36 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 1018">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 9808.22 -80.0241)" fill="#C1C1C1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1017">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9726.46 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1016">
+<g id="Vector">
+<use xlink:href="#path131_fill" transform="matrix(0.3325 0 0 0.3325 9735.78 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1008">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9657.24 -438)" fill="#B8B8B8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1007">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9667.72 -403.861)" fill="#E8E8E8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1006">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9678.17 -368.574)" fill="#D0D0D0"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1005">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9688.58 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1004">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9698.99 -294.532)" fill="#D9D9D9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1002">
+<g id="Vector">
+<use xlink:href="#path129_fill" transform="matrix(0.1995 0 0 0.1995 9719.68 -215.872)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 1001">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9730 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 998">
+<g id="Vector">
+<use xlink:href="#path126_fill" transform="matrix(0.2755 0 0 0.2755 9760.72 -44.7034)" fill="#E7E7E7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 996">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9781.05 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 994">
+<g id="Vector">
+<use xlink:href="#path127_fill" transform="matrix(0.3515 0 0 0.3515 9801.27 144.933)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 987">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9702.35 -438)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 986">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9713.63 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 985">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9724.87 -368.574)" fill="#B4B4B4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 984">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9736.07 -332.126)" fill="#EFEFEF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 983">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9747.26 -294.532)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 981">
+<g id="Vector">
+<use xlink:href="#path129_fill" transform="matrix(0.1995 0 0 0.1995 9769.54 -215.872)" fill="#4659EF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path129_fill" transform="matrix(0.1995 0 0 0.1995 9787.7 -177.338)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 980">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9780.64 -174.805)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 975">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9835.65 47.8062)" fill="#D7D7D7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 974">
+<g id="Vector">
+<use xlink:href="#path131_fill" transform="matrix(0.3325 0 0 0.3325 9846.54 95.8027)" fill="#FBFBFB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 966">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9747.47 -438)" fill="#B6B6B6"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 965">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9759.53 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 964">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9771.56 -368.574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 963">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9783.56 -332.126)" fill="#DEDEDE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 962">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9795.54 -294.532)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 960">
+<g id="Vector">
+<use xlink:href="#path129_fill" transform="matrix(0.1995 0 0 0.1995 9819.39 -215.872)" fill="#E3E3E3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 959">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9831.28 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 955">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 9878.51 0.983429)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 954">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9890.24 47.8062)" fill="#D8D8D8"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 953">
+<g id="Vector">
+<use xlink:href="#path131_fill" transform="matrix(0.3325 0 0 0.3325 9901.92 95.8027)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 945">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9792.58 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 944">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9805.43 -403.861)" fill="#EAEAEA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 943">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9818.25 -368.574)" fill="#F2F2F2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 942">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9831.04 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 941">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9843.81 -294.532)" fill="#EDEDED"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 940">
+<g id="Vector">
+<use xlink:href="#path132_fill" transform="matrix(0.1805 0 0 0.1805 9856.53 -255.773)" fill="#EAEAEA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 939">
+<g id="Vector">
+<use xlink:href="#path129_fill" transform="matrix(0.1995 0 0 0.1995 9880.05 -189.85)" fill="#AEAEAE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 938">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9881.92 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 937">
+<g id="Vector">
+<use xlink:href="#path133_fill" transform="matrix(0.2375 0 0 0.2375 9894.56 -132.596)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 935">
+<g id="Vector">
+<use xlink:href="#path126_fill" transform="matrix(0.2755 0 0 0.2755 9919.75 -44.7034)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 934">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 9932.32 0.983429)" fill="#ECECEC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 933">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9944.83 47.8062)" fill="#FEFEFE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 932">
+<g id="Vector">
+<use xlink:href="#path131_fill" transform="matrix(0.3325 0 0 0.3325 9957.3 95.8027)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 924">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9837.69 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 923">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9851.34 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 922">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9864.95 -368.574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 921">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9878.53 -332.126)" fill="#F4F4F4"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 920">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9892.08 -294.532)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 917">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9932.57 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 916">
+<g id="Vector">
+<use xlink:href="#path133_fill" transform="matrix(0.2375 0 0 0.2375 9945.99 -132.596)" fill="#F7F7F7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 913">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 9986.12 0.983429)" fill="#EFEFEF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 912">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 9999.42 47.8062)" fill="#EDEDED"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 911">
+<g id="Vector">
+<use xlink:href="#path131_fill" transform="matrix(0.3325 0 0 0.3325 10012.7 95.8027)" fill="#C5C5C5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 910">
+<g id="Vector">
+<use xlink:href="#path127_fill" transform="matrix(0.3515 0 0 0.3515 10026 144.933)" fill="#AFAFAF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 903">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9882.81 -438)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 902">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9897.25 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 901">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9911.64 -368.574)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 900">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9926.01 -332.126)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 899">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9940.35 -294.532)" fill="#CFCFCF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 896">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 9981.73 -205.837)" fill="#E9E9E9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 895">
+<g id="Vector">
+<use xlink:href="#path133_fill" transform="matrix(0.2375 0 0 0.2375 10004.1 -107.133)" fill="#BEBEBE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 894">
+<g id="Vector">
+<use xlink:href="#path134_fill" transform="matrix(0.2565 0 0 0.2565 10011.6 -89.219)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 893">
+<g id="Vector">
+<use xlink:href="#path126_fill" transform="matrix(0.2755 0 0 0.2755 10090.9 -50.1349)" fill="#B8B8B8"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 892">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 10039.9 0.983429)" fill="#EDEDED"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 891">
+<g id="Vector">
+<use xlink:href="#path128_fill" transform="matrix(0.3135 0 0 0.3135 10054 47.8062)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 889">
+<g id="Vector">
+<use xlink:href="#path127_fill" transform="matrix(0.3515 0 0 0.3515 10082.1 144.933)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 882">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9927.92 -438)" fill="#DBDBDB"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 881">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9943.15 -403.861)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 880">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 9958.34 -368.574)" fill="#E2E2E2"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 879">
+<g id="Vector">
+<use xlink:href="#path123_fill" transform="matrix(0.1425 0 0 0.1425 9973.49 -332.126)" fill="#C3C3C3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 878">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 9988.63 -294.532)" fill="#ADADAD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 875">
+<g id="Vector">
+<use xlink:href="#path125_fill" transform="matrix(0.2185 0 0 0.2185 10033.9 -174.805)" fill="#E1E1E1"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 874">
+<g id="Vector">
+<use xlink:href="#path133_fill" transform="matrix(0.2375 0 0 0.2375 10061 -100.877)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 873">
+<g id="Vector">
+<use xlink:href="#path134_fill" transform="matrix(0.2565 0 0 0.2565 10063.8 -89.219)" fill="#F6F6F6"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 872">
+<g id="Vector">
+<use xlink:href="#path126_fill" transform="matrix(0.2755 0 0 0.2755 10078.8 -44.7034)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 871">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 10093.7 0.983429)" fill="#E6E6E6"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.5">
+<g id="shape 22 1 869">
+<g id="Vector">
+<use xlink:href="#path131_fill" transform="matrix(0.3325 0 0 0.3325 10090.9 70.8123)" fill="#E3E3E3"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 861">
+<g id="Vector">
+<use xlink:href="#path120_fill" transform="matrix(0.0855 0 0 0.0855 9973.04 -438)" fill="#ADADAD"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 860">
+<g id="Vector">
+<use xlink:href="#path121_fill" transform="matrix(0.1045 0 0 0.1045 9989.05 -403.861)" fill="#CACACA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 859">
+<g id="Vector">
+<use xlink:href="#path122_fill" transform="matrix(0.1235 0 0 0.1235 10005 -368.574)" fill="#ECECEC"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 858">
+<g id="Vector">
+<use xlink:href="#path135_fill" transform="matrix(0.1425 0 0 0.1425 10021 -332.126)" fill="#C7C7C7"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 857">
+<g id="Vector">
+<use xlink:href="#path124_fill" transform="matrix(0.1615 0 0 0.1615 10036.9 -294.532)" fill="#F9F9F9"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 854">
+<g id="Vector">
+<use xlink:href="#path136_fill" transform="matrix(0.2185 0 0 0.2185 10084.5 -174.805)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="Group" opacity="0.4">
+<g id="shape 22 1 853">
+<g id="Vector">
+<use xlink:href="#path137_fill" transform="matrix(0.2375 0 0 0.2375 10118.9 -143.973)" fill="#AEAEAE"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 850">
+<g id="Vector">
+<use xlink:href="#path130_fill" transform="matrix(0.2945 0 0 0.2945 10147.5 0.983429)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="shape 22 1 848">
+<g id="Vector">
+<use xlink:href="#path138_fill" transform="matrix(0.3325 0 0 0.3325 10178.8 95.8027)" fill="#4659EF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path138_fill" transform="matrix(0.3325 0 0 0.3325 10147.8 158.395)" fill="#4659EF"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 4">
+<g id="Vector">
+<use xlink:href="#path139_fill" transform="matrix(1 0 0 -1 8941 -407.096)" fill="#F5F8FF"/>
+</g>
+<g id="Vector" style="mix-blend-mode:multiply">
+<use xlink:href="#path140_fill" transform="matrix(1 0 0 -1 8992.62 -400.749)" fill="#F5F9FF"/>
+</g>
+</g>
 </g>
 </g>
 <defs>
-<linearGradient id="e" x2="1" gradientTransform="matrix(-1310 -683.5 1249.8 -2395.4 674.59 1897.7)" gradientUnits="userSpaceOnUse">
-<stop stop-color="#495CF2" offset="0"/>
-<stop stop-color="#2438D6" stop-opacity=".9" offset="1"/>
-</linearGradient>
-<path id="b" d="m0 0h1280v700h-1280v-700z"/>
-<path id="d" d="m341.08 170.5c0 94.165-76.353 170.5-170.54 170.5-94.187 0-170.54-76.335-170.54-170.5 0-94.165 76.354-170.5 170.54-170.5 94.188 0 170.54 76.335 170.54 170.5z"/>
-<path id="c" d="M 301 150.5C 301 233.619 233.619 301 150.5 301C 67.3811 301 0 233.619 0 150.5C 0 67.3811 67.3811 0 150.5 0C 233.619 0 301 67.3811 301 150.5Z"/>
+<path id="path0_fill" d="M 0 2.97233L 3.98987 0L 7.97974 2.97233L 3.98987 5.88274L 0 2.97233Z"/>
+<path id="path1_fill" d="M -1.26835e-06 3.52964L 4.73797 -9.44878e-07L 9.47594 3.52964L 4.73797 7.05928L -1.26835e-06 3.52964Z"/>
+<path id="path2_fill" d="M -1.26835e-06 4.08695L 5.48607 -1.88976e-06L 10.9721 4.08695L 5.48607 8.1739L -1.26835e-06 4.08695Z"/>
+<path id="path3_fill" d="M 6.34173e-07 4.70619L 6.31729 -1.88976e-06L 12.6346 4.70619L 6.31729 9.41237L 6.34173e-07 4.70619Z"/>
+<path id="path4_fill" d="M -6.34173e-07 6.50196L 8.72784 -7.55902e-06L 17.4557 6.50196L 8.72784 13.0039L -6.34173e-07 6.50196Z"/>
+<path id="path5_fill" d="M 1.26835e-06 7.05928L 9.47594 -3.77951e-06L 18.9519 7.05928L 9.47594 14.1186L 1.26835e-06 7.05928Z"/>
+<path id="path6_fill" d="M 1.26835e-06 7.61659L 10.3072 0L 20.6143 7.61659L 10.3072 15.2332L 1.26835e-06 7.61659Z"/>
+<path id="path7_fill" d="M 0 8.23582L 11.0553 0L 22.1105 8.23582L 11.0553 16.4717L 0 8.23582Z"/>
+<path id="path8_fill" d="M -1.26835e-06 9.41237L 12.6346 -1.5118e-05L 25.2692 9.41237L 12.6346 18.8248L -1.26835e-06 9.41237Z"/>
+<path id="path9_fill" d="M -1.26835e-06 10.0316L 13.3827 -1.5118e-05L 26.7654 10.0316L 13.3827 20.0632L -1.26835e-06 10.0316Z"/>
+<path id="path10_fill" d="M 6.34173e-07 10.5889L 14.2139 7.55902e-06L 28.4278 10.5889L 14.2139 21.1779L 6.34173e-07 10.5889Z"/>
+<path id="path11_fill" d="M 6.34173e-07 11.1462L 14.962 -7.55902e-06L 29.924 11.1462L 14.962 22.2925L 6.34173e-07 11.1462Z"/>
+<path id="path12_fill" d="M 0 2.97233L 3.98987 0L 7.97974 2.97233L 3.98987 5.88274L 0 2.97233Z"/>
+<path id="path13_fill" d="M -1.26835e-06 3.52964L 4.73797 -9.44878e-07L 9.47594 3.52964L 4.73797 7.05928L -1.26835e-06 3.52964Z"/>
+<path id="path14_fill" d="M -1.26835e-06 4.08695L 5.48607 -1.88976e-06L 10.9721 4.08695L 5.48607 8.1739L -1.26835e-06 4.08695Z"/>
+<path id="path15_fill" d="M -2.53669e-06 4.70619L 6.31729 -1.88976e-06L 12.6346 4.70619L 6.31729 9.41237L -2.53669e-06 4.70619Z"/>
+<path id="path16_fill" d="M 2.53669e-06 6.50196L 8.72784 -7.55902e-06L 17.4557 6.50196L 8.72784 13.0039L 2.53669e-06 6.50196Z"/>
+<path id="path17_fill" d="M 1.26835e-06 7.05928L 9.47594 -3.77951e-06L 18.9519 7.05928L 9.47594 14.1186L 1.26835e-06 7.05928Z"/>
+<path id="path18_fill" d="M 1.26835e-06 7.61659L 10.3072 0L 20.6143 7.61659L 10.3072 15.2332L 1.26835e-06 7.61659Z"/>
+<path id="path19_fill" d="M 0 8.23582L 11.0553 0L 22.1105 8.23582L 11.0553 16.4717L 0 8.23582Z"/>
+<path id="path20_fill" d="M 0 8.85506L 11.8865 0L 23.6898 8.79315L 11.8865 17.5863L 0 8.85506Z"/>
+<path id="path21_fill" d="M -1.26835e-06 9.41237L 12.6346 -1.5118e-05L 25.2692 9.41237L 12.6346 18.8248L -1.26835e-06 9.41237Z"/>
+<path id="path22_fill" d="M -1.26835e-06 10.0316L 13.3827 -1.5118e-05L 26.7654 10.0316L 13.3827 20.0632L -1.26835e-06 10.0316Z"/>
+<path id="path23_fill" d="M -2.53669e-06 10.5889L 14.2139 7.55902e-06L 28.4278 10.5889L 14.2139 21.1779L -2.53669e-06 10.5889Z"/>
+<path id="path24_fill" d="M 0 2.97233L 3.98987 0L 7.97974 2.97233L 3.98987 5.88274L 0 2.97233Z"/>
+<path id="path25_fill" d="M 5.07338e-06 3.52964L 4.73797 -9.44878e-07L 9.47594 3.52964L 4.73797 7.05928L 5.07338e-06 3.52964Z"/>
+<path id="path26_fill" d="M 5.07338e-06 4.08695L 5.48607 -1.88976e-06L 10.9721 4.08695L 5.48607 8.1739L 5.07338e-06 4.08695Z"/>
+<path id="path27_fill" d="M -2.53669e-06 4.70619L 6.31729 -1.88976e-06L 12.6346 4.70619L 6.31729 9.41237L -2.53669e-06 4.70619Z"/>
+<path id="path28_fill" d="M -5.07338e-06 7.61659L 10.3072 0L 20.6143 7.61659L 10.3072 15.2332L -5.07338e-06 7.61659Z"/>
+<path id="path29_fill" d="M 0 8.23582L 11.0553 0L 22.1105 8.23582L 11.0553 16.4717L 0 8.23582Z"/>
+<path id="path30_fill" d="M 0 8.79313L 11.8034 -1.5118e-05L 23.6067 8.79313L 11.8034 17.5863L 0 8.79313Z"/>
+<path id="path31_fill" d="M 5.07338e-06 9.41237L 12.6346 -1.5118e-05L 25.2692 9.41237L 12.6346 18.8248L 5.07338e-06 9.41237Z"/>
+<path id="path32_fill" d="M 5.07338e-06 10.0316L 13.3827 -1.5118e-05L 26.7654 10.0316L 13.3827 20.0632L 5.07338e-06 10.0316Z"/>
+<path id="path33_fill" d="M -2.53669e-06 11.1462L 14.962 -7.55902e-06L 29.924 11.1462L 14.962 22.2925L -2.53669e-06 11.1462Z"/>
+<path id="path34_fill" d="M -5.07338e-06 7.05928L 9.47594 -3.77951e-06L 18.9519 7.05928L 9.47594 14.1186L -5.07338e-06 7.05928Z"/>
+<path id="path35_fill" d="M -2.53669e-06 10.5889L 14.2139 7.55902e-06L 28.4278 10.5889L 14.2139 21.1779L -2.53669e-06 10.5889Z"/>
+<path id="path36_fill" d="M 2.53669e-06 6.50196L 8.72784 -7.55902e-06L 17.4557 6.50196L 8.72784 13.0039L 2.53669e-06 6.50196Z"/>
+<path id="path37_fill" d="M -5.07338e-06 7.05928L 9.47594 -3.77951e-06L 18.9519 7.05928L 9.47594 14.1186L -5.07338e-06 7.05928Z"/>
+<path id="path38_fill" d="M 5.07338e-06 10.0316L 13.3827 -1.5118e-05L 26.7654 10.0316L 13.3827 20.0632L 5.07338e-06 10.0316Z"/>
+<path id="path39_fill" d="M -2.53669e-06 11.1462L 14.962 -7.55902e-06L 29.924 11.1462L 14.962 22.2925L -2.53669e-06 11.1462Z"/>
+<path id="path40_fill" d="M 0 2.97233L 3.98986 0L 7.97974 2.97233L 3.98986 5.88274L 0 2.97233Z"/>
+<path id="path41_fill" d="M 5.07338e-06 3.52964L 4.73796 -9.44878e-07L 9.47594 3.52964L 4.73796 7.05928L 5.07338e-06 3.52964Z"/>
+<path id="path42_fill" d="M 5.07338e-06 4.08695L 5.48608 -1.88976e-06L 10.9721 4.08695L 5.48608 8.1739L 5.07338e-06 4.08695Z"/>
+<path id="path43_fill" d="M 1.01468e-05 4.70619L 6.31728 -1.88976e-06L 12.6346 4.70619L 6.31728 9.41237L 1.01468e-05 4.70619Z"/>
+<path id="path44_fill" d="M -1.01468e-05 6.50196L 8.72783 -7.55902e-06L 17.4557 6.50196L 8.72783 13.0039L -1.01468e-05 6.50196Z"/>
+<path id="path45_fill" d="M -5.07338e-06 7.05928L 9.47593 -3.77951e-06L 18.9519 7.05928L 9.47593 14.1186L -5.07338e-06 7.05928Z"/>
+<path id="path46_fill" d="M -5.07338e-06 7.61659L 10.3072 0L 20.6143 7.61659L 10.3072 15.2332L -5.07338e-06 7.61659Z"/>
+<path id="path47_fill" d="M 0 8.23582L 11.0553 0L 22.1105 8.23582L 11.0553 16.4717L 0 8.23582Z"/>
+<path id="path48_fill" d="M 0 8.79313L 11.8034 -1.5118e-05L 23.6067 8.79313L 11.8034 17.5863L 0 8.79313Z"/>
+<path id="path49_fill" d="M 5.07338e-06 9.41237L 12.6346 -1.5118e-05L 25.2692 9.41237L 12.6346 18.8248L 5.07338e-06 9.41237Z"/>
+<path id="path50_fill" d="M 5.07338e-06 10.0316L 13.3827 -1.5118e-05L 26.7654 10.0316L 13.3827 20.0632L 5.07338e-06 10.0316Z"/>
+<path id="path51_fill" d="M 1.01468e-05 10.5889L 14.2139 7.55902e-06L 28.4278 10.5889L 14.2139 21.1779L 1.01468e-05 10.5889Z"/>
+<path id="path52_fill" d="M 1.01468e-05 11.1462L 14.962 -7.55902e-06L 29.924 11.1462L 14.962 22.2925L 1.01468e-05 11.1462Z"/>
+<path id="path53_fill" d="M 5.07338e-06 4.08695L 5.56918 -1.88976e-06L 11.1384 4.08695L 5.56918 8.1739L 5.07338e-06 4.08695Z"/>
+<path id="path54_fill" d="M -5.07338e-06 7.61659L 10.2241 0L 20.4481 7.61659L 10.2241 15.2332L -5.07338e-06 7.61659Z"/>
+<path id="path55_fill" d="M 5.07338e-06 10.0316L 13.4658 -1.5118e-05L 26.9316 10.0316L 13.4658 20.0632L 5.07338e-06 10.0316Z"/>
+<path id="path56_fill" d="M 0 8.79313L 11.8034 -1.5118e-05L 23.6067 8.79313L 11.8034 17.5863L 0 8.79313Z"/>
+<path id="path57_fill" d="M 1.01468e-05 10.5889L 14.2139 7.55902e-06L 28.4278 10.5889L 14.2139 21.1779L 1.01468e-05 10.5889Z"/>
+<path id="path58_fill" d="M 0 2.97233L 3.98986 0L 7.97972 2.97233L 3.98986 5.88274L 0 2.97233Z"/>
+<path id="path59_fill" d="M -2.02935e-05 3.52964L 4.73796 -9.44878e-07L 9.47594 3.52964L 4.73796 7.05928L -2.02935e-05 3.52964Z"/>
+<path id="path60_fill" d="M -2.02935e-05 4.08695L 5.56918 -1.88976e-06L 11.1384 4.08695L 5.56918 8.1739L -2.02935e-05 4.08695Z"/>
+<path id="path61_fill" d="M 1.01468e-05 4.70619L 6.31728 -1.88976e-06L 12.6346 4.70619L 6.31728 9.41237L 1.01468e-05 4.70619Z"/>
+<path id="path62_fill" d="M 2.02935e-05 7.05928L 9.47593 -3.77951e-06L 18.9519 7.05928L 9.47593 14.1186L 2.02935e-05 7.05928Z"/>
+<path id="path63_fill" d="M -2.02935e-05 9.41237L 12.6346 -1.5118e-05L 25.2692 9.41237L 12.6346 18.8248L -2.02935e-05 9.41237Z"/>
+<path id="path64_fill" d="M -2.02935e-05 10.0316L 13.4658 -1.5118e-05L 26.9316 10.0316L 13.4658 20.0632L -2.02935e-05 10.0316Z"/>
+<path id="path65_fill" d="M 0 8.23582L 11.0553 0L 22.1105 8.23582L 11.0553 16.4717L 0 8.23582Z"/>
+<path id="path66_fill" d="M 1.01468e-05 5.2635L 7.0654 1.88976e-06L 14.1308 5.2635L 7.0654 10.527L 1.01468e-05 5.2635Z"/>
+<path id="path67_fill" d="M 2.02935e-05 7.61659L 10.2241 0L 20.4481 7.61659L 10.2241 15.2332L 2.02935e-05 7.61659Z"/>
+<path id="path68_fill" d="M 0 2.66271L 3.57426 0L 7.14852 2.66271L 3.57426 5.32542L 0 2.66271Z"/>
+<path id="path69_fill" d="M 0 3.22002L 4.32236 -9.44878e-07L 8.64472 3.22002L 4.32236 6.44005L 0 3.22002Z"/>
+<path id="path70_fill" d="M 3.17086e-07 3.83926L 5.15358 -9.44878e-07L 10.3072 3.83926L 5.15358 7.67852L 3.17086e-07 3.83926Z"/>
+<path id="path71_fill" d="M 3.17086e-07 4.39657L 5.90168 -1.88976e-06L 11.8034 4.39657L 5.90168 8.79314L 3.17086e-07 4.39657Z"/>
+<path id="path72_fill" d="M -1.58543e-07 5.01581L 6.7329 -1.88976e-06L 13.4658 5.01581L 6.7329 10.0316L -1.58543e-07 5.01581Z"/>
+<path id="path73_fill" d="M -3.17086e-07 6.74966L 9.06033 -3.77951e-06L 18.1207 6.74966L 9.06033 13.4993L -3.17086e-07 6.74966Z"/>
+<path id="path74_fill" d="M -3.17086e-07 7.36889L 9.89155 -3.77951e-06L 19.7831 7.36889L 9.89155 14.7378L -3.17086e-07 7.36889Z"/>
+<path id="path75_fill" d="M -3.17086e-07 7.9262L 10.6397 0L 21.2793 7.9262L 10.6397 15.8524L -3.17086e-07 7.9262Z"/>
+<path id="path76_fill" d="M 0 8.54544L 11.4709 0L 22.8586 8.54544L 11.3878 17.0909L 0 8.54544Z"/>
+<path id="path77_fill" d="M 0 9.10275L 12.219 -1.5118e-05L 24.5211 9.10275L 12.3021 18.2055L 0 9.10275Z"/>
+<path id="path78_fill" d="M -7.92716e-08 9.72199L 13.0502 -1.5118e-05L 26.1004 9.72199L 13.0502 19.444L -7.92716e-08 9.72199Z"/>
+<path id="path79_fill" d="M -7.92716e-08 10.2793L 13.7983 7.55902e-06L 27.5966 10.2793L 13.7983 20.5586L -7.92716e-08 10.2793Z"/>
+<path id="path80_fill" d="M -1.58543e-07 10.8985L 14.6295 7.55902e-06L 29.259 10.8985L 14.6295 21.7971L -1.58543e-07 10.8985Z"/>
+<path id="path81_fill" d="M 0 2.66271L 3.57426 0L 7.14851 2.66271L 3.57426 5.32542L 0 2.66271Z"/>
+<path id="path82_fill" d="M 0 3.22002L 4.32236 -9.44878e-07L 8.64472 3.22002L 4.32236 6.44005L 0 3.22002Z"/>
+<path id="path83_fill" d="M -1.26835e-06 3.83926L 5.15358 -9.44878e-07L 10.3072 3.83926L 5.15358 7.67852L -1.26835e-06 3.83926Z"/>
+<path id="path84_fill" d="M -1.26835e-06 4.39657L 5.90168 -1.88976e-06L 11.8034 4.39657L 5.90168 8.79314L -1.26835e-06 4.39657Z"/>
+<path id="path85_fill" d="M -2.53669e-06 5.01581L 6.73291 -1.88976e-06L 13.4658 5.01581L 6.73291 10.0316L -2.53669e-06 5.01581Z"/>
+<path id="path86_fill" d="M 1.26835e-06 6.74966L 9.06033 -3.77951e-06L 18.1207 6.74966L 9.06033 13.4993L 1.26835e-06 6.74966Z"/>
+<path id="path87_fill" d="M 1.26835e-06 7.36889L 9.89155 -3.77951e-06L 19.7831 7.36889L 9.89155 14.7378L 1.26835e-06 7.36889Z"/>
+<path id="path88_fill" d="M 1.26835e-06 7.9262L 10.6396 0L 21.2793 7.9262L 10.6396 15.8524L 1.26835e-06 7.9262Z"/>
+<path id="path89_fill" d="M 0 8.54544L 11.4709 0L 22.8586 8.54544L 11.3877 17.0909L 0 8.54544Z"/>
+<path id="path90_fill" d="M 0 9.10275L 12.219 -1.5118e-05L 24.5211 9.10275L 12.3021 18.2055L 0 9.10275Z"/>
+<path id="path91_fill" d="M -1.26835e-06 9.72199L 13.0502 -1.5118e-05L 26.1004 9.72199L 13.0502 19.444L -1.26835e-06 9.72199Z"/>
+<path id="path92_fill" d="M -1.26835e-06 10.2793L 13.7983 7.55902e-06L 27.5966 10.2793L 13.7983 20.5586L -1.26835e-06 10.2793Z"/>
+<path id="path93_fill" d="M 0 3.22002L 4.32236 -9.44878e-07L 8.64471 3.22002L 4.32236 6.44005L 0 3.22002Z"/>
+<path id="path94_fill" d="M -2.53669e-06 5.01581L 6.73291 -1.88976e-06L 13.4658 5.01581L 6.73291 10.0316L -2.53669e-06 5.01581Z"/>
+<path id="path95_fill" d="M 0 8.54544L 11.4709 0L 22.9418 8.54544L 11.4709 17.0909L 0 8.54544Z"/>
+<path id="path96_fill" d="M 0 9.10275L 12.219 -1.5118e-05L 24.4379 9.10275L 12.3021 18.2055L 0 9.10275Z"/>
+<path id="path97_fill" d="M 0 2.66271L 3.57426 0L 7.14852 2.66271L 3.57426 5.32542L 0 2.66271Z"/>
+<path id="path98_fill" d="M 5.07338e-06 3.83926L 5.15358 -9.44878e-07L 10.3072 3.83926L 5.15358 7.67852L 5.07338e-06 3.83926Z"/>
+<path id="path99_fill" d="M 5.07338e-06 4.39657L 5.90168 -1.88976e-06L 11.8034 4.39657L 5.90168 8.79314L 5.07338e-06 4.39657Z"/>
+<path id="path100_fill" d="M -5.07338e-06 6.74966L 9.06033 -3.77951e-06L 18.1207 6.74966L 9.06033 13.4993L -5.07338e-06 6.74966Z"/>
+<path id="path101_fill" d="M -5.07338e-06 7.36889L 9.89155 -3.77951e-06L 19.7831 7.36889L 9.89155 14.7378L -5.07338e-06 7.36889Z"/>
+<path id="path102_fill" d="M -5.07338e-06 7.9262L 10.6396 0L 21.2793 7.9262L 10.6396 15.8524L -5.07338e-06 7.9262Z"/>
+<path id="path103_fill" d="M 5.07338e-06 9.72199L 13.0502 -1.5118e-05L 26.1004 9.72199L 13.0502 19.444L 5.07338e-06 9.72199Z"/>
+<path id="path104_fill" d="M 5.07338e-06 10.2793L 13.7983 7.55902e-06L 27.5966 10.2793L 13.7983 20.5586L 5.07338e-06 10.2793Z"/>
+<path id="path105_fill" d="M -2.53669e-06 10.8985L 14.6295 7.55902e-06L 29.259 10.8985L 14.6295 21.7971L -2.53669e-06 10.8985Z"/>
+<path id="path106_fill" d="M 0 2.66271L 3.57425 0L 7.14852 2.66271L 3.57425 5.32542L 0 2.66271Z"/>
+<path id="path107_fill" d="M 0 3.22002L 4.32237 -9.44878e-07L 8.64471 3.22002L 4.32237 6.44005L 0 3.22002Z"/>
+<path id="path108_fill" d="M 5.07338e-06 3.83926L 5.15357 -9.44878e-07L 10.3072 3.83926L 5.15357 7.67852L 5.07338e-06 3.83926Z"/>
+<path id="path109_fill" d="M 5.07338e-06 4.39657L 5.90169 -1.88976e-06L 11.8034 4.39657L 5.90169 8.79314L 5.07338e-06 4.39657Z"/>
+<path id="path110_fill" d="M 1.01468e-05 5.01581L 6.73289 -1.88976e-06L 13.4658 5.01581L 6.73289 10.0316L 1.01468e-05 5.01581Z"/>
+<path id="path111_fill" d="M -5.07338e-06 6.74966L 9.06032 -3.77951e-06L 18.1207 6.74966L 9.06032 13.4993L -5.07338e-06 6.74966Z"/>
+<path id="path112_fill" d="M -5.07338e-06 7.36889L 9.89154 -3.77951e-06L 19.7831 7.36889L 9.89154 14.7378L -5.07338e-06 7.36889Z"/>
+<path id="path113_fill" d="M -5.07338e-06 7.9262L 10.6397 0L 21.2793 7.9262L 10.6397 15.8524L -5.07338e-06 7.9262Z"/>
+<path id="path114_fill" d="M 5.07338e-06 9.72199L 13.0502 -1.5118e-05L 26.1004 9.72199L 13.0502 19.444L 5.07338e-06 9.72199Z"/>
+<path id="path115_fill" d="M 5.07338e-06 10.2793L 13.7983 7.55902e-06L 27.5966 10.2793L 13.7983 20.5586L 5.07338e-06 10.2793Z"/>
+<path id="path116_fill" d="M 0 8.54544L 11.4709 0L 22.9418 8.54544L 11.4709 17.0909L 0 8.54544Z"/>
+<path id="path117_fill" d="M 5.07338e-06 3.22002L 4.32235 -9.44878e-07L 8.64472 3.22002L 4.32235 6.44005L 5.07338e-06 3.22002Z"/>
+<path id="path118_fill" d="M 5.07338e-06 9.10275L 12.219 -1.5118e-05L 24.4379 9.10275L 12.219 18.2055L 5.07338e-06 9.10275Z"/>
+<path id="path119_fill" d="M 1.01468e-05 10.8985L 14.6295 7.55902e-06L 29.259 10.8985L 14.6295 21.7971L 1.01468e-05 10.8985Z"/>
+<path id="path120_fill" d="M 0 2.66271L 3.57425 0L 7.1485 2.66271L 3.57425 5.32542L 0 2.66271Z"/>
+<path id="path121_fill" d="M -2.02935e-05 3.22002L 4.32235 -9.44878e-07L 8.64472 3.22002L 4.32235 6.44005L -2.02935e-05 3.22002Z"/>
+<path id="path122_fill" d="M -2.02935e-05 3.83926L 5.15357 -9.44878e-07L 10.3072 3.83926L 5.15357 7.67852L -2.02935e-05 3.83926Z"/>
+<path id="path123_fill" d="M -2.02935e-05 4.39657L 5.90169 -1.88976e-06L 11.8034 4.39657L 5.90169 8.79314L -2.02935e-05 4.39657Z"/>
+<path id="path124_fill" d="M 1.01468e-05 5.01581L 6.73289 -1.88976e-06L 13.4658 5.01581L 6.73289 10.0316L 1.01468e-05 5.01581Z"/>
+<path id="path125_fill" d="M 2.02935e-05 6.74966L 9.06032 -3.77951e-06L 18.1207 6.74966L 9.06032 13.4993L 2.02935e-05 6.74966Z"/>
+<path id="path126_fill" d="M 0 8.54544L 11.4709 0L 22.9417 8.54544L 11.4709 17.0909L 0 8.54544Z"/>
+<path id="path127_fill" d="M 1.01468e-05 10.8985L 14.6295 7.55902e-06L 29.2591 10.8985L 14.6295 21.7971L 1.01468e-05 10.8985Z"/>
+<path id="path128_fill" d="M -2.02935e-05 9.72199L 13.0502 -1.5118e-05L 26.1004 9.72199L 13.0502 19.444L -2.02935e-05 9.72199Z"/>
+<path id="path129_fill" d="M -1.01468e-05 6.19235L 8.31222 -7.55902e-06L 16.6244 6.19235L 8.31222 12.3847L -1.01468e-05 6.19235Z"/>
+<path id="path130_fill" d="M -2.02935e-05 9.10275L 12.219 -1.5118e-05L 24.4379 9.10275L 12.219 18.2055L -2.02935e-05 9.10275Z"/>
+<path id="path131_fill" d="M -2.02935e-05 10.2793L 13.7983 7.55902e-06L 27.5966 10.2793L 13.7983 20.5586L -2.02935e-05 10.2793Z"/>
+<path id="path132_fill" d="M 1.01468e-05 5.57312L 7.48102 1.88976e-06L 14.962 5.57312L 7.48102 11.1462L 1.01468e-05 5.57312Z"/>
+<path id="path133_fill" d="M 2.02935e-05 7.36889L 9.89154 -3.77951e-06L 19.7831 7.36889L 9.89154 14.7378L 2.02935e-05 7.36889Z"/>
+<path id="path134_fill" d="M 2.02935e-05 7.9262L 10.6397 0L 21.2793 7.9262L 10.6397 15.8524L 2.02935e-05 7.9262Z"/>
+<path id="path135_fill" d="M -2.02935e-05 4.39657L 5.90169 -1.88976e-06L 11.8034 4.39657L 5.90169 8.79314L -2.02935e-05 4.39657Z"/>
+<path id="path136_fill" d="M 2.02935e-05 6.74966L 9.06032 -3.77951e-06L 18.1206 6.74966L 9.06032 13.4993L 2.02935e-05 6.74966Z"/>
+<path id="path137_fill" d="M 2.02935e-05 7.36889L 9.89154 -3.77951e-06L 19.7831 7.36889L 9.89154 14.7378L 2.02935e-05 7.36889Z"/>
+<path id="path138_fill" d="M -2.02935e-05 10.2793L 13.7983 7.55902e-06L 27.5966 10.2793L 13.7983 20.5586L -2.02935e-05 10.2793Z"/>
+<path id="path139_fill" d="M 368.195 0C 263.808 2.47798e-16 181.435 36.9043 0 36.9043L 670.349 36.9043C 571.998 36.9043 444.177 0 368.195 0Z"/>
+<path id="path140_fill" d="M 454.474 0C 378.492 0 317.302 43.2509 0 43.2509L 736.39 43.2509C 638.039 43.2509 530.456 0 454.474 0Z"/>
 </defs>
 </svg>

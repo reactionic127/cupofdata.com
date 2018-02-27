@@ -24,7 +24,7 @@ export default class TemplateWrapper extends React.Component {
     super(props)
 
     this.state = {
-      theme: mainTheme.primary,
+      theme: mainTheme.secondary,
       hideNav: false,
       dropdown: false,
       secondary: false,
@@ -76,41 +76,12 @@ export default class TemplateWrapper extends React.Component {
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
     const hideNav = undefinedReg.test(location.pathname) || onboardReg.test(location.pathname);
-    switch(location.pathname) {
-      case '/blog':
-        themeType = 'secondary'
-        break;
-      case '/terms':
-        themeType = 'secondary'
-        break;
-      case '/privacy':
-        themeType = 'secondary'
-        break;
-      case '/about':
-        themeType = 'secondary'
-        break;
-      case '/pricing':
-        themeType = 'secondary'
-        break;
-      default:
-        themeType = 'primary'
-    }
-    
-    if ( themeType === 'secondary' || blogDetail ){
-      this.setState({
-        hideNav,
-        theme: mainTheme.secondary,
-        secondary: true,
-        dropdown: false
-      })
-    } else {
-      this.setState({
-        hideNav,
-        theme: mainTheme.primary,
-        secondary: false,
-        dropdown: false
-      })
-    }
+    this.setState({
+      hideNav,
+      theme: mainTheme.secondary,
+      secondary: true,
+      dropdown: false
+    })
   }
   render () {
     let user
