@@ -2,7 +2,6 @@ import React, { div } from 'react'
 import { Container, Row, Col } from '../../../components/Layout'
 import { H3, H6, P } from '../../../components/Typography'
 import styled, { css } from 'styled-components'
-import Slider from 'react-slick'
 import Button from '../../../components/Button'
 import Link, { withPrefix } from 'gatsby-link'
 
@@ -82,7 +81,7 @@ const Personal = styled.div`
 const PersonaBox = styled.div`
 	position: absolute;
 	padding: 0 10px;
-	
+
 	display: flex;
 	flex-direction: column;
 	border-radius: 3px;
@@ -94,7 +93,7 @@ const PersonaBox = styled.div`
 		bottom: -5px;
 		left: calc(50% - 6px);
 		width: 0;
-	  height: 0; 
+	  height: 0;
 	  border-left: 6px solid transparent;
 	  border-right: 6px solid transparent;
 	  border-top: 6px solid #f5f7fa;
@@ -254,7 +253,7 @@ class BannerSection extends React.PureComponent {
 								<div>
 									<ScoreName>Score</ScoreName>
 									<ScoreText>{this.state.score1}</ScoreText>
-								</div>						
+								</div>
 							</PersonaBox1>
 							<img src={withPrefix('/files/images/img-person1.svg')} />
 						</Personal>
