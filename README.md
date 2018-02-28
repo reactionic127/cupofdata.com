@@ -25,3 +25,7 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 | `GATSBY_ONBOARD_URL`     |   Yes    |    `null`     | URL for the onboarding content.  |
 | `SEGMENT_PROD_WRITE_KEY` |    No    |    `null`     | Segment API key for production.  |
 | `SEGMENT_DEV_WRITE_KEY`  |    No    |    `null`     | Segment API key for development. |
+
+## Copyright
+
+Copyright &copy; 2018 Cup of Data. All rights reserved.
