@@ -62,23 +62,6 @@ injectGlobal`
     overflow: auto;
 	}
 
-	/**** Style for slick ******/
-	.slick-initialized.slick-slider {
-		height: 100vh;
-		display: none;
-		@media screen and (max-width: 767px){
-			display: block;
-		}
-	}
-	.slick-initialized .slick-dots {
-		bottom: 25px;
-	}
-	.slick-initialized .slick-dots li button::before {
-		color: rgba(255,255,255,0.25);
-	}
-	.slick-initialized .slick-dots li.slick-active button::before {
-		color: rgb(225,225,255);
-	}
 	.cms-content h2 {
     margin: 0.75rem 0;
     font-family: GTWalsheim;

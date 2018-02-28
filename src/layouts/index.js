@@ -12,8 +12,6 @@ import NavContainer from '../containers/Navbar'
 // code syntax-highlighting theme
 // feel free to change it to another one
 import 'prismjs/themes/prism-twilight.css'
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import '../../static/files/css/fontawesome-all.min.css'
 
 // main site style
@@ -62,7 +60,7 @@ export default class TemplateWrapper extends React.Component {
             dropdown: false,
           })
         }
-      } 
+      }
     }
   }
   checkPath(props) {
@@ -140,4 +138,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
