@@ -1,20 +1,31 @@
-# Cup of Data Marketing site
+# cupofdata.com
 
-We use this repo to manage source files for the [Cup of Data](https://cupofdata.com) marketing site.
+[![node >= 8.x](https://img.shields.io/badge/node-%3E%3D%208.x-brightgreen.svg?style=flat-square)](https://nodejs.org/)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Notes:
+The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 
-1. [GatsbyJs](https://www.gatsbyjs.org/) framework.
-1. Text and blog post managed in Netlify CMS as markdown files.
+## Technical Decisions
 
-## Dev setup
+* We use the [GatsbyJs](https://www.gatsbyjs.org/) static site generator.
+* Content (text, blog posts, etc.) are managed via the [Netlify CMS](https://www.netlifycms.org/) [admin panel](https://www.cupofdata.com/admin/) as Markdown files.
+* The site is hosted on [Netlify](https://www.netlify.com/). Merges/pushes to master are automatically deployed. Pull requests against master will be built as deploy previews.
 
-1. Fork this repo to a repo owned by you or your org.
+## Development
 
-1. Clone and cd into repo:
+1. Fork this repo
+1. Clone the repo and `cd` into the repo directory
+1. Run `npm install` to install dependencies
+1. Run `npm start` to start a local server
 
-    git clone https://github.com/<githug_account>/www-site
+## Environment Variables
 
-1. Checkout your working branch. Push and commit, then create a Pull Request. Follow our [contribution guide](CONTRIBUTING.md) for more detailed instructions.
+| Variable Name            | Required | Default Value | Description                      |
+| ------------------------ | :------: | :-----------: | -------------------------------- |
+| `GATSBY_ONBOARD_URL`     |   Yes    |    `null`     | URL for the onboarding content.  |
+| `SEGMENT_PROD_WRITE_KEY` |    No    |    `null`     | Segment API key for production.  |
+| `SEGMENT_DEV_WRITE_KEY`  |    No    |    `null`     | Segment API key for development. |
 
-1. Reference the issue your Pull Request. After we have reviewed your PR we can merge to master.
+## Copyright
+
+Copyright &copy; 2018 Cup of Data. All rights reserved.
