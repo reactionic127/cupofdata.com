@@ -7,7 +7,7 @@ const Button = styled.button`
   border: none;
   color: ${props => props.theme.button.color.text};
   font-family: Avenir;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   cursor: pointer;
   &:focus {
@@ -16,11 +16,11 @@ const Button = styled.button`
   @media screen and (max-width: 576px) {
     font-size: 14px;
     line-height: 19px;
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
   }
   ${props => props.outline && css`
-    color: ${props => props.theme.button.color.outline};
-    border: 1px solid ${props => props.theme.button.color.outline};
+    color: #fff;
+    border: 1px solid #fff;
     background-color: transparent;
     border-radius: 0;
   `}
