@@ -4,8 +4,8 @@ We use this repo to manage source files for the [Cup of Data](https://cupofdata.
 
 Notes:
 
-1. [GatsbyJs](https://www.gatsbyjs.org/) framework
-1. Text and blog post managed in GitHub as markdown files
+1. [GatsbyJs](https://www.gatsbyjs.org/) framework.
+1. Text and blog post managed in Netlify CMS as markdown files.
 
 ## Dev setup
 
