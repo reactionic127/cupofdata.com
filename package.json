@@ -21,7 +21,22 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "precommit": "lint-staged"
   },
-  "devDependencies": {}
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.0"
+  }
 }

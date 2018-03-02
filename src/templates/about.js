@@ -66,7 +66,7 @@ const Position = P.extend`
   font-weight: 400;
 `
 
-export default function Template ({ data }) {
+export default function Template({ data }) {
   const { markdownRemark: post } = data
   return (
     <div>
@@ -77,19 +77,20 @@ export default function Template ({ data }) {
           <Content dangerouslySetInnerHTML={{ __html: post.html }} />
         </Container>
       </MainSection>
-      {post.frontmatter.members && <MemberSection>
-        <MemberTitle>OUR TEAM</MemberTitle>
-        <Row>
-          {post.frontmatter.members.map((member, i) => (
-            <Card xs="12" sm="6" md="2" key={i} >
-              <Photo src={member.photo} width="105" height="105"></Photo>
-              <Fullname>{member.fullname}</Fullname>
-              <Position>{member.position}</Position>
-            </Card>
-          ))}
-        </Row>
-      </MemberSection>
-      }
+      {post.frontmatter.members && (
+        <MemberSection>
+          <MemberTitle>OUR TEAM</MemberTitle>
+          <Row>
+            {post.frontmatter.members.map((member, i) => (
+              <Card xs="12" sm="6" md="2" key={i}>
+                <Photo src={member.photo} width="105" height="105" />
+                <Fullname>{member.fullname}</Fullname>
+                <Position>{member.position}</Position>
+              </Card>
+            ))}
+          </Row>
+        </MemberSection>
+      )}
     </div>
   )
 }

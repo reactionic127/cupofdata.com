@@ -29,20 +29,20 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   componentWillMount() {
-    this.updateDimensions();
+    this.updateDimensions()
   }
   componentDidMount() {
     if (typeof window !== 'undefined') {
-      window.addEventListener("resize", this.updateDimensions.bind(this));
+      window.addEventListener('resize', this.updateDimensions.bind(this))
     }
     this.checkPath(this.props)
   }
-  componentWillReceiveProps(props) {
+  componentWillReceiveProps(props) {
     this.checkPath(props)
   }
   componentWillUnmount() {
     if (typeof window !== 'undefined') {
-      window.removeEventListener("resize", this.updateDimensions.bind(this));
+      window.removeEventListener('resize', this.updateDimensions.bind(this))
     }
   }
   updateDimensions() {
@@ -64,48 +64,55 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   checkPath(props) {
-    let themeType = 'primary';
-    const { children, data, match, location } = props;
+    let themeType = 'primary'
+    const { children, data, match, location } = props
     const { allMarkdownRemark: post } = data
-    const blog = post.edges.filter((post) => post.node.frontmatter.contentType === 'blog')
-    const blogDetail = blog.find(({ node: post}) => {
+    const blog = post.edges.filter(
+      post => post.node.frontmatter.contentType === 'blog'
+    )
+    const blogDetail = blog.find(({ node: post }) => {
       return post.frontmatter.path == location.pathname
     })
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
-    const hideNav = undefinedReg.test(location.pathname) || onboardReg.test(location.pathname);
+    const hideNav =
+      undefinedReg.test(location.pathname) || onboardReg.test(location.pathname)
     this.setState({
       hideNav,
       theme: mainTheme.secondary,
       secondary: true,
-      dropdown: false
+      dropdown: false,
     })
   }
-  render () {
+  render() {
     let user
     if (typeof window !== 'undefined') {
       user = window.netlifyIdentity && window.netlifyIdentity.currentUser()
     }
     return (
       <ThemeProvider theme={this.state.theme}>
-        <div className='App'>
-          {
-            !this.state.hideNav && <Container>
+        <div className="App">
+          {!this.state.hideNav && (
+            <Container>
               <NavContainer
-                onCollapse={(type) => { this.setState({ theme: mainTheme[type], dropdown: !this.state.dropdown }) }}
+                onCollapse={type => {
+                  this.setState({
+                    theme: mainTheme[type],
+                    dropdown: !this.state.dropdown,
+                  })
+                }}
                 dropdown={this.state.dropdown}
                 secondary={this.state.secondary}
               />
             </Container>
-          }
-          <div className='pageContent'>{this.props.children()}</div>
-          {
-            !this.state.hideNav &&
+          )}
+          <div className="pageContent">{this.props.children()}</div>
+          {!this.state.hideNav && (
             <div>
               <ContactSection />
               <Footer />
             </div>
-          }
+          )}
         </div>
       </ThemeProvider>
     )
@@ -113,7 +120,7 @@ export default class TemplateWrapper extends React.Component {
 }
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.func,
 }
 
 export const pageQuery = graphql`
@@ -123,10 +130,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }){
-      edges{
-        node{
-          frontmatter{
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          frontmatter {
             contentType
             title
             path

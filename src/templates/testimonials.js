@@ -21,11 +21,13 @@ const Summary = H6.extend`
 const ContentWrapper = styled.div`
   padding: 50px 0;
 `
-export default function Template ({ data }) {
+export default function Template({ data }) {
   const { markdownRemark: post } = data
   return (
     <div>
-      <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
+      <Helmet
+        title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`}
+      />
       <Wrapper>
         <Container>
           <Title>{post.frontmatter.title}</Title>
