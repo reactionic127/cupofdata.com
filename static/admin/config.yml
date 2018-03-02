@@ -8,7 +8,7 @@ public_folder: "/files/blog"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "src/pages/blog"
+    folder: "content/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -23,7 +23,7 @@ collections:
       - {label: "NewsFlag", name: "newsFlag", widget: "boolean"}
   - name: "about"
     label: "About"
-    folder: "src/pages/about"
+    folder: "content/about"
     create: false
     slug: "{{slug}}"
     fields:
@@ -41,7 +41,7 @@ collections:
 
   - name: "legal"
     label: "Legal"
-    folder: "src/pages/legal"
+    folder: "content/legal"
     create: false
     slug: "{{slug}}"
     fields:
@@ -52,7 +52,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "faq"
     label: "FAQ"
-    folder: "src/pages/faq"
+    folder: "content/faq"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -62,7 +62,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "testimonials"
     label: "Testimonials"
-    folder: "src/pages/testimonials"
+    folder: "content/testimonials"
     create: true
     slug: "{{slug}}"
     fields:
@@ -72,5 +72,3 @@ collections:
       - {label: "Position", name: "position", widget: "string"}
       - {label: "Comment", name: "comment", widget: "text"}
       - {label: Photo, name: photo, widget: file }
-
-
