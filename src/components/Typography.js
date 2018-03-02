@@ -10,7 +10,7 @@ export const H2 = styled.h2`
   font-size: 40px;
   line-height: 48px;
   margin: 0;
-  color: rgba(0,0,0,.9);
+  color: rgba(0, 0, 0, 0.9);
   font-family: GTWalsheim;
   @media screen and (max-width: 576px) {
     font-size: 24px;
@@ -53,7 +53,7 @@ export const P = styled.p`
   margin: 0;
   font-family: Avenir;
 `
-  
+
 export const Small = styled.small`
   font-family: Avenir;
   font-size: 12px;
