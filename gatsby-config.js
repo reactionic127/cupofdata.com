@@ -3,13 +3,13 @@ module.exports = {
     title: 'Cup of Data',
     author: 'Cup of Data Team',
     authorLink: 'https://github.com/cupofdata',
-    disqus: 'cup-of-data-blog', // put your disqus ID here
+    disqus: 'cup-of-data-blog',
   },
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/content`,
         name: 'pages',
       },
     },
@@ -59,5 +59,6 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-netlify-cms',
   ],
 }
