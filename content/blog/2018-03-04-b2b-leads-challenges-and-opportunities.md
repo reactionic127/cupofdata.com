@@ -1,13 +1,12 @@
 ---
 contentType: blog
 path: /b2b-leads-challenges-and-opportunities
-title: Leads at B2B SaaS Companies: Challenges and Opportunities
+title: Leads at B2B SaaS Companies - Challenges and Opportunities
 date: 2018-03-12T22:34:31.000Z
 summary: >-
   Businesses spend a lot of money and time prospecting. SaaS B2B companies, in particular, need to consider many attributes when identifying leads that have the right 'fit' and 'behavior' information. This article helps define different types of leads for SaaS B2B companies, where accurate data resides, and how these leads should consider both fit and behavior information to measure an accurate lead score, also known as an account propensity score (APS).
 author: The Cup of Data Team
 postimage: /files/blog/don_datanerd.gif
-newsFlag: false
 ---
 Businesses spend a lot of money and time prospecting. SaaS B2B companies, in particular, need to consider many attributes when identifying leads that have the right 'fit' and 'behavior' information. This article helps define different types of leads for SaaS B2B companies, where accurate data resides, and how these leads should consider both fit and behavior information to measure an accurate lead score, also known as an account propensity score (APS).
 
@@ -33,6 +32,7 @@ Generally speaking, B2B companies structure a mix of inbound marketing and accou
 # Leads with Account Propensity Scores (APS)
 
 Why should marketers assign a lead score (APS) before assigning a lead to the sales organization? Put simply, it allows companies to rank leads by priority. If there are only two sales reps available and ten leads in the funnel, then these leads to a ranking so sales reps don’t spend time on low value leads and focus most of their efforts on higher value leads.
+
 APS’s, generally speaking, are calculated by mixing ‘fit’ and ‘behavior’ data. Fit data is information that allows marketers and sales reps understand if an account and their contacts meets their criteria for an ideal account. Behavior data is used to measure intent and usually requires more of a learning process. The weight assigned to each attribute in the fit and behavior categories is also known as ‘attribution’. Estimating attribution for each campaign can be very complex, but generally speaking businesses:
 
 * **Fit information**. Fit information is a combination of firmographic, technographic, and demographic data. Questions such as ‘what companies are located in the midwest, which sell more that 10 million but less that 50 million and have Salesforce’
