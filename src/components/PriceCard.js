@@ -1,7 +1,6 @@
 import React from 'react'
-import { withPrefix } from 'gatsby-link'
+import Link, { withPrefix } from 'gatsby-link'
 import styled, { css } from 'styled-components'
-import { navigateTo } from 'gatsby-link'
 import { H1, H6, P } from './Typography'
 import Button from './Button'
 
@@ -42,11 +41,13 @@ const PriceDetail = H6.extend`
   font-weight: 500;
 `
 const TryButton = Button.extend`
+  display: inline-block;
+  text-decoration: none;
   font-size: 14px;
   line-height: 19px;
   padding: 0.5rem 2.5rem;
   margin: 1.5rem 0 2.5rem;
-`
+`.withComponent(Link)
 const CardHeader = styled.div`
   background-color: rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -79,12 +80,7 @@ const PriceCard = props => (
       </div>
     )}
     <PriceDetail>{props.validatedContacts} validated contacts</PriceDetail>
-    {/*		<PriceDetail>24/7 support</PriceDetail>
-		<PriceDetail>{props.machineNumber} virtual machines</PriceDetail>
-		<PriceDetail>{props.runtime} hrs runtime</PriceDetail>*/}
-    <TryButton onClick={() => navigateTo(props.tryPath)}>
-      Try it for free
-    </TryButton>
+    <TryButton to={props.tryPath}>Try it for free</TryButton>
   </PlanCard>
 )
 export default PriceCard

@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { navigateTo } from 'gatsby-link'
+import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import graphql from 'graphql'
 import { Container, Row, Col } from '../components/Layout'
 import Button from '../components/Button'
 
@@ -10,7 +9,9 @@ const MainSection = styled.div`
   padding-top: 94px;
   height: fit-content;
 `
-const Card = styled.div`
+const Card = styled(Link)`
+  display: block;
+  text-decoration: none;
   padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 780px;
@@ -68,7 +69,7 @@ const BlogMaster = ({ data }) => {
         {blog && (
           <Container>
             {blog.map(({ node: post }, i) => (
-              <Card key={i} onClick={() => navigateTo(post.frontmatter.path)}>
+              <Card key={i} to={post.frontmatter.path}>
                 <BlogContainer>
                   <BlogRow>
                     <Col xs="12" sm="7">
