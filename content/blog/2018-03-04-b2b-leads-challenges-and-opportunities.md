@@ -2,7 +2,7 @@
 contentType: blog
 path: /b2b-leads-challenges-and-opportunities
 title: Leads at B2B SaaS Companies - Challenges and Opportunities
-date: 2018-03-12T22:34:31.000Z
+date: 2018-03-04T22:34:31.000Z
 summary: >-
   Businesses spend a lot of money and time prospecting. SaaS B2B companies, in particular, need to consider many attributes when identifying leads that have the right 'fit' and 'behavior' information. This article helps define different types of leads for SaaS B2B companies, where accurate data resides, and how these leads should consider both fit and behavior information to measure an accurate lead score, also known as an account propensity score (APS).
 author: The Cup of Data Team
