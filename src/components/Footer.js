@@ -21,26 +21,39 @@ const CustomLink = styled(Link)`
   text-decoration: none;
 `
 
-const Footer = () => (
+const Footer = props => (
   <Wrapper>
     <Container>
       <Row>
         <Col xs="12" sm="8">
-          <Text>Copyright © 2018 3Blades LLC - Made with love in Atlanta.</Text>
+          <Text>
+            Copyright © {new Date().getFullYear()} 3Blades LLC - Made with love
+            in Atlanta, GA.
+          </Text>
         </Col>
-        <Col xs="12" sm="2">
-          <CustomLink to="/privacy">
-            <Text>Privacy Policy</Text>
-          </CustomLink>
-        </Col>
-        <Col xs="12" sm="2">
-          <CustomLink to="/terms">
-            <Text>Terms of Use</Text>
-          </CustomLink>
-        </Col>
+        {props.menus.footer.map(item => (
+          <Col xs="12" sm="2" key={item.title}>
+            <CustomLink to={item.to}>
+              <Text>{item.title}</Text>
+            </CustomLink>
+          </Col>
+        ))}
       </Row>
     </Container>
   </Wrapper>
 )
 
 export default Footer
+
+export const footerFragment = graphql`
+  fragment FooterSettingsFragment on RootQueryType {
+    footerSettings: siteSettings {
+      menus {
+        footer {
+          title
+          to
+        }
+      }
+    }
+  }
+`

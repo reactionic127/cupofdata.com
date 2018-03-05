@@ -65,18 +65,10 @@ export default class TemplateWrapper extends React.Component {
   }
   checkPath(props) {
     let themeType = 'primary'
-    const { children, data, match, location } = props
-    const { allMarkdownRemark: post } = data
-    const blog = post.edges.filter(
-      post => post.node.frontmatter.contentType === 'blog'
-    )
-    const blogDetail = blog.find(({ node: post }) => {
-      return post.frontmatter.path == location.pathname
-    })
+    const { pathname } = props.location
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
-    const hideNav =
-      undefinedReg.test(location.pathname) || onboardReg.test(location.pathname)
+    const hideNav = undefinedReg.test(pathname) || onboardReg.test(pathname)
     this.setState({
       hideNav,
       theme: mainTheme.secondary,
@@ -85,10 +77,12 @@ export default class TemplateWrapper extends React.Component {
     })
   }
   render() {
-    let user
-    if (typeof window !== 'undefined') {
-      user = window.netlifyIdentity && window.netlifyIdentity.currentUser()
-    }
+    const {
+      site,
+      contactSettings,
+      footerSettings,
+      navbarSettings,
+    } = this.props.data
     return (
       <ThemeProvider theme={this.state.theme}>
         <div className="App">
@@ -103,14 +97,18 @@ export default class TemplateWrapper extends React.Component {
                 }}
                 dropdown={this.state.dropdown}
                 secondary={this.state.secondary}
+                {...navbarSettings}
               />
             </Container>
           )}
           <div className="pageContent">{this.props.children()}</div>
           {!this.state.hideNav && (
             <div>
-              <ContactSection />
-              <Footer />
+              <ContactSection
+                {...contactSettings}
+                title={site.siteMetadata.title}
+              />
+              <Footer {...footerSettings} />
             </div>
           )}
         </div>
@@ -130,18 +128,8 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          frontmatter {
-            contentType
-            title
-            path
-            postimage
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
+    ...FooterSettingsFragment
+    ...ContactSettingsFragment
+    ...NavbarSettingsFragment
   }
 `
