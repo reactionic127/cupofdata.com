@@ -54,7 +54,7 @@ export default class PlanSections extends React.Component {
             credit card required.*
           </NoteText>
           <PlanGroup>
-            <Announcment>GET 2 MONTHS FREE WITH ANUAL PLAN</Announcment>
+            <Announcment>GET 2 MONTHS FREE WITH ANNUAL PLAN</Announcment>
           </PlanGroup>
           <Row>
             <Col sm="4">
