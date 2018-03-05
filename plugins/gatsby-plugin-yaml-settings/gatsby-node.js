@@ -30,6 +30,7 @@ const handleCreateNode = ({ createNode, path }) => {
     },
   })
 }
+// Adapted from https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-source-filesystem/src/gatsby-node.js
 const watchSettingsFiles = ({ boundActionCreators, reporter }, { path }) => {
   if (!path) {
     throw new Error('options.path must be specified .')
