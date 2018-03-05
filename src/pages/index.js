@@ -2,12 +2,12 @@ import React, { Fragment } from 'react'
 import graphql from 'graphql'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import BannerSection from '../containers/Home/BannerSection'
-import FeaturesWrapper from '../containers/Home/Features'
-import NewsWrapper from '../containers/Home/News'
-import BenefitsWrapper from '../containers/Home/Benefits'
-import TestimonialsWrapper from '../containers/Home/Testimonials'
-import AutomatedMarketingWrapper from '../containers/Home/AutomatedMarketing'
+import BannerSection from '../components/Home/BannerSection'
+import FeaturesWrapper from '../components/Home/Features'
+import NewsWrapper from '../components/Home/News'
+import BenefitsWrapper from '../components/Home/Benefits'
+import TestimonialsWrapper from '../components/Home/Testimonials'
+import AutomatedMarketingWrapper from '../components/Home/AutomatedMarketing'
 
 const IndexPage = ({ data }) => (
   <div>

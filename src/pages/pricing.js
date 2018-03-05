@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import PriceSection from '../containers/Pricing/PriceSection'
-import FAQSection from '../containers/Pricing/FAQ'
+import PriceSection from '../components/Pricing/PriceSection'
+import FAQSection from '../components/Pricing/FAQ'
 
 const Pricing = ({ data }) => {
   const { allMarkdownRemark: post } = data
