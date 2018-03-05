@@ -1,9 +1,9 @@
 ---
 contentType: blog
-path: /cup-of-data-launch
+path: /blog/cup-of-data-launch
 title: >-
   CUP OF DATA, A MARKETING SCIENCE SOLUTION FOR ACCOUNT-BASED MARKETING,
-  LAUNCHES AT DATA SCIENCE SALON MIAMI 
+  LAUNCHES AT DATA SCIENCE SALON MIAMI
 date: 2018-02-07T05:02:17.000Z
 summary: >-
   Cup of Data offers simple lead identification for B2B account-based marketing

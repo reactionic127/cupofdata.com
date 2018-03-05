@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /ai-and-abm
+path: /blog/ai-and-abm
 title: A.I. and Account Based Marketing (ABM)
 date: 2018-01-26T04:29:33.000Z
 summary: >-

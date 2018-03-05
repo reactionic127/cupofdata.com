@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /b2b-leads-challenges-and-opportunities
+path: /blog/b2b-leads-challenges-and-opportunities
 title: Leads at B2B SaaS Companies - Challenges and Opportunities
 date: 2018-03-04T22:34:31.000Z
 summary: >-
