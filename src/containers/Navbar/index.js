@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import { Container } from '../../components/Layout'
-import Link, { withPrefix, navigateTo } from 'gatsby-link'
+import Link from 'gatsby-link'
 
 const Navbar = styled.div`
   display: flex;
@@ -17,8 +17,8 @@ const Navbar = styled.div`
   background: ${props => props.theme.navbar.background};
 
   @media only screen and (max-width: 7950px) {
-      padding: 1rem 15px;
-      background: ${props => props.theme.navbar.background};
+    padding: 1rem 15px;
+    background: ${props => props.theme.navbar.background};
   }
 `
 
@@ -38,39 +38,40 @@ const NavItem = styled.li`
       margin-left: 0rem;
     }
   }
-
 `
 
-const NavWrapper =  styled.ul`
+const NavWrapper = styled.ul`
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  @media only screen and (max-width: 780px) {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    height: 0;
+    overflow: hidden;
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-    @media only screen and (max-width: 780px) {
-      position: absolute;
-      top: 5rem;
-      left: 0;
-      height: 0;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      justify-content: space-around;
-      padding: 0;
-      transition: height 0.5s;
-      transition-delay: 0.5s;
-      margin: 0;
-      background-color: #ffffff;
-      ${props => props.active && css`
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    transition: height 0.5s;
+    transition-delay: 0.5s;
+    margin: 0;
+    background-color: #ffffff;
+    ${props =>
+      props.active &&
+      css`
         height: 260px;
-      `}
-    }
-    @media screen and (max-width: 576px) {
-      top: 4rem;
-    }
+      `};
+  }
+  @media screen and (max-width: 576px) {
+    top: 4rem;
+  }
 `
 
-const NavLink = styled.a`
+const NavLink = styled(Link)`
   font-family: Avenir;
   font-weight: 500;
   padding: 0.5rem 1.75rem;
@@ -129,19 +130,21 @@ const ToggleSpan = styled.span`
     content: '';
     bottom: -10px;
   }
-  ${props => props.active && css`
-    background-color: transparent;
-    ::before {
-      top: 0;
-      transform: rotate(45deg);
-      background-color: black;
-    }
-    ::after {
-      top: 0;
-      transform: rotate(-45deg);
-      background-color: black;
-    }
-  `}
+  ${props =>
+    props.active &&
+    css`
+      background-color: transparent;
+      ::before {
+        top: 0;
+        transform: rotate(45deg);
+        background-color: black;
+      }
+      ::after {
+        top: 0;
+        transform: rotate(-45deg);
+        background-color: black;
+      }
+    `};
 `
 const LogoImg = styled.div`
   width: 120px;
@@ -157,58 +160,71 @@ const LogoImg = styled.div`
 `
 
 export default class NavContainer extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
-      collapsible: false
+      collapsible: false,
     }
   }
   onCollapse = () => {
-    this.setState({
-      collapsible: !this.state.collapsible,
-    }, () => {
-      if (this.state.collapsible) {
-        this.props.onCollapse('secondary');
-      } else {
-        if (this.props.secondary) {
-          this.props.onCollapse('secondary');
+    this.setState(
+      {
+        collapsible: !this.state.collapsible,
+      },
+      () => {
+        if (this.state.collapsible) {
+          this.props.onCollapse('secondary')
         } else {
-          this.props.onCollapse('primary');
+          if (this.props.secondary) {
+            this.props.onCollapse('secondary')
+          } else {
+            this.props.onCollapse('primary')
+          }
         }
-        
       }
-    });
+    )
   }
   componentWillReceiveProps(props) {
     this.setState({ collapsible: props.dropdown })
   }
-  moveTo = (path) => {
-    navigateTo(path)
+  moveTo = () => {
     this.setState({
-      collapsible: false
+      collapsible: false,
     })
   }
-  render () {
+  render() {
     return (
       <Navbar>
         <NavSection>
-          <a onClick={() => this.moveTo('/')}>
+          <Link to="/" onClick={this.moveTo}>
             <LogoImg />
-          </a>
-          <MobileNav onClick={this.onCollapse}><Toggle><ToggleSpan  active={this.state.collapsible}></ToggleSpan></Toggle></MobileNav>
+          </Link>
+          <MobileNav onClick={this.onCollapse}>
+            <Toggle>
+              <ToggleSpan active={this.state.collapsible} />
+            </Toggle>
+          </MobileNav>
           <NavWrapper active={this.state.collapsible}>
             <NavItem>
-              <NavLink onClick={() => this.moveTo('/pricing')}>Pricing</NavLink>
+              <NavLink to="/pricing" onClick={this.moveTo}>
+                Pricing
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={() => this.moveTo('/about')}>Company</NavLink>
+              <NavLink to="/about" onClick={this.moveTo}>
+                Company
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={() => this.moveTo('/blog')}>Blog</NavLink>
+              <NavLink to="/blog" onClick={this.moveTo}>
+                Blog
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={() => this.moveTo('/onboard')}>Get Started</NavLink>
+              <NavLink to="/onboard" onClick={this.moveTo}>
+                Get Started
+              </NavLink>
             </NavItem>
           </NavWrapper>
         </NavSection>
