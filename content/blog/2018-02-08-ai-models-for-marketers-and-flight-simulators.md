@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /ai-for-marketers-and-flight-simulators
+path: /blog/ai-for-marketers-and-flight-simulators
 title: AI Models for Marketers and Flight Simulators
 date: 2018-01-30T23:52:20-05:00
 summary: >-
