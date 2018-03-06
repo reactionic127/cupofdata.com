@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Link, { withPrefix } from 'gatsby-link'
 import { Container, Row, Col } from './Layout'
 import { H5, H6 } from './Typography'
-import { LINKEDIN_URL, FACEBOOK_URL, TWITTER_URL } from '../config/constants'
 
 const Wrapper = styled.div`
   padding-top: 85px;
