@@ -1,3 +1,18 @@
+const injectSegment = () => {
+  const { SEGMENT_PROD_WRITE_KEY, SEGMENT_DEV_WRITE_KEY } = process.env
+  if (!SEGMENT_PROD_WRITE_KEY && !SEGMENT_DEV_WRITE_KEY) return
+  return {
+    resolve: `gatsby-plugin-segment-js`,
+    options: {
+      // When running `gatsby build`
+      prodKey: `${SEGMENT_PROD_WRITE_KEY || SEGMENT_DEV_WRITE_KEY}`,
+      // When running `gatsby develop`
+      devKey: `${SEGMENT_DEV_WRITE_KEY}`,
+      trackPage: true,
+    },
+  }
+}
+
 module.exports = {
   siteMetadata: {
     title: 'Cup of Data',
@@ -6,6 +21,12 @@ module.exports = {
     disqus: 'cup-of-data-blog',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-yaml-settings',
+      options: {
+        path: `${__dirname}/settings`,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -19,29 +40,11 @@ module.exports = {
         plugins: ['gatsby-remark-prismjs', 'gatsby-remark-copy-linked-files'],
       },
     },
-    {
-      resolve: `gatsby-plugin-segment-js`,
-      options: {
-        // your segment write key for your production environment
-        // when process.env.NODE_ENV === 'production'
-        // required; non-empty string
-        prodKey: `${process.env.SEGMENT_PROD_WRITE_KEY}`,
-
-        // if you have a development env for your segment account, paste that key here
-        // when process.env.NODE_ENV === 'development'
-        // optional; non-empty string
-        devKey: `${process.env.SEGMENT_DEV_WRITE_KEY}`,
-
-        // whether you want to include analytics.page()
-        // optional; boolean that defaults to true
-        // if false, then don't forget to manually add it to your codebase manually!
-        trackPage: true,
-      },
-    },
+    injectSegment(),
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './src/favicon.png',
+        logo: './content/favicon.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -60,5 +63,5 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-netlify-cms',
-  ],
+  ].filter(Boolean),
 }

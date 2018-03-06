@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { H1, H5, P, Small } from '../../../components/Typography'
-import { Container, Row, Col } from '../../../components/Layout'
-import { OutlineRadioButton } from '../../../components/Button'
-import PriceCard from '../../../components/PriceCard'
+import { H1, H5, P, Small } from '../Typography'
+import { Container, Row, Col } from '../Layout'
+import { OutlineRadioButton } from '../Button'
+import PriceCard from '../PriceCard'
 
 const PriceSection = styled.div`
   padding: 90px 0;

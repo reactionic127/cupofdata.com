@@ -1,0 +1,15 @@
+header:
+  - { title: 'Pricing', to: '/pricing' }
+  - { title: 'Company', to: '/about' }
+  - { title: 'Blog', to: '/blog' }
+  - { title: 'Get Started', to: '/onboard' }
+
+contact:
+  - { title: 'Home', to: '/' }
+  - { title: 'Pricing', to: '/pricing' }
+  - { title: 'Company', to: '/about' }
+  - { title: 'Blog', to: '/blog' }
+  
+footer:
+  - { title: 'Privacy Policy', to: '/privacy' }
+  - { title: 'Terms of Use', to: '/terms' }

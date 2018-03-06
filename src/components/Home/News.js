@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { H2, H5, H6 } from '../../../components/Typography'
-import { Container, Row, Col } from '../../../components/Layout'
-import Button from '../../../components/Button'
+import { H2, H5, H6 } from '../Typography'
+import { Container, Row, Col } from '../Layout'
+import Button from '../Button'
 import Link, { withPrefix } from 'gatsby-link'
 
 const Warpper = styled.div`

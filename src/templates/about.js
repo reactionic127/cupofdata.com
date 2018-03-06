@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
 import { H1, H4, H5, P } from '../components/Typography'
-import { CardGroup } from '../containers/About'
+import { CardGroup } from '../components/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
