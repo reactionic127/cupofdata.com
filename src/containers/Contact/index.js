@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link, { withPrefix } from 'gatsby-link'
-import { Container, Row, Col } from './Layout'
-import { H5, H6 } from './Typography'
-import { LINKEDIN_URL, FACEBOOK_URL, TWITTER_URL } from '../config/constants'
+import { Container, Row, Col } from '../../components/Layout'
+import { H5, H6 } from '../../components/Typography'
+import { LINKEDIN_URL, FACEBOOK_URL, TWITTER_URL } from '../../config/constants'
 
 const Wrapper = styled.div`
   padding-top: 85px;
@@ -65,7 +65,7 @@ const MainCol = SpCol.extend`
 const A = styled.a`
   color: #ffffff;
 `
-const ContactSection = ({ company, menus, title }) => (
+const ContactSection = () => (
   <Wrapper>
     <Container>
       <Row>
@@ -82,31 +82,33 @@ const ContactSection = ({ company, menus, title }) => (
         <SpCol xs="4" sm="3">
           <ContactTitle>SITEMAP</ContactTitle>
           <Ul>
-            {menus.contact.map(item => (
-              <Li key={item.title}>
-                <ContactLink to={item.to}>{item.title}</ContactLink>
-              </Li>
-            ))}
+            <Li>
+              <ContactLink to="/">Home</ContactLink>
+            </Li>
+            <Li>
+              <ContactLink to="/pricing">Pricing</ContactLink>
+            </Li>
+            <Li>
+              <ContactLink to="/about">Company</ContactLink>
+            </Li>
+            <Li>
+              <ContactLink to="/blog">Blog</ContactLink>
+            </Li>
           </Ul>
         </SpCol>
         <SpCol xs="8" sm="4">
           <ContactTitle>CONTACT US</ContactTitle>
           <ContactContent>
-            {title}
-            <br />
-            {company.location.streetAddress}
-            <br />
-            {company.location.city}, {company.location.state}{' '}
-            {company.location.zip}
+            Cup of Data<br />3423 Piedmont Rd NE<br />Atlanta, GA 30305
           </ContactContent>
           <ShareIcon>
-            <A href={company.social.facebook}>
+            <A href={FACEBOOK_URL}>
               <Icon className="fab fa-facebook-square fa-2x" />
             </A>
-            <A href={company.social.twitter}>
+            <A href={TWITTER_URL}>
               <Icon className="fab fa-twitter fa-2x" />
             </A>
-            <A href={company.social.linkedin}>
+            <A href={LINKEDIN_URL}>
               <Icon className="fab fa-linkedin fa-2x" />
             </A>
           </ShareIcon>
@@ -117,29 +119,3 @@ const ContactSection = ({ company, menus, title }) => (
 )
 
 export default ContactSection
-
-export const contactFragment = graphql`
-  fragment ContactSettingsFragment on RootQueryType {
-    contactSettings: siteSettings {
-      company {
-        location {
-          streetAddress
-          city
-          state
-          zip
-        }
-        social {
-          linkedin
-          facebook
-          twitter
-        }
-      }
-      menus {
-        contact {
-          title
-          to
-        }
-      }
-    }
-  }
-`

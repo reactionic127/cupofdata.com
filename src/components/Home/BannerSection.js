@@ -235,7 +235,7 @@ class BannerSection extends React.PureComponent {
     return (
       <Wrapper>
         <BannerContainer>
-          <Header>With Cup of Data, you get better leads</Header>
+          <Header>With Cup of Data, you get better SaaS B2B leads</Header>
           <Title>
             Identify accounts and leads and engage them like a boss.
           </Title>

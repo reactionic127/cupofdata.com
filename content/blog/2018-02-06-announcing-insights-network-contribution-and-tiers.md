@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /ai-for-marketers-initial-thoughts
+path: /blog/ai-for-marketers-initial-thoughts
 title: AI for Marketers - Initial Thoughts
 date: 2018-01-17T17:34:31.000Z
 summary: >-
