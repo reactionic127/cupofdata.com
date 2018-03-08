@@ -76,35 +76,7 @@ export default function Template({ data }) {
     : []
   return (
     <div>
-      <Helmet title={`Blog | ${post.frontmatter.title}`}>
-        {data.site.siteMetadata.disqus && (
-          <script
-            id="dsq-count-scr"
-            src="//gatsby-starter-blog.disqus.com/count.js"
-            async
-          />
-        )}
-        {data.site.siteMetadata.disqus && (
-          <script>{`(function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://${
-            data.site.siteMetadata.disqus
-          }.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-          })();`}</script>
-        )}
-      </Helmet>
-      {/*      <MainSection background={post.frontmatter.postimage}>
-        <HeaderSection>
-          <H1>{post.frontmatter.title}</H1>
-          <Comments>By {post.frontmatter.author}</Comments>
-          <Comments>on {post.frontmatter.date}</Comments>
-        </HeaderSection>
-      </MainSection>*/}
-
       <BlogContainer dangerouslySetInnerHTML={{ __html: post.html }} />
-
       {post.frontmatter.related && (
         <Container>
           <h4>Related</h4>
