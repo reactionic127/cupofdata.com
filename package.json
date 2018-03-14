@@ -3,6 +3,7 @@
   "description": "The code base for cupofdata.com",
   "version": "1.0.0",
   "dependencies": {
+    "@raygesualdo/gatsby-plugin-settings": "^1.0.1",
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",

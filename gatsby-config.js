@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-yaml-settings',
+      resolve: '@raygesualdo/gatsby-plugin-settings',
       options: {
         path: `${__dirname}/settings`,
       },
