@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Helmet from 'react-helmet'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 
@@ -51,6 +52,13 @@ const ResponsiveVideo = styled.div`
 `
 const FeaturesView = () => (
   <Wrapper>
+    <Helmet>
+      <script
+        type="text/javascript"
+        defer
+        src="https://extend.vimeocdn.com/ga/67293230.js"
+      />
+    </Helmet>
     <Title>See how it works</Title>
     <Container>
       <Row>
@@ -61,8 +69,6 @@ const FeaturesView = () => (
               width="640"
               height="360"
               frameBorder="0"
-              webkitallowfullscreen
-              mozallowfullscreen
               allowFullScreen
             />
           </ResponsiveVideo>
