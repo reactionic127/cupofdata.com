@@ -1,31 +1,31 @@
 <svg width="109" height="248" viewBox="0 0 109 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Group</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-10039 61)">
+<g id="Canvas" transform="translate(-10037 28)">
 <g id="Group">
 <g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(10114.7 174.687)" fill="#313251"/>
+<use xlink:href="#path0_fill" transform="translate(10112.7 207.687)" fill="#313251"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path1_fill" transform="translate(10039.7 6.62075)" fill="#D9E0EF"/>
+<use xlink:href="#path1_fill" transform="translate(10037.7 39.6208)" fill="#D9E0EF"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path2_fill" transform="translate(10066.8 -53.5592)" fill="#D9E0EF"/>
+<use xlink:href="#path2_fill" transform="translate(10064.8 -20.5592)" fill="#D9E0EF"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path3_fill" transform="translate(10050.4 172.976)" fill="#313251"/>
+<use xlink:href="#path3_fill" transform="translate(10048.4 205.976)" fill="#313251"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path4_fill" transform="translate(10116.5 -1.97639)" fill="#D9E0EF"/>
+<use xlink:href="#path4_fill" transform="translate(10114.5 31.0236)" fill="#D9E0EF"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path5_fill" transform="translate(10065.7 66.8011)" fill="#E1E6F0"/>
+<use xlink:href="#path5_fill" transform="translate(10063.7 99.8011)" fill="#273559"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path6_fill" transform="translate(10045.7 -25.7187)" fill="#AFB8C6"/>
+<use xlink:href="#path6_fill" transform="translate(10043.7 7.28131)" fill="#F2F2F2"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path7_fill" transform="translate(10068.8 -61)" fill="#313251"/>
+<use xlink:href="#path7_fill" transform="translate(10066.8 -28)" fill="#313251"/>
 </g>
 </g>
 </g>

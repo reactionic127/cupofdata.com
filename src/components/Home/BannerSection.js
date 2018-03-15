@@ -1,4 +1,4 @@
-import React, { div } from 'react'
+import React from 'react'
 import { Container, Row, Col } from '../Layout'
 import { H3, H6, P } from '../Typography'
 import styled, { css } from 'styled-components'
@@ -8,9 +8,9 @@ import Link, { withPrefix } from 'gatsby-link'
 const Wrapper = styled.div`
   background-image: url(/files/images/background.svg);
   background-size: cover;
+  background-position: left top;
   color: ${props => props.theme.banner.color.text};
   position: relative;
-  background-position: left top;
   margin-top: 90px;
   height: 700px;
   @media screen and (max-width: 767px) {
@@ -22,14 +22,13 @@ const Wrapper = styled.div`
     height: 680px;
   }
 `
-
 const BannerView = styled.div`
   position: relative;
   padding-top: 130px;
   padding-bottom: 230px;
 `
-
 const Header = H3.extend`
+  color: #fff;
   font-family: GTWalsheim;
   @media screen and (max-width: 576px) {
     font-size: 24px;
@@ -37,7 +36,7 @@ const Header = H3.extend`
   }
 `
 const Title = H6.extend`
-  color: #000000;
+  color: #fff;
   font-weight: 400;
   max-width: 560px;
   margin-bottom: 26px;
@@ -47,7 +46,6 @@ const BannerContainer = Container.extend`
   height: 100%;
   position: relative;
 `
-
 const BackImg = styled.img`
   position: absolute;
   bottom: -1px;
@@ -87,7 +85,7 @@ const PersonaBox = styled.div`
   border-radius: 3px;
   min-width: 60px;
   background: #f5f7fa;
-  :after {
+  &:after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -110,11 +108,11 @@ const PersonaBox1 = PersonaBox.extend`
   }
 `
 const PersonaBox2 = PersonaBox.extend`
-  background: #4659ef;
+  background: #4a4a4a;
   top: 0;
   left: -30px;
-  :after {
-    border-top: 6px solid #4659ef;
+  &:after {
+    border-top: 6px solid #4a4a4a;
   }
   @media screen and (max-width: 576px) {
     top: 20px;
@@ -139,7 +137,7 @@ const PersonaBox4 = PersonaBox.extend`
   }
 `
 const PersonInfo = styled.div`
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   margin-top: 10px;
@@ -160,7 +158,7 @@ const PersonRoleText = styled.small`
 `
 const BlankView = styled.div`
   width: ${props => `${props.width}px`};
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
   height: 1px;
   margin-bottom: 1rem;
   ${props =>
@@ -183,10 +181,10 @@ const ScoreName = styled.small`
   font-weight: 500;
   font-family: Avenir;
   padding-top: 7px;
-  color: ${props => (props.active ? '#fff' : 'rgba(0,0,0,0.1)')};
+  color: ${props => (props.active ? '#fff' : 'rgba(0,0,0,0.2)')};
 `
 const ScoreText = P.extend`
-  color: ${props => (props.active ? '#fff' : 'rgba(0,0,0,0.1)')};
+  color: ${props => (props.active ? '#fff' : 'rgba(0,0,0,0.2)')};
   @media screen and (max-width: 576px) {
     font-size: 10px;
     line-height: 14px;

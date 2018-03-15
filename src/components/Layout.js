@@ -19,7 +19,8 @@ export const Container = styled.div`
     css`
       max-width: none !important;
       width: auto;
-    `} @media screen and (min-width: 576px) {
+    `};
+  @media screen and (min-width: 576px) {
     max-width: 540px;
   }
   @media screen and (min-width: 768px) {

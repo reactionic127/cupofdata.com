@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-yaml-settings',
+      resolve: '@raygesualdo/gatsby-plugin-settings',
       options: {
         path: `${__dirname}/settings`,
       },
@@ -60,8 +60,10 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-babel-styled-components',
     'gatsby-plugin-netlify-cms',
   ].filter(Boolean),
 }
