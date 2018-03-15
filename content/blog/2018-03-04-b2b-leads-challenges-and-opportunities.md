@@ -16,13 +16,13 @@ postimage: /files/blog/don_datanerd.gif
 * SaaS B2B leads are expensive and even more so when considering the amount of time spent prospecting for new leads.
 * As more data is collected, the prospecting process should get smarter over time, but that usually is not the case.
 
-## The Definition of a Lead
+## The Definition of a B2B Lead
 
-First things first. Every SaaS B2B company needs leads to maintain or increase revenue. Even if a SaaS B2B company took the strategic decision of not growing their revenue (unlikely, but let’s just assume that is the case), the company would still have to spend money to get new leads to cover for churn.
+First things first. Every SaaS B2B company needs leads to maintain or increase revenue. Even if a SaaS B2B company took the strategic decision of not growing their revenue (unlikely, but let’s just assume that is the case), the company would still have to spend money to get **new leads to cover for churn**.
 
 So, what is a lead? A lead is a very broad term used to describe a contact that has a propensity to purchase a product or service. A lead, as the name implies, leads to sales. There are several definitions we should consider when in the land of leads:
 
-* **Prospecting**: this is the activity related to finding leads. Without prospecting, there are no leads and without leads there are no sales.
+* **Prospecting**: this is the activity related to finding leads. Without prospecting, there are no leads and without leads there are no sales. Prospecting is the *activity to get new leads*.
 * **Cost per Lead (CPL)**: this is the cost to obtain a new ‘qualified’ lead.
 * **Information Qualified Lead (IQL)**: IQL’s are those leads that have engaged with one of your campaigns or your content and have shared basic but important information, particularly an email address.
 * **Marketing Qualified Lead (MQL)**: marketing qualified leads are when marketing teams identify leads that have interacted with your content or service. MQL’s are also known as “warm” leads.
@@ -30,9 +30,9 @@ So, what is a lead? A lead is a very broad term used to describe a contact that 
 
 ## The Time and Cost of Obtaining Leads
 
-It goes without saying that businesses have to spend money to get leads. Businesses spend within a wide range to get these leads. Many factors are in play, but at the end of the day companies want to maximize their return on obtaining-a-sql investment. Plus, by some estimates marketers and sales reps spend up to 40% of their time prospecting!
+It goes without saying that businesses have to spend time and money to get leads. Many factors are in play, but at the end of the day companies want to maximize their return on investment.
 
-Good sales reps are very persistent and are colloquially known as “hunters”. They understand that it takes an average of eight call attempts to reach a prospect. In addition to being persistent, they have built relationships that help them quickly tap into new opportunities. But the fact remains that most businesses spend an inordinate amount of time searching for accurate account and contact information to engage with potential customers.
+Good sales reps are very persistent and are colloquially known as “hunters”. They understand that it takes an average of **eight call attempts to reach a prospect**. In addition to being persistent, they have built relationships that help them quickly tap into new opportunities. But the fact remains that most businesses spend an inordinate amount of time searching for accurate account and contact information to engage with potential customers.
 
 According to the [Demand Generation Benchmark Report](https://cdn2.hubspot.net/hub/53/file-2325837932-pdf/Corporate_Content/Demand-Gen-Benchmarks-Report-Final.pdf) from from HubSpot circa 2015, companies in the information tech & services industry obtain between 500 and 1,000 leads per month and spend between $51 and $100 per lead. It can be determined that in 2015, companies in the IT & services industry spent between $25,500 and $100,000 every month for leads:
 
@@ -43,7 +43,7 @@ In 2017, [this same report](https://cdn2.hubspot.net/hubfs/53/2017%20Demand%20Ge
 
 * \[416 sales from SQLs] * \[$369.88 per lead] = $153,870.08 per month for successful sales from SQLs
 
-Based on the information provided between 2015 and 2017, it can be concluded that the amount that companies are spending per lead is increasing over time. In 2015, IT & services companies spent anywhere between $25,500 and $100,000 every month for leads, and in 2017, these same business spent around $153,870.88 per month on successful SQLs.
+Based on the information provided between 2015 and 2017, it can be concluded that **the amount that companies are spending per lead is increasing over time**. In 2015, IT & services companies spent anywhere between $25,500 and $100,000 every month for leads, and in 2017, these same business spent around $153,870.88 per month on successful SQLs.
 
 And this isn’t even considering opportunity costs!
 
@@ -51,21 +51,23 @@ A search on Google for “how much time do sales reps spend prospecting” retur
 
 Imagine for example that 20% of a sales rep’s time was refocused on selling instead of prospecting. That would help them and the business increase their top line in a big way. Other benefits arise, such as increased lead velocity and improved cash flow.
 
-## Prospecting in the Land of ABM
+## The Challenge with Prospecting in the Land of B2B
 
-B2B companies are turning to Account Based Marketing because even with the expense of prospecting, its still in many cases cheaper than paying for search or social media campaigns to capture user data. Account Based Marketing initiatives rely primarily identifying specific markets to target and relying on using trusted data sources to find relevant information.
+Good prospectors take a few general categories in consideration when looking for a good lead. These include:
 
-However, assuming marketing and sales has coordinated their efforts and successfully launched an ABM strategy, then marketers and sales reps need to do some serious prospecting to a good match and then engage that prospect to attempt to convert it into a lead. The prospecting deliverable is to get:
+- Does the account match the ideal customer profile? This is also known as "fit" information and includes firmographic, demographic, and technographic data.
+- Are the contacts at these accounts involved in the committee and if so at what capacity?
+- What are the best channels to monitor changes in behavior?
+- What relationships can they leverage to get good references or introductions?
+- Where can they obtain verified contact information to initiate the sales process?
 
-- High quality lead
-- Accurate contact information, particularly telephone numbers and emails
-- Context that will help sales deliver the right message, at the right time, in the right format
-
-Although this is a more targeted approach, it is a more manual process. Sometimes the numbers do not reflect the opportunity costs of having reps spend up to 40% of their time prospecting. Furthermore, if the organization does not have dedicated Sales Development Representatives (SDRs) available, one sales rep would have to do both the prospecting and close the sale, which is a process that is not scalable.
+It's possible that some automation is in place to help capture new leads from targeted campaigns, such as those offered by LinkedIn. However, prospectors still need to obtain context from other channels in order to deliver the right message, at the right time, and in the right format. Sometimes the numbers do not reflect the opportunity costs of having reps spend up to 40% of their time prospecting. Furthermore, if the organization does not have dedicated Sales Development Representatives (SDRs) available, one sales rep would have to do both the prospecting and close the sale, which is a process that is not scalable.
 
 ## Conclusion
 
-Let’s face it, selling to businesses is hard. Sales reps have to deal with the fact that a purchase decision is done by a committee and not by an individual. That means sales representatives have to call and convince multiple personas within an organization before a purchase is made. Granted, in this day and age the prospect has probably done most of their research before even engaging with the vendor, but some engagement with multiple people is necessary, especially at higher price points.
+Selling to businesses is hard and requires a tested, repeatable process. Sales reps have to deal with the fact that a purchase decision is done by a committee and not by an individual. That means sales representatives have to call and convince multiple personas within an organization before a purchase is made. Granted, in this day and age the prospect has probably done most of their research before even engaging with the vendor, but some engagement with multiple people is necessary, especially at higher price points.
+
+The sales rep that is able to offer the best message and get to the potential customer first has the upper hand.
 
 - - -
 
