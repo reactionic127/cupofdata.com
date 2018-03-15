@@ -1,34 +1,34 @@
 <svg width="112" height="233" viewBox="0 0 112 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Group</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-9592 44)">
+<g id="Canvas" transform="translate(-9590 11)">
 <g id="Group">
 <g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(9599.78 171.86)" fill="#313251"/>
+<use xlink:href="#path0_fill" transform="translate(9597.78 204.86)" fill="#313251"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path1_fill" transform="translate(9592 36.3499)" fill="#E1E6F0"/>
+<use xlink:href="#path1_fill" transform="translate(9590 69.3499)" fill="#E1E6F0"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path2_fill" transform="translate(9647.13 39.7764)" fill="#E1E6F0"/>
+<use xlink:href="#path2_fill" transform="translate(9645.13 72.7764)" fill="#E1E6F0"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path3_fill" transform="translate(9666.61 165.527)" fill="#313251"/>
+<use xlink:href="#path3_fill" transform="translate(9664.61 198.527)" fill="#313251"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path4_fill" transform="translate(9628.93 -38.2214)" fill="#E1E6F0"/>
+<use xlink:href="#path4_fill" transform="translate(9626.93 -5.2214)" fill="#E1E6F0"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path5_fill" transform="translate(9596.83 -11.3081)" fill="#AFB8C6"/>
+<use xlink:href="#path5_fill" transform="translate(9594.83 21.6919)" fill="#F2F2F2"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path6_fill" transform="translate(9616.07 65.5922)" fill="#E1E6F0"/>
+<use xlink:href="#path6_fill" transform="translate(9614.07 98.5922)" fill="#273559"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path7_fill" transform="translate(9601.43 81.1227)" fill="#E1E6F0"/>
+<use xlink:href="#path7_fill" transform="translate(9599.43 114.123)" fill="#273559"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path8_fill" transform="translate(9623.87 -43.1606)" fill="#313251"/>
+<use xlink:href="#path8_fill" transform="translate(9621.87 -10.1606)" fill="#313251"/>
 </g>
 </g>
 </g>
