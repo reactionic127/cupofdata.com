@@ -3,21 +3,23 @@ import graphql from 'graphql'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import BannerSection from '../components/Home/BannerSection'
-import FeaturesWrapper from '../components/Home/Features'
-import NewsWrapper from '../components/Home/News'
-import BenefitsWrapper from '../components/Home/Benefits'
-import TestimonialsWrapper from '../components/Home/Testimonials'
-import AutomatedMarketingWrapper from '../components/Home/AutomatedMarketing'
+import HowItWorks from '../components/Home/HowItWorks'
+import Features from '../components/Home/Features'
+import News from '../components/Home/News'
+import Benefits from '../components/Home/Benefits'
+import Testimonials from '../components/Home/Testimonials'
+import AutomatedMarketing from '../components/Home/AutomatedMarketing'
 
 const IndexPage = ({ data }) => (
   <div>
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
     <BannerSection />
-    <FeaturesWrapper />
-    <BenefitsWrapper />
-    <NewsWrapper data={data.allMarkdownRemark.edges} />
-    <TestimonialsWrapper data={data.allMarkdownRemark.edges} />
-    <AutomatedMarketingWrapper />
+    <HowItWorks />
+    <Features />
+    <Benefits />
+    <News data={data.allMarkdownRemark.edges} />
+    <Testimonials data={data.allMarkdownRemark.edges} />
+    <AutomatedMarketing />
   </div>
 )
 
