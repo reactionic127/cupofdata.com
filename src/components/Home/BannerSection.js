@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     height: 750px;
   }
   @media screen and (max-width: 576px) {
-    background-image: url(/files/images/mobile-background.svg);
+    background-image: url(/files/images/mobile-background_blue.svg);
     margin-top: 70px;
     height: 680px;
   }
