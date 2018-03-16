@@ -8,7 +8,7 @@ summary: >-
   attempt to explain the concepts by telling a story and how A.I. could help a
   restaurant improve customer satisfaction, thus increasing CLTV.
 author: Greg Werner
-postimage: /files/blog/res2.jpg
+postimage: /files/images/res2.jpg
 ---
 As of this writing, we have spoken to about **150 VPs of Marketing and CMOs** from around the country, and have gotten more feedback in writing with the LinkedIn messenger. The questions I'm asking are very general and sometimes hard to answer concisely, but it gives us a good feel for how versed marketers are with what **Artificial Intelligence (AI)** means, exactly, and what the differences are between AI and Machine Learning and Deep Learning.
 
