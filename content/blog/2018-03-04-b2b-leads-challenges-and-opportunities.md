@@ -6,7 +6,7 @@ date: 2018-03-04T22:34:31.000Z
 summary: >-
   Businesses spend a lot of money and time prospecting. Prospecting is a necessary step to find leads, particularly for companies that have Account Based Marketing initiatives. SaaS B2B companies, in particular, need to consider many attributes when identifying leads that have the right 'fit' and 'behavior' information.
 author: The Cup of Data Team
-postimage: /files/blog/don_datanerd.gif
+postimage: /files/images/don_datanerd.gif
 ---
 # Leads at B2B SaaS Companies: Challenges and Opportunities
 
