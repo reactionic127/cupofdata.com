@@ -21,9 +21,6 @@ members:
   - fullname: Nathaniel Compton
     photo: /files/blog/nathaniel.png
     position: Developer
-  - fullname: Ray Gesualdo
-    photo: /files/blog/ray.png
-    position: Developer
   - fullname: Timara Frassrand
     photo: /files/blog/timara.png
     position: Sales
