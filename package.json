@@ -28,7 +28,6 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
     "precommit": "lint-staged",
     "develop": "gatsby develop",
     "serve": "gatsby serve"
