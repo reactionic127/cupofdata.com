@@ -78,5 +78,3 @@ typings/
 .env*
 
 .cache
-
-yarn.lock
