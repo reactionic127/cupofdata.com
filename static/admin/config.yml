@@ -2,7 +2,7 @@ backend:
   name: github
   repo: cupofdata/cupofdata.com
 
-media_folder: "/static/files/images"
+media_folder: "static/files/images"
 public_folder: "/files/images"
 
 collections:
