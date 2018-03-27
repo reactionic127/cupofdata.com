@@ -17,6 +17,7 @@ import '../../static/files/css/fontawesome-all.min.css'
 // main site style
 import global from '../styles/global'
 import mainTheme from '../styles/theme'
+
 export default class TemplateWrapper extends React.Component {
   constructor(props) {
     super(props)
@@ -69,7 +70,10 @@ export default class TemplateWrapper extends React.Component {
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
     const betaForm = /beta*\w/
-    const hideNav = undefinedReg.test(pathname) || onboardReg.test(pathname)
+    const hideNav =
+      undefinedReg.test(pathname) ||
+      onboardReg.test(pathname) ||
+      betaForm.test(pathname)
     this.setState({
       hideNav,
       theme: mainTheme.secondary,
