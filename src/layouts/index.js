@@ -68,6 +68,7 @@ export default class TemplateWrapper extends React.Component {
     const { pathname } = props.location
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
+    const betaForm = /beta*\w/
     const hideNav = undefinedReg.test(pathname) || onboardReg.test(pathname)
     this.setState({
       hideNav,
