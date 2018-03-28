@@ -35,6 +35,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/files/images`,
+        name: 'images',
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: ['gatsby-remark-prismjs', 'gatsby-remark-copy-linked-files'],
@@ -59,11 +66,13 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-babel-styled-components',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-babel-styled-components',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-netlify-cms',
+    'gatsby-transformer-sharp',
   ].filter(Boolean),
 }

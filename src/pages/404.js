@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { Container } from '../components/Layout'
 import Link, { withPrefix } from 'gatsby-link'
@@ -49,6 +50,7 @@ const BackButton = Button.extend`
 
 const NotFoundPage = () => (
   <Wrapper>
+    <Helmet title="Page Not Found | Cup of Data" />
     <LogoImg src={withPrefix('/files/images/img-logo.svg')} />
     <Img404 src={withPrefix('/files/images/img-404.svg')} />
     <Topic>Page not found</Topic>
