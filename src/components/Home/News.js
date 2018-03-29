@@ -5,13 +5,15 @@ import { Container, Row, Col } from '../Layout'
 import Button from '../Button'
 import Link, { withPrefix } from 'gatsby-link'
 
+import backgroundNews from '../../img/bk-news.png'
+
 const Warpper = styled.div`
   padding: 50px 0;
   text-align: center;
   position: relative;
   ::before {
     content: ' ';
-    background: url(/files/images/bk-news.png);
+    background: url(${backgroundNews});
     position: absolute;
     z-index: -1;
     top: 0;
