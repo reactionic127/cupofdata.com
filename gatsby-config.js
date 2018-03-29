@@ -12,7 +12,6 @@ const injectSegment = () => {
     },
   }
 }
-
 module.exports = {
   siteMetadata: {
     title: 'Cup of Data',
@@ -47,7 +46,12 @@ module.exports = {
         plugins: ['gatsby-remark-prismjs', 'gatsby-remark-copy-linked-files'],
       },
     },
-    injectSegment(),
+    {
+      resolve: 'gatsby-plugin-segment',
+      options: {
+        writeKey: `${process.env.SEGMENT_PROD_WRITE_KEY}`,
+      },
+    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {

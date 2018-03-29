@@ -30,6 +30,22 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@ndhoule/each@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@ndhoule/each/-/each-2.0.1.tgz#bbed372a603e0713a3193c706a73ddebc5b426a9"
+  dependencies:
+    "@ndhoule/keys" "^2.0.0"
+
+"@ndhoule/keys@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ndhoule/keys/-/keys-2.0.0.tgz#3d64ae677c65a261747bf3a457c62eb292a4e0ce"
+
+"@ndhoule/map@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@ndhoule/map/-/map-2.0.1.tgz#f5ca0a47424ea67f46e2a6d499b9e9bc886aefa8"
+  dependencies:
+    "@ndhoule/each" "^2.0.1"
+
 "@raygesualdo/gatsby-plugin-settings@^1.0.1":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@raygesualdo/gatsby-plugin-settings/-/gatsby-plugin-settings-1.0.2.tgz#bf4a1021808809779834164b8a75bdac0717e4cd"
@@ -40,6 +56,12 @@
     js-yaml "^3.11.0"
     lodash "^4.17.5"
     toml "^2.3.3"
+
+"@segment/snippet@^4.0.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@segment/snippet/-/snippet-4.1.1.tgz#96b4e0c47e97821bbc4db88fd788822a49b77a0f"
+  dependencies:
+    "@ndhoule/map" "^2.0.1"
 
 "@types/configstore@^2.1.1":
   version "2.1.1"
@@ -4365,7 +4387,7 @@ fs-extra@^1.0.0:
     jsonfile "^2.1.0"
     klaw "^1.0.0"
 
-fs-extra@^4.0.1:
+fs-extra@^4.0.1, fs-extra@^4.0.2:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   dependencies:
@@ -4526,11 +4548,17 @@ gatsby-plugin-react-next@^1.0.11:
     react "^16.0.0"
     react-dom "^16.0.0"
 
-gatsby-plugin-segment-js@^1.1.0:
+gatsby-plugin-segment-js@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-segment-js/-/gatsby-plugin-segment-js-1.1.2.tgz#6d5472e7c73c5d9ffa410621966914ab28c006a0"
   dependencies:
     npm "^5.7.1"
+
+gatsby-plugin-segment@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-segment/-/gatsby-plugin-segment-1.0.2.tgz#6b014ed477b675486a445155384afe168f3e4bbe"
+  dependencies:
+    "@segment/snippet" "^4.0.1"
 
 gatsby-plugin-sharp@^1.6.39:
   version "1.6.41"
@@ -4637,6 +4665,15 @@ gatsby-transformer-remark@^1.7.34:
     unist-util-remove-position "^1.1.1"
     unist-util-select "^1.5.0"
     unist-util-visit "^1.1.1"
+
+gatsby-transformer-sharp@^1.6.22:
+  version "1.6.22"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-1.6.22.tgz#120baf195dcf60f452604c84df02d09362ded423"
+  dependencies:
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.0"
+    fs-extra "^4.0.2"
+    probe-image-size "^3.2.0"
 
 gatsby@^1.9.223:
   version "1.9.239"
