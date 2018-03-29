@@ -1,18 +1,3 @@
-const injectSegment = () => {
-  const { SEGMENT_PROD_WRITE_KEY, SEGMENT_DEV_WRITE_KEY } = process.env
-  if (!SEGMENT_PROD_WRITE_KEY && !SEGMENT_DEV_WRITE_KEY) return
-  return {
-    resolve: `gatsby-plugin-segment-js`,
-    options: {
-      // When running `gatsby build`
-      prodKey: `${SEGMENT_PROD_WRITE_KEY || SEGMENT_DEV_WRITE_KEY}`,
-      // When running `gatsby develop`
-      devKey: `${SEGMENT_DEV_WRITE_KEY}`,
-      trackPage: true,
-    },
-  }
-}
-
 module.exports = {
   siteMetadata: {
     title: 'Cup of Data',
@@ -47,7 +32,12 @@ module.exports = {
         plugins: ['gatsby-remark-prismjs', 'gatsby-remark-copy-linked-files'],
       },
     },
-    injectSegment(),
+    {
+      resolve: 'gatsby-plugin-segment',
+      options: {
+        writeKey: `${process.env.SEGMENT_PROD_WRITE_KEY}`,
+      },
+    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
