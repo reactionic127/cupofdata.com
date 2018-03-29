@@ -1,17 +1,3 @@
-const injectSegment = () => {
-  const { SEGMENT_PROD_WRITE_KEY, SEGMENT_DEV_WRITE_KEY } = process.env
-  if (!SEGMENT_PROD_WRITE_KEY && !SEGMENT_DEV_WRITE_KEY) return
-  return {
-    resolve: `gatsby-plugin-segment-js`,
-    options: {
-      // When running `gatsby build`
-      prodKey: `${SEGMENT_PROD_WRITE_KEY || SEGMENT_DEV_WRITE_KEY}`,
-      // When running `gatsby develop`
-      devKey: `${SEGMENT_DEV_WRITE_KEY}`,
-      trackPage: true,
-    },
-  }
-}
 module.exports = {
   siteMetadata: {
     title: 'Cup of Data',
