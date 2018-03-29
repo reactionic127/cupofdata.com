@@ -5,8 +5,15 @@ import styled, { css } from 'styled-components'
 import Button from '../Button'
 import Link, { withPrefix } from 'gatsby-link'
 
+import bannerImage from '../../img/background.svg'
+import bannerImageMobile from '../../img/mobile-background_blue.svg'
+import personOne from '../../img/img-person1.svg'
+import personTwo from '../../img/img-person2.svg'
+import personThree from '../../img/img-person3.svg'
+import personFour from '../../img/img-person4.svg'
+
 const Wrapper = styled.div`
-  background-image: url(/files/images/background.svg);
+  background-image: url(${bannerImage});
   background-size: cover;
   background-position: left top;
   color: ${props => props.theme.banner.color.text};
@@ -17,7 +24,7 @@ const Wrapper = styled.div`
     height: 750px;
   }
   @media screen and (max-width: 576px) {
-    background-image: url(/files/images/mobile-background_blue.svg);
+    background-image: url(${bannerImageMobile});
     margin-top: 70px;
     height: 680px;
   }
@@ -251,7 +258,7 @@ class BannerSection extends React.PureComponent {
                   <ScoreText>{this.state.score1}</ScoreText>
                 </div>
               </PersonaBox1>
-              <img src={withPrefix('/files/images/img-person1.svg')} />
+              <img src={personOne} />;
             </Personal>
             <Personal>
               <PersonaBox2>
@@ -264,7 +271,7 @@ class BannerSection extends React.PureComponent {
                   <ScoreText active>{this.state.score2}</ScoreText>
                 </div>
               </PersonaBox2>
-              <img src={withPrefix('/files/images/img-person2.svg')} />
+              <img src={personTwo} />;
             </Personal>
             <RowView>
               <Personal>
@@ -274,9 +281,7 @@ class BannerSection extends React.PureComponent {
                     <ScoreText>{this.state.score3}</ScoreText>
                   </div>
                 </PersonaBox3>
-                <MarginImage
-                  src={withPrefix('/files/images/img-person3.svg')}
-                />
+                <MarginImage src={personThree} />
               </Personal>
               <Personal>
                 <PersonaBox4>
@@ -285,7 +290,7 @@ class BannerSection extends React.PureComponent {
                   </PersonInfo>
                   <BlankView width={60} marginTop />
                 </PersonaBox4>
-                <img src={withPrefix('/files/images/img-person4.svg')} />
+                <img src={personFour} />
               </Personal>
             </RowView>
           </PersonaContainer>

@@ -5,8 +5,10 @@ import { H1, H5 } from '../Typography'
 import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
+import autoMarketing from '../../img/bk-automarketing.png'
+
 const Wrapper = styled.div`
-  background: url(/files/images/bk-automarketing.png);
+  background: url(${autoMarketing});
   background-size: 100%;
   position: relative;
   padding: 70px 0;

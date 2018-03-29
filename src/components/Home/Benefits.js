@@ -4,6 +4,11 @@ import { H2, H5, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import { withPrefix } from 'gatsby-link'
 
+import imageSales from '../../img/img-sales.svg'
+import imageExisting from '../../img/img-existing.svg'
+import imageShortenSales from '../../img/img-shorten-sales.svg'
+import imageClearPath from '../../img/img-clear-path.svg'
+
 const Wrapper = styled.div`
   padding-top: 200px;
   padding-bottom: 115px;
@@ -54,7 +59,7 @@ const BenefitsSection = () => (
       <Row>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={withPrefix('files/images/img-sales.svg')} />
+            <Img src={imageSales} />
           </ImgView>
           <Title>Improve Marketing and Sales Alignment</Title>
           <SubTitle>
@@ -64,7 +69,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={withPrefix('files/images/img-existing.svg')} />
+            <Img src={imageExisting} />
           </ImgView>
           <Title>Create Unique Experiences with Context</Title>
           <SubTitle>
@@ -74,7 +79,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={withPrefix('files/images/img-shorten-sales.svg')} />
+            <Img src={imageShortenSales} />
           </ImgView>
           <Title>Shorten sales cycles</Title>
           <SubTitle>
@@ -84,7 +89,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={withPrefix('files/images/img-clear-path.svg')} />
+            <Img src={imageClearPath} />
           </ImgView>
           <Title>Clearer path to ROI</Title>
           <SubTitle>

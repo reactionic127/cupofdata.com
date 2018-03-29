@@ -4,6 +4,9 @@ import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import Button from '../Button'
 import { withPrefix } from 'gatsby-link'
+
+import imageDesktop from '../../img/img-desktop.png'
+
 const Wrapper = styled.div`
   background: #f5f7fa;
   padding-top: 50px;
@@ -94,7 +97,7 @@ const FeaturesView = () => (
     <Container>
       <FeatureRow>
         <ImgCol xs="12" sm="6">
-          <Img src={withPrefix('/files/images/img-desktop.png')} />
+          <Img src={imageDesktop} />
         </ImgCol>
         <ContentCol xs="12" sm="6">
           <UL>

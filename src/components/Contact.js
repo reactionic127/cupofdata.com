@@ -4,6 +4,8 @@ import Link, { withPrefix } from 'gatsby-link'
 import { Container, Row, Col } from './Layout'
 import { H5, H6 } from './Typography'
 
+import imgLogo from '../img/img-logo.svg'
+
 const Wrapper = styled.div`
   padding-top: 85px;
   padding-bottom: 130px;
@@ -69,7 +71,7 @@ const ContactSection = ({ company, menus, title }) => (
     <Container>
       <Row>
         <MainCol xs="12" sm="5">
-          <img src={withPrefix('/files/images/img-logo.svg')} width="120" />
+          <img src={imgLogo} width="120" />
           <ContactContent>
             Cup of Data’s mission is to turbocharge growth at SaaS B2B companies
             with amazing sales qualified leads. By streamlining the manual,

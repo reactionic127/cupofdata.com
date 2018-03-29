@@ -2,8 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { H6 } from './Typography'
 
+import imageQuote from '../img/img-quote.svg'
+
 const Card = styled.div`
-  background-image: url(/files/images/img-quote.svg);
+  background-image: url({imageQuote});
   background-repeat: no-repeat;
   background-position-x: 0;
   background-position-y: 0;
