@@ -17,10 +17,10 @@ newsFlag: false
 
 ## Abstract
 
-- B2B lead generation is a process that takes time to develop.
-- B2B leads require fit and behavior data to calculate a quality lead score.
-- By the time the customer engages with you, they are about 80% through the buying journey.
-- The best B2B companies are the ones that have the best processes in place to qualify leads and engage with them as quickly as possible with relevant messages.
+* B2B lead generation is a process that takes time to develop.
+* B2B leads require fit and behavior data to calculate a quality lead score.
+* By the time the customer engages with you, they are about 80% through the buying journey.
+* The best B2B companies are the ones that have the best processes in place to qualify leads and engage with them as quickly as possible with relevant messages.
 
 ## B2B Lead Generation is a Process
 
@@ -34,11 +34,11 @@ To sell, a company needs to identify potential customers. Identifying leads and 
 
 In the B2B world, warm leads are tough to identify because there are so many variables. Traditionally, setting up a B2B lead generation process considers:
 
-- **Defining the prospect**: this step consists of defining the ideal company and contacts (also known as personas) to purchase a product or service.
-- **Training the salesperson**: SaaS B2B companies are technical and have very specific use cases, so sales personnel need training before engaging potential customers.
-- **Setting up trials**: almost all SaaS B2B companies offer trial periods so prospects can familiarize themselves with the product and determine whether or not it solves their problem.
-- **Refining messages during engagement**: companies engage prospects with many channels, but the most consistent are email and phone calls. Businesses should test messaging to make sure sales personnel are communicating effectively.
-- **Nurturing**: during this phase vendors establish a relationship and help uncover the prospect’s problems and offer them a solution to solve it.
+* **Defining the prospect**: this step consists of defining the ideal company and contacts (also known as personas) to purchase a product or service.
+* **Training the salesperson**: SaaS B2B companies are technical and have very specific use cases, so sales personnel need training before engaging potential customers.
+* **Setting up trials**: almost all SaaS B2B companies offer trial periods so prospects can familiarize themselves with the product and determine whether or not it solves their problem.
+* **Refining messages during engagement**: companies engage prospects with many channels, but the most consistent are email and phone calls. Businesses should test messaging to make sure sales personnel are communicating effectively.
+* **Nurturing**: during this phase vendors establish a relationship and help uncover the prospect’s problems and offer them a solution to solve it.
 
 ## Leads in the World of B2B
 
@@ -54,17 +54,17 @@ Why should marketers assign a lead score (APS) before assigning a lead to the sa
 
 APS’s, generally speaking, are calculated by mixing ‘fit’ and ‘behavior’ data. Fit data is information that allows marketers and sales reps understand if an account and their contacts meets their criteria for an ideal account. Behavior data is used to measure intent and usually requires more of a learning process. The weight assigned to each attribute in the fit and behavior categories is also known as ‘attribution’. Estimating attribution for each campaign can be very complex, but generally speaking businesses:
 
-- **Fit information**. Fit information is a combination of firmographic, technographic, and demographic data. Questions such as ‘what companies are located in the midwest, which sell more that 10 million but less that 50 million and have Salesforce’
-- **Behavior information**. Measuring intent is important as usually the first company to engage a potential customer has a much higher likelihood of closing the deal. Behavior should be measured on inbound marketing channel content as well as public channels.
-- **Attribution**. The attributes and their weights are usually tested and adjusted over time, depending on what combination of attributes (and their weights) lead to improved conversion rates. Examples include ‘score zero on IP’s that come from our office’ and ‘score two on users that download xyz ebook.’
+* **Fit information**. Fit information is a combination of firmographic, technographic, and demographic data. Questions such as ‘what companies are located in the midwest, which sell more that 10 million but less that 50 million and have Salesforce’
+* **Behavior information**. Measuring intent is important as usually the first company to engage a potential customer has a much higher likelihood of closing the deal. Behavior should be measured on inbound marketing channel content as well as public channels.
+* **Attribution**. The attributes and their weights are usually tested and adjusted over time, depending on what combination of attributes (and their weights) lead to improved conversion rates. Examples include ‘score zero on IP’s that come from our office’ and ‘score two on users that download xyz ebook.’
 
 ## How do B2B Companies Get Their Leads?
 
 B2B companies get their leads from many sources, but we could probably boil them down to the following:
 
-- **Inbound marketing campaigns**: strategies such as content marketing, paid search, social media, among others are popular to drive traffic to a company’s site and move the lead along a journey with the ultimate goal of converting them to a sale. This campaigns are managed by in-house staff, outsourced to firms, or have a combination of both.
-- **Account Based Marketing or Outbound campaigns**: many companies have embraced ABM as a key component to their overall strategy. CRM’s and Martech vendors are included data sources within their software stacks, which allows marketers and sales reps to easily search for qualified accounts and contacts with good ‘fit’ and ‘behavior’ data. Larger companies actually purchase this information from third parties and integrate them into their processes.
-- **Managed Services**: some companies would rather outsource the lead qualification process to a third party. Some even schedule appointments on your behalf, such as for a demo.
+* **Inbound marketing campaigns**: strategies such as content marketing, paid search, social media, among others are popular to drive traffic to a company’s site and move the lead along a journey with the ultimate goal of converting them to a sale. This campaigns are managed by in-house staff, outsourced to firms, or have a combination of both.
+* **Account Based Marketing or Outbound campaigns**: many companies have embraced ABM as a key component to their overall strategy. CRM’s and Martech vendors are included data sources within their software stacks, which allows marketers and sales reps to easily search for qualified accounts and contacts with good ‘fit’ and ‘behavior’ data. Larger companies actually purchase this information from third parties and integrate them into their processes.
+* **Managed Services**: some companies would rather outsource the lead qualification process to a third party. Some even schedule appointments on your behalf, such as for a demo.
 
 Every company is different and all choices are viable. Our only recommendation is to ensure that third party vendors or internal departments are integrated into the company’s process (read well documented API) to avoid excessive vendor lock in and reduce switching costs.
 
@@ -78,5 +78,4 @@ Leading organizations have automated the B2B sales process as much as possible t
 
 Would you like to know more? **Contact us today to schedule a demo!**
 
-
-[![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
+[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
