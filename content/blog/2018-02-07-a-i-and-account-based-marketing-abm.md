@@ -24,6 +24,7 @@ B2C companies are embracing new user experiences very quickly, particularly with
 
 What's interesting is to hear opinions on how fast **B2B companies will adopt voice activated systems, sophisticated chatbots, and content creation models**. Built well and these new user experience interfaces can help remove some of the obstacles of updating internal systems with enough data to train A.I. models. Put another way, not only do these new user experiences have the potential of improving adoption, but they also provide opportunities for companies to obtain enough data to train A.I. models that are performant enough to improve their internal processes.
 
+---
 Would you like to know more? **Contact us today to schedule a demo!**
 
 [![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
