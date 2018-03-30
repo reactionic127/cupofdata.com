@@ -10,7 +10,7 @@ summary: >-
   businesses.
 author: Greg Werner
 postimage: /files/images/flip-my-funnel.jpg
-newsFlag: true
+newsFlag: false
 ---
 I keep getting floored with how generous this community is! So many people have been so gracious with their time and it's very humbling. This week, we'd like to point out some more insights from the amazing Marketers and Sales Leaders we have engaged with.
 
@@ -23,8 +23,7 @@ B2B companies are very much in favor of using Account Based Marketing (ABM) stra
 B2C companies are embracing new user experiences very quickly, particularly with chatbots and voice-activated speakers. This isn't a surprise for anyone, and the number of companies developing their own versions of chatbots and voice interfaces is huge (granted, the underlying frameworks are limited in number). This naturally will bring a new set of challenges to the table, as data stored in this manner is unstructured and therefore requires very different analysis and processing techniques to un-tap the data's potential.
 
 What's interesting is to hear opinions on how fast **B2B companies will adopt voice activated systems, sophisticated chatbots, and content creation models**. Built well and these new user experience interfaces can help remove some of the obstacles of updating internal systems with enough data to train A.I. models. Put another way, not only do these new user experiences have the potential of improving adoption, but they also provide opportunities for companies to obtain enough data to train A.I. models that are performant enough to improve their internal processes.
----
-Would you like to know more? **Contact us today to schedule a demo!**
 
+Would you like to know more? **Contact us today to schedule a demo!**
 
 [![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
