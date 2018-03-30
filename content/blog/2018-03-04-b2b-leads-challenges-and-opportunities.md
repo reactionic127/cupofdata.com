@@ -4,9 +4,14 @@ path: /blog/b2b-leads-challenges-and-opportunities
 title: Leads at B2B SaaS Companies - Challenges and Opportunities
 date: 2018-03-04T22:34:31.000Z
 summary: >-
-  Businesses spend a lot of money and time prospecting. Prospecting is a necessary step to find leads, particularly for companies that have Account Based Marketing initiatives. SaaS B2B companies, in particular, need to consider many attributes when identifying leads that have the right 'fit' and 'behavior' information.
+  Businesses spend a lot of money and time prospecting. Prospecting is a
+  necessary step to find leads, particularly for companies that have Account
+  Based Marketing initiatives. SaaS B2B companies, in particular, need to
+  consider many attributes when identifying leads that have the right 'fit' and
+  'behavior' information.
 author: The Cup of Data Team
 postimage: /files/images/don_datanerd.gif
+newsFlag: true
 ---
 # Leads at B2B SaaS Companies: Challenges and Opportunities
 
@@ -71,4 +76,8 @@ The sales rep that is able to offer the best message and get to the potential cu
 
 - - -
 
-Would you like to know more? [Contact us today to get some free leads and schedule a demo](https://try.cupofdata.com)!
+Would you like to know more? **Contact us today to schedule a demo!**
+
+
+[![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
+
