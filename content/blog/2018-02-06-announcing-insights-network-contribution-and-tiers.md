@@ -9,6 +9,7 @@ summary: >-
   restaurant improve customer satisfaction, thus increasing CLTV.
 author: Greg Werner
 postimage: /files/images/res2.jpg
+newsFlag: true
 ---
 As of this writing, we have spoken to about **150 VPs of Marketing and CMOs** from around the country, and have gotten more feedback in writing with the LinkedIn messenger. The questions I'm asking are very general and sometimes hard to answer concisely, but it gives us a good feel for how versed marketers are with what **Artificial Intelligence (AI)** means, exactly, and what the differences are between AI and Machine Learning and Deep Learning.
 
@@ -37,4 +38,7 @@ The user sends out a Tweet or an Instagram post stating that the food is cold. R
 
 I bet a restaurant that implements the latter techniques will be more successful than the former, all else being equal.
 
-**We have many more insights that we want to share with you** and are really looking forward to sharing our future posts!
+---
+
+[![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
+
