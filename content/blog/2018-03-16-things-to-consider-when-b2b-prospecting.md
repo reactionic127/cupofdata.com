@@ -4,9 +4,14 @@ path: /blog/b2b-evaluating-b2b-prospecting-services
 title: Identifying and Qualifying B2B Leads - Evaluating Solutions
 date: 2018-03-16T18:58:05.000Z
 summary: >-
-  Businesses use inbound and outbound marketing to identify and qualify B2B leads. These leads need to be ranked with a propensity score and need to improve over time. B2B lead generation is a process and selecting the right combination of resources will help build efficient B2B lead generation processes over time.
+  Businesses use inbound and outbound marketing to identify and qualify B2B
+  leads. These leads need to be ranked with a propensity score and need to
+  improve over time. B2B lead generation is a process and selecting the right
+  combination of resources will help build efficient B2B lead generation
+  processes over time.
 author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
+newsFlag: true
 ---
 # Identifying and Qualifying B2B Leads
 
@@ -71,4 +76,4 @@ Leading organizations have automated the B2B sales process as much as possible t
 
 - - -
 
-Would you like to know more? [Contact us today to get some free leads and schedule a demo](https://try.cupofdata.com)!
+Would you like to **know more**? [Contact us today to get some free leads and schedule a demo](https://try.cupofdata.com)!
