@@ -4,6 +4,8 @@ import styled, { css } from 'styled-components'
 import { H1, H6, P } from './Typography'
 import Button from './Button'
 
+import imageEnterprise from '../img/img-enterprise.svg'
+
 const PlanCard = styled.div`
   border: 1px solid rgba(44, 51, 59, 0.2);
   text-align: center;
@@ -66,10 +68,7 @@ const PriceCard = props => (
   <PlanCard enterpriseMode={props.enterprise}>
     {props.enterprise ? (
       <CardHeader>
-        <img
-          src={withPrefix('/files/images/img-enterprise.svg')}
-          width="35px"
-        />
+        <img src={imageEnterprise} width="35px" />
         <EnterpriseTitle>ENTERPRISE</EnterpriseTitle>
       </CardHeader>
     ) : (
@@ -83,4 +82,5 @@ const PriceCard = props => (
     <TryButton to={props.tryPath}>Try it for free</TryButton>
   </PlanCard>
 )
+
 export default PriceCard

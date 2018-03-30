@@ -3,6 +3,9 @@ import styled, { css } from 'styled-components'
 import { Container } from './Layout'
 import Link from 'gatsby-link'
 
+import logoImg from '../img/img-logo.svg'
+import logoImgDark from '../img/img-logo-dark.svg'
+
 const Navbar = styled.div`
   display: flex;
   justify-content: space-between;
@@ -148,7 +151,7 @@ const ToggleSpan = styled.span`
 `
 const LogoImg = styled.div`
   width: 120px;
-  background: url(${props => props.theme.navbar.logoImg});
+  background: url(${logoImgDark});
   height: 58px;
   background-size: cover;
   @media screen and (max-width: 576px) {
