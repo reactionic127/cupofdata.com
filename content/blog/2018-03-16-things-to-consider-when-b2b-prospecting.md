@@ -11,7 +11,7 @@ summary: >-
   processes over time.
 author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
-newsFlag: true
+newsFlag: false
 ---
 # Identifying and Qualifying B2B Leads
 
