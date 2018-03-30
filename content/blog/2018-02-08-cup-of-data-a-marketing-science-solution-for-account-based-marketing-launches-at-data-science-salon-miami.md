@@ -10,7 +10,7 @@ summary: >-
   (ABM) with its powerful predictive audience solution.
 author: Jessica Gomez
 postimage: /files/images/launch.jpg
-newsFlag: true
+newsFlag: false
 ---
 Miami, FL – February 8, 2018 – [Cup of Data](http://www.cupofdata.com/), a marketing science ABM solution for B2B marketers, today launches at the Data Science Salon Miami, February 8-9, 2018 at CIC Miami. Cup of Data powers ABM strategies with predictive analytics and data to help identify target leads and intelligently engage high value accounts across channels.
 
@@ -27,3 +27,9 @@ For more information about Cup of Data stop by the Data Science Salon Miami or v
 About Cup of Data
 
 Cup of Data is a marketing science solution created to enhance quality lead generation for B2B marketers and sales leaders in high growth organizations. Cup of Data offers simple lead identification for B2B account-based marketing (ABM) with its powerful predictive audience solution. For more information visit [Cup of Data](https://cupofdata.com) and on [Medium](https://medium.com/cup-of-data).
+
+---
+Would you like to know more? **Contact us today to schedule a demo!**
+
+
+[![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
