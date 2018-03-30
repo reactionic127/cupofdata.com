@@ -2,12 +2,13 @@
 contentType: blog
 path: /blog/ai-for-marketers-and-flight-simulators
 title: AI Models for Marketers and Flight Simulators
-date: 2018-01-30T23:52:20-05:00
+date: 2018-01-31T04:52:20.000Z
 summary: >-
   B2B marketers have difficulty obtaining enough data to train A.I. models. What
   if we simulated data, just like Pilots use flight simulators for training?
 author: Greg Werner
 postimage: /files/images/filght_sim.jpg
+newsFlag: true
 ---
 First of all, I need to start doing some shout outs! Thank you, [Ken Chow](https://www.linkedin.com/in/techmarketingleader/), [Chris Gosselin](https://www.linkedin.com/in/chrisgosselinusafvet/), [Christina Ellwood](https://www.linkedin.com/in/christinaellwood/), [Anna Yong](https://www.linkedin.com/in/4everfusion/), [Marko Savic](https://www.linkedin.com/in/savicmarko/), [Lisbeth McNabb](https://www.linkedin.com/in/lisbethmcnabb/), and [Glenn Fossella](https://www.linkedin.com/in/glenfossella/) for taking a few moments out of your busy days to provide us with some insights!
 
@@ -24,3 +25,8 @@ So how about creating simulation data and training models based on said simulati
 DevOps engineers have been doing this for a while now. Teams create simulation data with different failures, attack vectors, among other scenarios so when the real thing comes they are prepared. B2B marketers and sales leaders could have simulation data that increases the number of qualified leads to triple at the end of the month, simulate different inbound touch points, ABM strategies that are in different geographies, etc. and create AI models based on this information.
 
 What really struck me is how creating the simulation data could be another AI model, so in essence one A.I. model could train another A.I. model!
+---
+Would you like to know more? **Contact us today to schedule a demo!**
+
+
+[![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
