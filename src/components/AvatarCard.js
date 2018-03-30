@@ -5,7 +5,7 @@ import { H6 } from './Typography'
 import imageQuote from '../img/img-quote.svg'
 
 const Card = styled.div`
-  background-image: url({imageQuote});
+  background-image: url(${imageQuote});
   background-repeat: no-repeat;
   background-position-x: 0;
   background-position-y: 0;

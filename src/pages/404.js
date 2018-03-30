@@ -5,12 +5,13 @@ import { Container } from '../components/Layout'
 import Link, { withPrefix } from 'gatsby-link'
 import Button from '../components/Button'
 
-import imageLogo from '../img/img-logo.svg'
-import image404 from '../img/img-404.svg'
+import imgLogo from '../img/img-logo.svg'
+import img404 from '../img/img-404.svg'
+import background404 from '../img/bk-404.svg'
 
 const Wrapper = styled.div`
   height: 100vh;
-  background: url(/files/images/bk-404.svg);
+  background: url(${background404});
   background-size: cover;
   background-position-y: 100%;
   display: flex;
@@ -54,8 +55,8 @@ const BackButton = Button.extend`
 const NotFoundPage = () => (
   <Wrapper>
     <Helmet title="Page Not Found | Cup of Data" />
-    <LogoImg src={imageLogo} />
-    <Img404 src={image404} />
+    <LogoImg src={imgLogo} />
+    <Img404 src={img404} />
     <Topic>Page not found</Topic>
     <Detail>
       Sorry, but the page you were looking for could not be found. You can
