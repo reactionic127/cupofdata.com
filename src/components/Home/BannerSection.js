@@ -263,8 +263,8 @@ class BannerSection extends React.PureComponent {
             <Personal>
               <PersonaBox2>
                 <PersonInfo>
-                  <PersonNameText>Miranda keith</PersonNameText>
-                  <PersonRoleText>Front end developer</PersonRoleText>
+                  <PersonNameText>Miranda Smith</PersonNameText>
+                  <PersonRoleText>Chief Information Officer</PersonRoleText>
                 </PersonInfo>
                 <div>
                   <ScoreName active>Score</ScoreName>
