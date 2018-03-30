@@ -76,4 +76,7 @@ Leading organizations have automated the B2B sales process as much as possible t
 
 - - -
 
-Would you like to **know more**? [Contact us today to get some free leads and schedule a demo](https://try.cupofdata.com)!
+Would you like to know more? **Contact us today to schedule a demo!**
+
+
+[![](https://dabuttonfactory.com/button.png?t=Schedule+a+Demo&f=Roboto-Bold&ts=24&tc=fff&hp=20&vp=8&c=5&bgt=gradient&bgc=f4901d&ebgc=f47920)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
