@@ -11,7 +11,7 @@ summary: >-
   'behavior' information.
 author: The Cup of Data Team
 postimage: /files/images/don_datanerd.gif
-newsFlag: true
+newsFlag: false
 ---
 # Leads at B2B SaaS Companies: Challenges and Opportunities
 
