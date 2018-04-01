@@ -13,7 +13,7 @@ import AutomatedMarketing from '../components/Home/AutomatedMarketing'
 const IndexPage = ({ data }) => (
   <div>
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
-    <BannerSection />
+    <BannerSection data={data.allMarkdownRemark.edges} />
     <HowItWorks />
     <Features data={data.allMarkdownRemark.edges} />
     <Benefits />
@@ -44,6 +44,10 @@ export const pageQuery = graphql`
             position
             comment
             photo
+            button
+            header
+            personName
+            personRole
           }
         }
       }

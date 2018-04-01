@@ -45,7 +45,7 @@ const Header = H3.extend`
   }
 `
 
-const Title = H6.extend`
+const BannerSubTitle = H6.extend`
   color: #fff;
   font-weight: 400;
   max-width: 560px;
@@ -227,47 +227,25 @@ const RowView = styled.div`
   display: flex;
 `
 
-class BannerSection extends React.PureComponent {
-  constructor() {
-    super()
-
-    this.state = {
-      score1: 0,
-      score2: 0,
-      score3: 0,
-    }
-  }
-  componentDidMount() {
-    let interval1 = setInterval(() => {
-      this.setState({
-        score1: this.state.score1 + 1,
-      })
-      if (this.state.score1 == 48) clearInterval(interval1)
-    }, 20)
-    let interval2 = setInterval(() => {
-      this.setState({
-        score2: this.state.score2 + 1,
-      })
-      if (this.state.score2 == 95) clearInterval(interval2)
-    }, 20)
-    let interval3 = setInterval(() => {
-      this.setState({
-        score3: this.state.score3 + 1,
-      })
-      if (this.state.score3 == 23) clearInterval(interval3)
-    }, 20)
-  }
-  render() {
-    return (
-      <Wrapper>
+const BannerSection = data => {
+  const features = data.data.filter(item => {
+    return item.node.frontmatter.contentType == 'banner'
+  })
+  return (
+    <Wrapper>
+      {features && (
         <BannerContainer>
-          <Header>With Cup of Data, you get better SaaS B2B leads</Header>
-          <Title>
-            Identify accounts and leads and engage them like a boss.
-          </Title>
-          <Link to="/onboard">
-            <Button>Get started</Button>
-          </Link>
+          {features.map((item, i) => (
+            <Header>{item.node.frontmatter.header}</Header>
+          ))}
+          {features.map((item, i) => (
+            <BannerSubTitle>{item.node.frontmatter.title}</BannerSubTitle>
+          ))}
+          {features.map((item, i) => (
+            <Link to="/onboard">
+              <Button>{item.node.frontmatter.button}</Button>
+            </Link>
+          ))}
           <PersonaContainer>
             <Personal>
               <PersonaBox1>
@@ -276,20 +254,26 @@ class BannerSection extends React.PureComponent {
                 </PersonInfo>
                 <div>
                   <ScoreName>Score</ScoreName>
-                  <ScoreText>{this.state.score1}</ScoreText>
+                  <ScoreText>48</ScoreText>
                 </div>
               </PersonaBox1>
               <img src={personOne} />;
             </Personal>
             <Personal>
               <PersonaBox2>
-                <PersonInfo>
-                  <PersonNameText>Miranda Smith</PersonNameText>
-                  <PersonRoleText>Chief Information Officer</PersonRoleText>
-                </PersonInfo>
+                {features.map((item, i) => (
+                  <PersonInfo>
+                    <PersonNameText>
+                      {item.node.frontmatter.personName}
+                    </PersonNameText>
+                    <PersonRoleText>
+                      {item.node.frontmatter.personRole}
+                    </PersonRoleText>
+                  </PersonInfo>
+                ))}
                 <div>
                   <ScoreName active>Score</ScoreName>
-                  <ScoreText active>{this.state.score2}</ScoreText>
+                  <ScoreText active>96</ScoreText>
                 </div>
               </PersonaBox2>
               <img src={personTwo} />;
@@ -299,7 +283,7 @@ class BannerSection extends React.PureComponent {
                 <PersonaBox3>
                   <div>
                     <ScoreName>Score</ScoreName>
-                    <ScoreText>{this.state.score3}</ScoreText>
+                    <ScoreText>35</ScoreText>
                   </div>
                 </PersonaBox3>
                 <MarginImage src={personThree} />
@@ -316,9 +300,9 @@ class BannerSection extends React.PureComponent {
             </RowView>
           </PersonaContainer>
         </BannerContainer>
-      </Wrapper>
-    )
-  }
+      )}
+    </Wrapper>
+  )
 }
 
 export default BannerSection
