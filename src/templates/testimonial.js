@@ -16,6 +16,11 @@ const Title = H1.extend`
   margin-top: 91px;
 `
 
+const Summary = H6.extend`
+  margin: 10px auto;
+  font-weight: 400;
+`
+
 const ContentWrapper = styled.div`
   padding: 50px 0;
 `
@@ -36,8 +41,8 @@ export default function Template({ data }) {
   )
 }
 
-export const FaqQuery = graphql`
-  query faq($path: String!) {
+export const TestimoinalQuery = graphql`
+  query testimoinal($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

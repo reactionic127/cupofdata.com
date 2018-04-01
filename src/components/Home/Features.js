@@ -33,17 +33,20 @@ const FeatureContent = H6.extend`
     margin-bottom: 1rem;
   }
 `
+
 const LearnMore = Button.extend`
   @media screen and (max-width: 576px) {
     display: none;
   }
 `
+
 const FeatureRow = Row.extend`
   position: relative;
   @media screen and (max-width: 768px) {
     flex-wrap: wrap-reverse;
   }
 `
+
 const UL = styled.ul`
   padding: 0 1rem;
   list-style: none;
@@ -54,6 +57,7 @@ const UL = styled.ul`
     padding-bottom: 200px;
   }
 `
+
 const LI = styled.li`
   display: inline-flex !important;
   ::before {
@@ -61,6 +65,7 @@ const LI = styled.li`
     line-height: 25px;
   }
 `
+
 const ImgCol = Col.extend`
   position: absolute;
   @media screen and (max-width: 767px) {
@@ -74,12 +79,14 @@ const ImgCol = Col.extend`
     height: 90vw;
   }
 `
+
 const ContentCol = Col.extend`
   margin-left: 50%;
   @media screen and (max-width: 767px) {
     margin-left: 0;
   }
 `
+
 const Img = styled.img`
   @media screen and (max-width: 997px) {
     width: 100%;
@@ -91,42 +98,36 @@ const Img = styled.img`
     width: 100%;
   }
 `
-const FeaturesView = () => (
-  <Wrapper>
-    <Title>Features</Title>
-    <Container>
-      <FeatureRow>
-        <ImgCol xs="12" sm="6">
-          <Img src={imageDesktop} />
-        </ImgCol>
-        <ContentCol xs="12" sm="6">
-          <UL>
-            <LI className="fa">
-              <FeatureContent>
-                Quickly identify relevant accounts and contacts
-              </FeatureContent>
-            </LI>
-            <LI className="fa">
-              <FeatureContent>
-                Improve prospect quality scores with machine learning
-              </FeatureContent>
-            </LI>
-            <LI className="fa">
-              <FeatureContent>
-                Obtain insights on how to engage contacts with context
-              </FeatureContent>
-            </LI>
-            <LI className="fa">
-              <FeatureContent>
-                Trigger targeted engagements using your existing Martech stack
-              </FeatureContent>
-            </LI>
-          </UL>
-          {/*<LearnMore>Learn More</LearnMore>*/}
-        </ContentCol>
-      </FeatureRow>
-    </Container>
-  </Wrapper>
-)
 
-export default FeaturesView
+const Features = data => {
+  const features = data.data.filter(item => {
+    return item.node.frontmatter.contentType == 'feature'
+  })
+  return (
+    <Wrapper>
+      <Title>Features</Title>
+      {features && (
+        <Container>
+          <FeatureRow>
+            <ImgCol xs="12" sm="6">
+              <Img src={imageDesktop} />
+            </ImgCol>
+            <ContentCol xs="12" sm="6">
+              <UL>
+                {features.map((item, i) => (
+                  <LI className="fa">
+                    <FeatureContent>
+                      {item.node.frontmatter.description}
+                    </FeatureContent>
+                  </LI>
+                ))}
+              </UL>
+            </ContentCol>
+          </FeatureRow>
+        </Container>
+      )}
+    </Wrapper>
+  )
+}
+
+export default Features

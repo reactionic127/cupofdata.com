@@ -11,16 +11,20 @@ const Wrapper = styled.div`
   background: #f7f5fa;
   text-align: center;
 `
+
 const Title = H1.extend`
   margin-top: 91px;
 `
-const Summary = H6.extend`
+
+const Description = H6.extend`
   margin: 10px auto;
   font-weight: 400;
 `
+
 const ContentWrapper = styled.div`
   padding: 50px 0;
 `
+
 export default function Template({ data }) {
   const { markdownRemark: post } = data
   return (
@@ -37,12 +41,13 @@ export default function Template({ data }) {
   )
 }
 
-export const TestimoinalQuery = graphql`
-  query testimoinal($path: String!) {
+export const FeatureQuery = graphql`
+  query feature($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         title
+        description
       }
     }
     site {

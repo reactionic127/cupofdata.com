@@ -39,15 +39,18 @@ const Img = styled.img`
   transform: translateX(-50%);
   width: 50px;
 `
+
 const BannerCol = Col.extend`
   @media screen and (max-width: 576px) {
     width: 80%;
     margin: 0 auto;
   }
 `
+
 const Title = H5.extend`
   font-weight: 600;
 `
+
 const SubTitle = H6.extend`
   font-weight: 500;
 `

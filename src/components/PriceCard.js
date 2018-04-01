@@ -18,6 +18,7 @@ const PlanCard = styled.div`
       border: none;
     `};
 `
+
 const PlanTitle = P.extend`
   font-weight: 600;
   padding: 5px 0;
@@ -25,12 +26,14 @@ const PlanTitle = P.extend`
   background-color: #f5f7fa;
   border-bottom: 1px solid rgba(44, 51, 59, 0.2);
 `
+
 const Price = H1.extend`
   margin-top: 1.5rem;
   font-weight: 400;
   font-family: Avenir;
   letter-spacing: 0.02em;
 `
+
 const PriceMode = P.extend`
   font-size: 12px;
   line-height: 16px;
@@ -38,10 +41,12 @@ const PriceMode = P.extend`
   margin-bottom: 2.5rem;
   letter-spacing: 0.1em;
 `
+
 const PriceDetail = H6.extend`
   margin-bottom: 1.5rem;
   font-weight: 500;
 `
+
 const TryButton = Button.extend`
   display: inline-block;
   text-decoration: none;
@@ -56,6 +61,7 @@ const CardHeader = styled.div`
   padding: 46px 0 29px 0;
   margin-bottom: 2rem;
 `
+
 const EnterpriseTitle = styled.h4`
   font-size: 22px;
   font-family: Avenir;
@@ -64,6 +70,7 @@ const EnterpriseTitle = styled.h4`
   letter-spacing: 0.15em;
   text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.05);
 `
+
 const PriceCard = props => (
   <PlanCard enterpriseMode={props.enterprise}>
     {props.enterprise ? (

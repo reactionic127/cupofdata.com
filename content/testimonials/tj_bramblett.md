@@ -1,5 +1,5 @@
 ---
-contentType: testimonials
+contentType: testimonial
 title: TJ Bramblett
 path: /tj-bramblett
 position: 'Founder, MarkUp'

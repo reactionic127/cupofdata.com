@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   padding: 50px 0 90px 0;
   background: #f5f7fa;
 `
+
 const Title = H3.extend`
   font-size: 30px;
   line-height: 35px;
@@ -16,6 +17,7 @@ const Title = H3.extend`
     padding: 0 2rem;
   }
 `
+
 const Content = Container.extend`
   margin-top: 60px;
   column-count: 2;
@@ -28,17 +30,20 @@ const Content = Container.extend`
     padding: 0 2rem;
   }
 `
+
 const QASection = styled.div`
   margin-bottom: 40px;
   break-inside: avoid;
   display: inline-block;
 `
+
 const Question = styled.h4`
   font-size: 20px;
   line-height: 24px;
   text-align: left;
   font-family: GTWalsheim;
 `
+
 const Answer = styled.div`
   h5 {
     margin-top: 0.5rem;
@@ -65,4 +70,5 @@ const FaqSection = ({ faqs }) => (
     )}
   </Wrapper>
 )
+
 export default FaqSection

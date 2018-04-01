@@ -6,6 +6,7 @@ export const H1 = styled.h1`
   font-family: GTWalsheim;
   margin: 0;
 `
+
 export const H2 = styled.h2`
   font-size: 40px;
   line-height: 48px;
@@ -17,16 +18,19 @@ export const H2 = styled.h2`
     line-height: 28px;
   }
 `
+
 export const H3 = styled.h3`
   font-size: 36px;
   margin: 0;
   color: #000000;
 `
+
 export const H4 = styled.h4`
   font-size: 24px;
   line-height: 28px;
   margin: 0;
 `
+
 export const H5 = styled.h5`
   font-size: 18px;
   line-height: 30px;
@@ -37,6 +41,7 @@ export const H5 = styled.h5`
     line-height: 26px;
   }
 `
+
 export const H6 = styled.h6`
   font-size: 16px;
   line-height: 26px;
@@ -47,6 +52,7 @@ export const H6 = styled.h6`
     line-height: 23px;
   }
 `
+
 export const P = styled.p`
   font-size: 14px;
   line-height: 29px;

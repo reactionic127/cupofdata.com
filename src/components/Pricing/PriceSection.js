@@ -8,25 +8,30 @@ import PriceCard from '../PriceCard'
 const PriceSection = styled.div`
   padding: 90px 0;
 `
+
 const PriceTitle = H1.extend`
   margin-top: 3rem;
   @media screen and (max-width: 576px) {
     font-size: 24px;
   }
 `
+
 const NoteText = H5.extend`
   font-weight: 400;
 `
+
 const PlanGroup = styled.div`
   padding: 2rem 0 0;
   margin-top: 0.5rem;
   text-align: center;
 `
+
 const Discount = Small.extend`
   color: #ff842b;
   margin-left: 0.5rem;
   letter-spacing: 0;
 `
+
 const Announcment = P.extend`
   padding: 0.5rem 1rem;
   background: #d7fce5;
@@ -34,6 +39,7 @@ const Announcment = P.extend`
   color: #1ebb63;
   border-radius: 1rem;
 `
+
 export default class PlanSections extends React.Component {
   constructor(props) {
     super(props)
