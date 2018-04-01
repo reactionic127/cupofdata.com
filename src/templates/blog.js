@@ -50,6 +50,7 @@ const MainSection = styled.div`
     bottom: 0;
   }
 `
+
 const HeaderSection = styled.div`
   position: absolute;
   width: 50%;
@@ -69,6 +70,7 @@ const BlogContainer = Container.extend`
     margin: 1rem 0;
   }
 `
+
 export default function Template({ data }) {
   const { markdownRemark: post } = data
   const related = post.frontmatter.related

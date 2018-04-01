@@ -7,7 +7,7 @@ import Link, { withPrefix } from 'gatsby-link'
 
 import backgroundNews from '../../img/bk-news.png'
 
-const Warpper = styled.div`
+const Wrapper = styled.div`
   padding: 50px 0;
   text-align: center;
   position: relative;
@@ -85,7 +85,7 @@ const NewsView = ({ data }) => {
     )
   })
   return (
-    <Warpper>
+    <Wrapper>
       <NewsSectionTitle>In the news</NewsSectionTitle>
       {news && (
         <Container>
@@ -109,7 +109,7 @@ const NewsView = ({ data }) => {
           </NewsRow>
         </Container>
       )}
-    </Warpper>
+    </Wrapper>
   )
 }
 

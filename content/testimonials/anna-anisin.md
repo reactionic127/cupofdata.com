@@ -1,5 +1,5 @@
 ---
-contentType: testimonials
+contentType: testimonial
 title: Anna Anisin
 path: /anna-anisin
 position: 'Founder, Formulated.by'

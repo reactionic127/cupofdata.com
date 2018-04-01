@@ -29,11 +29,13 @@ const Wrapper = styled.div`
     height: 680px;
   }
 `
+
 const BannerView = styled.div`
   position: relative;
   padding-top: 130px;
   padding-bottom: 230px;
 `
+
 const Header = H3.extend`
   color: #fff;
   font-family: GTWalsheim;
@@ -42,23 +44,27 @@ const Header = H3.extend`
     line-height: 28px;
   }
 `
+
 const Title = H6.extend`
   color: #fff;
   font-weight: 400;
   max-width: 560px;
   margin-bottom: 26px;
 `
+
 const BannerContainer = Container.extend`
   padding-top: 144px;
   height: 100%;
   position: relative;
 `
+
 const BackImg = styled.img`
   position: absolute;
   bottom: -1px;
   right: 0;
   width: 140px;
 `
+
 const PersonaContainer = styled.div`
   position: absolute;
   bottom: -7px;
@@ -72,6 +78,7 @@ const PersonaContainer = styled.div`
     transform: translateX(-50%);
   }
 `
+
 const Personal = styled.div`
   position: relative;
   display: flex;
@@ -83,6 +90,7 @@ const Personal = styled.div`
     }
   }
 `
+
 const PersonaBox = styled.div`
   position: absolute;
   padding: 0 10px;
@@ -107,6 +115,7 @@ const PersonaBox = styled.div`
     min-width: 40px;
   }
 `
+
 const PersonaBox1 = PersonaBox.extend`
   top: 0;
   left: 0;
@@ -114,6 +123,7 @@ const PersonaBox1 = PersonaBox.extend`
     top: 40px;
   }
 `
+
 const PersonaBox2 = PersonaBox.extend`
   background: #4a4a4a;
   top: 0;
@@ -126,6 +136,7 @@ const PersonaBox2 = PersonaBox.extend`
     left: -20px;
   }
 `
+
 const PersonaBox3 = PersonaBox.extend`
   top: 40px;
   left: -20px;
@@ -135,6 +146,7 @@ const PersonaBox3 = PersonaBox.extend`
     left: 10px;
   }
 `
+
 const PersonaBox4 = PersonaBox.extend`
   top: 70px;
   left: 70px;
@@ -143,12 +155,14 @@ const PersonaBox4 = PersonaBox.extend`
     left: 20px;
   }
 `
+
 const PersonInfo = styled.div`
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 `
+
 const PersonNameText = styled.small`
   font-size: 8px;
   line-height: 11px;
@@ -156,6 +170,7 @@ const PersonNameText = styled.small`
   font-family: Avenir;
   font-weight: 500;
 `
+
 const PersonRoleText = styled.small`
   font-size: 7px;
   line-height: 10px;
@@ -163,6 +178,7 @@ const PersonRoleText = styled.small`
   font-family: Avenir;
   font-weight: 400;
 `
+
 const BlankView = styled.div`
   width: ${props => `${props.width}px`};
   background: rgba(0, 0, 0, 0.2);
@@ -182,6 +198,7 @@ const BlankView = styled.div`
     margin-bottom: 10px;
   }
 `
+
 const ScoreName = styled.small`
   font-size: 6px;
   font-family: 8px;
@@ -190,6 +207,7 @@ const ScoreName = styled.small`
   padding-top: 7px;
   color: ${props => (props.active ? '#fff' : 'rgba(0,0,0,0.2)')};
 `
+
 const ScoreText = P.extend`
   color: ${props => (props.active ? '#fff' : 'rgba(0,0,0,0.2)')};
   @media screen and (max-width: 576px) {
@@ -197,15 +215,18 @@ const ScoreText = P.extend`
     line-height: 14px;
   }
 `
+
 const MarginImage = styled.img`
   margin-right: -10px;
   @media screen and (max-width: 576px) {
     margin-right: -30px;
   }
 `
+
 const RowView = styled.div`
   display: flex;
 `
+
 class BannerSection extends React.PureComponent {
   constructor() {
     super()

@@ -9,6 +9,7 @@ const MainSection = styled.div`
   padding-top: 94px;
   height: fit-content;
 `
+
 const Card = styled(Link)`
   display: block;
   text-decoration: none;
@@ -21,26 +22,31 @@ const Card = styled(Link)`
     transform: scale(1.02);
   }
 `
+
 const BlogContainer = Container.extend`
   height: 100%;
   box-sizing: border-box;
 `
+
 const BlogRow = Row.extend`
   height: 100%;
   align-items: center;
 `
+
 const Topic = styled.h2`
   font-size: 24px;
   line-height: 31px;
   font-family: GTWalsheim;
   margin-top: 30px;
 `
+
 const TimeStamp = styled.h5`
   font-family: Avenir;
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.2);
 `
+
 const Summary = styled.p`
   font-family: Avenir;
   font-size: 16px;
@@ -53,10 +59,12 @@ const Summary = styled.p`
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 `
+
 const LoadBtn = Button.extend`
   display: block;
   margin: 50px auto 73px;
 `
+
 const BlogMaster = ({ data }) => {
   const { allMarkdownRemark: post } = data
   const blog = post.edges.filter(

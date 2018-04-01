@@ -99,9 +99,11 @@ const MobileNav = styled.div`
     margin-right: 30px;
   }
 `
+
 const Toggle = styled.a`
   cursor: pointer;
 `
+
 const ToggleSpan = styled.span`
   cursor: pointer;
   border-radius: 1px;
@@ -149,6 +151,7 @@ const ToggleSpan = styled.span`
       }
     `};
 `
+
 const LogoImg = styled.div`
   width: 120px;
   background: url(${logoImgDark});

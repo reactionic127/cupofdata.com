@@ -31,7 +31,7 @@ const TestimonialsRow = Row.extend`
 
 const Testimonials = data => {
   const testimonials = data.data.filter(item => {
-    return item.node.frontmatter.contentType === 'testimonials'
+    return item.node.frontmatter.contentType === 'testimonial'
   })
   return (
     <Wrapper>

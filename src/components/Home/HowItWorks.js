@@ -19,6 +19,7 @@ const Wrapper = styled.div`
     }
   }
 `
+
 const Title = H2.extend`
   margin-bottom: 1em;
   font-family: GTWalsheim;
@@ -30,9 +31,11 @@ const Title = H2.extend`
     margin-bottom: 40px;
   }
 `
+
 const VideoCol = Col.extend`
   margin: 0 auto;
 `
+
 const ResponsiveVideo = styled.div`
   position: relative;
   padding-bottom: 51.5%;
@@ -50,7 +53,8 @@ const ResponsiveVideo = styled.div`
     height: 100%;
   }
 `
-const FeaturesView = () => (
+
+const HowItWorks = () => (
   <Wrapper>
     <Helmet>
       <script
@@ -78,4 +82,4 @@ const FeaturesView = () => (
   </Wrapper>
 )
 
-export default FeaturesView
+export default HowItWorks

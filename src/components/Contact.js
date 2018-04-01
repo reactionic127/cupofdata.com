@@ -53,19 +53,23 @@ const ShareIcon = styled.div`
   margin-top: 2rem;
   line-height: 3rem;
 `
+
 const SpCol = Col.extend`
   @media screen and (max-width: 576px) {
     padding: 0 2rem;
   }
 `
+
 const MainCol = SpCol.extend`
   @media screen and (max-width: 576px) {
     text-align: center;
   }
 `
+
 const A = styled.a`
   color: #ffffff;
 `
+
 const ContactSection = ({ company, menus, title }) => (
   <Wrapper>
     <Container>
