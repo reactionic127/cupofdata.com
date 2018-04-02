@@ -6,6 +6,20 @@ media_folder: "/static/files/images"
 public_folder: "/files/images"
 
 collections:
+  - name: "banner"
+    label: "Banner"
+    folder: "content/home-banner"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "banner"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Header", name: "header", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Button", name: "button", widget: "string"}
+      - {label: "Person Name", name: "personName", widget: "string"}
+      - {label: "Person Role", name: "personRole", widget: "string"}
+
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
