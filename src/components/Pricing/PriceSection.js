@@ -56,8 +56,7 @@ export default class PlanSections extends React.Component {
             Turbocharge your SaaS B2B sales with machine learning.
           </PriceTitle>
           <NoteText>
-            Introductory offer! Get 100 targeted and validated B2B leads. No
-            credit card required.*
+            Schedule a demo with us today and obtain some free B2B leads, on us!
           </NoteText>
           <PlanGroup>
             <Announcment>GET 2 MONTHS FREE WITH ANNUAL PLAN</Announcment>
