@@ -7,12 +7,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: '@raygesualdo/gatsby-plugin-settings',
-      options: {
-        path: `${__dirname}/settings`,
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,

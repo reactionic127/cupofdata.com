@@ -133,8 +133,5 @@ export const pageQuery = graphql`
         title
       }
     }
-    ...FooterSettingsFragment
-    ...ContactSettingsFragment
-    ...NavbarSettingsFragment
   }
 `
