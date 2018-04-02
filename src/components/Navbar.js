@@ -200,7 +200,6 @@ export default class NavContainer extends React.Component {
     })
   }
   render() {
-    const { header } = this.props.menus
     return (
       <Navbar>
         <NavSection>
@@ -213,29 +212,29 @@ export default class NavContainer extends React.Component {
             </Toggle>
           </MobileNav>
           <NavWrapper active={this.state.collapsible}>
-            {header.map(item => (
-              <NavItem key={item.title}>
-                <NavLink to={item.to} onClick={this.moveTo}>
-                  {item.title}
-                </NavLink>
-              </NavItem>
-            ))}
+            <NavItem>
+              <NavLink to="/pricing" onClick={this.moveTo}>
+                Pricing
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/about" onClick={this.moveTo}>
+                About
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/blog" onClick={this.moveTo}>
+                Blog
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/onboard" onClick={this.moveTo}>
+                Get Started
+              </NavLink>
+            </NavItem>
           </NavWrapper>
         </NavSection>
       </Navbar>
     )
   }
 }
-
-export const navbarFragment = graphql`
-  fragment NavbarSettingsFragment on RootQueryType {
-    navbarSettings: siteSettings {
-      menus {
-        header {
-          title
-          to
-        }
-      }
-    }
-  }
-`
