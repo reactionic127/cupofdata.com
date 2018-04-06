@@ -63,6 +63,7 @@ const Summary = styled.p`
 const LoadBtn = Button.extend`
   display: block;
   margin: 50px auto 73px;
+  background: black;
 `
 
 const BlogMaster = ({ data }) => {
@@ -70,6 +71,7 @@ const BlogMaster = ({ data }) => {
   const blog = post.edges.filter(
     post => post.node.frontmatter.contentType === 'blog'
   )
+  console.log('blg', blog)
   return (
     <div>
       <Helmet title={`Blog | ${data.site.siteMetadata.title}`} />
