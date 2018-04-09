@@ -9,6 +9,9 @@ summary: >-
 author: Greg Werner
 postimage: /files/images/filght_sim.jpg
 newsFlag: false
+tags:
+    - Engineering
+    - Marketing
 ---
 First of all, I need to start doing some shout outs! Thank you, [Ken Chow](https://www.linkedin.com/in/techmarketingleader/), [Chris Gosselin](https://www.linkedin.com/in/chrisgosselinusafvet/), [Christina Ellwood](https://www.linkedin.com/in/christinaellwood/), [Anna Yong](https://www.linkedin.com/in/4everfusion/), [Marko Savic](https://www.linkedin.com/in/savicmarko/), [Lisbeth McNabb](https://www.linkedin.com/in/lisbethmcnabb/), and [Glenn Fossella](https://www.linkedin.com/in/glenfossella/) for taking a few moments out of your busy days to provide us with some insights!
 

@@ -10,17 +10,14 @@ const MainSection = styled.div`
   height: fit-content;
 `
 
-const Card = styled(Link)`
+const Card = styled.div`
   display: block;
   text-decoration: none;
   padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 780px;
   margin: 1rem auto;
-  transition: transform 0.2s;
-  :hover {
-    transform: scale(1.02);
-  }
+  cursor: default;
 `
 
 const BlogContainer = Container.extend`
@@ -66,6 +63,25 @@ const LoadBtn = Button.extend`
   background: black;
 `
 
+const TagsView = styled.div`
+  width: 100%;
+  margin-top: 20px;
+`
+
+const TagCard = styled.span`
+  margin-right: 20px;
+  color: #f7a046;
+  cursor: pointer;
+`
+
+const ReadMore = styled(Link)`
+  color: #5d93ff;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+`
+
 const BlogMaster = ({ data }) => {
   const { allMarkdownRemark: post } = data
   const blog = post.edges.filter(
@@ -79,9 +95,16 @@ const BlogMaster = ({ data }) => {
         {blog && (
           <Container>
             {blog.map(({ node: post }, i) => (
-              <Card key={i} to={post.frontmatter.path}>
+              <Card key={i}>
                 <BlogContainer>
                   <BlogRow>
+                    <Col xs="12" sm="12">
+                      <TagsView>
+                        {post.frontmatter.tags.map((tag, i) => (
+                          <TagCard>{tag}</TagCard>
+                        ))}
+                      </TagsView>
+                    </Col>
                     <Col xs="12" sm="7">
                       <Topic>{post.frontmatter.title}</Topic>
                       <TimeStamp>
@@ -91,6 +114,9 @@ const BlogMaster = ({ data }) => {
                     </Col>
                     <Col xs="12" sm="5">
                       <img src={post.frontmatter.postimage} width="100%" />
+                    </Col>
+                    <Col xs="12" sm="12">
+                      <ReadMore to={post.frontmatter.path}>Read more</ReadMore>
                     </Col>
                   </BlogRow>
                 </BlogContainer>
@@ -120,6 +146,7 @@ export const blogMasterQuery = graphql`
             summary
             author
             postimage
+            tags
           }
         }
       }

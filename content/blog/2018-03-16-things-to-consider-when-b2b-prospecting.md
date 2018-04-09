@@ -12,6 +12,9 @@ summary: >-
 author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
 newsFlag: false
+tags:
+    - Engineering
+    - B2B
 ---
 # Identifying and Qualifying B2B Leads
 
