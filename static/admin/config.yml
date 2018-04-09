@@ -35,11 +35,7 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "PostImage", name: "postimage", widget: "file"}
       - {label: "NewsFlag", name: "newsFlag", widget: "boolean"}
-      - label: Tags
-        name: tags
-        widget: list
-        fields:
-          - {widget: string}
+      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "about"
     label: "About"
