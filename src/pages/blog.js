@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import _ from 'lodash'
 import { Container, Row, Col } from '../components/Layout'
 import Button from '../components/Button'
 
@@ -68,14 +69,16 @@ const TagsView = styled.div`
   margin-top: 20px;
 `
 
-const TagCard = styled.span`
+const TagCard = styled(Link)`
   margin-right: 20px;
-  color: #f7a046;
+  text-decoration: none;
+  color: #f7901d;
   cursor: pointer;
+  display: inline-block;
 `
 
 const ReadMore = styled(Link)`
-  color: #5d93ff;
+  color: #4ab1f4;
   cursor: pointer;
   margin-top: 20px;
   display: block;
@@ -87,7 +90,6 @@ const BlogMaster = ({ data }) => {
   const blog = post.edges.filter(
     post => post.node.frontmatter.contentType === 'blog'
   )
-  console.log('blg', blog)
   return (
     <div>
       <Helmet title={`Blog | ${data.site.siteMetadata.title}`} />
@@ -101,7 +103,12 @@ const BlogMaster = ({ data }) => {
                     <Col xs="12" sm="12">
                       <TagsView>
                         {post.frontmatter.tags.map((tag, i) => (
-                          <TagCard>{tag}</TagCard>
+                          <TagCard
+                            key={i}
+                            to={`/blog/tags/${_.kebabCase(tag)}`}
+                          >
+                            {tag}
+                          </TagCard>
                         ))}
                       </TagsView>
                     </Col>
