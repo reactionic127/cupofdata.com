@@ -39,7 +39,7 @@ collections:
         name: tags
         widget: list
         fields:
-          - {label: tag, name: name, widget: string}
+          - {widget: string}
 
   - name: "about"
     label: "About"
