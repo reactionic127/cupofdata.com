@@ -13,6 +13,9 @@ author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
 newsFlag: false
 tags:
+    - programming
+    - stuff
+    - other
 ---
 # Identifying and Qualifying B2B Leads
 

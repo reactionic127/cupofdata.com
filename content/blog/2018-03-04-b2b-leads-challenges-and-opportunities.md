@@ -13,6 +13,9 @@ author: The Cup of Data Team
 postimage: /files/images/don_datanerd.gif
 newsFlag: false
 tags:
+    - programming
+    - stuff
+    - other
 ---
 # Leads at B2B SaaS Companies: Challenges and Opportunities
 
