@@ -13,8 +13,6 @@ author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
 newsFlag: false
 tags:
-    - Challenge
-    - Sales
 ---
 # Identifying and Qualifying B2B Leads
 

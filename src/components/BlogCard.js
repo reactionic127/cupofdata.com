@@ -73,13 +73,14 @@ const ReadMore = styled(Link)`
 `
 
 const BlogCard = ({ post }) => {
+  const Tags = (post.frontmatter && post.frontmatter.tags) || []
   return (
     <Card>
       <BlogContainer>
         <BlogRow>
           <Col xs="12" sm="12">
             <TagsView>
-              {post.frontmatter.tags.map((tag, i) => (
+              {Tags.map((tag, i) => (
                 <TagCard key={i} to={`/blog/tags/${_.kebabCase(tag)}`}>
                   {tag}
                 </TagCard>

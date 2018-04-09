@@ -11,7 +11,8 @@ const MainSection = styled.div`
 
 const TagTemplate = ({ data, pathContext }) => {
   const tag = pathContext.tag
-  const postEdges = data.allMarkdownRemark.edges
+  const postEdges =
+    (data.allMarkdownRemark && data.allMarkdownRemark.edges) || []
   return (
     <div>
       <Helmet title={`Tagged in ${tag}`} />
