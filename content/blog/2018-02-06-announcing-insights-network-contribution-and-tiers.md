@@ -10,6 +10,8 @@ summary: >-
 author: Greg Werner
 postimage: /files/images/res2.jpg
 newsFlag: false
+tags:
+  - Artificial Intelligence
 ---
 As of this writing, we have spoken to about **150 VPs of Marketing and CMOs** from around the country, and have gotten more feedback in writing with the LinkedIn messenger. The questions I'm asking are very general and sometimes hard to answer concisely, but it gives us a good feel for how versed marketers are with what **Artificial Intelligence (AI)** means, exactly, and what the differences are between AI and Machine Learning and Deep Learning.
 
