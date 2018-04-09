@@ -101,11 +101,6 @@ export default function Template({ data }) {
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
-    site {
-      siteMetadata {
-
-      }
-    }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
