@@ -1,20 +1,32 @@
 import React from 'react'
+import styled from 'styled-components'
+import Helmet from 'react-helmet'
+import { Container } from '../components/Layout'
+import BlogCard from '../components/BlogCard'
 
-export default class TagTemplate extends React.Component {
-  render() {
-    const tag = this.props.pathContext.tag
-    const postEdges = this.props.data.allMarkdownRemark.edges
-    console.log('tags page is rendered', tag, postEdges)
-    return (
-      <div>
-        {/* <PostListing postEdges={postEdges} /> */}
-        adsfasdfasdfasdfasdfasdf
-      </div>
-    )
-  }
+const MainSection = styled.div`
+  padding-top: 94px;
+  height: fit-content;
+`
+
+const TagTemplate = ({ data, pathContext }) => {
+  const tag = pathContext.tag
+  const postEdges = data.allMarkdownRemark.edges
+  return (
+    <div>
+      <Helmet title={`Tagged in ${tag}`} />
+      <MainSection>
+        <Container>
+          {postEdges.map(({ node: post }, i) => (
+            <BlogCard key={i} post={post} />
+          ))}
+        </Container>
+      </MainSection>
+    </div>
+  )
 }
+export default TagTemplate
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
     allMarkdownRemark(
@@ -24,12 +36,16 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          excerpt(pruneLength: 400)
+          id
           frontmatter {
-            contentType
             title
-            path
-            postimage
+            contentType
             date(formatString: "MMMM DD, YYYY")
+            path
+            summary
+            author
+            postimage
             tags
           }
         }
