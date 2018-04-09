@@ -95,13 +95,6 @@ export default function Template({ data }) {
           </CardGroup>
         </Container>
       )}
-
-      {data.site.siteMetadata.disqus && (
-        <Container>
-          <hr />
-          <div id="disqus_thread" />
-        </Container>
-      )}
     </div>
   )
 }
@@ -110,10 +103,9 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     site {
       siteMetadata {
-        disqus
+
       }
     }
-
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
@@ -124,7 +116,6 @@ export const pageQuery = graphql`
         postimage
       }
     }
-
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
