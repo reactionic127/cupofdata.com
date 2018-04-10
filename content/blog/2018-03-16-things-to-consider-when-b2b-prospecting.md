@@ -13,8 +13,8 @@ author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
 newsFlag: false
 tags:
-  - name: B2B
-  - name: Prospecting
+  - name: Sales
+  - name: Marketing
 ---
 # Identifying and Qualifying B2B Leads
 
