@@ -72,7 +72,7 @@ const ReadMore = styled(Link)`
   text-decoration: none;
 `
 
-const BlogCard = ({ post }) => {
+export const BlogCard = ({ post }) => {
   const Tags = (post.frontmatter && post.frontmatter.tags) || []
   return (
     <Card>
