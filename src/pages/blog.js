@@ -54,7 +54,9 @@ export const blogMasterQuery = graphql`
             summary
             author
             postimage
-            tags
+            tags {
+              name
+            }
           }
         }
       }

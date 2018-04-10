@@ -81,8 +81,8 @@ const BlogCard = ({ post }) => {
           <Col xs="12" sm="12">
             <TagsView>
               {Tags.map((tag, i) => (
-                <TagCard key={i} to={`/blog/tags/${_.kebabCase(tag)}`}>
-                  {tag}
+                <TagCard key={i} to={`/blog/tags/${_.kebabCase(tag.name)}`}>
+                  {tag.name}
                 </TagCard>
               ))}
             </TagsView>

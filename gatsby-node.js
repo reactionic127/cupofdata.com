@@ -19,7 +19,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               path
               date
               title
-              tags
+              tags {
+                name
+              }
             }
           }
         }
@@ -41,9 +43,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     })
     const tagSet = new Set()
     result.data.allMarkdownRemark.edges.forEach(edge => {
-      if (edge.node.frontmatter && edge.node.frontmatter.tags) {
+      if (edge.node.frontmatter.tags) {
         edge.node.frontmatter.tags.forEach(tag => {
-          tagSet.add(tag)
+          tagSet.add(tag.name)
         })
       }
     })

@@ -36,6 +36,11 @@ collections:
       - {label: "PostImage", name: "postimage", widget: "file"}
       - {label: "NewsFlag", name: "newsFlag", widget: "boolean"}
       - {label: "Tags", name: "tags", widget: "list", default: ["tag"]}
+      - label: Tags
+        name: tags
+        widget: list
+        fields:
+          - {label: Tag, name: name, widget: string }
 
   - name: "about"
     label: "About"
