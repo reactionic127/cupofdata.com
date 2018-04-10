@@ -13,8 +13,8 @@ author: The Cup of Data Team
 postimage: /files/images/don_datanerd.gif
 newsFlag: false
 tags:
-  - name: Opportunity
-  - name: Challenge
+  - name: Sales
+  - name: Marketing
 ---
 # Leads at B2B SaaS Companies: Challenges and Opportunities
 

@@ -1,4 +1,5 @@
 const path = require('path')
+const _ = require('lodash')
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
@@ -18,6 +19,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               path
               date
               title
+              tags {
+                name
+              }
             }
           }
         }
@@ -27,6 +31,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
+    const tagPage = path.resolve('src/templates/tag.js')
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
@@ -34,6 +39,24 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           `src/templates/${String(node.frontmatter.contentType)}.js`
         ),
         context: {}, // additional data can be passed via context
+      })
+    })
+    const tagSet = new Set()
+    result.data.allMarkdownRemark.edges.forEach(edge => {
+      if (edge.node.frontmatter.tags) {
+        edge.node.frontmatter.tags.forEach(tag => {
+          tagSet.add(tag.name)
+        })
+      }
+    })
+    const tagList = Array.from(tagSet)
+    tagList.forEach(tag => {
+      createPage({
+        path: `/blog/tags/${_.kebabCase(tag)}/`,
+        component: tagPage,
+        context: {
+          tag,
+        },
       })
     })
   })
