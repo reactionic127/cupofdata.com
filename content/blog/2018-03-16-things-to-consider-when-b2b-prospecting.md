@@ -13,8 +13,8 @@ author: The Cup of Data Team
 postimage: /files/images/process_chart.gif
 newsFlag: false
 tags:
-  - name: Enginnering
-  - name: Science
+  - name: B2B
+  - name: Prospecting
 ---
 # Identifying and Qualifying B2B Leads
 
