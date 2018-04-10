@@ -15,7 +15,7 @@ newsFlag: false
 tags:
   - name: Sales
   - name: Marketing
-
+---
 # Leads at B2B SaaS Companies: Challenges and Opportunities
 
 ## Abstract
