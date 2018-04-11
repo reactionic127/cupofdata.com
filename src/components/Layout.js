@@ -14,6 +14,8 @@ export const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
+  word-break: break-word;
+  word-wrap: break-word;
   ${props =>
     props.fluid &&
     css`
