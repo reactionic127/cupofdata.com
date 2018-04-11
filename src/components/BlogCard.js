@@ -35,9 +35,9 @@ const BlogRow = Row.extend`
 `
 
 const Topic = styled.h2`
-  font-size: 24px;
-  line-height: 31px;
-  font-family: GTWalsheim;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: Avenir;
   margin-top: 30px;
 `
 
