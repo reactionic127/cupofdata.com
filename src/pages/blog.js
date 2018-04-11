@@ -10,6 +10,7 @@ import Button from '../components/Button'
 const MainSection = styled.div`
   padding-top: 94px;
   height: fit-content;
+  background: rgb(251, 250, 252);
 `
 
 const LoadBtn = Button.extend`
