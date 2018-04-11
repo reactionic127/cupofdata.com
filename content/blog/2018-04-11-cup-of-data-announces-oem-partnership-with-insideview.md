@@ -9,7 +9,7 @@ summary: >-
 
   for SaaS B2B sellers and marketers.
 author: Cup of Data Team
-postimage: /files/images/cod_plus_insideview.png
+postimage: /files/images/cod_insideveiw-01.png
 newsFlag: true
 tags:
   - name: News
