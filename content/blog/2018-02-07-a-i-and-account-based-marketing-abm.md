@@ -12,9 +12,8 @@ author: Greg Werner
 postimage: /files/images/flip-my-funnel.jpg
 newsFlag: false
 tags:
-  - name: Enginnering
-  - name: Computer
-    
+  - name: Account Based Marketing
+  - name: Artificial Intelligence
 ---
 I keep getting floored with how generous this community is! So many people have been so gracious with their time and it's very humbling. This week, we'd like to point out some more insights from the amazing Marketers and Sales Leaders we have engaged with.
 
