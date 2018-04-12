@@ -20,8 +20,8 @@ const IndexPage = ({ data }) => (
     <Benefits />
     <News data={data.allMarkdownRemark.edges} />
     <Testimonials data={data.allMarkdownRemark.edges} />
-    <Contact data={data.allMarkdownRemark.edges} />
     <AutomatedMarketing />
+    <Contact data={data.allMarkdownRemark.edges} />
   </div>
 )
 
