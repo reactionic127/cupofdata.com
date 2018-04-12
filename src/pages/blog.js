@@ -31,7 +31,7 @@ const BlogMaster = ({ data }) => {
         {blog && (
           <Container>
             {blog.map(({ node: post }, i) => <BlogCard key={i} post={post} />)}
-            <LoadBtn outline>Load more</LoadBtn>
+            <LoadBtn>Load more</LoadBtn>
           </Container>
         )}
       </MainSection>

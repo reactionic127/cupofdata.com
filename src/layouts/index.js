@@ -82,12 +82,7 @@ export default class TemplateWrapper extends React.Component {
     })
   }
   render() {
-    const {
-      site,
-      contactSettings,
-      footerSettings,
-      navbarSettings,
-    } = this.props.data
+    const { site, footerSettings, navbarSettings } = this.props.data
     return (
       <ThemeProvider theme={this.state.theme}>
         <div className="App">
@@ -109,10 +104,6 @@ export default class TemplateWrapper extends React.Component {
           <div className="pageContent">{this.props.children()}</div>
           {!this.state.hideNav && (
             <div>
-              <ContactSection
-                {...contactSettings}
-                title={site.siteMetadata.title}
-              />
               <Footer {...footerSettings} />
             </div>
           )}

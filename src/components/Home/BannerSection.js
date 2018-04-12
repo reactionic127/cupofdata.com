@@ -236,13 +236,15 @@ const BannerSection = data => {
       {features && (
         <BannerContainer>
           {features.map((item, i) => (
-            <Header>{item.node.frontmatter.header}</Header>
+            <Header key={i}>{item.node.frontmatter.header}</Header>
           ))}
           {features.map((item, i) => (
-            <BannerSubTitle>{item.node.frontmatter.title}</BannerSubTitle>
+            <BannerSubTitle key={i}>
+              {item.node.frontmatter.title}
+            </BannerSubTitle>
           ))}
           {features.map((item, i) => (
-            <Link to="/onboard">
+            <Link to="/onboard" key={i}>
               <Button>{item.node.frontmatter.button}</Button>
             </Link>
           ))}
@@ -262,7 +264,7 @@ const BannerSection = data => {
             <Personal>
               <PersonaBox2>
                 {features.map((item, i) => (
-                  <PersonInfo>
+                  <PersonInfo key={i}>
                     <PersonNameText>
                       {item.node.frontmatter.personName}
                     </PersonNameText>

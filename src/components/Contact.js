@@ -70,59 +70,57 @@ const A = styled.a`
   color: #ffffff;
 `
 
-const ContactSection = ({ company, menus, title }) => (
-  <Wrapper>
-    <Container>
-      <Row>
-        <MainCol xs="12" sm="5">
-          <img src={imgLogo} width="120" />
-          <ContactContent>
-            Cup of Data’s mission is to turbocharge growth at SaaS B2B companies
-            with amazing sales qualified leads. By streamlining the manual,
-            repetitive tasks traditionally associated with B2B prospecting,
-            marketers and sales pros have more time to spend enriching
-            experiences with their customers.
-          </ContactContent>
-        </MainCol>
-        <SpCol xs="4" sm="3">
-          <ContactTitle>SITEMAP</ContactTitle>
-          <Ul>
-            <Li>
-              <ContactLink to="/">Home</ContactLink>
-            </Li>
-            <Li>
-              <ContactLink to="/pricing">Pricing</ContactLink>
-            </Li>
-            <Li>
-              <ContactLink to="/company">Company</ContactLink>
-            </Li>
-            <Li>
-              <ContactLink to="/blog">Blog</ContactLink>
-            </Li>
-          </Ul>
-        </SpCol>
-        <SpCol xs="8" sm="4">
-          <ContactTitle>CONTACT US</ContactTitle>
-          <ContactContent>
-            {title}
-            <br />3423 Piedmont Rd NE<br />
-            Atlanta, GA 30305
-          </ContactContent>
-          <ShareIcon>
-            <A href="https://www.facebook.com/Cup-of-Data-143732069623215/">
-              <Icon className="fab fa-facebook-square fa-2x" />
-            </A>
-            <A href="https://twitter.com/cupofdata">
-              <Icon className="fab fa-twitter fa-2x" />
-            </A>
-            <A href="https://www.linkedin.com/company/11433034/">
-              <Icon className="fab fa-linkedin fa-2x" />
-            </A>
-          </ShareIcon>
-        </SpCol>
-      </Row>
-    </Container>
-  </Wrapper>
-)
-
-export default ContactSection
+export default function ContactSection({ data, title }) {
+  const contactInfo = data.filter(item => {
+    return item.node.frontmatter.contentType === 'contact'
+  })
+  const { mission } = contactInfo[0].node.frontmatter
+  return (
+    <Wrapper>
+      <Container>
+        <Row>
+          <MainCol xs="12" sm="5">
+            <img src={imgLogo} width="120" />
+            <ContactContent>{mission}</ContactContent>
+          </MainCol>
+          <SpCol xs="4" sm="3">
+            <ContactTitle>SITEMAP</ContactTitle>
+            <Ul>
+              <Li>
+                <ContactLink to="/">Home</ContactLink>
+              </Li>
+              <Li>
+                <ContactLink to="/pricing">Pricing</ContactLink>
+              </Li>
+              <Li>
+                <ContactLink to="/company">Company</ContactLink>
+              </Li>
+              <Li>
+                <ContactLink to="/blog">Blog</ContactLink>
+              </Li>
+            </Ul>
+          </SpCol>
+          <SpCol xs="8" sm="4">
+            <ContactTitle>CONTACT US</ContactTitle>
+            <ContactContent>
+              {title}
+              <br />3423 Piedmont Rd NE<br />
+              Atlanta, GA 30305
+            </ContactContent>
+            <ShareIcon>
+              <A href="https://www.facebook.com/Cup-of-Data-143732069623215/">
+                <Icon className="fab fa-facebook-square fa-2x" />
+              </A>
+              <A href="https://twitter.com/cupofdata">
+                <Icon className="fab fa-twitter fa-2x" />
+              </A>
+              <A href="https://www.linkedin.com/company/11433034/">
+                <Icon className="fab fa-linkedin fa-2x" />
+              </A>
+            </ShareIcon>
+          </SpCol>
+        </Row>
+      </Container>
+    </Wrapper>
+  )
+}

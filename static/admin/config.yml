@@ -114,4 +114,5 @@ collections:
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
       - {label: "Contact", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
       - {label: "Mission", name: "mission", widget: "string"}
