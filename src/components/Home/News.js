@@ -33,15 +33,14 @@ const Wrapper = styled.div`
   }
 `
 
-const NewsSectionTitle = H2.extend`
-  font-family: GTWalsheim;
-  color: #ffffff;
+const NewsSectonTitle = H2.extend`
+  color: ${props => props.theme.banner.color.text};
   margin-bottom: 40px;
 `
 
-const NewsTitle = H5.extend`
+const NewsTitle = H6.extend`
   text-align: left;
-  color: #ffffff;
+  color: ${props => props.theme.banner.color.text};
   font-weight: 600;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -57,14 +56,18 @@ const NewsTitle = H5.extend`
 
 const NewsContent = H6.extend`
   text-align: left;
-  color: #ffffff;
-  font-weight: 400;
+  color: ${props => props.theme.banner.color.text};
+  font-weight: 600;
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  height: 75px;
+  height: 60px;
+  margin: 0.5rem 0;
+  @media screen and (max-width: 576px) {
+    height: 50px;
+  }
 `
 
 const BtnReadMore = Button.extend`
@@ -86,7 +89,7 @@ const NewsView = ({ data }) => {
   })
   return (
     <Wrapper>
-      <NewsSectionTitle>In the news</NewsSectionTitle>
+      <NewsSectonTitle>In the news</NewsSectonTitle>
       {news && (
         <Container>
           <NewsRow>

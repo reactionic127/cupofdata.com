@@ -23,9 +23,9 @@ const theme = {
         text: color.white,
       },
     },
-    sliderCOD: {
+    price: {
       color: {
-        sectionTitle: color.black_90,
+        text: color.white,
       },
     },
     automarketing: {
@@ -68,9 +68,9 @@ const theme = {
         text: color.white,
       },
     },
-    sliderCOD: {
+    price: {
       color: {
-        sectionTitle: color.black_90,
+        text: color.white,
       },
     },
     automarketing: {

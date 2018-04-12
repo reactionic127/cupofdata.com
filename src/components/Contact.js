@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link, { withPrefix } from 'gatsby-link'
 import { Container, Row, Col } from './Layout'
-import { H5, H6 } from './Typography'
+import { H3, H6, Body } from './Typography'
 
 import imgLogo from '../img/img-logo.svg'
 
@@ -16,20 +16,20 @@ const Wrapper = styled.div`
   }
 `
 
-const ContactTitle = H5.extend`
+const ContactTitle = H3.extend`
   font-weight: 600;
   color: ${({ theme }) => theme.contact.color.text};
   margin-top: 33px;
 `
 
-const ContactContent = H6.extend`
+const ContactContent = Body.extend`
   font-weight: normal;
+  color: ${({ theme }) => theme.contact.color.text};
   margin-top: 2rem;
   line-height: 33px;
 `
 
 const ContactLink = styled(Link)`
-  font-family: Avenir;
   color: ${({ theme }) => theme.contact.color.text};
   text-decoration: none;
   line-height: 2rem;
@@ -94,7 +94,7 @@ const ContactSection = ({ company, menus, title }) => (
               <ContactLink to="/pricing">Pricing</ContactLink>
             </Li>
             <Li>
-              <ContactLink to="/company">Company</ContactLink>
+              <ContactLink to="/about">Company</ContactLink>
             </Li>
             <Li>
               <ContactLink to="/blog">Blog</ContactLink>

@@ -8,10 +8,9 @@ const Wrapper = styled.div`
   background: #f5f7fa;
 `
 
-const Title = H3.extend`
+const FaqSectionTitle = H3.extend`
   font-size: 30px;
   line-height: 35px;
-  font-family: GTWalsheim;
   text-align: center;
   @media screen and (max-width: 576px) {
     padding: 0 2rem;
@@ -38,26 +37,24 @@ const QASection = styled.div`
 `
 
 const Question = styled.h4`
+  margin-bottom: 10px;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
-  font-family: GTWalsheim;
 `
 
 const Answer = styled.div`
   h5 {
-    margin-top: 0.5rem;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-    font-family: Avenir;
     font-weight: 500;
   }
 `
 
 const FaqSection = ({ faqs }) => (
   <Wrapper>
-    <Title>Frequently Asked Questions</Title>
+    <FaqSectionTitle>Frequently Asked Questions</FaqSectionTitle>
     {faqs && (
       <Content>
         {faqs.map((item, i) => (

@@ -20,9 +20,8 @@ const Wrapper = styled.div`
   }
 `
 
-const Title = H2.extend`
+const HowItWorksSectionTitle = H2.extend`
   margin-bottom: 1em;
-  font-family: GTWalsheim;
   text-align: center;
   @media screen and (max-width: 576px) {
     margin-bottom: 18px;
@@ -63,7 +62,7 @@ const HowItWorks = () => (
         src="https://extend.vimeocdn.com/ga/67293230.js"
       />
     </Helmet>
-    <Title>See how it works</Title>
+    <HowItWorksSectionTitle>See how it works</HowItWorksSectionTitle>
     <Container>
       <Row>
         <VideoCol sm={10} md={8}>

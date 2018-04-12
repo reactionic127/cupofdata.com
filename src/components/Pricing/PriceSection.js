@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { H1, H5, P, Small } from '../Typography'
+import { H1, H5, H6, P, Small } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import { OutlineRadioButton } from '../Button'
 import PriceCard from '../PriceCard'
@@ -16,7 +16,7 @@ const PriceTitle = H1.extend`
   }
 `
 
-const NoteText = H5.extend`
+const NoteText = H6.extend`
   font-weight: 400;
 `
 
@@ -88,7 +88,7 @@ export default class PlanSections extends React.Component {
                 machineNumber="Custom"
                 runtime="Custom"
                 enterprise
-                tryPath="/onboard"
+                tryPath="/onboards"
               />
             </Col>
           </Row>
