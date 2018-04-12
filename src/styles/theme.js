@@ -23,11 +23,6 @@ const theme = {
         text: color.white,
       },
     },
-    sliderCOD: {
-      color: {
-        sectionTitle: color.black_90,
-      },
-    },
     automarketing: {
       color: {
         sectionTitle: color.white,
