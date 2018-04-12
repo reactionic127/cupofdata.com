@@ -101,6 +101,7 @@ injectGlobal`
 		font-family: 'AvenirNextRegular';
 		font-size: 21px;
 		line-height: 1.58;
+		color: #33475b;
  		padding: 0;
  		margin: 0;
  	}

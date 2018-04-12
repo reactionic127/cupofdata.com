@@ -1,7 +1,7 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
 import styled, { css } from 'styled-components'
-import { H1, H4, H6, P } from './Typography'
+import { H1, H2, H4, H6, P } from './Typography'
 import Button from './Button'
 
 import imageEnterprise from '../img/img-enterprise.svg'
@@ -27,10 +27,10 @@ const PlanTitle = P.extend`
   border-bottom: 1px solid rgba(44, 51, 59, 0.2);
 `
 
-const Price = H1.extend`
+const Price = H6.extend`
   margin-top: 1.5rem;
-  font-weight: 400;
-  font-family: Avenir;
+  font-size: 48px;
+  font-weight: 600;
   letter-spacing: 0.02em;
 `
 
@@ -45,6 +45,12 @@ const PriceMode = P.extend`
 const PriceDetail = H6.extend`
   margin-bottom: 1.5rem;
   font-weight: 500;
+`
+
+const PriceDetailEnterprise = H6.extend`
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
 `
 
 const TryButton = Button.extend`
@@ -83,7 +89,13 @@ const PriceCard = props => (
         <PriceMode>USD PER MONTH</PriceMode>
       </div>
     )}
-    <PriceDetail>{props.validatedContacts} validated contacts</PriceDetail>
+    {props.enterprise ? (
+      <PriceDetailEnterprise>
+        {props.validatedContacts} validated contacts
+      </PriceDetailEnterprise>
+    ) : (
+      <PriceDetail>{props.validatedContacts} validated contacts</PriceDetail>
+    )}
     <TryButton to={props.tryPath}>Try it for free</TryButton>
   </PlanCard>
 )
