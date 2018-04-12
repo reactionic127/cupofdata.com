@@ -1,7 +1,7 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
 import styled, { css } from 'styled-components'
-import { H1, H6, P } from './Typography'
+import { H1, H4, H6, P } from './Typography'
 import Button from './Button'
 
 import imageEnterprise from '../img/img-enterprise.svg'
@@ -62,13 +62,11 @@ const CardHeader = styled.div`
   margin-bottom: 2rem;
 `
 
-const EnterpriseTitle = styled.h4`
-  font-size: 22px;
-  font-family: Avenir;
-  font-weight: 600;
-  line-height: 30px;
+const EnterpriseTitle = H4.extend`
+  color: ${({ theme }) => theme.price.color.text};
   letter-spacing: 0.15em;
   text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
 `
 
 const PriceCard = props => (
