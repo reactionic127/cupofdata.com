@@ -77,6 +77,7 @@ export const H6 = styled.h6`
   font-family: 'AvenirNextRegular';
   src: url(/files/fonts/AvenirNext/AvenirNext-Regular.ttf) format('truetype');
   font-size: 21px;
+  color: #33475b;
   line-height: 1.58;
   padding: 0;
   margin: 0;
