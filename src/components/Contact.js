@@ -94,7 +94,7 @@ const ContactSection = ({ company, menus, title }) => (
               <ContactLink to="/pricing">Pricing</ContactLink>
             </Li>
             <Li>
-              <ContactLink to="/company">Company</ContactLink>
+              <ContactLink to="/about">Company</ContactLink>
             </Li>
             <Li>
               <ContactLink to="/blog">Blog</ContactLink>
