@@ -6,4 +6,3 @@ content: >-
   Talk is cheap. Let us prove our worth. Register for some free leads today, no
   strings attached!
 ---
-

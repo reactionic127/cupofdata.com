@@ -16,6 +16,9 @@ export const Container = styled.div`
   box-sizing: border-box;
   word-break: break-word;
   word-wrap: break-word;
+  ul {
+    color: #33475b;
+  }
   ${props =>
     props.fluid &&
     css`
