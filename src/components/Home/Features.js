@@ -114,7 +114,7 @@ const Features = data => {
             <ContentCol xs="12" sm="6">
               <UL>
                 {features.map((item, i) => (
-                  <LI className="fa">
+                  <LI className="fa" key={i}>
                     <FeatureContent>
                       {item.node.frontmatter.description}
                     </FeatureContent>

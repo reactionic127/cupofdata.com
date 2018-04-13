@@ -105,3 +105,14 @@ collections:
       - {label: "Path", name: "path", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
+
+  - name: "contact"
+    label: "Contact"
+    folder: "content/contact"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
+      - {label: "Contact", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Mission", name: "mission", widget: "string"}

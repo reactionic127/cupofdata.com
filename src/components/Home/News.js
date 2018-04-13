@@ -104,7 +104,7 @@ const NewsView = ({ data }) => {
                 <NewsContent className="text-left">
                   {item.node.frontmatter.summary}
                 </NewsContent>
-                <BtnReadMore outline to={item.node.frontmatter.path}>
+                <BtnReadMore to={item.node.frontmatter.path}>
                   Read more
                 </BtnReadMore>
               </Col>

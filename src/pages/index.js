@@ -48,6 +48,7 @@ export const pageQuery = graphql`
             header
             personName
             personRole
+            mission
           }
         }
       }
