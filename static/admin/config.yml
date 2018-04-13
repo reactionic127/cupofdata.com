@@ -116,3 +116,16 @@ collections:
       - {label: "Contact", name: "title", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
       - {label: "Mission", name: "mission", widget: "string"}
+
+  - name: "pricing"
+    label: "Price"
+    folder: "content/price"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "pricing"}
+      - {label: "Pricing", name: "price", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Note", name: "note", widget: "string"}
+      - {label: "Announcment", name: "announcment", widget: "string"}
