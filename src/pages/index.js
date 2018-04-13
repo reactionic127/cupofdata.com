@@ -8,7 +8,6 @@ import Features from '../components/Home/Features'
 import News from '../components/Home/News'
 import Benefits from '../components/Home/Benefits'
 import Testimonials from '../components/Home/Testimonials'
-import Contact from '../components/Contact'
 import AutomatedMarketing from '../components/Home/AutomatedMarketing'
 
 const IndexPage = ({ data }) => (
@@ -21,7 +20,6 @@ const IndexPage = ({ data }) => (
     <News data={data.allMarkdownRemark.edges} />
     <Testimonials data={data.allMarkdownRemark.edges} />
     <AutomatedMarketing />
-    <Contact data={data.allMarkdownRemark.edges} />
   </div>
 )
 

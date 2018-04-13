@@ -5,6 +5,7 @@ import graphql from 'graphql'
 import Link, { withPrefix } from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
+import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
 
@@ -81,7 +82,8 @@ export default class TemplateWrapper extends React.Component {
     })
   }
   render() {
-    const { site } = this.props.data
+    const { data } = this.props
+    const { site } = data
     return (
       <ThemeProvider theme={this.state.theme}>
         <div className="App">
@@ -102,6 +104,7 @@ export default class TemplateWrapper extends React.Component {
           <div className="pageContent">{this.props.children()}</div>
           {!this.state.hideNav && (
             <div>
+              <ContactSection data={data.allMarkdownRemark.edges} />
               <Footer />
             </div>
           )}
@@ -117,6 +120,32 @@ TemplateWrapper.propTypes = {
 
 export const pageQuery = graphql`
   query LayoutIndexQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          frontmatter {
+            title
+            contentType
+            date(formatString: "MMMM DD, YYYY")
+            path
+            description
+            summary
+            newsFlag
+            postimage
+            position
+            comment
+            photo
+            button
+            header
+            personName
+            personRole
+            mission
+          }
+        }
+      }
+    }
     site {
       siteMetadata {
         title
