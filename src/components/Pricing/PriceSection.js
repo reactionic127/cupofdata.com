@@ -32,7 +32,7 @@ const Discount = Small.extend`
   letter-spacing: 0;
 `
 
-const Announcment = P.extend`
+const Announcement = P.extend`
   padding: 0.5rem 1rem;
   background: #d7fce5;
   display: inline;
@@ -56,7 +56,7 @@ export default class PlanSections extends React.Component {
           <PriceTitle>{priceInfo.title}</PriceTitle>
           <NoteText>{priceInfo.note}</NoteText>
           <PlanGroup>
-            <Announcment>{priceInfo.announcment}</Announcment>
+            <Announcement>{priceInfo.announcement}</Announcement>
           </PlanGroup>
           <Row>
             <Col sm="4">

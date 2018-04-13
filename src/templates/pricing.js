@@ -22,7 +22,7 @@ export const PricingQuery = graphql`
       frontmatter {
         title
         note
-        announcment
+        announcement
       }
     }
     site {

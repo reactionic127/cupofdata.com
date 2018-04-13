@@ -37,7 +37,7 @@ export const Price = graphql`
             contentType
             title
             note
-            announcment
+            announcement
           }
         }
       }
