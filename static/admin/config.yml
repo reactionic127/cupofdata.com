@@ -128,4 +128,4 @@ collections:
       - {label: "Path", name: "path", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Note", name: "note", widget: "string"}
-      - {label: "Announcment", name: "announcment", widget: "string"}
+      - {label: "Announcment", name: "announcement", widget: "string"}
