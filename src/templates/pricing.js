@@ -14,9 +14,9 @@ const Wrapper = styled.div`
 
 const Pricing = () => <Wrapper>Price</Wrapper>
 
-export default Contact
+export default Pricing
 
-export const ContactQuery = graphql`
+export const PricingQuery = graphql`
   query price($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       frontmatter {
