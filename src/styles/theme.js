@@ -25,6 +25,7 @@ const theme = {
     },
     price: {
       color: {
+        background: color.gunmetal,
         text: color.white,
       },
     },
@@ -70,6 +71,7 @@ const theme = {
     },
     price: {
       color: {
+        background: color.gunmetal,
         text: color.white,
       },
     },

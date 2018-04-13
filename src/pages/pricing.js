@@ -5,13 +5,16 @@ import FAQSection from '../components/Pricing/FAQ'
 
 const Pricing = ({ data }) => {
   const { allMarkdownRemark: post } = data
+  const prices = post.edges.filter(
+    item => item.node.frontmatter.contentType === 'pricing'
+  )
   const faqs = post.edges.filter(
     item => item.node.frontmatter.contentType === 'faq'
   )
   return (
     <div>
       <Helmet title={`Pricing | ${data.site.siteMetadata.title}`} />
-      <PriceSection />
+      <PriceSection priceInfo={prices[0].node.frontmatter} />
       <FAQSection faqs={faqs} />
     </div>
   )
@@ -31,8 +34,10 @@ export const Price = graphql`
           fileAbsolutePath
           html
           frontmatter {
-            title
             contentType
+            title
+            note
+            announcment
           }
         }
       }

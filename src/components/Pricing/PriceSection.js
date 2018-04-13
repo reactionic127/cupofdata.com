@@ -49,17 +49,14 @@ export default class PlanSections extends React.Component {
     }
   }
   render() {
+    const { priceInfo } = this.props
     return (
       <PriceSection>
         <Container>
-          <PriceTitle>
-            Turbocharge your SaaS B2B sales with machine learning.
-          </PriceTitle>
-          <NoteText>
-            Schedule a demo with us today and obtain some free B2B leads, on us!
-          </NoteText>
+          <PriceTitle>{priceInfo.title}</PriceTitle>
+          <NoteText>{priceInfo.note}</NoteText>
           <PlanGroup>
-            <Announcment>GET 2 MONTHS FREE WITH ANNUAL PLAN</Announcment>
+            <Announcment>{priceInfo.announcment}</Announcment>
           </PlanGroup>
           <Row>
             <Col sm="4">
