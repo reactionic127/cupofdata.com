@@ -124,7 +124,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "pricing"}
-      - {label: "Pricing", name: "title", widget: "string"}
+      - {label: "Pricing", name: "price", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Note", name: "note", widget: "string"}
