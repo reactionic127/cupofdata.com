@@ -59,23 +59,29 @@ const RegButton = styled(Button)`
     box-shadow: none;
   }
 `
-
-const AutomatedMarketingSection = props => (
-  <Wrapper>
-    <Overlay />
-    <MainContainer>
-      <AutomatedMarketingSectionTitle>
-        Let us help you get started. On Us!
-      </AutomatedMarketingSectionTitle>
-      <Content>
-        Talk is cheap. Let us prove our worth. Register for some free leads
-        today, no strings attached!
-      </Content>
-      <Link to="/onboard">
-        <RegButton className="py-0 px-5 border-0">Register Now</RegButton>
-      </Link>
-    </MainContainer>
-  </Wrapper>
-)
-
-export default AutomatedMarketingSection
+export default class AutomatedMarketingSection extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    const { data } = this.props
+    const info = data.filter(item => {
+      return item.node.frontmatter.contentType === 'automatedmarketing'
+    })
+    const { title, content } = info[0].node.frontmatter
+    return (
+      <Wrapper>
+        <Overlay />
+        <MainContainer>
+          <AutomatedMarketingSectionTitle>
+            {title}
+          </AutomatedMarketingSectionTitle>
+          <Content>{content}</Content>
+          <Link to="/onboard">
+            <RegButton className="py-0 px-5 border-0">Register Now</RegButton>
+          </Link>
+        </MainContainer>
+      </Wrapper>
+    )
+  }
+}

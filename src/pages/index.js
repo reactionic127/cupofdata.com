@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => (
     <Benefits />
     <News data={data.allMarkdownRemark.edges} />
     <Testimonials data={data.allMarkdownRemark.edges} />
-    <AutomatedMarketing />
+    <AutomatedMarketing data={data.allMarkdownRemark.edges} />
   </div>
 )
 
@@ -49,6 +49,7 @@ export const pageQuery = graphql`
             personName
             personRole
             mission
+            content
           }
         }
       }
