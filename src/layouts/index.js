@@ -5,7 +5,6 @@ import graphql from 'graphql'
 import Link, { withPrefix } from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
-import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
 
@@ -103,7 +102,6 @@ export default class TemplateWrapper extends React.Component {
           <div className="pageContent">{this.props.children()}</div>
           {!this.state.hideNav && (
             <div>
-              <ContactSection title={site.siteMetadata.title} />
               <Footer />
             </div>
           )}

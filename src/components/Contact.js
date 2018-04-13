@@ -70,7 +70,7 @@ const A = styled.a`
   color: #ffffff;
 `
 
-export default function ContactSection({ data, title }) {
+export default function ContactSection({ data }) {
   const contactInfo = data.filter(item => {
     return item.node.frontmatter.contentType === 'contact'
   })
@@ -103,7 +103,7 @@ export default function ContactSection({ data, title }) {
           <SpCol xs="8" sm="4">
             <ContactTitle>CONTACT US</ContactTitle>
             <ContactContent>
-              {title}
+              Cup of Data
               <br />3423 Piedmont Rd NE<br />
               Atlanta, GA 30305
             </ContactContent>
@@ -124,5 +124,3 @@ export default function ContactSection({ data, title }) {
     </Wrapper>
   )
 }
-
-export default ContactSection
