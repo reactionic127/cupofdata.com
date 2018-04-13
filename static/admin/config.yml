@@ -129,3 +129,14 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Note", name: "note", widget: "string"}
       - {label: "Announcment", name: "announcement", widget: "string"}
+
+  - name: "automatedmarketing"
+    label: "AutomatedMarketing"
+    folder: "content/automatedmarketing"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "content", widget: "string"}
