@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from '../components/Layout'
-import { H1, H4, H5, P } from '../components/Typography'
+import { H1, H4, H5, H6, P } from '../components/Typography'
 import { CardGroup } from '../components/About'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -38,7 +38,6 @@ const MemberSection = Container.extend`
 `
 
 const MemberTitle = H4.extend`
-  font-family: GTWalsheim;
   margin-bottom: 40px;
 `
 
@@ -47,7 +46,7 @@ const Card = Col.extend`
   margin-bottom: 50px;
 `
 
-const Fullname = H5.extend`
+const Fullname = H6.extend`
   margin-top: 15px;
   font-weight: 500;
   white-space: nowrap;
@@ -79,7 +78,6 @@ export default function Template({ data }) {
       </MainSection>
       {post.frontmatter.members && (
         <MemberSection>
-          <MemberTitle>OUR TEAM</MemberTitle>
           <Row>
             {post.frontmatter.members.map((member, i) => (
               <Card xs="12" sm="6" md="2" key={i}>

@@ -12,9 +12,8 @@ const Wrapper = styled.div`
   padding-top: 50px;
 `
 
-const Title = H2.extend`
+const FeaturesSectionTitle = H2.extend`
   margin-bottom: 94px;
-  font-family: GTWalsheim;
   text-align: center;
   @media screen and (max-width: 576px) {
     margin-bottom: 18px;
@@ -105,7 +104,7 @@ const Features = data => {
   })
   return (
     <Wrapper>
-      <Title>Features</Title>
+      <FeaturesSectionTitle>Features</FeaturesSectionTitle>
       {features && (
         <Container>
           <FeatureRow>

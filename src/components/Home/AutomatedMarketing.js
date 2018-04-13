@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../Layout'
 import Button from '../Button'
-import { H1, H5 } from '../Typography'
+import { H2, H4, H5, H6 } from '../Typography'
 import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
@@ -31,9 +31,8 @@ const MainContainer = styled(Container)`
   z-index: 1;
 `
 
-const Title = H1.extend`
+const AutomatedMarketingSectionTitle = H2.extend`
   text-align: left;
-  font-family: GTWalsheim;
   color: ${props => props.theme.automarketing.color.sectionTitle};
   @media screen and (max-width: 576px) {
     font-size: 24px;
@@ -41,7 +40,7 @@ const Title = H1.extend`
   }
 `
 
-const Content = H5.extend`
+const Content = H6.extend`
   color: ${props => props.theme.automarketing.color.content};
   margin-bottom: 2rem;
   font-weight: 500;
@@ -65,7 +64,9 @@ const AutomatedMarketingSection = props => (
   <Wrapper>
     <Overlay />
     <MainContainer>
-      <Title>Let us help you get started. On Us!</Title>
+      <AutomatedMarketingSectionTitle>
+        Let us help you get started. On Us!
+      </AutomatedMarketingSectionTitle>
       <Content>
         Talk is cheap. Let us prove our worth. Register for some free leads
         today, no strings attached!

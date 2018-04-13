@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from '../Layout'
-import { H3, H6, P } from '../Typography'
+import { H2, H3, H4, H5, H6, P } from '../Typography'
 import styled, { css } from 'styled-components'
 import Button from '../Button'
 import Link, { withPrefix } from 'gatsby-link'
@@ -36,9 +36,8 @@ const BannerView = styled.div`
   padding-bottom: 230px;
 `
 
-const Header = H3.extend`
-  color: #fff;
-  font-family: GTWalsheim;
+const Header = H2.extend`
+  color: ${props => props.theme.banner.color.text};
   @media screen and (max-width: 576px) {
     font-size: 24px;
     line-height: 28px;

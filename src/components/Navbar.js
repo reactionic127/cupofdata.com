@@ -75,8 +75,8 @@ const NavWrapper = styled.ul`
 `
 
 const NavLink = styled(Link)`
-  font-family: Avenir;
-  font-weight: 500;
+  font-family: GTWalsheimMedium;
+  font-size: 18px;
   padding: 0.5rem 1.75rem;
   color: ${props => props.theme.navbar.textColor};
   transition: color 0.5s;

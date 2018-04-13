@@ -47,58 +47,70 @@ const BannerCol = Col.extend`
   }
 `
 
-const Title = H5.extend`
-  font-weight: 600;
+const BenefitsSectionTitle = H2.extend`
+  text-align: center;
+  @media screen and (max-width: 576px) {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
 `
 
-const SubTitle = H6.extend`
+const Header = H6.extend`
+  margin-bottom: 10px;
+`
+
+const Description = H6.extend`
   font-weight: 500;
 `
 
 const BenefitsSection = () => (
   <Wrapper>
-    <H2>Benefits</H2>
+    <BenefitsSectionTitle>Benefits</BenefitsSectionTitle>
     <Container>
       <Row>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
             <Img src={imageSales} />
           </ImgView>
-          <Title>Improve Marketing and Sales Alignment</Title>
-          <SubTitle>
+          <Header>Improve Marketing and Sales Alignment</Header>
+          <Description>
             Improve collaboration between marketing and sales with transparent
             metrics
-          </SubTitle>
+          </Description>
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
             <Img src={imageExisting} />
           </ImgView>
-          <Title>Create Unique Experiences with Context</Title>
-          <SubTitle>
+          <Header>Create Unique Experiences with Context</Header>
+          <Description>
             Use leading questions and social references to improve trust and
             engagement
-          </SubTitle>
+          </Description>
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
             <Img src={imageShortenSales} />
           </ImgView>
-          <Title>Shorten sales cycles</Title>
-          <SubTitle>
+          <Header>Shorten sales cycles</Header>
+          <Description>
             Quickly identify and optimize inbound and outbound channels to
             improve conversion velocity
-          </SubTitle>
+          </Description>
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
             <Img src={imageClearPath} />
           </ImgView>
-          <Title>Clearer path to ROI</Title>
-          <SubTitle>
+          <Header>Clearer path to ROI</Header>
+          <Description>
             Obtain clear ROI metrics to focus on best performing campaigns and
             provide smarter routing rules
-          </SubTitle>
+          </Description>
         </BannerCol>
       </Row>
     </Container>
