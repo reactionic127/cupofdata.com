@@ -37,7 +37,7 @@ collections:
       - {label: "Path", name: "path", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Content", name: "content", widget: "string"}
-      
+
   - name: "banner"
     label: "Banner"
     folder: "content/home-banner"
