@@ -7,6 +7,8 @@ public_folder: "/files/images"
 
 publish_mode: editorial_workflow
 
+collections:
+
   - name: "about"
     label: "About"
     folder: "content/about"
@@ -25,7 +27,17 @@ publish_mode: editorial_workflow
           - {label: Fullname, name: fullname, widget: string}
           - {label: Position, name: position, widget: string}
 
-collections:
+  - name: "automatedmarketing"
+    label: "AutomatedMarketing"
+    folder: "content/automatedmarketing"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "content", widget: "string"}
+      
   - name: "banner"
     label: "Banner"
     folder: "content/home-banner"
