@@ -5,6 +5,26 @@ backend:
 media_folder: "/static/files/images"
 public_folder: "/files/images"
 
+publish_mode: editorial_workflow
+
+  - name: "about"
+    label: "About"
+    folder: "content/about"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
+      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Members
+        name: members
+        widget: list
+        fields:
+          - {label: Photo, name: photo, widget: file }
+          - {label: Fullname, name: fullname, widget: string}
+          - {label: Position, name: position, widget: string}
+
 collections:
   - name: "banner"
     label: "Banner"
@@ -41,23 +61,38 @@ collections:
         fields:
           - {label: Tag, name: name, widget: string }
 
-  - name: "about"
-    label: "About"
-    folder: "content/about"
+  - name: "contact"
+    label: "Contact"
+    folder: "content/contact"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
-      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
+      - {label: "Contact", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Mission", name: "mission", widget: "string"}
+
+  - name: "faq"
+    label: "FAQ"
+    folder: "content/faq"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "faq"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Question", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: Members
-        name: members
-        widget: list
-        fields:
-          - {label: Photo, name: photo, widget: file }
-          - {label: Fullname, name: fullname, widget: string}
-          - {label: Position, name: position, widget: string}
+
+  - name: "feature"
+    label: "Features"
+    folder: "content/features"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "feature"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
 
   - name: "legal"
     label: "Legal"
@@ -71,16 +106,18 @@ collections:
       - {label: "Summary", name: "summary", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "faq"
-    label: "FAQ"
-    folder: "content/faq"
+  - name: "pricing"
+    label: "Price"
+    folder: "content/price"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "faq"}
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "pricing"}
+      - {label: "Pricing", name: "price", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Question", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Note", name: "note", widget: "string"}
+      - {label: "Announcment", name: "announcement", widget: "string"}
 
   - name: "testimonial"
     label: "Testimonials"
@@ -94,38 +131,3 @@ collections:
       - {label: "Position", name: "position", widget: "string"}
       - {label: "Comment", name: "comment", widget: "text"}
       - {label: Photo, name: photo, widget: file }
-
-  - name: "feature"
-    label: "Features"
-    folder: "content/features"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "feature"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-
-  - name: "contact"
-    label: "Contact"
-    folder: "content/contact"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
-      - {label: "Contact", name: "title", widget: "string"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Mission", name: "mission", widget: "string"}
-
-  - name: "pricing"
-    label: "Price"
-    folder: "content/price"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "pricing"}
-      - {label: "Pricing", name: "price", widget: "string"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Note", name: "note", widget: "string"}
-      - {label: "Announcment", name: "announcement", widget: "string"}
