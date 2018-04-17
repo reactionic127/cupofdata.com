@@ -83,7 +83,7 @@ const ReadMore = styled(Link)`
   text-decoration: none;
 `
 
-export default ({ post }) => {
+const BlogCard = ({ post }) => {
   const Tags = (post.frontmatter && post.frontmatter.tags) || []
   return (
     <Card>
@@ -106,11 +106,13 @@ export default ({ post }) => {
             <Summary>{post.frontmatter.summary}</Summary>
           </Col>
           <Col xs="12" sm="5">
-            <LazyLoadImage
-              effect="blur"
-              src={post.frontmatter.postimage}
-              width="100%"
-            />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                effect="blur"
+                src={post.frontmatter.postimage}
+                width="100%"
+              />
+            )}
           </Col>
           <Col xs="12" sm="12">
             <ReadMore to={post.frontmatter.path}>Read more</ReadMore>
@@ -120,3 +122,4 @@ export default ({ post }) => {
     </Card>
   )
 }
+export default BlogCard
