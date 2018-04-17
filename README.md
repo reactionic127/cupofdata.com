@@ -15,8 +15,8 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 
 1. Fork this repo
 1. Clone the repo and `cd` into the repo directory
-1. Run `npm install` to install dependencies
-1. Run `npm start` to start a local server
+1. Run `yarn` to install dependencies
+1. Run `gatsby develop` to start a local server
 
 ## Environment Variables
 
@@ -30,3 +30,5 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 ## Copyright
 
 Copyright &copy; 2018 Cup of Data. All rights reserved.
+
+MIT licensed.
