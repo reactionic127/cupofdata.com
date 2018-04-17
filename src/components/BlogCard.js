@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import _ from 'lodash'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from '../components/Layout'
 
 const Card = styled.div`
@@ -82,7 +83,7 @@ const ReadMore = styled(Link)`
   text-decoration: none;
 `
 
-export const BlogCard = ({ post }) => {
+export default ({ post }) => {
   const Tags = (post.frontmatter && post.frontmatter.tags) || []
   return (
     <Card>
@@ -105,7 +106,11 @@ export const BlogCard = ({ post }) => {
             <Summary>{post.frontmatter.summary}</Summary>
           </Col>
           <Col xs="12" sm="5">
-            <img src={post.frontmatter.postimage} width="100%" />
+            <LazyLoadImage
+              effect="blur"
+              src={post.frontmatter.postimage}
+              width="100%"
+            />
           </Col>
           <Col xs="12" sm="12">
             <ReadMore to={post.frontmatter.path}>Read more</ReadMore>
@@ -115,4 +120,3 @@ export const BlogCard = ({ post }) => {
     </Card>
   )
 }
-export default BlogCard
