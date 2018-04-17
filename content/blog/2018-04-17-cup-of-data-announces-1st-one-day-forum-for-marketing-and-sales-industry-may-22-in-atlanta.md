@@ -17,7 +17,9 @@ tags:
 ---
 # CUP OF DATA ANNOUNCES 1st ONE-DAY FORUM FOR MARKETING AND SALES INDUSTRY MAY 22 IN ATLANTA
 
-## **Speakers include marketing and sales professionals from HoneyWell, Bombora, SalesLoft, Media Volery and more converging in Atlanta**
+## Speakers include marketing and sales professionals from HoneyWell, Bombora, SalesLoft, Media Volery and more converging in Atlanta
+
+
 
 ATLANTA, GA - May 22, 2018 -- [Conversion Data Pop-Up](https://conversiondatapopup.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr), introduced by marketing science ABM solution company, [Cup of Data](https://www.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr), will be hosting their 1st ever one day pop up conference in Atlanta for the B2B marketing and sales industry, Tuesday, May 22nd at the Atlanta Tech Village. This intimate event curates marketing and sales sessions bringing specialists and experts in both fields face-to-face to educate each other on innovative new solutions in AI, Machine Learning, Deep Learning and best B2B practices. Conversion Data Pop Up--also known as CVR Data--hosts a variety of attendees such as sales and marketing executives, analysts, data scientists and developers working with marketing and sales professionals.
 
@@ -29,29 +31,24 @@ We will have speakers such Zontee Hou, Founder of Media Volery, talking about ho
 
 For more information on the Conversion Data Pop-Up in Atlanta visit:
 
-[https://conversiondatapopup.cupofdata.com](https://conversiondatapopup.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr)
+[https://conversiondatapopup.cupofdata.com
+](https://conversiondatapopup.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr)
 
 This event will sell out soon!
-
-
 
 ## About Cup of Data
 
 Cup of Data is a marketing science ABM solution for B2B marketing and sales executives. This lead generation tool combines predictive analytics and data to help identify target leads and intelligently engage high value accounts across channels by using Machine Learning and Deep Learning to create unique models. This can integrate with your current CRM or marketing tools to allow for easy recognition of high quality leads and service your customers quickly.
 
-
-
-**Contacts:**
+**Contacts:
+**
 
 For media inquiries:
 
 Timara Frassrand
 
-[timara@cupofdata.com](mailto:timara@cupofdata.com)
-
-
-
-
+[timara@cupofdata.com
+](mailto:timara@cupofdata.com)
 
 For Sponsorship Inquiries:
 
