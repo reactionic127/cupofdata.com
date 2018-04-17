@@ -14,7 +14,7 @@ newsFlag: true
 tags:
   - name: News
 ---
-# CUP OF DATA, A MARKETING SCIENCE SOLUTION FOR ACCOUNT-BASED MARKETING, LAUNCHES AT DATA SCIENCE SALON MIAMI
+# Cup of Data, a Marketing Science Solution for Account-Based Marketing, Launches at Data Science Salon Miami
 
 Miami, FL – February 8, 2018 – [Cup of Data](http://www.cupofdata.com/), a marketing science ABM solution for B2B marketers, today launches at the Data Science Salon Miami, February 8-9, 2018 at CIC Miami. Cup of Data powers ABM strategies with predictive analytics and data to help identify target leads and intelligently engage high value accounts across channels.
 
