@@ -5,7 +5,39 @@ backend:
 media_folder: "/static/files/images"
 public_folder: "/files/images"
 
+publish_mode: editorial_workflow
+
 collections:
+
+  - name: "about"
+    label: "About"
+    folder: "content/about"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
+      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Members
+        name: members
+        widget: list
+        fields:
+          - {label: Photo, name: photo, widget: file }
+          - {label: Fullname, name: fullname, widget: string}
+          - {label: Position, name: position, widget: string}
+
+  - name: "automatedmarketing"
+    label: "AutomatedMarketing"
+    folder: "content/automatedmarketing"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "content", widget: "string"}
+
   - name: "banner"
     label: "Banner"
     folder: "content/home-banner"
@@ -41,35 +73,16 @@ collections:
         fields:
           - {label: Tag, name: name, widget: string }
 
-  - name: "about"
-    label: "About"
-    folder: "content/about"
+  - name: "contact"
+    label: "Contact"
+    folder: "content/contact"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
-      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: Members
-        name: members
-        widget: list
-        fields:
-          - {label: Photo, name: photo, widget: file }
-          - {label: Fullname, name: fullname, widget: string}
-          - {label: Position, name: position, widget: string}
-
-  - name: "legal"
-    label: "Legal"
-    folder: "content/legal"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "legal"}
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
+      - {label: "Contact", name: "title", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Summary", name: "summary", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Mission", name: "mission", widget: "string"}
 
   - name: "faq"
     label: "FAQ"
@@ -82,19 +95,6 @@ collections:
       - {label: "Question", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "testimonial"
-    label: "Testimonials"
-    folder: "content/testimonials"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "testimonial"}
-      - {label: "Name", name: "title", widget: "string"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Position", name: "position", widget: "string"}
-      - {label: "Comment", name: "comment", widget: "text"}
-      - {label: Photo, name: photo, widget: file }
-
   - name: "feature"
     label: "Features"
     folder: "content/features"
@@ -106,16 +106,17 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
 
-  - name: "contact"
-    label: "Contact"
-    folder: "content/contact"
+  - name: "legal"
+    label: "Legal"
+    folder: "content/legal"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
-      - {label: "Contact", name: "title", widget: "string"}
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "legal"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Mission", name: "mission", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pricing"
     label: "Price"
@@ -130,13 +131,15 @@ collections:
       - {label: "Note", name: "note", widget: "string"}
       - {label: "Announcment", name: "announcement", widget: "string"}
 
-  - name: "automatedmarketing"
-    label: "AutomatedMarketing"
-    folder: "content/automatedmarketing"
+  - name: "testimonial"
+    label: "Testimonials"
+    folder: "content/testimonials"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "testimonial"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Content", name: "content", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Comment", name: "comment", widget: "text"}
+      - {label: Photo, name: photo, widget: file }
