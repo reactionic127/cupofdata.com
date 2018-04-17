@@ -36,6 +36,8 @@ So, what is a lead? A lead is a very broad term used to describe a contact that 
 * **Marketing Qualified Lead (MQL)**: marketing qualified leads are when marketing teams identify leads that have interacted with your content or service. MQL’s are also known as “warm” leads.
 * **Sales Qualified Lead (SQL)**: sales qualified leads are those that have been reviewed by a sales development representative and that have a strong propensity to purchase a product or service. Engagement speed is key here!
 
+![B2B Lead Lifecycle 2017](/files/images/lead_lifecycle.png)
+
 ## The Time and Cost of Obtaining Leads
 
 It goes without saying that businesses have to spend time and money to get leads. Many factors are in play, but at the end of the day companies want to maximize their return on investment.
