@@ -14,7 +14,7 @@ newsFlag: true
 tags:
   - name: News
 ---
-# CUP OF DATA ANNOUNCES OEM PARTNERSHIP WITH INSIDEVIEW
+# Cup of Data Announces OEM Partnership with InsideView
 
 ATLANTA, GA – April 10th, 2018 –  Cup of Data, marketing science solution for SaaS B2B companies, today announced a strategic OEM partnership with InsideView. Cup of Data powers ABM campaigns with smart data and predictive analytics to facilitate deeper engagement within accounts. Utilizing InsideView’s API, Cup of Data augments their behavior data with InsideView’s rich account and contact data allowing end-users to target the right customer faster with a combination of machine and deep learning for more successful ABM sales and marketing programs.
 
