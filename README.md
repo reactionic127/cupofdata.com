@@ -18,6 +18,13 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 1. Run `yarn` to install dependencies
 1. Run `gatsby develop` to start a local server
 
+## Production
+
+1. Add this repository to `Deploy Settings`
+1. Add `gatsby build` as build command
+1. Specify `public` as `Publish directory`
+1. Add `master` as `Production branch`
+
 ## Environment Variables
 
 | Variable Name            | Required | Default Value | Description                      |
