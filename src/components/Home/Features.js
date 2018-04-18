@@ -87,18 +87,6 @@ const ContentCol = Col.extend`
   }
 `
 
-const Img = styled.img`
-  @media screen and (max-width: 997px) {
-    width: 100%;
-  }
-  @media screen and (max-width: 767px) {
-    width: initial;
-  }
-  @media screen and (max-width: 576px) {
-    width: 100%;
-  }
-`
-
 const Features = data => {
   const features = data.data.filter(item => {
     return item.node.frontmatter.contentType == 'feature'

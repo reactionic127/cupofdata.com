@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { H2, H5, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import { withPrefix } from 'gatsby-link'
@@ -32,14 +33,6 @@ const ImgView = styled.div`
   }
 `
 
-const Img = styled.img`
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-`
-
 const BannerCol = Col.extend`
   @media screen and (max-width: 576px) {
     width: 80%;
@@ -67,6 +60,13 @@ const Description = H6.extend`
   font-weight: 500;
 `
 
+const iconStyle = {
+  position: 'absolute',
+  bottom: 0,
+  left: '50%',
+  transform: 'translateX(-50%)',
+}
+
 const BenefitsSection = () => (
   <Wrapper>
     <BenefitsSectionTitle>Benefits</BenefitsSectionTitle>
@@ -74,7 +74,14 @@ const BenefitsSection = () => (
       <Row>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageSales} />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                effect="blur"
+                src={imageSales}
+                width="50px"
+                style={iconStyle}
+              />
+            )}
           </ImgView>
           <Header>Improve Marketing and Sales Alignment</Header>
           <Description>
@@ -84,7 +91,14 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageExisting} />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                effect="blur"
+                src={imageExisting}
+                width="50px"
+                style={iconStyle}
+              />
+            )}
           </ImgView>
           <Header>Create Unique Experiences with Context</Header>
           <Description>
@@ -94,7 +108,14 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageShortenSales} />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                effect="blur"
+                src={imageShortenSales}
+                width="50px"
+                style={iconStyle}
+              />
+            )}
           </ImgView>
           <Header>Shorten sales cycles</Header>
           <Description>
@@ -104,7 +125,14 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageClearPath} />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                effect="blur"
+                src={imageClearPath}
+                width="50px"
+                style={iconStyle}
+              />
+            )}
           </ImgView>
           <Header>Clearer path to ROI</Header>
           <Description>
