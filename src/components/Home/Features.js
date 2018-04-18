@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import Button from '../Button'
@@ -109,7 +110,9 @@ const Features = data => {
         <Container>
           <FeatureRow>
             <ImgCol xs="12" sm="6">
-              <Img src={imageDesktop} />
+              {typeof window !== 'undefined' && (
+                <LazyLoadImage effect="blur" src={imageDesktop} width="100%" />
+              )}
             </ImgCol>
             <ContentCol xs="12" sm="6">
               <UL>
