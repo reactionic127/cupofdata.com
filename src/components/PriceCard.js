@@ -1,6 +1,7 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
 import styled, { css } from 'styled-components'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { H1, H2, H4, H6, P } from './Typography'
 import Button from './Button'
 
@@ -79,7 +80,9 @@ const PriceCard = props => (
   <PlanCard enterpriseMode={props.enterprise}>
     {props.enterprise ? (
       <CardHeader>
-        <img src={imageEnterprise} width="35px" />
+        {typeof window !== 'undefined' && (
+          <LazyLoadImage effect="blur" src={imageEnterprise} width="35px" />
+        )}
         <EnterpriseTitle>ENTERPRISE</EnterpriseTitle>
       </CardHeader>
     ) : (

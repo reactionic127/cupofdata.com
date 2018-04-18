@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from '../Layout'
 import { H2, H3, H4, H5, H6, P } from '../Typography'
 import styled, { css } from 'styled-components'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Button from '../Button'
 import Link, { withPrefix } from 'gatsby-link'
 
@@ -258,7 +259,9 @@ const BannerSection = data => {
                   <ScoreText>48</ScoreText>
                 </div>
               </PersonaBox1>
-              <img src={personOne} />;
+              {typeof window !== 'undefined' && (
+                <LazyLoadImage effect="blur" src={personOne} />
+              )}
             </Personal>
             <Personal>
               <PersonaBox2>
@@ -277,7 +280,9 @@ const BannerSection = data => {
                   <ScoreText active>96</ScoreText>
                 </div>
               </PersonaBox2>
-              <img src={personTwo} />;
+              {typeof window !== 'undefined' && (
+                <LazyLoadImage effect="blur" src={personTwo} />
+              )}
             </Personal>
             <RowView>
               <Personal>
@@ -296,7 +301,9 @@ const BannerSection = data => {
                   </PersonInfo>
                   <BlankView width={60} marginTop />
                 </PersonaBox4>
-                <img src={personFour} />
+                {typeof window !== 'undefined' && (
+                  <LazyLoadImage effect="blur" src={personFour} />
+                )}
               </Personal>
             </RowView>
           </PersonaContainer>
