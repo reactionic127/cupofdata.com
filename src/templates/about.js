@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from '../components/Layout'
 import { H1, H4, H5, H6, P } from '../components/Typography'
 import { CardGroup } from '../components/About'
@@ -65,6 +66,13 @@ const Position = P.extend`
   font-weight: 400;
 `
 
+const photoStyle = {
+  fontFamily: 'Avenir',
+  objectPosition: '50% 0%',
+  objectFit: 'cover',
+  borderRadius: '50%',
+}
+
 export default function Template({ data }) {
   const { markdownRemark: post } = data
   return (
@@ -81,7 +89,15 @@ export default function Template({ data }) {
           <Row>
             {post.frontmatter.members.map((member, i) => (
               <Card xs="12" sm="6" md="2" key={i}>
-                <Photo src={member.photo} width="105" height="105" />
+                {typeof window !== 'undefined' && (
+                  <LazyLoadImage
+                    effect="blur"
+                    src={member.photo}
+                    width="105"
+                    height="105"
+                    style={photoStyle}
+                  />
+                )}
                 <Fullname>{member.fullname}</Fullname>
                 <Position>{member.position}</Position>
               </Card>

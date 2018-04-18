@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { H6 } from './Typography'
 
 import imageQuote from '../img/img-quote.svg'
@@ -33,11 +34,6 @@ const CardWrapper = styled.div`
   text-align: center;
 `
 
-const Photo = styled.img`
-  border-radius: 90px;
-  width: 82px;
-`
-
 const PositionName = H6.extend`
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 23px;
@@ -58,10 +54,20 @@ const CardTitle = H6.extend`
   margin-top: 1rem;
 `
 
+const avatarStyle = {
+  borderRadius: '90px',
+}
 const AvatarCard = props => (
   <Card>
     <CardWrapper>
-      <Photo src={props.avatarUrl} />
+      {typeof window !== 'undefined' && (
+        <LazyLoadImage
+          effect="blur"
+          src={props.avatarUrl}
+          width="82px"
+          style={avatarStyle}
+        />
+      )}
       <CardTitle>{props.name}</CardTitle>
       <PositionName>{props.position}</PositionName>
       <Quote>{props.quote}</Quote>
