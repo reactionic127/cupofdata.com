@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: cupofdata/cupofdata.com
+  name: git-gateway
 
 media_folder: "/static/files/images"
 public_folder: "/files/images"
