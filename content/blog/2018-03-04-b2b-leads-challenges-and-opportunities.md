@@ -36,7 +36,7 @@ So, what is a lead? A lead is a very broad term used to describe a contact that 
 * **Marketing Qualified Lead (MQL)**: marketing qualified leads are when marketing teams identify leads that have interacted with your content or service. MQL’s are also known as “warm” leads.
 * **Sales Qualified Lead (SQL)**: sales qualified leads are those that have been reviewed by a sales development representative and that have a strong propensity to purchase a product or service. Engagement speed is key here!
 
-![B2B Lead Lifecycle 2017](/files/images/lead_lifecycle.png)
+![B2B Lead Lifecycle 2017](/files/images/b2b-lead-lifecycle.png)
 
 ## The Time and Cost of Obtaining Leads
 
@@ -49,7 +49,7 @@ According to the [Demand Generation Benchmark Report](https://cdn2.hubspot.net/h
 * \[500 leads minimum] * \[$51/lead minimum] = $25,500 minimum for leads
 * \[1,000 leads maximum] * \[$100/lead maximum] = $100,000 maximum for leads
 
-![Cost Per Lead 2017](/files/images/lead_cost.png)
+![Cost Per Lead 2017](/files/images/cost-per-lead.png)
 
 In 2017, [this same report](https://cdn2.hubspot.net/hubfs/53/2017%20Demand%20Generation%20Benchmark%20Report.pdf) was published again with more recent data stating that, on average, IT & services companies were spending approximately $369.88 per lead, a major increase from 2015. On average, approximately 3,660 leads were generated and of those, 3,052 became marketing qualified leads (MQLs). Of those 416 sales opportunities arose, also known as sales qualified leads (SQLs). Of the total number of SQLs, the report states that IT & Services companies acquired, on average, 363 new customers. 
 
