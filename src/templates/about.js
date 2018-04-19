@@ -95,7 +95,10 @@ export default function Template({ data }) {
                     src={member.photo}
                     width="105"
                     height="105"
+                    threshold={100}
                     style={photoStyle}
+                    visibleByDefault
+                    delayMethod="debounce"
                   />
                 )}
                 <Fullname>{member.fullname}</Fullname>
