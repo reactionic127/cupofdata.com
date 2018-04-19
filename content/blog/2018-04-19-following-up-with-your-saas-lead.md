@@ -14,6 +14,8 @@ tags:
   - name: Sales
   - name: Email
 ---
+![Engage your prospects like a boss.](/files/images/email_engage_woman.png)
+
 # Following up with Your SaaS Lead
 
 You’ve perfected your inbound marketing and you’re loving the quality and speed of your SaaS B2B lead service, but now it’s time to close the deal!
@@ -50,3 +52,9 @@ What to remember: Emails are important for a first touchpoint with the lead and 
 So what about other lead sources. Let’s say you offer a free trial for your service, you may worry that if you reach out too fast you’ll look desperate or if you wait too long they’ll have gone with another option. But if you have a free trial that people can sign up for, calling them within 5 minutes after they registered, highly increases the chance of reaching the lead. The chance of turning the lead into a paying customer is 21 times higher.
 
 To wrap things up… remember leads are real people just like you. Avoid the generic templates and personalize each message to your lead, their company, and how your product or service can help meet their goals.
+
+- - -
+
+Would you like to know more? **Contact us today to schedule a demo!**
+
+[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
