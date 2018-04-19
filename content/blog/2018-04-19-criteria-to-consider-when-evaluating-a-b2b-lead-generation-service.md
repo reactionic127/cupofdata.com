@@ -44,3 +44,9 @@ As an end-user, if you can't use the tools you know and love to get your work do
 Artificial intelligence (A.I.) is all about learning. **Machine Learning and Deep Learning are pre trained statistical models that predict results based on unseen data**. For example: a machine learning model may predict the Customer Lifetime Value (CLTV) for an end-user when they visit a marketing site. Another example is a deep learning model that automatically 'reads' your text messages with natural language processing (NLP) which helps improve customer satisfaction (assuming that it works well!). 
 
 Have you ever used a Nest thermostat? If so, you may recall a one or two week 'training' period where the thermostat 'learned' your patterns and adjusted the model accordingly to adjust your temperature. **Sales and marketing ML and DL models should do the same: as you close more deals, the models should 'learn' and get better over time**. The ideal combination of firmographic, demographic, techographic, and behavior data points to recommend the best possible B2B lead for you.
+
+- - -
+
+Would you like to know more? **Contact us today to schedule a demo!**
+
+[![](/files/images/button_schedule-a-demo.png)](https://www.cupofdata.com/onboard?utm_source=blog&utm_medium=cta&utm_campaign=demo)
