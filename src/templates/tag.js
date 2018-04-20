@@ -12,7 +12,7 @@ const MainSection = styled.div`
 export default class TagTemplate extends Component {
   render() {
     const { pathContext, data } = this.props
-    const { allMarkdownRemark: post } = data
+    const { allMarkdownRemark: post, allFile } = data
     const tag = pathContext.tag
     const blog = post.edges.filter(
       post => post.node.frontmatter.contentType === 'blog'
@@ -25,12 +25,16 @@ export default class TagTemplate extends Component {
         }
       })
     )
+    let imagesArray = []
+    allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
     return (
       <div>
         <Helmet title={`Tagged in ${tag}`} />
         <MainSection>
           <Container>
-            {tagsArray.map((post, i) => <BlogCard key={i} post={post} />)}
+            {tagsArray.map((post, i) => (
+              <BlogCard key={i} post={post} imagesArray={imagesArray} />
+            ))}
           </Container>
         </MainSection>
       </div>
@@ -58,6 +62,19 @@ export const pageQuery = graphql`
             postimage
             tags {
               name
+            }
+          }
+        }
+      }
+    }
+    allFile(filter: { absolutePath: { regex: "/images/" } }) {
+      edges {
+        node {
+          absolutePath
+          relativePath
+          childImageSharp {
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
             }
           }
         }
