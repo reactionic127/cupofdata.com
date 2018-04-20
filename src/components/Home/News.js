@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import Img from 'gatsby-image'
 import { H2, H5, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import Button from '../Button'
@@ -85,13 +85,16 @@ const ImageView = Container.extend`
   margin-top: 20px;
 `
 
-const NewsView = ({ data }) => {
-  const news = data.filter(item => {
+const NewsView = data => {
+  const news = data.data.allMarkdownRemark.edges.filter(item => {
     return (
       item.node.frontmatter.contentType == 'blog' &&
       item.node.frontmatter.newsFlag
     )
   })
+  const { allFile } = data.data
+  let imagesArray = []
+  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
   return (
     <Wrapper>
       <NewsSectonTitle>In the news</NewsSectonTitle>
@@ -100,16 +103,21 @@ const NewsView = ({ data }) => {
           <NewsRow>
             {news.map((item, i) => (
               <Col xs="12" sm="6" md="4" key={i}>
-                {typeof window !== 'undefined' && (
-                  <ImageView>
-                    <LazyLoadImage
-                      effect="blur"
-                      src={withPrefix(item.node.frontmatter.postimage)}
-                      width="100%"
-                      height="150px"
-                    />
-                  </ImageView>
-                )}
+                <ImageView>
+                  {imagesArray
+                    .filter(
+                      imageItem =>
+                        imageItem.relativePath ===
+                        withPrefix(item.node.frontmatter.postimage).slice(14)
+                    )
+                    .map(imageItem => (
+                      <Img
+                        sizes={imageItem.childImageSharp.sizes}
+                        width="100%"
+                        height="150px"
+                      />
+                    ))}
+                </ImageView>
                 <NewsTitle>{item.node.frontmatter.title}</NewsTitle>
                 <NewsContent className="text-left">
                   {item.node.frontmatter.summary}

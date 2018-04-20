@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import Button from '../Button'
@@ -88,7 +87,7 @@ const ContentCol = Col.extend`
 `
 
 const Features = data => {
-  const features = data.data.filter(item => {
+  const features = data.data.allMarkdownRemark.edges.filter(item => {
     return item.node.frontmatter.contentType == 'feature'
   })
   return (
@@ -98,9 +97,7 @@ const Features = data => {
         <Container>
           <FeatureRow>
             <ImgCol xs="12" sm="6">
-              {typeof window !== 'undefined' && (
-                <LazyLoadImage effect="blur" src={imageDesktop} width="100%" />
-              )}
+              <img src={imageDesktop} />
             </ImgCol>
             <ContentCol xs="12" sm="6">
               <UL>

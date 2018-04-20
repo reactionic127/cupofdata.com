@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { H2, H5, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import { withPrefix } from 'gatsby-link'
@@ -74,14 +73,7 @@ const BenefitsSection = () => (
       <Row>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                effect="blur"
-                src={imageSales}
-                width="50px"
-                style={iconStyle}
-              />
-            )}
+            <img src={imageSales} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Improve Marketing and Sales Alignment</Header>
           <Description>
@@ -91,14 +83,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                effect="blur"
-                src={imageExisting}
-                width="50px"
-                style={iconStyle}
-              />
-            )}
+            <img src={imageExisting} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Create Unique Experiences with Context</Header>
           <Description>
@@ -108,14 +93,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                effect="blur"
-                src={imageShortenSales}
-                width="50px"
-                style={iconStyle}
-              />
-            )}
+            <img src={imageShortenSales} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Shorten sales cycles</Header>
           <Description>
@@ -125,14 +103,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                effect="blur"
-                src={imageClearPath}
-                width="50px"
-                style={iconStyle}
-              />
-            )}
+            <img src={imageClearPath} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Clearer path to ROI</Header>
           <Description>

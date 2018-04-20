@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import Img from 'gatsby-image'
 import { H6 } from './Typography'
-
 import imageQuote from '../img/img-quote.svg'
 
 const Card = styled.div`
@@ -60,14 +59,15 @@ const avatarStyle = {
 const AvatarCard = props => (
   <Card>
     <CardWrapper>
-      {typeof window !== 'undefined' && (
-        <LazyLoadImage
-          effect="blur"
-          src={props.avatarUrl}
-          width="82px"
-          style={avatarStyle}
-        />
-      )}
+      {props.imagesArray
+        .filter(item => item.relativePath === props.avatarUrl.slice(14))
+        .map(item => (
+          <Img
+            sizes={item.childImageSharp.sizes}
+            width="82px"
+            style={avatarStyle}
+          />
+        ))}
       <CardTitle>{props.name}</CardTitle>
       <PositionName>{props.position}</PositionName>
       <Quote>{props.quote}</Quote>

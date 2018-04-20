@@ -30,9 +30,12 @@ const TestimonialsRow = Row.extend`
 `
 
 const Testimonials = data => {
-  const testimonials = data.data.filter(item => {
+  const testimonials = data.data.allMarkdownRemark.edges.filter(item => {
     return item.node.frontmatter.contentType === 'testimonial'
   })
+  const { allFile } = data.data
+  let imagesArray = []
+  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
   return (
     <Wrapper>
       <FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
@@ -46,6 +49,7 @@ const Testimonials = data => {
                   name={item.node.frontmatter.title}
                   position={item.node.frontmatter.position}
                   quote={item.node.frontmatter.comment}
+                  imagesArray={imagesArray}
                 />
               </Col>
             ))}
