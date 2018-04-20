@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import Img from 'gatsby-image'
 import { Container, Row, Col } from '../components/Layout'
 import { H1, H4, H5, H6, P } from '../components/Typography'
 import { CardGroup } from '../components/About'
@@ -66,15 +66,21 @@ const Position = P.extend`
   font-weight: 400;
 `
 
+const containerStyle = {
+  width: '100px !important',
+  heigth: '100px !important',
+}
+
 const photoStyle = {
   fontFamily: 'Avenir',
   objectPosition: '50% 0%',
-  objectFit: 'cover',
   borderRadius: '50%',
 }
 
 export default function Template({ data }) {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post, allFile } = data
+  let imagesArray = []
+  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
   return (
     <div>
       <Helmet title={`About Us | ${data.site.siteMetadata.title}`} />
@@ -89,15 +95,15 @@ export default function Template({ data }) {
           <Row>
             {post.frontmatter.members.map((member, i) => (
               <Card xs="12" sm="6" md="2" key={i}>
-                {typeof window !== 'undefined' && (
-                  <LazyLoadImage
-                    effect="blur"
-                    src={member.photo}
-                    width="105"
-                    height="105"
-                    style={photoStyle}
-                  />
-                )}
+                {imagesArray
+                  .filter(item => item.relativePath === member.photo.slice(14))
+                  .map(item => (
+                    <Img
+                      sizes={item.childImageSharp.sizes}
+                      imgStyle={photoStyle}
+                      style={containerStyle}
+                    />
+                  ))}
                 <Fullname>{member.fullname}</Fullname>
                 <Position>{member.position}</Position>
               </Card>
@@ -126,6 +132,19 @@ export const aboutPageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allFile(filter: { absolutePath: { regex: "/images/" } }) {
+      edges {
+        node {
+          absolutePath
+          relativePath
+          childImageSharp {
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }
