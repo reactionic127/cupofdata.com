@@ -22,8 +22,7 @@ collections:
         name: members
         widget: list
         fields:
-          - {label: Photo, name: photo, widget: file }
-          - {label: Photo, name: photo, widget: file}
+          - {label: Photo, name: photo, widget: image }
           - {label: Fullname, name: fullname, widget: string}
           - {label: Position, name: position, widget: string}
 
