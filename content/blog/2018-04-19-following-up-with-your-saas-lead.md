@@ -45,7 +45,9 @@ If your follow-up to the first email (which is usually automated after initial l
 
 The best days to call your **SaaS leads are on Wednesdays and Thursdays, 5 minutes after a lead makes the first qualifying contact**. Studies show the optimal success when the leads were dialed around 8 am or 4–5 pm; and persisted for up to the 6th call, are some of the best practices necessary to stand a 90% chance of getting a follow-up contact with a SaaS lead.
 
-What to remember: Emails are important for a first touchpoint with the lead and the phone calls are key to close the deal.  
+What to remember: Emails are important for a first touch point with the lead and the phone calls are key to close the deal.  
+
+![Cup of Data - Blog](/files/images/cod_blog_saas_leads.png)
 
 ## Okay you get emails but what if…
 
