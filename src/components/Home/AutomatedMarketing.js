@@ -78,7 +78,9 @@ export default class AutomatedMarketingSection extends React.Component {
           </AutomatedMarketingSectionTitle>
           <Content>{content}</Content>
           <Link to="/onboard">
-            <RegButton className="py-0 px-5 border-0">Register Now</RegButton>
+            <RegButton className="py-0 px-5 border-0">
+              Register Now for Early Access
+            </RegButton>
           </Link>
         </MainContainer>
       </Wrapper>
