@@ -67,14 +67,13 @@ const Position = P.extend`
 `
 
 const containerStyle = {
-  width: '100px !important',
-  heigth: '100px !important',
+  width: '105px',
+  heigth: '105px',
 }
 
 const photoStyle = {
-  fontFamily: 'Avenir',
-  objectPosition: '50% 0%',
-  borderRadius: '50%',
+  objectFit: 'cover',
+  borderRadius: '53px',
 }
 
 export default function Template({ data }) {
@@ -99,7 +98,7 @@ export default function Template({ data }) {
                   .filter(item => item.relativePath === member.photo.slice(14))
                   .map(item => (
                     <Img
-                      sizes={item.childImageSharp.sizes}
+                      resolutions={item.childImageSharp.resolutions}
                       imgStyle={photoStyle}
                       style={containerStyle}
                     />
@@ -140,8 +139,8 @@ export const aboutPageQuery = graphql`
           absolutePath
           relativePath
           childImageSharp {
-            sizes(maxWidth: 630) {
-              ...GatsbyImageSharpSizes
+            resolutions(width: 105, height: 105) {
+              ...GatsbyImageSharpResolutions
             }
           }
         }
