@@ -20,17 +20,21 @@ const LoadBtn = Button.extend`
 `
 
 const BlogMaster = ({ data }) => {
-  const { allMarkdownRemark: post } = data
+  const { allMarkdownRemark: post, allFile } = data
   const blog = post.edges.filter(
     post => post.node.frontmatter.contentType === 'blog'
   )
+  let imagesArray = []
+  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
   return (
     <div>
       <Helmet title={`Blog | ${data.site.siteMetadata.title}`} />
       <MainSection>
         {blog && (
           <Container>
-            {blog.map(({ node: post }, i) => <BlogCard key={i} post={post} />)}
+            {blog.map(({ node: post }, i) => (
+              <BlogCard key={i} post={post} imagesArray={imagesArray} />
+            ))}
             <LoadBtn>Load more</LoadBtn>
           </Container>
         )}
@@ -65,6 +69,19 @@ export const blogMasterQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allFile(filter: { absolutePath: { regex: "/images/" } }) {
+      edges {
+        node {
+          absolutePath
+          relativePath
+          childImageSharp {
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }

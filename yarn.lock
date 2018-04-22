@@ -4493,6 +4493,13 @@ gatsby-cli@^1.1.45, gatsby-cli@^1.1.47:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
+gatsby-image@^1.0.45:
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.45.tgz#2b909e00dbdd6386872a1a6909d39ded49930ac4"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
+
 gatsby-link@^1.6.38, gatsby-link@^1.6.39:
   version "1.6.39"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.39.tgz#4189d26a66476b61fb524c2c8dd97b74aee728d4"
@@ -7153,6 +7160,10 @@ lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+
 lodash.defaults@^4.0.1, lodash.defaults@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
@@ -7292,6 +7303,10 @@ lodash.templatesettings@^4.0.0:
   resolved "https://registry.yarnpkg.com/lodash.templatesettings/-/lodash.templatesettings-4.1.0.tgz#2b4d4e95ba440d915ff08bc899e4553666713316"
   dependencies:
     lodash._reinterpolate "~3.0.0"
+
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
 
 lodash.toarray@^4.4.0:
   version "4.4.0"
@@ -10121,6 +10136,13 @@ react-hot-loader@^3.0.0-beta.6:
 react-immutable-proptypes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-immutable-proptypes/-/react-immutable-proptypes-2.1.0.tgz#023d6f39bb15c97c071e9e60d00d136eac5fa0b4"
+
+react-lazy-load-image-component@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-lazy-load-image-component/-/react-lazy-load-image-component-1.1.1.tgz#41e10defa52adf7c0ab9212cf0a94d46899ceff4"
+  dependencies:
+    lodash.debounce "^4.0.8"
+    lodash.throttle "^4.1.1"
 
 react-modal@^3.1.5:
   version "3.3.2"

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 import { H6 } from './Typography'
-
 import imageQuote from '../img/img-quote.svg'
 
 const Card = styled.div`
@@ -33,11 +33,6 @@ const CardWrapper = styled.div`
   text-align: center;
 `
 
-const Photo = styled.img`
-  border-radius: 90px;
-  width: 82px;
-`
-
 const PositionName = H6.extend`
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 23px;
@@ -58,10 +53,32 @@ const CardTitle = H6.extend`
   margin-top: 1rem;
 `
 
+const AvatarImage = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+const ImageContainer = styled.div`
+  width: 35%;
+`
+
+const photoStyle = {
+  objectFit: 'cover',
+  borderRadius: '50%',
+}
+
 const AvatarCard = props => (
   <Card>
     <CardWrapper>
-      <Photo src={props.avatarUrl} />
+      <AvatarImage>
+        <ImageContainer>
+          {props.imagesArray
+            .filter(item => item.relativePath === props.avatarUrl.slice(14))
+            .map(item => (
+              <Img sizes={item.childImageSharp.sizes} imgStyle={photoStyle} />
+            ))}
+        </ImageContainer>
+      </AvatarImage>
       <CardTitle>{props.name}</CardTitle>
       <PositionName>{props.position}</PositionName>
       <Quote>{props.quote}</Quote>

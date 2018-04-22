@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link, { withPrefix } from 'gatsby-link'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from './Layout'
 import { H3, H6, Body } from './Typography'
 
@@ -80,7 +81,9 @@ export default function ContactSection({ data }) {
       <Container>
         <Row>
           <MainCol xs="12" sm="5">
-            <img src={imgLogo} width="120" />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage effect="blur" src={imgLogo} width="120" />
+            )}
             <ContactContent>{mission}</ContactContent>
           </MainCol>
           <SpCol xs="4" sm="3">

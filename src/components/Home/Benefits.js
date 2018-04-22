@@ -32,14 +32,6 @@ const ImgView = styled.div`
   }
 `
 
-const Img = styled.img`
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-`
-
 const BannerCol = Col.extend`
   @media screen and (max-width: 576px) {
     width: 80%;
@@ -67,6 +59,13 @@ const Description = H6.extend`
   font-weight: 500;
 `
 
+const iconStyle = {
+  position: 'absolute',
+  bottom: 0,
+  left: '50%',
+  transform: 'translateX(-50%)',
+}
+
 const BenefitsSection = () => (
   <Wrapper>
     <BenefitsSectionTitle>Benefits</BenefitsSectionTitle>
@@ -74,7 +73,7 @@ const BenefitsSection = () => (
       <Row>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageSales} />
+            <img src={imageSales} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Improve Marketing and Sales Alignment</Header>
           <Description>
@@ -84,7 +83,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageExisting} />
+            <img src={imageExisting} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Create Unique Experiences with Context</Header>
           <Description>
@@ -94,7 +93,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageShortenSales} />
+            <img src={imageShortenSales} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Shorten sales cycles</Header>
           <Description>
@@ -104,7 +103,7 @@ const BenefitsSection = () => (
         </BannerCol>
         <BannerCol xs="12" sm="6" md="3">
           <ImgView>
-            <Img src={imageClearPath} />
+            <img src={imageClearPath} style={iconStyle} width="50px" />
           </ImgView>
           <Header>Clearer path to ROI</Header>
           <Description>

@@ -15,10 +15,10 @@ const IndexPage = ({ data }) => (
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
     <BannerSection data={data.allMarkdownRemark.edges} />
     <HowItWorks />
-    <Features data={data.allMarkdownRemark.edges} />
+    <Features data={data} />
     <Benefits />
-    <News data={data.allMarkdownRemark.edges} />
-    <Testimonials data={data.allMarkdownRemark.edges} />
+    <News data={data} />
+    <Testimonials data={data} />
     <AutomatedMarketing data={data.allMarkdownRemark.edges} />
   </div>
 )
@@ -57,6 +57,19 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allFile(filter: { absolutePath: { regex: "/images/" } }) {
+      edges {
+        node {
+          absolutePath
+          relativePath
+          childImageSharp {
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }

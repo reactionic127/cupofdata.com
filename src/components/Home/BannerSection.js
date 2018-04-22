@@ -258,7 +258,7 @@ const BannerSection = data => {
                   <ScoreText>48</ScoreText>
                 </div>
               </PersonaBox1>
-              <img src={personOne} />;
+              <img src={personOne} />
             </Personal>
             <Personal>
               <PersonaBox2>
@@ -277,7 +277,7 @@ const BannerSection = data => {
                   <ScoreText active>96</ScoreText>
                 </div>
               </PersonaBox2>
-              <img src={personTwo} />;
+              <img src={personTwo} />
             </Personal>
             <RowView>
               <Personal>

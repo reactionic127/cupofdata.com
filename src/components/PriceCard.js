@@ -75,11 +75,15 @@ const EnterpriseTitle = H4.extend`
   margin-bottom: 16px;
 `
 
+const EnterpriseImage = styled.img`
+  width: 35px;
+`
+
 const PriceCard = props => (
   <PlanCard enterpriseMode={props.enterprise}>
     {props.enterprise ? (
       <CardHeader>
-        <img src={imageEnterprise} width="35px" />
+        <EnterpriseImage src={imageEnterprise} />
         <EnterpriseTitle>ENTERPRISE</EnterpriseTitle>
       </CardHeader>
     ) : (

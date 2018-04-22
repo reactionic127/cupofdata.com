@@ -20,6 +20,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/files/images`,
+        name: 'images',
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: ['gatsby-remark-prismjs', 'gatsby-remark-copy-linked-files'],
@@ -54,7 +61,23 @@ module.exports = {
     'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-sharp',
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
+    },
     'gatsby-plugin-netlify-cms',
     'gatsby-transformer-sharp',
   ].filter(Boolean),
