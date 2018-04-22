@@ -66,14 +66,9 @@ const Position = P.extend`
   font-weight: 400;
 `
 
-const containerStyle = {
-  width: '105px',
-  heigth: '105px',
-}
-
 const photoStyle = {
   objectFit: 'cover',
-  borderRadius: '53px',
+  borderRadius: '50%',
 }
 
 export default function Template({ data }) {
@@ -100,7 +95,6 @@ export default function Template({ data }) {
                     <Img
                       resolutions={item.childImageSharp.resolutions}
                       imgStyle={photoStyle}
-                      style={containerStyle}
                     />
                   ))}
                 <Fullname>{member.fullname}</Fullname>

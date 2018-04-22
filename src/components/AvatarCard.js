@@ -53,21 +53,32 @@ const CardTitle = H6.extend`
   margin-top: 1rem;
 `
 
-const avatarStyle = {
-  borderRadius: '90px',
+const AvatarImage = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+const ImageContainer = styled.div`
+  width: 35%;
+`
+
+const photoStyle = {
+  objectFit: 'cover',
+  borderRadius: '50%',
 }
+
 const AvatarCard = props => (
   <Card>
     <CardWrapper>
-      {props.imagesArray
-        .filter(item => item.relativePath === props.avatarUrl.slice(14))
-        .map(item => (
-          <Img
-            sizes={item.childImageSharp.sizes}
-            width="82px"
-            style={avatarStyle}
-          />
-        ))}
+      <AvatarImage>
+        <ImageContainer>
+          {props.imagesArray
+            .filter(item => item.relativePath === props.avatarUrl.slice(14))
+            .map(item => (
+              <Img sizes={item.childImageSharp.sizes} imgStyle={photoStyle} />
+            ))}
+        </ImageContainer>
+      </AvatarImage>
       <CardTitle>{props.name}</CardTitle>
       <PositionName>{props.position}</PositionName>
       <Quote>{props.quote}</Quote>
