@@ -83,7 +83,15 @@ const NewsRow = Row.extend`
 
 const ImageView = Container.extend`
   margin-top: 20px;
+  height: 170px;
+  .gatsby-image-wrapper {
+    height: 150px;
+  }
 `
+
+const photoStyle = {
+  height: '150px',
+}
 
 const NewsView = data => {
   const news = data.data.allMarkdownRemark.edges.filter(item => {
@@ -113,8 +121,7 @@ const NewsView = data => {
                     .map(imageItem => (
                       <Img
                         sizes={imageItem.childImageSharp.sizes}
-                        width="100%"
-                        height="150px"
+                        imgStyle={photoStyle}
                       />
                     ))}
                 </ImageView>
