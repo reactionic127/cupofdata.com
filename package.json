@@ -5,6 +5,8 @@
   "dependencies": {
     "@raygesualdo/gatsby-plugin-settings": "^1.0.1",
     "babel-plugin-styled-components": "^1.5.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",
