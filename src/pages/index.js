@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import graphql from 'graphql'
 import Helmet from 'react-helmet'
-import styled from 'styled-components'
 import BannerSection from '../components/Home/BannerSection'
 import HowItWorks from '../components/Home/HowItWorks'
 import Features from '../components/Home/Features'
@@ -22,6 +22,10 @@ const IndexPage = ({ data }) => (
     <AutomatedMarketing data={data.allMarkdownRemark.edges} />
   </div>
 )
+
+IndexPage.propTypes = {
+  data: PropTypes.objectOf(PropTypes.string),
+}
 
 export default IndexPage
 

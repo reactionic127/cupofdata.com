@@ -1,9 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import { Container } from '../components/Layout'
-import Link, { withPrefix } from 'gatsby-link'
+import Link from 'gatsby-link'
 import Button from '../components/Button'
+import LazyLoadImage from 'react-lazy-load-image-component'
 
 import imgLogo from '../img/img-logo.svg'
 import img404 from '../img/img-404.svg'
@@ -71,8 +71,8 @@ const NotFoundPage = () => (
     <Topic>Page not found</Topic>
     <Detail>
       Sorry, but the page you were looking for could not be found. You can
-      return to our front page, or drop us a line if you can't find what you're
-      looking for.
+      return to our front page, or drop us a line if you can not find what you
+      are looking for.
     </Detail>
     <Link to="/">
       <BackButton>Go back to home page</BackButton>

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Container } from '../components/Layout'
 import PropTypes from 'prop-types'
+import Container from '../components/Layout'
 import graphql from 'graphql'
-import { ThemeProvider } from 'styled-components'
+import ThemeProvider from 'styled-components'
 import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
@@ -41,7 +41,6 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   updateDimensions() {
-    const { location } = this.props
     if (typeof screen !== `undefined`) {
       if (screen.width > 576) {
         if (this.state.secondary) {
@@ -59,7 +58,6 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   checkPath(props) {
-    let themeType = 'primary'
     const { pathname } = props.location
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
@@ -77,7 +75,6 @@ export default class TemplateWrapper extends React.Component {
   }
   render() {
     const { data } = this.props
-    const { site } = data
     return (
       <ThemeProvider theme={this.state.theme}>
         <div className="App">
@@ -110,6 +107,8 @@ export default class TemplateWrapper extends React.Component {
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
+  data: PropTypes.objectOf(PropTypes.string),
+  location: PropTypes.string,
 }
 
 export const pageQuery = graphql`

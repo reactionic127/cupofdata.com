@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
 import { Container } from '../components/Layout'
-import { H1, H6 } from '../components/Typography'
+import { H1 } from '../components/Typography'
 
 const Wrapper = styled.div`
   padding: 90px 0;
@@ -14,15 +15,6 @@ const Wrapper = styled.div`
 
 const Title = H1.extend`
   margin-top: 91px;
-`
-
-const Description = H6.extend`
-  margin: 10px auto;
-  font-weight: 400;
-`
-
-const ContentWrapper = styled.div`
-  padding: 50px 0;
 `
 
 export default function Template({ data }) {
@@ -39,6 +31,10 @@ export default function Template({ data }) {
       </Wrapper>
     </div>
   )
+}
+
+Template.propTypes = {
+  data: PropTypes.objectOf(PropTypes.string),
 }
 
 export const BannerQuery = graphql`
