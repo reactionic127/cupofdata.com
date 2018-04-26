@@ -56,6 +56,13 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        exclude: /(node_modules|cache|public)/,
+        test: /\.js$|\.jsx$/,
+      },
+    },
     'gatsby-plugin-babel-styled-components',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-next',

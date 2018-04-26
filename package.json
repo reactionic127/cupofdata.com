@@ -5,6 +5,8 @@
   "dependencies": {
     "@raygesualdo/gatsby-plugin-settings": "^1.0.1",
     "babel-plugin-styled-components": "^1.5.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "gatsby": "^1.9.223",
     "gatsby-image": "^1.0.45",
     "gatsby-link": "^1.6.38",
@@ -23,6 +25,7 @@
     "gatsby-transformer-remark": "^1.7.34",
     "gatsby-transformer-sharp": "^1.6.22",
     "polished": "^1.9.2",
+    "prop-types": "^15.6.1",
     "react-helmet": "^5.2.0",
     "react-lazy-load-image-component": "^1.1.1",
     "styled-components": "^3.1.6"
@@ -47,6 +50,12 @@
     ]
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0",
+    "gatsby-plugin-eslint": "^1.0.2",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
     "lodash": "^4.17.5",
