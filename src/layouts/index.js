@@ -2,20 +2,14 @@ import React from 'react'
 import { Container } from '../components/Layout'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
-import Link, { withPrefix } from 'gatsby-link'
-import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
 
-// code syntax-highlighting theme
-// feel free to change it to another one
 import 'prismjs/themes/prism-twilight.css'
 import '../../static/files/css/fontawesome-all.min.css'
 
-// main site style
-import global from '../styles/global'
 import mainTheme from '../styles/theme'
 
 export default class TemplateWrapper extends React.Component {

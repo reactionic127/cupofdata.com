@@ -1,9 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 import { Container } from './Layout'
 import Link from 'gatsby-link'
 
-import logoImg from '../img/img-logo.svg'
 import logoImgDark from '../img/img-logo-dark.svg'
 
 const Navbar = styled.div`
@@ -237,4 +237,10 @@ export default class NavContainer extends React.Component {
       </Navbar>
     )
   }
+}
+
+NavContainer.propTypes = {
+  onCollapse: PropTypes.func,
+  secondary: PropTypes.string,
+  dropdown: PropTypes.bool,
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import Link, { withPrefix } from 'gatsby-link'
+import Link from 'gatsby-link'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from './Layout'
-import { H3, H6, Body } from './Typography'
+import { H3, Body } from './Typography'
 
 import imgLogo from '../img/img-logo.svg'
 
@@ -126,4 +127,8 @@ export default function ContactSection({ data }) {
       </Container>
     </Wrapper>
   )
+}
+
+ContactSection.propTypes = {
+  data: PropTypes.objectOf(PropTypes.string),
 }

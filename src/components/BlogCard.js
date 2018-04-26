@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
@@ -135,4 +136,10 @@ const BlogCard = ({ post, imagesArray }) => {
     </Card>
   )
 }
+
+BlogCard.propTypes = {
+  post: PropTypes.objectOf(PropTypes.string),
+  imagesArray: PropTypes.array,
+}
+
 export default BlogCard

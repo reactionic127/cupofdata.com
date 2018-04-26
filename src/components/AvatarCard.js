@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { H6 } from './Typography'
@@ -85,5 +86,14 @@ const AvatarCard = props => (
     </CardWrapper>
   </Card>
 )
+
+AvatarCard.propTypes = {
+  avatarUrl: PropTypes.string,
+  name: PropTypes.string,
+  position: PropTypes.number,
+  quote: PropTypes.string,
+  imagesArray: PropTypes.array,
+  key: PropTypes.element,
+}
 
 export default AvatarCard

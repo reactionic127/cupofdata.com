@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { H3 } from '../Typography'
-import { Container, Row, Col } from '../Layout'
+import Container from '../Layout'
 
 const Wrapper = styled.div`
   padding: 50px 0 90px 0;
@@ -67,5 +68,9 @@ const FaqSection = ({ faqs }) => (
     )}
   </Wrapper>
 )
+
+FaqSection.propTypes = {
+  faqs: PropTypes.string,
+}
 
 export default FaqSection
