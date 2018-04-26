@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Container from '../components/Layout'
+import { Container } from '../components/Layout'
 import graphql from 'graphql'
 import ThemeProvider from 'styled-components'
 import ContactSection from '../components/Contact'

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Container from '../Layout'
+import { Container } from '../Layout'
 import Button from '../Button'
 import { H2, H6 } from '../Typography'
 import Link from 'gatsby-link'

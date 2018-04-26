@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Layout'
+import { Container } from '../Layout'
 import { H2, H6, P } from '../Typography'
 import styled, { css } from 'styled-components'
 import Button from '../Button'

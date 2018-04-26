@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import graphql from 'graphql'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
-import Container from '../components/Layout'
+import { Container } from '../components/Layout'
 import BlogCard from '../components/BlogCard'
 import Button from '../components/Button'
 
