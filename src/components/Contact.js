@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from './Layout'
-import { H3, Body } from './Typography'
+import { H3, P } from './Typography'
 
 import imgLogo from '../img/img-logo.svg'
 
@@ -24,7 +24,7 @@ const ContactTitle = H3.extend`
   margin-top: 33px;
 `
 
-const ContactContent = Body.extend`
+const ContactContent = P.extend`
   font-weight: normal;
   color: ${({ theme }) => theme.contact.color.text};
   margin-top: 2rem;
@@ -130,5 +130,5 @@ export default function ContactSection({ data }) {
 }
 
 ContactSection.propTypes = {
-  data: PropTypes.objectOf(PropTypes.string),
+  data: PropTypes.array,
 }
