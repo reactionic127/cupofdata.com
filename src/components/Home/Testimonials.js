@@ -61,7 +61,7 @@ const Testimonials = data => {
 }
 
 Testimonials.propTypes = {
-  data: PropTypes.objectOf(PropTypes.string),
+  data: PropTypes.object,
 }
 
 export default Testimonials

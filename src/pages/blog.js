@@ -44,7 +44,7 @@ const BlogMaster = ({ data }) => {
 }
 
 BlogMaster.propTypes = {
-  data: PropTypes.objectOf(PropTypes.string),
+  data: PropTypes.object,
 }
 
 export default BlogMaster

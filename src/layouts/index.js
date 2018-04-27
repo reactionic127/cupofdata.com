@@ -2,14 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Container } from '../components/Layout'
 import graphql from 'graphql'
-import ThemeProvider from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
 
-import 'prismjs/themes/prism-twilight.css'
-import '../../static/files/css/fontawesome-all.min.css'
-
+// main site style
 import mainTheme from '../styles/theme'
 
 export default class TemplateWrapper extends React.Component {
@@ -107,8 +105,12 @@ export default class TemplateWrapper extends React.Component {
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
-  data: PropTypes.objectOf(PropTypes.string),
-  location: PropTypes.string,
+  location: PropTypes.object,
+  data: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.object,
+  ]),
 }
 
 export const pageQuery = graphql`

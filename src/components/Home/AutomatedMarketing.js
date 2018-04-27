@@ -90,5 +90,5 @@ export default class AutomatedMarketingSection extends React.Component {
 }
 
 AutomatedMarketingSection.propTypes = {
-  data: PropTypes.objectOf(PropTypes.string),
+  data: PropTypes.array,
 }

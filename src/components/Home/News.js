@@ -122,6 +122,7 @@ const NewsView = data => {
                       <Img
                         sizes={imageItem.childImageSharp.sizes}
                         imgStyle={photoStyle}
+                        key={i}
                       />
                     ))}
                 </ImageView>

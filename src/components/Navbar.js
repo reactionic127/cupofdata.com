@@ -241,6 +241,6 @@ export default class NavContainer extends React.Component {
 
 NavContainer.propTypes = {
   onCollapse: PropTypes.func,
-  secondary: PropTypes.string,
+  secondary: PropTypes.bool,
   dropdown: PropTypes.bool,
 }

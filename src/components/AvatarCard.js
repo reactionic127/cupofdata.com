@@ -75,8 +75,12 @@ const AvatarCard = props => (
         <ImageContainer>
           {props.imagesArray
             .filter(item => item.relativePath === props.avatarUrl.slice(14))
-            .map(item => (
-              <Img sizes={item.childImageSharp.sizes} imgStyle={photoStyle} />
+            .map((item, i) => (
+              <Img
+                sizes={item.childImageSharp.sizes}
+                imgStyle={photoStyle}
+                key={i}
+              />
             ))}
         </ImageContainer>
       </AvatarImage>
@@ -90,7 +94,7 @@ const AvatarCard = props => (
 AvatarCard.propTypes = {
   avatarUrl: PropTypes.string,
   name: PropTypes.string,
-  position: PropTypes.number,
+  position: PropTypes.string,
   quote: PropTypes.string,
   imagesArray: PropTypes.array,
   key: PropTypes.element,
