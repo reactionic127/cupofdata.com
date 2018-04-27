@@ -70,7 +70,7 @@ const FaqSection = ({ faqs }) => (
 )
 
 FaqSection.propTypes = {
-  faqs: PropTypes.string,
+  faqs: PropTypes.array,
 }
 
 export default FaqSection

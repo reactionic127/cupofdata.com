@@ -80,8 +80,9 @@ export default function Template({ data }) {
               <Card xs="12" sm="6" md="2" key={i}>
                 {imagesArray
                   .filter(item => item.relativePath === member.photo.slice(14))
-                  .map(item => (
+                  .map((item, i) => (
                     <Img
+                      key={i}
                       resolutions={item.childImageSharp.resolutions}
                       imgStyle={photoStyle}
                     />

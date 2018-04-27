@@ -90,5 +90,5 @@ export default class PlanSections extends React.Component {
 }
 
 PlanSections.propTypes = {
-  priceInfo: PropTypes.string,
+  priceInfo: PropTypes.object,
 }

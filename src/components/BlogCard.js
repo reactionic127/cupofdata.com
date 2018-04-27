@@ -115,11 +115,12 @@ const BlogCard = ({ post, imagesArray }) => {
                     item.relativePath === post.frontmatter.postimage.slice(14)
                 )
                 .map(
-                  item =>
+                  (item, i) =>
                     item.childImageSharp ? (
-                      <Img sizes={item.childImageSharp.sizes} />
+                      <Img key={i} sizes={item.childImageSharp.sizes} />
                     ) : (
                       <LazyLoadImage
+                        key={i}
                         effect="blur"
                         src={post.frontmatter.postimage}
                         width="100%"
@@ -138,7 +139,7 @@ const BlogCard = ({ post, imagesArray }) => {
 }
 
 BlogCard.propTypes = {
-  post: PropTypes.objectOf(PropTypes.string),
+  post: PropTypes.object,
   imagesArray: PropTypes.array,
 }
 

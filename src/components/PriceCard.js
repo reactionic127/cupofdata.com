@@ -106,11 +106,11 @@ const PriceCard = props => (
 )
 
 PriceCard.propTypes = {
-  enterprise: PropTypes.string,
+  enterprise: PropTypes.bool,
   title: PropTypes.string,
   price: PropTypes.number,
   tryPath: PropTypes.string,
-  validatedContacts: PropTypes.string,
+  validatedContacts: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
 export default PriceCard
