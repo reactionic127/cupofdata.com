@@ -50,7 +50,7 @@ export default function Template({ data }) {
 }
 
 Template.propTypes = {
-  data: PropTypes.objectOf(PropTypes.string),
+  data: PropTypes.object,
 }
 
 export const legalPageQuery = graphql`

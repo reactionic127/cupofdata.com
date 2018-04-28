@@ -45,8 +45,8 @@ export default class TagTemplate extends Component {
 }
 
 TagTemplate.propTypes = {
-  data: PropTypes.objectOf(PropTypes.string),
-  pathContext: PropTypes.string,
+  data: PropTypes.object,
+  pathContext: PropTypes.object,
 }
 
 export const pageQuery = graphql`

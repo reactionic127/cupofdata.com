@@ -32,6 +32,7 @@ const Wrapper = styled.div`
 
 const Header = H2.extend`
   color: ${props => props.theme.banner.color.text};
+  font-family: GTWalsheimMedium;
   @media screen and (max-width: 576px) {
     font-size: 24px;
     line-height: 28px;
