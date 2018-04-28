@@ -1,8 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { H2 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
-import { withPrefix } from 'gatsby-link'
 import AvatarCard from '../AvatarCard'
 
 const Wrapper = styled.div`
@@ -35,7 +35,7 @@ const Testimonials = data => {
   })
   const { allFile } = data.data
   let imagesArray = []
-  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
+  allFile.edges.map(({ node: file }) => imagesArray.push(file))
   return (
     <Wrapper>
       <FeedbackSectionTitle>Testimonials</FeedbackSectionTitle>
@@ -58,6 +58,10 @@ const Testimonials = data => {
       )}
     </Wrapper>
   )
+}
+
+Testimonials.propTypes = {
+  data: PropTypes.object,
 }
 
 export default Testimonials

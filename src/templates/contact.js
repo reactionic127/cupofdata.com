@@ -1,6 +1,6 @@
 import React from 'react'
+import graphql from 'graphql'
 import styled from 'styled-components'
-import Link, { withPrefix } from 'gatsby-link'
 
 const Wrapper = styled.div`
   padding-top: 85px;

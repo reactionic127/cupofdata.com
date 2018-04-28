@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Row, Col } from '../Layout'
-import { H2, H3, H4, H5, H6, P } from '../Typography'
+import { Container } from '../Layout'
+import { H2, H6, P } from '../Typography'
 import styled, { css } from 'styled-components'
 import Button from '../Button'
-import Link, { withPrefix } from 'gatsby-link'
+import Link from 'gatsby-link'
 
 import bannerImage from '../../img/background.svg'
 import bannerImageMobile from '../../img/mobile-background_blue.svg'
@@ -30,14 +30,9 @@ const Wrapper = styled.div`
   }
 `
 
-const BannerView = styled.div`
-  position: relative;
-  padding-top: 130px;
-  padding-bottom: 230px;
-`
-
 const Header = H2.extend`
   color: ${props => props.theme.banner.color.text};
+  font-family: GTWalsheimMedium;
   @media screen and (max-width: 576px) {
     font-size: 24px;
     line-height: 28px;
@@ -55,13 +50,6 @@ const BannerContainer = Container.extend`
   padding-top: 144px;
   height: 100%;
   position: relative;
-`
-
-const BackImg = styled.img`
-  position: absolute;
-  bottom: -1px;
-  right: 0;
-  width: 140px;
 `
 
 const PersonaContainer = styled.div`

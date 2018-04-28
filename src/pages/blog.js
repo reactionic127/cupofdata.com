@@ -1,9 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import graphql from 'graphql'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import _ from 'lodash'
-import { Container, Row, Col } from '../components/Layout'
+import { Container } from '../components/Layout'
 import BlogCard from '../components/BlogCard'
 import Button from '../components/Button'
 
@@ -25,7 +25,7 @@ const BlogMaster = ({ data }) => {
     post => post.node.frontmatter.contentType === 'blog'
   )
   let imagesArray = []
-  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
+  allFile.edges.map(({ node: file }) => imagesArray.push(file))
   return (
     <div>
       <Helmet title={`Blog | ${data.site.siteMetadata.title}`} />
@@ -42,6 +42,15 @@ const BlogMaster = ({ data }) => {
     </div>
   )
 }
+
+BlogMaster.propTypes = {
+  data: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.object,
+  ]),
+}
+
 export default BlogMaster
 
 export const blogMasterQuery = graphql`

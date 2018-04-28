@@ -1,9 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { Container, Row, Col } from '../components/Layout'
-import { H1, H4, H5, H6, P } from '../components/Typography'
-import { CardGroup } from '../components/About'
+import { H1, H5, H6, P } from '../components/Typography'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
@@ -38,10 +38,6 @@ const MemberSection = Container.extend`
   margin-bottom: 30px;
 `
 
-const MemberTitle = H4.extend`
-  margin-bottom: 40px;
-`
-
 const Card = Col.extend`
   text-align: center;
   margin-bottom: 50px;
@@ -51,13 +47,6 @@ const Fullname = H6.extend`
   margin-top: 15px;
   font-weight: 500;
   white-space: nowrap;
-`
-
-const Photo = styled.img`
-  font-family: Avenir;
-  object-position: 50% 0%;
-  object-fit: cover;
-  border-radius: 50%;
 `
 
 const Position = P.extend`
@@ -74,7 +63,7 @@ const photoStyle = {
 export default function Template({ data }) {
   const { markdownRemark: post, allFile } = data
   let imagesArray = []
-  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
+  allFile.edges.map(({ node: file }) => imagesArray.push(file))
   return (
     <div>
       <Helmet title={`About Us | ${data.site.siteMetadata.title}`} />
@@ -91,8 +80,9 @@ export default function Template({ data }) {
               <Card xs="12" sm="6" md="2" key={i}>
                 {imagesArray
                   .filter(item => item.relativePath === member.photo.slice(14))
-                  .map(item => (
+                  .map((item, i) => (
                     <Img
+                      key={i}
                       resolutions={item.childImageSharp.resolutions}
                       imgStyle={photoStyle}
                     />
@@ -106,6 +96,10 @@ export default function Template({ data }) {
       )}
     </div>
   )
+}
+
+Template.propTypes = {
+  data: PropTypes.object,
 }
 
 export const aboutPageQuery = graphql`

@@ -1,7 +1,8 @@
 import React from 'react'
-import Link, { withPrefix } from 'gatsby-link'
+import PropTypes from 'prop-types'
+import Link from 'gatsby-link'
 import styled, { css } from 'styled-components'
-import { H1, H2, H4, H6, P } from './Typography'
+import { H4, H6, P } from './Typography'
 import Button from './Button'
 
 import imageEnterprise from '../img/img-enterprise.svg'
@@ -103,5 +104,13 @@ const PriceCard = props => (
     <TryButton to={props.tryPath}>Try it for free</TryButton>
   </PlanCard>
 )
+
+PriceCard.propTypes = {
+  enterprise: PropTypes.bool,
+  title: PropTypes.string,
+  price: PropTypes.number,
+  tryPath: PropTypes.string,
+  validatedContacts: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+}
 
 export default PriceCard

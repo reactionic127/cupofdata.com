@@ -1,21 +1,13 @@
 import React from 'react'
-import { Container } from '../components/Layout'
 import PropTypes from 'prop-types'
+import { Container } from '../components/Layout'
 import graphql from 'graphql'
-import Link, { withPrefix } from 'gatsby-link'
-import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import NavContainer from '../components/Navbar'
 
-// code syntax-highlighting theme
-// feel free to change it to another one
-import 'prismjs/themes/prism-twilight.css'
-import '../../static/files/css/fontawesome-all.min.css'
-
 // main site style
-import global from '../styles/global'
 import mainTheme from '../styles/theme'
 
 export default class TemplateWrapper extends React.Component {
@@ -47,7 +39,6 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   updateDimensions() {
-    const { location } = this.props
     if (typeof screen !== `undefined`) {
       if (screen.width > 576) {
         if (this.state.secondary) {
@@ -65,7 +56,6 @@ export default class TemplateWrapper extends React.Component {
     }
   }
   checkPath(props) {
-    let themeType = 'primary'
     const { pathname } = props.location
     const undefinedReg = /404*\w/
     const onboardReg = /onboard*\w/
@@ -83,7 +73,6 @@ export default class TemplateWrapper extends React.Component {
   }
   render() {
     const { data } = this.props
-    const { site } = data
     return (
       <ThemeProvider theme={this.state.theme}>
         <div className="App">
@@ -116,6 +105,12 @@ export default class TemplateWrapper extends React.Component {
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
+  location: PropTypes.object,
+  data: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.object,
+  ]),
 }
 
 export const pageQuery = graphql`

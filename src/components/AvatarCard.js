@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { H6 } from './Typography'
@@ -74,8 +75,12 @@ const AvatarCard = props => (
         <ImageContainer>
           {props.imagesArray
             .filter(item => item.relativePath === props.avatarUrl.slice(14))
-            .map(item => (
-              <Img sizes={item.childImageSharp.sizes} imgStyle={photoStyle} />
+            .map((item, i) => (
+              <Img
+                sizes={item.childImageSharp.sizes}
+                imgStyle={photoStyle}
+                key={i}
+              />
             ))}
         </ImageContainer>
       </AvatarImage>
@@ -85,5 +90,14 @@ const AvatarCard = props => (
     </CardWrapper>
   </Card>
 )
+
+AvatarCard.propTypes = {
+  avatarUrl: PropTypes.string,
+  name: PropTypes.string,
+  position: PropTypes.string,
+  quote: PropTypes.string,
+  imagesArray: PropTypes.array,
+  key: PropTypes.element,
+}
 
 export default AvatarCard
