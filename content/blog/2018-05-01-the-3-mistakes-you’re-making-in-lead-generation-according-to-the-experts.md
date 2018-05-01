@@ -8,7 +8,7 @@ summary: >-
   professionals understand best practices for B2B lead management and use data
   science to obtain better results.
 author: Timara Frassrand
-postimage: /files/images/michael-dam-258165-unsplash.jpg
+postimage: /files/images/michael-dam-258165-unsplash-3771188870_315x473.jpg
 newsFlag: false
 tags:
   - name: ABM
