@@ -124,4 +124,4 @@ Our speakers have more to say on this topic and more but you’ll only be able t
 
 Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
 
-![null]()
+![/file/button_buy-ticket.png]https://conversiondatapopup.cupofdata.com/k)
