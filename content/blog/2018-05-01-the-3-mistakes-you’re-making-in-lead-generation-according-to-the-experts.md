@@ -48,21 +48,35 @@ In preparation for that, we asked the experts what the biggest mistake is that m
 
 ## The No.1 mistake when it comes to lead generation and marketing strategies? Substitute quality with quantity.
 
-Example: When you offer a product that relates to ‘moving’ and check the statistics you can find a number between 10 to 25% of people moving in any given year in the US. And because of the huge population, this translates into big numbers of incidents- or ‘sales opportunities’ each year.
+**Example**: When you offer a product that relates to ‘moving’ and check the statistics you can find a number between 10 to 25% of people moving in any given year in the US. And because of the huge population, this translates into big numbers of incidents- or ‘sales opportunities’ each year.
+
+> _**Total Addressable Market (TAM) = Total Population x 18%**_
 
 Let’s grab some simple numbers just to illustrate what is happening: Let’s assume 10% of people that move would want your product/ service and you have a historical hit rate of around 1/3. And let’s assume that 10% of the people on your total list of inhabitants will actually move in that year it boils down like this: out of 1000 people (TAM) only 100 people move (suspects) of which 10 would actually want your product (prospects) and about 3 would finally buy it (customers).
 
+> **_Sales = TAM x 10% x 10% x 33%_**
+>
+> **_For example, if the TAM is 1000, then there should be about 3 conversions to sales._**
+
 Now marketers get very happy because they can just get busy and do ‘stuff’. They believe this simple correlation is causation and because it is quantifiable you can just use it as a substitute for the real world.
 
-Hence they ask: how many customers does the business need? If the answer is e.g. 300 you already see where this is going, they will target and penetrate 100,000 innocent people with finely crafted messaging, pictures, videos and whatnot and basically annoy 99,000 people for which the product has no relevance at all (90% not moving/ only 10% of 10% actually need the product).
+Hence marketers ask: 
+
+> _**How many customers does the business need? **_
+
+If the answer is e.g. 300 you already see where this is going, they will target and penetrate 100,000 innocent people with finely crafted messaging, pictures, videos and whatnot and basically annoy 99,000 people for which the product has no relevance at all (90% not moving / only 10% of 10% actually need the product).
 
 Typically marketing is happy because they are busy with their world. They don’t want to target just the 1,000 people that this offer is only remotely relevant to because printing is much cheaper and more efficient for 100,000.  For a larger population, you can make TV ads and radio ads and roadside banners and all the things marketing people love to do because they think it is their job and purpose. A whole industry lives off this.
 
-But it is not only a terrible waste of resources, it also spoils the target group, wears them down, and makes the numb- because of the constant penetration with irrelevant messages. It makes a truly targeted and very specific and highly relevant offer to get unnoticed in the flood of all the noise.
+**But it is not only a terrible waste of resources, it also spoils the target group, wears them down, and makes the numb - because of the constant penetration with irrelevant messages.** It makes a truly targeted and very specific and highly relevant offer to get unnoticed in the flood of all the noise.
 
-My take: marketing departments are full of people who ‘make stuff’: pictures, slogans, brochures, ‘content’ …. But that is not marketing. Marketing is about how can I get the attention of the people that are really interested and how can I build a preference for my product/ service so sales can provide a quality buying experience for the few that truly want to buy from you.
+**My take? Marketing is a Science!**
 
-So the job description for marketers should not read: can you craft messages and use photoshop to make pretty pictures but: can you truly understand situation and motives of our target customers and use this insight to influence perception and behavior."
+> Marketing departments are full of people who ‘make stuff’: pictures, slogans, brochures, ‘content’ …. But that is not marketing. Marketing is about how can I get the attention of the people that are really interested and how can I build a preference for my product/ service so sales can provide a quality buying experience for the few that truly want to buy from you.
+
+Copy is important, but job descriptions for marketers should focus on how to use the science to drive sales with solid ROI:
+
+> Can you truly understand situation and motives of our target customers and use this insight to influence perception and behavior.
 
 ERICA PEARSON, Marketing and Sales Data Analyst of MessageGears
 
@@ -110,6 +124,4 @@ Our speakers have more to say on this topic and more but you’ll only be able t
 
 Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
 
-
-
-![]()
+![null]()
