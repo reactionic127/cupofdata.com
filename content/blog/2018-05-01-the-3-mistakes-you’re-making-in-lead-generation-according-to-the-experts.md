@@ -122,6 +122,8 @@ While the marketing and sales fields are constantly evolving, it’s best to mak
 
 Our speakers have more to say on this topic and more but you’ll only be able to see them all together at their sessions during [Conversion Data Pop Up](https://conversiondatapopup.cupofdata.com) in Atlanta, May 22nd. 
 
+---
+
 Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
 
-[![](/file/button_buy-ticket.png)]https://conversiondatapopup.cupofdata.com/)
+[![](/files/images/button_buy-ticket.png)](https://conversiondatapopup.cupofdata.com/)
