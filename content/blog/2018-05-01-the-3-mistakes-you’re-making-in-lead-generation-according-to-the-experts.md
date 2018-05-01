@@ -16,6 +16,8 @@ tags:
   - name: Sales
   - name: Conversion Data Pop Up
 ---
+# The 3 Mistakes You’re Making In Lead Generation According to the Experts
+
 In the B2B industry, conversions are used on a daily basis to define campaign goals and to ultimately lead to improved marketing ROI and sales, whether that comes from new customers, improved existing customer retention, or helping to move customers up the value chain with other products and services.
 
 The Cup of Data team is constantly innovating to improve our services and provide the best solutions to aid in lead generation for our client’s conversion goals. Recently, we decided to turn our passion into a one-day forum bringing together marketers, sales professionals and data scientist with successful, high-level experts to hold sessions at [Conversion Data Pop](<Conversion Data Pop>) Up in Atlanta, May 22nd.
@@ -106,4 +108,8 @@ While the marketing and sales fields are constantly evolving, it’s best to mak
 
 Our speakers have more to say on this topic and more but you’ll only be able to see them all together at their sessions during [Conversion Data Pop Up](https://conversiondatapopup.cupofdata.com) in Atlanta, May 22nd. 
 
-Interested in knowing more? Buy your ticket before today!
+Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
+
+
+
+![]()
