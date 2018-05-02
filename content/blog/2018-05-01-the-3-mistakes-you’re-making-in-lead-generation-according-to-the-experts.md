@@ -50,11 +50,11 @@ We asked the experts _what the biggest mistake is that marketing and sales profe
 
 It boils down like this: out of 1000 people (TAM) only 100 people move (opportunities) of which 10 would actually want your product (prospects) and about 3 would finally buy it (customers).
 
-> _**Total Addressable Market (TAM) = Total Population x 18%**_
+> **_Total Addressable Market (TAM) = Total Population x 18%_**
 >
-> **_Sales = TAM x 10% x 10% x 33%_**
+> _**Sales = TAM x 10% x 10% x 33%**_
 >
-> **_For example, if the TAM is 1000, then there should be about 3 conversions to sales._**
+> _**For example, if the TAM is 1000, then there should be about 3 conversions to sales.**_
 
 So the job description for marketers should read: can you truly understand situation and motives of our target customers and use this insight to influence perception and behavior."
 
@@ -100,7 +100,7 @@ So the job description for marketers should read: can you truly understand situa
 
 While the marketing and sales fields are constantly evolving, it’s best to make sure that you better focus your lead funnels, come up with and commit to a sales strategy and that you collect and use your customer data to complement the other two. And not to sound self-serving but that’s what we do at Cup of Data! It’s what we’re the best at.
 
-Curious about what else the experts have to say about conversions and B2B marketing and sales practices? Find them all together at their sessions during [Conversion Data Pop](https://conversiondatapopup.cupofdata.com/?utm_source=blog&utm_medium=CTA&utm_campaign=Conversion%20Data%20PopUp) Up in Atlanta, May 22nd. Tickets are going fast but we’ve still got a limited amount available [here](https://www.eventbrite.com/e/conversion-data-pop-up-tickets-44230245856?aff=CoDblog&utm_source=blog&utm_medium=CTA&utm_campaign=Conversion%20Data%20PopUp). 
+Curious about what else the experts have to say about conversions and B2B marketing and sales practices? Find them all together at their sessions during [Conversion Data Pop](https://conversiondatapopup.cupofdata.com/?utm_source=blog&utm_medium=CTA&utm_campaign=Conversion%20Data%20PopUp) Up in Atlanta, May 22nd. Tickets are going fast but we’ve still got a limited amount available [here](https://www.eventbrite.com/e/conversion-data-pop-up-tickets-44230245856?aff=CoD&utm_source=blog&utm_medium=CTA&utm_campaign=Conversion%20Data%20PopUp). 
 
 - - -
 
