@@ -24,7 +24,7 @@ As an ABM solution company, here at Cup of Data, we are constantly innovating to
 
 We asked the experts _what the biggest mistake is that marketing and sales professionals are making in 2018_ and we found three common threads in their advice.
 
-# Not Zoning In On Your Potential Leads
+## Not Zoning In On Your Potential Leads
 
 **ZONTEE HOU, Founder of Media Volery**
 
@@ -50,11 +50,11 @@ We asked the experts _what the biggest mistake is that marketing and sales profe
 
 It boils down like this: out of 1000 people (TAM) only 100 people move (opportunities) of which 10 would actually want your product (prospects) and about 3 would finally buy it (customers).
 
-> _**Total Addressable Market (TAM) = Total Population x 18%**_
+> **_Total Addressable Market (TAM) = Total Population x 18%_**
 >
-> **_Sales = TAM x 10% x 10% x 33%_**
+> _**Sales = TAM x 10% x 10% x 33%**_
 >
-> **_For example, if the TAM is 1000, then there should be about 3 conversions to sales._**
+> _**For example, if the TAM is 1000, then there should be about 3 conversions to sales.**_
 
 So the job description for marketers should read: can you truly understand situation and motives of our target customers and use this insight to influence perception and behavior."
 
@@ -62,7 +62,7 @@ So the job description for marketers should read: can you truly understand situa
 
 > "I would say the number one mistake is buying lists. As someone who has done sales in the past, this wastes more time than it saves. The best thing to do is choose targeted accounts and put in the research to find the best personas to reach out to. If you truly understand your ideal customer profile (ICP), it makes more sense to create a targeted list of companies rather than a random list of people. Even in the start-up space, it might be a challenge to get started but I have seen the results pay off."
 
-# Not Defining Your Strategy
+## Not Defining Your Strategy
 
 **ZONTEE HOU, Founder of Media Volery**
 
@@ -80,7 +80,7 @@ So the job description for marketers should read: can you truly understand situa
 
 > "Funnel optimism: today most often in the form of (grossly) underestimating the decision-making process at the customer-level."
 
-# Not Enough Data Collection
+## Not Enough Data Collection
 
 **KEVIN MATSUSHITA, Director Global Alliances and Account Management of Inside View Technologies, Inc.**
 
@@ -106,4 +106,4 @@ Curious about what else the experts have to say about conversions and B2B market
 
 Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
 
-![null](/files/images/button_buy-ticket.png)
+![buy ticket](/files/images/button_buy-ticket.png)
