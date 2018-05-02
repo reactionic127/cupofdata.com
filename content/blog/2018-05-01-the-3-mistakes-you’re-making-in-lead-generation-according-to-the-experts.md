@@ -104,4 +104,6 @@ Curious about what else the experts have to say about conversions and B2B market
 
 - - -
 
-**\*\*Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!**
+Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
+
+![null](/files/images/button_buy-ticket.png)
