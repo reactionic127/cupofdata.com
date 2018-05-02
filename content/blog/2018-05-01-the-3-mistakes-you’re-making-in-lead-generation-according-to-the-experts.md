@@ -50,11 +50,11 @@ We asked the experts _what the biggest mistake is that marketing and sales profe
 
 It boils down like this: out of 1000 people (TAM) only 100 people move (opportunities) of which 10 would actually want your product (prospects) and about 3 would finally buy it (customers).
 
-> **_Total Addressable Market (TAM) = Total Population x 18%_**
+> _**Total Addressable Market (TAM) = Total Population x 18%**_
 >
-> _**Sales = TAM x 10% x 10% x 33%**_
+> **_Sales = TAM x 10% x 10% x 33%_**
 >
-> _**For example, if the TAM is 1000, then there should be about 3 conversions to sales.**_
+> **_For example, if the TAM is 1000, then there should be about 3 conversions to sales._**
 
 So the job description for marketers should read: can you truly understand situation and motives of our target customers and use this insight to influence perception and behavior."
 
@@ -104,4 +104,6 @@ Curious about what else the experts have to say about conversions and B2B market
 
 - - -
 
-**\*\*Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!**
+Tickets for the Conversion Data Pop Up are selling fast. Buy yours today!
+
+![null](/files/images/button_buy-ticket.png)
