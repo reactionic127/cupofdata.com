@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import graphql from 'graphql'
 import Helmet from 'react-helmet'
 import PriceSection from '../components/Pricing/PriceSection'
 import FAQSection from '../components/Pricing/FAQ'
@@ -19,6 +21,11 @@ const Pricing = ({ data }) => {
     </div>
   )
 }
+
+Pricing.propTypes = {
+  data: PropTypes.object,
+}
+
 export default Pricing
 
 export const Price = graphql`

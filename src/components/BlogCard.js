@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
@@ -114,11 +115,12 @@ const BlogCard = ({ post, imagesArray }) => {
                     item.relativePath === post.frontmatter.postimage.slice(14)
                 )
                 .map(
-                  item =>
+                  (item, i) =>
                     item.childImageSharp ? (
-                      <Img sizes={item.childImageSharp.sizes} />
+                      <Img key={i} sizes={item.childImageSharp.sizes} />
                     ) : (
                       <LazyLoadImage
+                        key={i}
                         effect="blur"
                         src={post.frontmatter.postimage}
                         width="100%"
@@ -135,4 +137,10 @@ const BlogCard = ({ post, imagesArray }) => {
     </Card>
   )
 }
+
+BlogCard.propTypes = {
+  post: PropTypes.object,
+  imagesArray: PropTypes.array,
+}
+
 export default BlogCard

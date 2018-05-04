@@ -9,7 +9,7 @@ const color = {
   black: '#000000',
 }
 
-const theme = {
+const mainTheme = {
   color: color,
   primary: {
     navbar: {
@@ -105,4 +105,4 @@ const theme = {
   },
 }
 
-export default theme
+export default mainTheme

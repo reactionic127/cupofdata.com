@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
-import { H2, H6 } from '../Typography'
+import { H2 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 
 const Wrapper = styled.div`

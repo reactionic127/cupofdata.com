@@ -1,8 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Container } from '../Layout'
 import Button from '../Button'
-import { H2, H4, H5, H6 } from '../Typography'
-import Link, { withPrefix } from 'gatsby-link'
+import { H2, H6 } from '../Typography'
+import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import autoMarketing from '../../img/bk-automarketing.png'
@@ -78,10 +79,16 @@ export default class AutomatedMarketingSection extends React.Component {
           </AutomatedMarketingSectionTitle>
           <Content>{content}</Content>
           <Link to="/onboard">
-            <RegButton className="py-0 px-5 border-0">Register Now</RegButton>
+            <RegButton className="py-0 px-5 border-0">
+              Register Now for Early Access
+            </RegButton>
           </Link>
         </MainContainer>
       </Wrapper>
     )
   }
+}
+
+AutomatedMarketingSection.propTypes = {
+  data: PropTypes.array,
 }

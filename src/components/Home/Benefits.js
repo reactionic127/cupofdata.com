@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { H2, H5, H6 } from '../Typography'
+import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
-import { withPrefix } from 'gatsby-link'
 
 import imageSales from '../../img/img-sales.svg'
 import imageExisting from '../../img/img-existing.svg'

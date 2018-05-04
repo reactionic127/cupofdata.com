@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import PropTypes from 'prop-types'
 import {
   Container,
   Card,
@@ -7,8 +7,6 @@ import {
   CardGroup,
   CardBody,
 } from '../components/Layout'
-import { H1, Comments } from '../components/Typography'
-import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import Link from 'gatsby-link'
 
@@ -19,47 +17,6 @@ const findNode = (path, data) =>
     .filter(r => r.path === path)
     .pop()
 
-const MainSection = styled.div`
-  display: block;
-  position: relative;
-  padding-top: 94px;
-  height: 600px;
-  color: #ffffff;
-  border: 2px solid #35a73e;
-  ::before {
-    content: '';
-    opacity: 0.4;
-    z-index: -1;
-    background: url(${props => props.background});
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-position: center;
-  }
-  ::after {
-    content: '';
-    z-index: -1;
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-`
-
-const HeaderSection = styled.div`
-  position: absolute;
-  width: 50%;
-  max-width: 665px;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-`
 const BlogContainer = Container.extend`
   padding: 3rem 1.5rem;
   padding-top: calc(3rem + 94px);
@@ -97,6 +54,10 @@ export default function Template({ data }) {
       )}
     </div>
   )
+}
+
+Template.propTypes = {
+  data: PropTypes.object,
 }
 
 export const pageQuery = graphql`

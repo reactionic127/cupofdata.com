@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
-import { H2, H5, H6 } from '../Typography'
+import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
 import Button from '../Button'
 import Link, { withPrefix } from 'gatsby-link'
@@ -102,7 +102,7 @@ const NewsView = data => {
   })
   const { allFile } = data.data
   let imagesArray = []
-  allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
+  allFile.edges.map(({ node: file }) => imagesArray.push(file))
   return (
     <Wrapper>
       <NewsSectonTitle>In the news</NewsSectonTitle>
@@ -122,6 +122,7 @@ const NewsView = data => {
                       <Img
                         sizes={imageItem.childImageSharp.sizes}
                         imgStyle={photoStyle}
+                        key={i}
                       />
                     ))}
                 </ImageView>

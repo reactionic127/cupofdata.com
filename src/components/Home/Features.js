@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
-import Button from '../Button'
-import { withPrefix } from 'gatsby-link'
 
 import imageDesktop from '../../img/img-desktop.png'
 
@@ -30,12 +28,6 @@ const FeatureContent = H6.extend`
   padding-left: 1rem;
   @media screen and (max-width: 576px) {
     margin-bottom: 1rem;
-  }
-`
-
-const LearnMore = Button.extend`
-  @media screen and (max-width: 576px) {
-    display: none;
   }
 `
 

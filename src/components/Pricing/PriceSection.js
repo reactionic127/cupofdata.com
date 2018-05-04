@@ -1,8 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { H1, H5, H6, P, Small } from '../Typography'
+import { H1, H6, P } from '../Typography'
 import { Container, Row, Col } from '../Layout'
-import { OutlineRadioButton } from '../Button'
 import PriceCard from '../PriceCard'
 
 const PriceSection = styled.div`
@@ -24,12 +24,6 @@ const PlanGroup = styled.div`
   padding: 2rem 0 0;
   margin-top: 0.5rem;
   text-align: center;
-`
-
-const Discount = Small.extend`
-  color: #ff842b;
-  margin-left: 0.5rem;
-  letter-spacing: 0;
 `
 
 const Announcement = P.extend`
@@ -93,4 +87,8 @@ export default class PlanSections extends React.Component {
       </PriceSection>
     )
   }
+}
+
+PlanSections.propTypes = {
+  priceInfo: PropTypes.object,
 }

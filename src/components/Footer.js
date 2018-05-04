@@ -21,7 +21,7 @@ const CustomLink = styled(Link)`
   text-decoration: none;
 `
 
-const Footer = props => (
+const Footer = () => (
   <Wrapper>
     <Container>
       <Row>

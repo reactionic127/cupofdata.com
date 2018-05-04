@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import graphql from 'graphql'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import { Container } from '../components/Layout'
@@ -18,7 +20,7 @@ export default class TagTemplate extends Component {
       post => post.node.frontmatter.contentType === 'blog'
     )
     const tagsArray = []
-    blog.map(({ node: post }, i) =>
+    blog.map(({ node: post }) =>
       post.frontmatter.tags.map(targetTag => {
         if (targetTag.name === tag) {
           tagsArray.push(post)
@@ -26,7 +28,7 @@ export default class TagTemplate extends Component {
       })
     )
     let imagesArray = []
-    allFile.edges.map(({ node: file }, i) => imagesArray.push(file))
+    allFile.edges.map(({ node: file }) => imagesArray.push(file))
     return (
       <div>
         <Helmet title={`Tagged in ${tag}`} />
@@ -40,6 +42,11 @@ export default class TagTemplate extends Component {
       </div>
     )
   }
+}
+
+TagTemplate.propTypes = {
+  data: PropTypes.object,
+  pathContext: PropTypes.object,
 }
 
 export const pageQuery = graphql`
