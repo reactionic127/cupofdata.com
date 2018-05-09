@@ -4,7 +4,7 @@ path: /blog/three-lead-generation-mistakes-according-to-experts
 title: The 3 Mistakes You’re Making In Lead Generation According to the Experts
 date: '2018-05-01T10:13:28-04:00'
 summary: >-
-  Cup of Data launches Conversion Data Pop Up to help B2B Sales and Marketing
+  Cup of Data launche Conversion Data Pop Up to help B2B Sales and Marketing
   professionals understand best practices for B2B lead management and use data
   science to obtain better results.
 author: Timara Frassrand
