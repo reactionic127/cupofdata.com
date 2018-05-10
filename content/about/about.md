@@ -3,18 +3,12 @@ contentType: about
 path: /about
 title: Our Team
 members:
-  - fullname: Ashley Held
-    photo: /files/images/ashley.png
-    position: Marketing
   - fullname: Greg Werner
     photo: /files/images/greg.png
     position: Product Manager
   - fullname: John Griebel
     photo: /files/images/john.png
     position: Principal Engineer
-  - fullname: Josh Starrett
-    photo: /files/images/josh.png
-    position: Developer
   - fullname: Micheal Roach
     photo: /files/images/mike.png
     position: DevOps
