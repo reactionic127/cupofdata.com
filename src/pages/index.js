@@ -15,7 +15,6 @@ const IndexPage = ({ data }) => (
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
     <BannerSection data={data.allMarkdownRemark.edges} />
     <HowItWorks />
-    <Features data={data} />
     <Benefits />
     <News data={data} />
     <Testimonials data={data} />
