@@ -1,6 +1,6 @@
 ---
 contentType: banner
-path: /banner-text
+path: /banner-home
 header: With Cup of Data, you get better SaaS B2B leads
 title: Identify accounts and leads and engage them like a boss.
 button: Get started
