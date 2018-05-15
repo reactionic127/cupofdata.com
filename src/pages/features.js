@@ -17,7 +17,7 @@ const FeaturesPage = ({ data }) => {
       <Helmet title={`Features | ${data.site.siteMetadata.title}`} />
       <BannerSection />
       <FeaturesTitle />
-      <FeaturesOne data={data} />
+      <FeaturesOne />
       <FeaturesTwo />
       <FeaturesThree />
       <AutomatedMarketing data={data.allMarkdownRemark.edges} />

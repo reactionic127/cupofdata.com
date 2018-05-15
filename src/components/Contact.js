@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from './Layout'
-import { H3, P } from './Typography'
+import { P } from './Typography'
 
 import imgLogo from '../img/img-logo.svg'
 
@@ -18,23 +18,40 @@ const Wrapper = styled.div`
   }
 `
 
-const ContactTitle = H3.extend`
-  font-weight: 600;
+const SiteMap = P.extend`
+  font-weight: normal;
   color: ${({ theme }) => theme.contact.color.text};
-  margin-top: 33px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
 `
 
-const ContactContent = P.extend`
+const ContactUs = P.extend`
   font-weight: normal;
   color: ${({ theme }) => theme.contact.color.text};
   margin-top: 2rem;
   line-height: 33px;
 `
 
-const ContactLink = styled(Link)`
+const Mission = P.extend`
+  font-weight: normal;
+  color: ${({ theme }) => theme.contact.color.text};
+  margin-top: 2rem;
+`
+
+const Address = P.extend`
+  font-weight: normal;
+  color: ${({ theme }) => theme.contact.color.text};
+  margin-top: 2rem;
+`
+
+const SiteMapLink = styled(Link)`
   color: ${({ theme }) => theme.contact.color.text};
   text-decoration: none;
   line-height: 2rem;
+  @media screen and (max-width: 576px) {
+    ine-height: 1rem;
+  }
 `
 
 const Ul = styled.ul`
@@ -44,6 +61,10 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   margin-top: 1rem;
+  @media screen and (max-width: 576px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
 `
 
 const Icon = styled.i`
@@ -59,6 +80,7 @@ const ShareIcon = styled.div`
 const SpCol = Col.extend`
   @media screen and (max-width: 576px) {
     padding: 0 2rem;
+    text-align: center;
   }
 `
 
@@ -85,32 +107,35 @@ export default function ContactSection({ data }) {
             {typeof window !== 'undefined' && (
               <LazyLoadImage effect="blur" src={imgLogo} width="120" />
             )}
-            <ContactContent>{mission}</ContactContent>
+            <Mission>{mission}</Mission>
           </MainCol>
-          <SpCol xs="4" sm="3">
-            <ContactTitle>SITEMAP</ContactTitle>
+          <SpCol xs="6" sm="3">
+            <SiteMap>SITEMAP</SiteMap>
             <Ul>
               <Li>
-                <ContactLink to="/">Home</ContactLink>
+                <SiteMapLink to="/">Home</SiteMapLink>
               </Li>
               <Li>
-                <ContactLink to="/pricing">Pricing</ContactLink>
+                <SiteMapLink to="/features">Features</SiteMapLink>
               </Li>
               <Li>
-                <ContactLink to="/about">Company</ContactLink>
+                <SiteMapLink to="/pricing">Pricing</SiteMapLink>
               </Li>
               <Li>
-                <ContactLink to="/blog">Blog</ContactLink>
+                <SiteMapLink to="/about">Company</SiteMapLink>
+              </Li>
+              <Li>
+                <SiteMapLink to="/blog">Blog</SiteMapLink>
               </Li>
             </Ul>
           </SpCol>
-          <SpCol xs="8" sm="4">
-            <ContactTitle>CONTACT US</ContactTitle>
-            <ContactContent>
+          <SpCol xs="6" sm="3">
+            <ContactUs>CONTACT US</ContactUs>
+            <Address>
               Cup of Data
               <br />3423 Piedmont Rd NE<br />
               Atlanta, GA 30305
-            </ContactContent>
+            </Address>
             <ShareIcon>
               <A href="https://www.facebook.com/Cup-of-Data-143732069623215/">
                 <Icon className="fab fa-facebook-square fa-2x" />

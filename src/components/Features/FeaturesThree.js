@@ -87,12 +87,14 @@ const FeaturesThree = () => {
       <Content>
         <FeatureRow>
           <ImgCol xs="12" sm="6">
-            <LazyLoadImage
-              src={featuresScore}
-              effect="blur"
-              width="100%"
-              height="auto"
-            />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                src={featuresScore}
+                effect="blur"
+                width="100%"
+                height="auto"
+              />
+            )}
           </ImgCol>
           <ContentCol xs="12" sm="6">
             <StepThree>Step Three:</StepThree>
