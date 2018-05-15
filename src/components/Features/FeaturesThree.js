@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-import featuresScore from '../../img/features_score_rank.svg'
+import featuresScore from '../../img/img-features_score_rank.svg'
 
 const Wrapper = styled.div`
   background: #ffffff;
@@ -44,7 +45,7 @@ const FeatureRow = Row.extend`
 const ImgCol = Col.extend`
   position: absolute;
   right: 80px;
-  margin-bottom: 50px;
+  height: 480px;
   @media screen and (max-width: 767px) {
     position: initial;
     height: 500px;
@@ -80,18 +81,18 @@ const StepThree = H2.extend`
   margin-top: 0px;
 `
 
-const StepThreeImage = styled.img`
-  width: 100%;
-  height: auto;
-`
-
 const FeaturesThree = () => {
   return (
     <Wrapper>
       <Content>
         <FeatureRow>
           <ImgCol xs="12" sm="6">
-            <StepThreeImage src={featuresScore} />
+            <LazyLoadImage
+              src={featuresScore}
+              effect="blur"
+              width="100%"
+              height="auto"
+            />
           </ImgCol>
           <ContentCol xs="12" sm="6">
             <StepThree>Step Three:</StepThree>

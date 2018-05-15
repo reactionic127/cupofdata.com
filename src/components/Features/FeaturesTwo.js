@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-//import searchFilter from '../../img/features_filters.svg'
-import contactList from '../../img/contact_lists.svg'
+import contactList from '../../img/img-contact_lists.svg'
 
 const Wrapper = styled.div`
   background: #f5f7fa;
@@ -46,6 +46,7 @@ const ImgCol = Col.extend`
   position: absolute;
   left: -100px;
   margin-bottom: 0px;
+  height: 480px;
   @media screen and (max-width: 767px) {
     position: initial;
     height: 500px;
@@ -79,18 +80,18 @@ const StepTwo = H2.extend`
   margin-top: 0px;
 `
 
-const StepTwoImage = styled.img`
-  width: 100%;
-  height: auto;
-`
-
 const FeaturesTwo = () => {
   return (
     <Wrapper>
       <Content>
         <FeatureRow>
           <ImgCol xs="12" sm="6">
-            <StepTwoImage src={contactList} />
+            <LazyLoadImage
+              src={contactList}
+              effect="blur"
+              width="100%"
+              height="auto"
+            />
           </ImgCol>
           <ContentCol xs="12" sm="6">
             <StepTwo>Step Two:</StepTwo>

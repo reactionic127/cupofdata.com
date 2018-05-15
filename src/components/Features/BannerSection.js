@@ -6,7 +6,6 @@ import styled from 'styled-components'
 import bannerImage from '../../img/background.svg'
 import bannerImageMobile from '../../img/mobile-background_blue.svg'
 import cupAndCards from '../../img/img-cup_and_cards.svg'
-//import cupAndCardsMobile from '../../img/img-cup_and_cards-mobile.svg'
 
 const Wrapper = styled.div`
   background-image: url(${bannerImage});

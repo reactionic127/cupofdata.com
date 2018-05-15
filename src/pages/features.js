@@ -9,13 +9,15 @@ import FeaturesTwo from '../components/Features/FeaturesTwo'
 import FeaturesThree from '../components/Features/FeaturesThree'
 import AutomatedMarketing from '../components/Home/AutomatedMarketing'
 
+//import featuresScore from '../../img/img-features_score_rank.svg'
+
 const FeaturesPage = ({ data }) => {
   return (
     <div>
       <Helmet title={`Features | ${data.site.siteMetadata.title}`} />
       <BannerSection />
       <FeaturesTitle />
-      <FeaturesOne data={data} />
+      <FeaturesOne />
       <FeaturesTwo />
       <FeaturesThree />
       <AutomatedMarketing data={data.allMarkdownRemark.edges} />
@@ -29,7 +31,7 @@ FeaturesPage.propTypes = {
 
 export default FeaturesPage
 
-export const pageQuery = graphql`
+export const featurePageQuery = graphql`
   query FeaturesQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
@@ -41,19 +43,7 @@ export const pageQuery = graphql`
             contentType
             date(formatString: "MMMM DD, YYYY")
             path
-            description
-            summary
-            newsFlag
-            postimage
-            position
-            comment
-            photo
-            button
             header
-            personName
-            personRole
-            mission
-            content
           }
         }
       }
@@ -66,13 +56,10 @@ export const pageQuery = graphql`
     allFile(filter: { absolutePath: { regex: "/images/" } }) {
       edges {
         node {
+          extension
+          dir
           absolutePath
           relativePath
-          childImageSharp {
-            sizes(maxWidth: 630) {
-              ...GatsbyImageSharpSizes
-            }
-          }
         }
       }
     }

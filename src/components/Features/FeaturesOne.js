@@ -2,12 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import { H2, H6 } from '../Typography'
 import { Container, Row, Col } from '../Layout'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-import searchFilter from '../../img/features_filters.svg'
+import searchFilter from '../../img/img-features_filters.svg'
 
 const Wrapper = styled.div`
   background: #ffffff;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 `
 
 const Content = Container.extend`
@@ -42,7 +44,8 @@ const FeatureRow = Row.extend`
 
 const ImgCol = Col.extend`
   position: absolute;
-  right: 80px;
+  right: 120px;
+  height: 480px;
   @media screen and (max-width: 767px) {
     position: initial;
     height: 500px;
@@ -78,18 +81,18 @@ const StepOne = H2.extend`
   margin-top: 0px;
 `
 
-const StepOneImage = styled.img`
-  width: 100%;
-  height: auto;
-`
-
 const FeaturesOne = () => {
   return (
     <Wrapper>
       <Content>
         <FeatureRow>
           <ImgCol xs="12" sm="6">
-            <StepOneImage src={searchFilter} />
+            <LazyLoadImage
+              src={searchFilter}
+              effect="blur"
+              width="100%"
+              height="auto"
+            />
           </ImgCol>
           <ContentCol xs="12" sm="6">
             <StepOne>Step One:</StepOne>
