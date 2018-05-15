@@ -1,15 +1,6 @@
 const path = require('path')
 const _ = require('lodash')
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  if (stage === 'build-html') {
-    config.loader('null', {
-      test: /LazyLoadImage/,
-      loader: 'null-loader',
-    })
-  }
-}
-
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
   return graphql(`

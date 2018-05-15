@@ -87,12 +87,14 @@ const FeaturesOne = () => {
       <Content>
         <FeatureRow>
           <ImgCol xs="12" sm="6">
-            <LazyLoadImage
-              src={searchFilter}
-              effect="blur"
-              width="100%"
-              height="auto"
-            />
+            {typeof window !== 'undefined' && (
+              <LazyLoadImage
+                src={searchFilter}
+                effect="blur"
+                width="100%"
+                height="auto"
+              />
+            )}
           </ImgCol>
           <ContentCol xs="12" sm="6">
             <StepOne>Step One:</StepOne>
