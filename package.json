@@ -3,11 +3,10 @@
   "description": "The code base for cupofdata.com",
   "version": "1.0.0",
   "dependencies": {
-    "@raygesualdo/gatsby-plugin-settings": "^1.0.1",
     "babel-plugin-styled-components": "^1.5.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "gatsby": "^1.9.254",
+    "gatsby": "^1.9.260",
     "gatsby-image": "^1.0.45",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",
