@@ -2,7 +2,7 @@
 contentType: blog
 path: /blog/conversion-data-popup-event
 title: >-
-  CUP OF DATA ANNOUNCES 1st ONE-DAY FORUM FOR MARKETING AND SALES INDUSTRY MAY
+  Cup of Data Announces 1st ONE-DAY FORUM FOR MARKETING AND SALES INDUSTRY MAY
   22 IN ATLANTA
 date: '2018-05-18T12:58:36-04:00'
 summary: >-
