@@ -1,39 +1,39 @@
 module.exports = {
   siteMetadata: {
-    title: 'Cup of Data',
-    author: 'Cup of Data Team',
-    authorLink: 'https://github.com/cupofdata',
+    title: `Cup of Data`,
+    author: `Cup of Data Team`,
+    authorLink: `https://github.com/cupofdata`,
   },
   plugins: [
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content`,
-        name: 'pages',
+        name: `pages`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/img`,
-        name: 'img',
+        name: `images`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/files/images`,
-        name: 'images',
+        name: `images`,
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: ['gatsby-remark-prismjs', 'gatsby-remark-copy-linked-files'],
+        plugins: [`gatsby-remark-prismjs`, `gatsby-remark-copy-linked-files`],
       },
     },
     {
-      resolve: 'gatsby-plugin-segment',
+      resolve: `gatsby-plugin-segment`,
       options: {
         writeKey: `${process.env.SEGMENT_PROD_WRITE_KEY}`,
       },
@@ -41,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './content/favicon.png',
+        logo: `./content/favicon.png`,
         injectHTML: true,
         icons: {
           android: true,
@@ -57,17 +57,17 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-eslint',
+      resolve: `gatsby-plugin-eslint`,
       options: {
         exclude: /(node_modules|cache|public)/,
         test: /\.js$|\.jsx$/,
       },
     },
-    'gatsby-plugin-babel-styled-components',
-    'gatsby-plugin-offline',
-    'gatsby-plugin-react-next',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-styled-components',
+    `gatsby-plugin-babel-styled-components`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-next`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -85,7 +85,7 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-netlify-cms',
-    'gatsby-transformer-sharp',
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-transformer-sharp`,
   ].filter(Boolean),
 }

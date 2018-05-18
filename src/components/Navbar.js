@@ -191,7 +191,7 @@ export default class NavContainer extends React.Component {
       }
     )
   }
-  componentWillReceiveProps(props) {
+  UNSAFE_componentWillReceiveProps(props) {
     this.setState({ collapsible: props.dropdown })
   }
   moveTo = () => {
