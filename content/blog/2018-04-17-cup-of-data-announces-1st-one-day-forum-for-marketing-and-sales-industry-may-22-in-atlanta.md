@@ -7,8 +7,8 @@ title: >-
 date: '2018-05-18T12:58:36-04:00'
 summary: >-
   Cup of Data will be hosting their 1st ever one day pop up conference in
-  Atlanta for the B2B marketing and sales industry, Tuesday, May 22nd at the
-  Atlanta Tech Village.
+  Atlanta for the B2B marketing and sales industry, Wednesday October 3rd at the
+  Atlanta Tech Village in Atlanta, Georgia.
 author: Cup of Data
 postimage: /files/images/conversion-data-popup-event.jpeg
 newsFlag: true
