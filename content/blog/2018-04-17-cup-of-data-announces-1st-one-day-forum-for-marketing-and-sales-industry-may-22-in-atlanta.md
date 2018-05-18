@@ -4,7 +4,7 @@ path: /blog/conversion-data-popup-event
 title: >-
   CUP OF DATA ANNOUNCES 1st ONE-DAY FORUM FOR MARKETING AND SALES INDUSTRY MAY
   22 IN ATLANTA
-date: '2018-04-17T12:58:36-04:00'
+date: '2018-05-18T12:58:36-04:00'
 summary: >-
   Cup of Data will be hosting their 1st ever one day pop up conference in
   Atlanta for the B2B marketing and sales industry, Tuesday, May 22nd at the
