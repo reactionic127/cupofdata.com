@@ -10,7 +10,7 @@ summary: >-
   Atlanta for the B2B marketing and sales industry, Wednesday October 3rd at the
   Atlanta Tech Village in Atlanta, Georgia.
 author: Cup of Data
-postimage: /files/images/conversion-data-popup-event.jpeg
+postimage: /files/images/conversion_banner.png
 newsFlag: true
 tags:
   - name: News
