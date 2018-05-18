@@ -1,7 +1,7 @@
 ---
 contentType: blog
 path: /blog/oem-agreement-inside-view
-title: CUP OF DATA ANNOUNCES OEM PARTNERSHIP WITH INSIDEVIEW
+title: Cup of Data Announces OEM Partnership with InsideView
 date: '2018-04-11T15:15:30-04:00'
 summary: >-
   Cup of Data marketing science solution integrates InsideView to enhance ABM
