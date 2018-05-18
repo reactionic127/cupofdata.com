@@ -15,13 +15,11 @@ newsFlag: true
 tags:
   - name: News
 ---
-# CUP OF DATA ANNOUNCES 1st ONE-DAY FORUM FOR MARKETING AND SALES INDUSTRY MAY 22 IN ATLANTA
+# Cup of Data announces 1st One-Day Forum for Marketing and Sales Industry October 3rd in Atlanta
 
 ## Speakers include marketing and sales professionals from HoneyWell, Bombora, SalesLoft, Media Volery and more converging in Atlanta
 
-
-
-ATLANTA, GA - May 22, 2018 -- [Conversion Data Pop-Up](https://conversiondatapopup.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr), introduced by marketing science ABM solution company, [Cup of Data](https://www.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr), will be hosting their 1st ever one day pop up conference in Atlanta for the B2B marketing and sales industry, Tuesday, May 22nd at the Atlanta Tech Village. This intimate event curates marketing and sales sessions bringing specialists and experts in both fields face-to-face to educate each other on innovative new solutions in AI, Machine Learning, Deep Learning and best B2B practices. Conversion Data Pop Up--also known as CVR Data--hosts a variety of attendees such as sales and marketing executives, analysts, data scientists and developers working with marketing and sales professionals.
+ATLANTA, GA - May 18, 2018 -- [Conversion Data Pop-Up](https://conversiondatapopup.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr), introduced by marketing science ABM solution company, [Cup of Data](https://www.cupofdata.com/?utm_campaign=Conversion%20Data%20Pop%20Up&utm_source=blog&utm_medium=pr), will be hosting their 1st ever one day pop up conference in Atlanta for the B2B marketing and sales industry, Wednesday, October 3rd at the Atlanta Tech Village. This intimate event curates marketing and sales sessions bringing specialists and experts in both fields face-to-face to educate each other on innovative new solutions in AI, Machine Learning, Deep Learning and best B2B practices. Conversion Data Pop Up--also known as CVR Data--hosts a variety of attendees such as sales and marketing executives, analysts, data scientists and developers working with marketing and sales professionals.
 
 The Conversion Data Pop-Up event will consist of a 1-day event of workshops and sessions based on Driving Conversions with Data & Science presented by marketing and sales professionals who work with AI and Machine Learning. Top companies like HoneyWell, SalesLoft, InsideView Technologies, Inc., Bombora, Marketo, Triblio, Media Volery and more will be represented at this exclusive forum.
 
