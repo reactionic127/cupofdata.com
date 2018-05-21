@@ -21,7 +21,7 @@ export default class TemplateWrapper extends React.Component {
       secondary: false,
     }
   }
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.updateDimensions()
   }
   componentDidMount() {
@@ -30,7 +30,7 @@ export default class TemplateWrapper extends React.Component {
     }
     this.checkPath(this.props)
   }
-  componentWillReceiveProps(props) {
+  UNSAFE_componentWillReceiveProps(props) {
     this.checkPath(props)
   }
   componentWillUnmount() {

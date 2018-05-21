@@ -66,7 +66,7 @@ const NavWrapper = styled.ul`
     ${props =>
       props.active &&
       css`
-        height: 260px;
+        height: 330px;
       `};
   }
   @media screen and (max-width: 576px) {
@@ -191,7 +191,7 @@ export default class NavContainer extends React.Component {
       }
     )
   }
-  componentWillReceiveProps(props) {
+  UNSAFE_componentWillReceiveProps(props) {
     this.setState({ collapsible: props.dropdown })
   }
   moveTo = () => {
@@ -212,6 +212,11 @@ export default class NavContainer extends React.Component {
             </Toggle>
           </MobileNav>
           <NavWrapper active={this.state.collapsible}>
+            <NavItem>
+              <NavLink to="/features" onClick={this.moveTo}>
+                Features
+              </NavLink>
+            </NavItem>
             <NavItem>
               <NavLink to="/pricing" onClick={this.moveTo}>
                 Pricing

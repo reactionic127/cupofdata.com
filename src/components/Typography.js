@@ -1,6 +1,17 @@
 import styled from 'styled-components'
 import '../styles/global.js'
 
+export const StepNumber = styled.h1`
+  font-family: GTWalsheimMedium;
+  font-size: 96px;
+  padding: 0;
+  margin: 0;
+  @media screen and (max-width: 576px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+`
+
 export const H1 = styled.h1`
   font-family: GTWalsheimMedium;
   font-size: 48px;

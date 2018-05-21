@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   background-size: 100%;
   position: relative;
   padding: 70px 0;
+  opacity: 0.9;
   @media screen and (max-width: 576px) {
     padding: 40px 30px;
   }

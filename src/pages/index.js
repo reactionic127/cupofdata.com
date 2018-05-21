@@ -4,7 +4,6 @@ import graphql from 'graphql'
 import Helmet from 'react-helmet'
 import BannerSection from '../components/Home/BannerSection'
 import HowItWorks from '../components/Home/HowItWorks'
-import Features from '../components/Home/Features'
 import News from '../components/Home/News'
 import Benefits from '../components/Home/Benefits'
 import Testimonials from '../components/Home/Testimonials'
@@ -15,7 +14,6 @@ const IndexPage = ({ data }) => (
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
     <BannerSection data={data.allMarkdownRemark.edges} />
     <HowItWorks />
-    <Features data={data} />
     <Benefits />
     <News data={data} />
     <Testimonials data={data} />
